@@ -177,7 +177,7 @@ public class GameManager : MonoBehaviour
 
     void ActivateNextNoiseBush()
     {
-        Debug.Log("Inside the Trying to Activate a noise bush");
+        //Debug.Log("Inside the Trying to Activate a noise bush");
 
         if (currentNoiseIndex >= noiseBushes.Count)
         {
@@ -194,7 +194,7 @@ public class GameManager : MonoBehaviour
     {
         currentNoiseIndex++;
         ActivateNextNoiseBush();
-        Debug.Log("Activating new Noise");
+        //Debug.Log("Activating new Noise");
     }
 
 }

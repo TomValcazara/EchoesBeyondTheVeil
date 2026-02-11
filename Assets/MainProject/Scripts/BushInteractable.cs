@@ -24,20 +24,41 @@ public class BushInteractable : MonoBehaviour
     [Header("DEBUG")]
     public float debugLiftHeight = 20f; // set to 0 later
 
+    private Renderer bushRenderer;
+    private Color originalColor;
+
+    [SerializeField] private float requiredBrushTime = 2f;
+    //[SerializeField] private ParticleSystem leafParticles;
+
+    private float brushTimer = 0f;
+    //private bool isBrushing = false;
+    private bool alreadyTriggered = false;
+
     void Awake()
     {
         audioSource = GetComponent<AudioSource>();
         //gameManager = FindObjectOfType<GameManager>();
         gameManager = FindFirstObjectByType<GameManager>();
+
+        bushRenderer = GetComponentInChildren<Renderer>();
+        if (bushRenderer != null)
+        {
+            originalColor = bushRenderer.material.color;
+        }
+
     }
 
     public void ActivateNoise()
     {
-
         isActiveNoiseBush = true;
 
         // DEBUG: lift active bush for visibility
-        transform.position += Vector3.up * debugLiftHeight;
+        //transform.position += Vector3.up * debugLiftHeight;
+
+        if (bushRenderer != null)
+        {
+            bushRenderer.material.color = Color.magenta;
+        }
 
         audioSource.Play();
     }
@@ -45,19 +66,25 @@ public class BushInteractable : MonoBehaviour
     public void DeactivateNoise()
     {
         isActiveNoiseBush = false;
-        audioSource.Stop();
-    }
 
-    // TEMP interaction (keyboard test)
-    void Update()
-    {
-        if (!isActiveNoiseBush) return;
-
-        if (Input.GetKeyDown(KeyCode.E))
+        if (bushRenderer != null)
         {
-            Interact();
+            bushRenderer.material.color = originalColor;
         }
     }
+
+
+
+    // TEMP interaction (keyboard test)
+    // void Update()
+    // {
+    //     if (!isActiveNoiseBush) return;
+
+    //     if (Input.GetKeyDown(KeyCode.E))
+    //     {
+    //         Interact();
+    //     }
+    // }
 
     public void Interact()
     {
@@ -120,6 +147,48 @@ public class BushInteractable : MonoBehaviour
         // 6. Notify GameManager AFTER reveal finishes
         gameManager.OnNoiseBushCompleted(this);
         Debug.Log("Done Destroyng");
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        if (alreadyTriggered) return;
+
+        // You can tag your hand "Hand" for safety
+        if (other.CompareTag("Hand"))
+        {
+            //isBrushing = true;
+            brushTimer += Time.deltaTime;
+
+            // if (!leafParticles.isPlaying)
+            //     leafParticles.Play();
+
+            if (brushTimer >= requiredBrushTime)
+            {
+                TriggerBush();
+            }
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Hand"))
+        {
+           // isBrushing = false;
+            brushTimer = 0f;
+
+            //leafParticles.Stop();
+        }
+    }
+
+    private void TriggerBush()
+    {
+        if (alreadyTriggered) return;
+
+        alreadyTriggered = true;
+
+        //leafParticles.Stop();
+
+        Interact();
     }
 
 }
