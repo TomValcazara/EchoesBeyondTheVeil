@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 /// <summary>
 /// GameManager is responsible for:
@@ -38,6 +39,23 @@ public class GameManager : MonoBehaviour
     private Vector3 terrainSize;
     private Vector3 terrainPos;
 
+    [Header("Noise Bush Settings")]
+    public int numberOfNoiseBushes = 3; // change to 8 later
+
+    private List<BushInteractable> allBushes = new List<BushInteractable>();
+    private List<BushInteractable> noiseBushes = new List<BushInteractable>();
+    private int currentNoiseIndex = 0;
+
+    [Header("Walkable Area")]
+    public float walkableHalfSize = 100f; // 200x200 area
+    bool IsInsideWalkableArea(Vector3 position)
+    {
+        return
+            position.x >= -walkableHalfSize &&
+            position.x <=  walkableHalfSize &&
+            position.z >= -walkableHalfSize &&
+            position.z <=  walkableHalfSize;
+    }
     // -------------------------
     // UNITY LIFECYCLE
     // -------------------------
@@ -54,13 +72,17 @@ public class GameManager : MonoBehaviour
         // Store terrain size (width, height, length)
         // For your case: 200 x 600 x 200
         terrainSize = terrain.terrainData.size;
-        Debug.Log("terrainSize:"+terrainSize);
+        //Debug.Log("terrainSize:"+terrainSize);
         // Store terrain world position
         // Important because your terrain is offset (-100, 0, -100)
         terrainPos = terrain.transform.position;
-        Debug.Log("terrainPos:"+terrainPos);
+        //Debug.Log("terrainPos:"+terrainPos);
         // Start spawning bushes
         SpawnBushes();
+
+        SelectNoiseBushes();
+        ActivateNextNoiseBush();
+
     }
 
     // -------------------------
@@ -93,11 +115,81 @@ public class GameManager : MonoBehaviour
             // Snap to terrain height
             float y = terrain.SampleHeight(position) + terrainPos.y;
             position.y = y + yOffset;
-
+            
             GameObject prefab =
                 bushPrefabs[Random.Range(0, bushPrefabs.Length)];
 
-            Instantiate(prefab, position, Quaternion.identity, transform);
+            //Instantiate(prefab, position, Quaternion.identity, transform);
+            GameObject bush = Instantiate(prefab, position, Quaternion.identity, transform);
+            BushInteractable interactable = bush.GetComponent<BushInteractable>();
+            if (interactable != null)
+            {
+                allBushes.Add(interactable);
+            }
+
         }
     }
+
+    void SelectNoiseBushes()
+    {
+        noiseBushes.Clear();
+
+        // Only bushes inside walkable area are eligible
+        List<BushInteractable> eligibleBushes = new List<BushInteractable>();
+
+        foreach (var bush in allBushes)
+        {
+            if (IsInsideWalkableArea(bush.transform.position))
+            {
+                eligibleBushes.Add(bush);
+                // DEBUG: visualize eligible bushes
+                Debug.DrawLine(
+                    Vector3.zero,
+                    bush.transform.position,
+                    Color.red,
+                    100f
+                );
+            }
+        }
+
+        if (eligibleBushes.Count == 0)
+        {
+            Debug.LogWarning("No bushes inside walkable area!");
+            return;
+        }
+
+        // Shuffle eligible bushes
+        for (int i = 0; i < eligibleBushes.Count; i++)
+        {
+            int randomIndex = Random.Range(i, eligibleBushes.Count);
+            var temp = eligibleBushes[i];
+            eligibleBushes[i] = eligibleBushes[randomIndex];
+            eligibleBushes[randomIndex] = temp;
+        }
+
+        // Pick first N as noise bushes
+        for (int i = 0; i < numberOfNoiseBushes && i < eligibleBushes.Count; i++)
+        {
+            noiseBushes.Add(eligibleBushes[i]);
+        }
+    }
+
+
+    void ActivateNextNoiseBush()
+    {
+        if (currentNoiseIndex >= noiseBushes.Count)
+        {
+            Debug.Log("All noise bushes completed!");
+            return;
+        }
+
+        noiseBushes[currentNoiseIndex].ActivateNoise();
+    }
+
+    public void OnNoiseBushCompleted(BushInteractable bush)
+    {
+        currentNoiseIndex++;
+        ActivateNextNoiseBush();
+    }
+
 }
