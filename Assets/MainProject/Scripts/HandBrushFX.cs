@@ -11,20 +11,20 @@ public class HandBrushFX : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Touched: " + other.name);
-        if (other.CompareTag("Bush"))
+        //Debug.Log("Touched: " + other.name);
+        BushInteractable bush = other.GetComponent<BushInteractable>();
+        if (bush != null && bush.isActiveNoiseBush && !bush.AlreadyTriggered)
         {
-            Debug.Log("V1");
             leafParticles.Play();
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        Debug.Log("V2");
+        //Debug.Log("V2");
         if (other.CompareTag("Bush"))
         {
-            Debug.Log("V3");
+            //Debug.Log("V3");
             leafParticles.Stop();
         }
     }

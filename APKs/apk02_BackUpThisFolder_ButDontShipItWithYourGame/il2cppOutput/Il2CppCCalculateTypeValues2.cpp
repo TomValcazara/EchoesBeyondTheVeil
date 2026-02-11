@@ -7197,13 +7197,14 @@ struct GetBytesMode_t10F7F6AF54F643F5F547BAA25748B942F70EF3BB
 {
 	int32_t ___value__;
 };
-struct U3CRevealSequenceU3Ed__20_tFFE166238994DDB8372FB1B3CCAF1D61EF2EDE02  : public RuntimeObject
+struct U3CRevealSequenceU3Ed__22_tE1842C3C619A62BCF7E8FEAD38806A7753762B45  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
 	BushInteractable_t61E12D4F99A28EE3527DB9808B1D9A2CC25937D7* ___U3CU3E4__this;
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CposU3E5__1;
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3CcrystalU3E5__2;
+	Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___U3CcolU3E5__2;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3CcrystalU3E5__3;
 };
 struct Command_t8AE6C32AB4C4E5FC4B8C77082D0EE5275B3414B9 
 {
@@ -14869,7 +14870,7 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize10985 = { sizeof(U3CPrivateI
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize10986;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize10986 = { sizeof(U3CModuleU3E_tBB65183F1134474D09FF49B95625D25472B9BA8B), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize10987;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize10987 = { sizeof(U3CRevealSequenceU3Ed__20_tFFE166238994DDB8372FB1B3CCAF1D61EF2EDE02), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize10987 = { sizeof(U3CRevealSequenceU3Ed__22_tE1842C3C619A62BCF7E8FEAD38806A7753762B45), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize10988;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize10988 = { sizeof(BushInteractable_t61E12D4F99A28EE3527DB9808B1D9A2CC25937D7), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize10989;

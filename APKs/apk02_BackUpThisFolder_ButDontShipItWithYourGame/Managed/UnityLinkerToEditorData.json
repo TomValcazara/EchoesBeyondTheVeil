@@ -1182,7 +1182,9 @@
           },
           {
             "name": "SphereCollider",
-            "scenes": [],
+            "scenes": [
+              "Assets/MainProject/Scenes/ForestSceneLevel1.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },

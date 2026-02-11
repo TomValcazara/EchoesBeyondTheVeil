@@ -27,12 +27,13 @@ public class BushInteractable : MonoBehaviour
     private Renderer bushRenderer;
     private Color originalColor;
 
-    [SerializeField] private float requiredBrushTime = 2f;
+    [SerializeField] private float requiredBrushTime = 5f;
     //[SerializeField] private ParticleSystem leafParticles;
 
     private float brushTimer = 0f;
     //private bool isBrushing = false;
     private bool alreadyTriggered = false;
+    public bool AlreadyTriggered => alreadyTriggered;
 
     void Awake()
     {
@@ -103,6 +104,15 @@ public class BushInteractable : MonoBehaviour
             Instantiate(explodeFX, pos, Quaternion.identity);
         }
 
+        //Stops teh Audio
+        if (audioSource != null)
+            audioSource.Stop();
+
+        // Disable collider so hands stop triggering it
+        Collider col = GetComponent<Collider>();
+        if (col != null)
+            col.enabled = false;
+            
         // 2. Hide bush
         //gameObject.SetActive(false); //This lines Fucksup teh code, because nothing from teh GameObject works if it destroyed
         GetComponentInChildren<Renderer>().enabled = false;
@@ -151,6 +161,9 @@ public class BushInteractable : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
+
+        if (!isActiveNoiseBush) return;   // 👈 Only active bush reacts
+
         if (alreadyTriggered) return;
 
         // You can tag your hand "Hand" for safety

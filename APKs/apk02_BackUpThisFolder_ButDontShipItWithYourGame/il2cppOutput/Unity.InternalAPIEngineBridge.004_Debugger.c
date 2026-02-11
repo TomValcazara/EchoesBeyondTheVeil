@@ -31,19 +31,19 @@ static const Il2CppMethodExecutionContextInfoIndex g_methodExecutionContextInfoI
 IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnity_InternalAPIEngineBridge_004[];
 Il2CppSequencePoint g_sequencePointsUnity_InternalAPIEngineBridge_004[13] = 
 {
-	{ 96449, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 0 },
-	{ 96449, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 1 },
-	{ 96449, 1, 41, 41, 9, 10, 0, kSequencePointKind_Normal, 0, 2 },
-	{ 96449, 1, 42, 48, 13, 15, 1, kSequencePointKind_Normal, 0, 3 },
-	{ 96449, 1, 42, 48, 13, 15, 24, kSequencePointKind_StepOut, 0, 4 },
-	{ 96449, 1, 42, 48, 13, 15, 49, kSequencePointKind_StepOut, 0, 5 },
-	{ 96449, 1, 49, 49, 9, 10, 87, kSequencePointKind_Normal, 0, 6 },
-	{ 96451, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 7 },
-	{ 96451, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 8 },
-	{ 96451, 2, 10, 10, 9, 10, 0, kSequencePointKind_Normal, 0, 9 },
-	{ 96451, 2, 11, 11, 13, 29, 1, kSequencePointKind_Normal, 0, 10 },
-	{ 96451, 2, 11, 11, 13, 29, 2, kSequencePointKind_StepOut, 0, 11 },
-	{ 96451, 2, 12, 12, 9, 10, 8, kSequencePointKind_Normal, 0, 12 },
+	{ 96453, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 0 },
+	{ 96453, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 1 },
+	{ 96453, 1, 41, 41, 9, 10, 0, kSequencePointKind_Normal, 0, 2 },
+	{ 96453, 1, 42, 48, 13, 15, 1, kSequencePointKind_Normal, 0, 3 },
+	{ 96453, 1, 42, 48, 13, 15, 24, kSequencePointKind_StepOut, 0, 4 },
+	{ 96453, 1, 42, 48, 13, 15, 49, kSequencePointKind_StepOut, 0, 5 },
+	{ 96453, 1, 49, 49, 9, 10, 87, kSequencePointKind_Normal, 0, 6 },
+	{ 96455, 0, 0, 0, 0, 0, -1, kSequencePointKind_Normal, 0, 7 },
+	{ 96455, 0, 0, 0, 0, 0, 16777215, kSequencePointKind_Normal, 0, 8 },
+	{ 96455, 2, 10, 10, 9, 10, 0, kSequencePointKind_Normal, 0, 9 },
+	{ 96455, 2, 11, 11, 13, 29, 1, kSequencePointKind_Normal, 0, 10 },
+	{ 96455, 2, 11, 11, 13, 29, 2, kSequencePointKind_StepOut, 0, 11 },
+	{ 96455, 2, 12, 12, 9, 10, 8, kSequencePointKind_Normal, 0, 12 },
 };
 #else
 extern Il2CppSequencePoint g_sequencePointsUnity_InternalAPIEngineBridge_004[];
