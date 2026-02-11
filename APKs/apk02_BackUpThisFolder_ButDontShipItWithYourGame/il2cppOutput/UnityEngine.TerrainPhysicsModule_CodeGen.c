@@ -7,6 +7,7 @@
 
 
 
+extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationUnityEngine_TerrainPhysicsModule;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_TerrainPhysicsModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_TerrainPhysicsModule_CodeGenModule = 
 {
@@ -22,7 +23,7 @@ const Il2CppCodeGenModule g_UnityEngine_TerrainPhysicsModule_CodeGenModule =
 	NULL,
 	0,
 	NULL,
-	NULL,
+	&g_DebuggerMetadataRegistrationUnityEngine_TerrainPhysicsModule,
 	NULL,
 	NULL,
 	NULL,

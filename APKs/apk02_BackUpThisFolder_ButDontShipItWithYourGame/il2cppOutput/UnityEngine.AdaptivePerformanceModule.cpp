@@ -7,7 +7,20 @@
 
 struct String_t;
 
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnityEngine_AdaptivePerformanceModule[];
 IL2CPP_EXTERN_C RuntimeClass* AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AdaptivePerformanceRenderSettings__cctor_mAA2D2F6F74CADD156149ADB4939A7D4ABDDD118D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AdaptivePerformanceRenderSettings_get_AntiAliasingQualityBias_mEBB5ED9C94908FFBF82393A9C82028602D29B9C3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AdaptivePerformanceRenderSettings_get_DecalsDrawDistance_m8AF659B95A9FE171DEB3E3E78D8D9E9E998979F0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AdaptivePerformanceRenderSettings_get_LutBias_mA1A9D48AD9489390B87E4584569CDE3B68B2FEE1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AdaptivePerformanceRenderSettings_get_MainLightShadowCascadesCountBias_m3947CFDDEBDAEB4946390D6B4974FE71EE198FE7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AdaptivePerformanceRenderSettings_get_MainLightShadowmapResolutionMultiplier_m1C321FC5CE335F500CC453F77D2C5D65AC09FE04_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AdaptivePerformanceRenderSettings_get_MaxShadowDistanceMultiplier_mEE56BC01EF9E54E376E829FDA3AD3847C3CF097B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AdaptivePerformanceRenderSettings_get_RenderScaleMultiplier_mCCF91DB09F0BC934D15030DF71DB15A0B0184666_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AdaptivePerformanceRenderSettings_get_ShadowQualityBias_m8BBA723E51D4603E8F2FBA544145F96075EF0C29_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AdaptivePerformanceRenderSettings_get_SkipDynamicBatching_mECF4149B6E64E776DA5CF5CF3AD49C41651C89E4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AdaptivePerformanceRenderSettings_get_SkipFrontToBackSorting_m4E9D5CD20F1869E93DB9FFAD874B607668732D25_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AdaptivePerformanceRenderSettings_get_SkipTransparentObjects_mF14292D682D98CD5D4BF34B9CA606FDE38918F6E_RuntimeMethod_var;
 
 
 IL2CPP_EXTERN_C_BEGIN
@@ -93,17 +106,23 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 95434
+// Method Definition Index: 96032
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AdaptivePerformanceRenderSettings_get_MainLightShadowmapResolutionMultiplier_m1C321FC5CE335F500CC453F77D2C5D65AC09FE04 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdaptivePerformanceRenderSettings_get_MainLightShadowmapResolutionMultiplier_m1C321FC5CE335F500CC453F77D2C5D65AC09FE04_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	float V_0 = 0.0f;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AdaptivePerformanceRenderSettings_get_MainLightShadowmapResolutionMultiplier_m1C321FC5CE335F500CC453F77D2C5D65AC09FE04_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 0));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 1));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 2));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 3));
 		il2cpp_codegen_runtime_class_init_inline(AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_il2cpp_TypeInfo_var);
 		float L_0 = ((AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_StaticFields*)il2cpp_codegen_static_fields_for(AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_il2cpp_TypeInfo_var))->___s_ShadowResolutionMultiplier;
 		V_0 = L_0;
@@ -112,21 +131,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AdaptivePerformanceRenderSettings_get_M
 
 IL_0009:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 4));
 		float L_1 = V_0;
 		return L_1;
 	}
 }
-// Method Definition Index: 95435
+// Method Definition Index: 96033
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AdaptivePerformanceRenderSettings_get_DecalsDrawDistance_m8AF659B95A9FE171DEB3E3E78D8D9E9E998979F0 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdaptivePerformanceRenderSettings_get_DecalsDrawDistance_m8AF659B95A9FE171DEB3E3E78D8D9E9E998979F0_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	float V_0 = 0.0f;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AdaptivePerformanceRenderSettings_get_DecalsDrawDistance_m8AF659B95A9FE171DEB3E3E78D8D9E9E998979F0_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 5));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 6));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 7));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 8));
 		il2cpp_codegen_runtime_class_init_inline(AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_il2cpp_TypeInfo_var);
 		float L_0 = ((AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_StaticFields*)il2cpp_codegen_static_fields_for(AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_il2cpp_TypeInfo_var))->___s_DecalsMaxDistance;
 		V_0 = L_0;
@@ -135,66 +161,88 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AdaptivePerformanceRenderSettings_get_D
 
 IL_0009:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 9));
 		float L_1 = V_0;
 		return L_1;
 	}
 }
-// Method Definition Index: 95436
+// Method Definition Index: 96034
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AdaptivePerformanceRenderSettings_get_MainLightShadowCascadesCountBias_m3947CFDDEBDAEB4946390D6B4974FE71EE198FE7 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdaptivePerformanceRenderSettings_get_MainLightShadowCascadesCountBias_m3947CFDDEBDAEB4946390D6B4974FE71EE198FE7_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AdaptivePerformanceRenderSettings_get_MainLightShadowCascadesCountBias_m3947CFDDEBDAEB4946390D6B4974FE71EE198FE7_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 10));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 11));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 12));
 		il2cpp_codegen_runtime_class_init_inline(AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_il2cpp_TypeInfo_var);
 		int32_t L_0 = ((AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_StaticFields*)il2cpp_codegen_static_fields_for(AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_il2cpp_TypeInfo_var))->___U3CMainLightShadowCascadesCountBiasU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 95437
+// Method Definition Index: 96035
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AdaptivePerformanceRenderSettings_get_ShadowQualityBias_m8BBA723E51D4603E8F2FBA544145F96075EF0C29 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdaptivePerformanceRenderSettings_get_ShadowQualityBias_m8BBA723E51D4603E8F2FBA544145F96075EF0C29_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AdaptivePerformanceRenderSettings_get_ShadowQualityBias_m8BBA723E51D4603E8F2FBA544145F96075EF0C29_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 13));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 14));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 15));
 		il2cpp_codegen_runtime_class_init_inline(AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_il2cpp_TypeInfo_var);
 		int32_t L_0 = ((AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_StaticFields*)il2cpp_codegen_static_fields_for(AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_il2cpp_TypeInfo_var))->___U3CShadowQualityBiasU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 95438
+// Method Definition Index: 96036
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AdaptivePerformanceRenderSettings_get_LutBias_mA1A9D48AD9489390B87E4584569CDE3B68B2FEE1 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdaptivePerformanceRenderSettings_get_LutBias_mA1A9D48AD9489390B87E4584569CDE3B68B2FEE1_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AdaptivePerformanceRenderSettings_get_LutBias_mA1A9D48AD9489390B87E4584569CDE3B68B2FEE1_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 16));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 17));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 18));
 		il2cpp_codegen_runtime_class_init_inline(AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_il2cpp_TypeInfo_var);
 		float L_0 = ((AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_StaticFields*)il2cpp_codegen_static_fields_for(AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_il2cpp_TypeInfo_var))->___U3CLutBiasU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 95439
+// Method Definition Index: 96037
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AdaptivePerformanceRenderSettings_get_MaxShadowDistanceMultiplier_mEE56BC01EF9E54E376E829FDA3AD3847C3CF097B (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdaptivePerformanceRenderSettings_get_MaxShadowDistanceMultiplier_mEE56BC01EF9E54E376E829FDA3AD3847C3CF097B_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	float V_0 = 0.0f;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AdaptivePerformanceRenderSettings_get_MaxShadowDistanceMultiplier_mEE56BC01EF9E54E376E829FDA3AD3847C3CF097B_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 19));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 20));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 21));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 22));
 		il2cpp_codegen_runtime_class_init_inline(AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_il2cpp_TypeInfo_var);
 		float L_0 = ((AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_StaticFields*)il2cpp_codegen_static_fields_for(AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_il2cpp_TypeInfo_var))->___s_MaxShadowDistanceMultiplier;
 		V_0 = L_0;
@@ -203,21 +251,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AdaptivePerformanceRenderSettings_get_M
 
 IL_0009:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 23));
 		float L_1 = V_0;
 		return L_1;
 	}
 }
-// Method Definition Index: 95440
+// Method Definition Index: 96038
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AdaptivePerformanceRenderSettings_get_RenderScaleMultiplier_mCCF91DB09F0BC934D15030DF71DB15A0B0184666 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdaptivePerformanceRenderSettings_get_RenderScaleMultiplier_mCCF91DB09F0BC934D15030DF71DB15A0B0184666_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	float V_0 = 0.0f;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AdaptivePerformanceRenderSettings_get_RenderScaleMultiplier_mCCF91DB09F0BC934D15030DF71DB15A0B0184666_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 24));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 25));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 26));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 27));
 		il2cpp_codegen_runtime_class_init_inline(AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_il2cpp_TypeInfo_var);
 		float L_0 = ((AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_StaticFields*)il2cpp_codegen_static_fields_for(AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_il2cpp_TypeInfo_var))->___s_RenderScaleMultiplier;
 		V_0 = L_0;
@@ -226,83 +281,112 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AdaptivePerformanceRenderSettings_get_R
 
 IL_0009:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 28));
 		float L_1 = V_0;
 		return L_1;
 	}
 }
-// Method Definition Index: 95441
+// Method Definition Index: 96039
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AdaptivePerformanceRenderSettings_get_AntiAliasingQualityBias_mEBB5ED9C94908FFBF82393A9C82028602D29B9C3 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdaptivePerformanceRenderSettings_get_AntiAliasingQualityBias_mEBB5ED9C94908FFBF82393A9C82028602D29B9C3_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AdaptivePerformanceRenderSettings_get_AntiAliasingQualityBias_mEBB5ED9C94908FFBF82393A9C82028602D29B9C3_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 29));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 30));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 31));
 		il2cpp_codegen_runtime_class_init_inline(AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_il2cpp_TypeInfo_var);
 		int32_t L_0 = ((AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_StaticFields*)il2cpp_codegen_static_fields_for(AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_il2cpp_TypeInfo_var))->___U3CAntiAliasingQualityBiasU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 95442
+// Method Definition Index: 96040
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AdaptivePerformanceRenderSettings_get_SkipDynamicBatching_mECF4149B6E64E776DA5CF5CF3AD49C41651C89E4 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdaptivePerformanceRenderSettings_get_SkipDynamicBatching_mECF4149B6E64E776DA5CF5CF3AD49C41651C89E4_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AdaptivePerformanceRenderSettings_get_SkipDynamicBatching_mECF4149B6E64E776DA5CF5CF3AD49C41651C89E4_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 32));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 33));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 34));
 		il2cpp_codegen_runtime_class_init_inline(AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_il2cpp_TypeInfo_var);
 		bool L_0 = ((AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_StaticFields*)il2cpp_codegen_static_fields_for(AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_il2cpp_TypeInfo_var))->___U3CSkipDynamicBatchingU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 95443
+// Method Definition Index: 96041
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AdaptivePerformanceRenderSettings_get_SkipFrontToBackSorting_m4E9D5CD20F1869E93DB9FFAD874B607668732D25 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdaptivePerformanceRenderSettings_get_SkipFrontToBackSorting_m4E9D5CD20F1869E93DB9FFAD874B607668732D25_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AdaptivePerformanceRenderSettings_get_SkipFrontToBackSorting_m4E9D5CD20F1869E93DB9FFAD874B607668732D25_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 35));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 36));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 37));
 		il2cpp_codegen_runtime_class_init_inline(AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_il2cpp_TypeInfo_var);
 		bool L_0 = ((AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_StaticFields*)il2cpp_codegen_static_fields_for(AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_il2cpp_TypeInfo_var))->___U3CSkipFrontToBackSortingU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 95444
+// Method Definition Index: 96042
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AdaptivePerformanceRenderSettings_get_SkipTransparentObjects_mF14292D682D98CD5D4BF34B9CA606FDE38918F6E (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdaptivePerformanceRenderSettings_get_SkipTransparentObjects_mF14292D682D98CD5D4BF34B9CA606FDE38918F6E_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AdaptivePerformanceRenderSettings_get_SkipTransparentObjects_mF14292D682D98CD5D4BF34B9CA606FDE38918F6E_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 38));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 39));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 40));
 		il2cpp_codegen_runtime_class_init_inline(AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_il2cpp_TypeInfo_var);
 		bool L_0 = ((AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_StaticFields*)il2cpp_codegen_static_fields_for(AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_il2cpp_TypeInfo_var))->___U3CSkipTransparentObjectsU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 95445
+// Method Definition Index: 96043
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptivePerformanceRenderSettings__cctor_mAA2D2F6F74CADD156149ADB4939A7D4ABDDD118D (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdaptivePerformanceRenderSettings__cctor_mAA2D2F6F74CADD156149ADB4939A7D4ABDDD118D_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, AdaptivePerformanceRenderSettings__cctor_mAA2D2F6F74CADD156149ADB4939A7D4ABDDD118D_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 41));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 42));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 43));
 		((AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_StaticFields*)il2cpp_codegen_static_fields_for(AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_il2cpp_TypeInfo_var))->___s_MaxShadowDistanceMultiplier = (1.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 44));
 		((AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_StaticFields*)il2cpp_codegen_static_fields_for(AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_il2cpp_TypeInfo_var))->___s_ShadowResolutionMultiplier = (1.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 45));
 		((AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_StaticFields*)il2cpp_codegen_static_fields_for(AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_il2cpp_TypeInfo_var))->___s_RenderScaleMultiplier = (1.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_AdaptivePerformanceModule + 46));
 		((AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_StaticFields*)il2cpp_codegen_static_fields_for(AdaptivePerformanceRenderSettings_t1EB38FE58A63F3BF824FDC01286F3583A3939448_il2cpp_TypeInfo_var))->___s_DecalsMaxDistance = (1000.0f);
 		return;
 	}

@@ -73,6 +73,8 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 struct BoxoGlobals_t97F6E5DEF80E631A72D88187046132B40A915890;
 struct ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5;
 
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsBoxophobic_Utils_Scripts[];
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnityEngine_CoreModule[];
 IL2CPP_EXTERN_C RuntimeClass* Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* BoxoGlobals_t97F6E5DEF80E631A72D88187046132B40A915890_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
@@ -114,8 +116,135 @@ IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709
 IL2CPP_EXTERN_C String_t* _stringLiteralDEAC03BC08603A926530E878D97B96FA6C0CFEED;
 IL2CPP_EXTERN_C String_t* _stringLiteralEAB619AA5F3FF34776F518452C4983B13C13457F;
 IL2CPP_EXTERN_C String_t* _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D;
+IL2CPP_EXTERN_C const RuntimeMethod* BoxoGlobals__cctor_m0EDC6FCB5CF92E1C38FF8DA8D345570ACF7FA24E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* BoxoGlobals__ctor_m0C8E4E342CB7C8013247224C5579D8046C6CFE4B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* BoxoUtils_DestryObject_m29C3D7CC6D58758CB176D9A4F858CBF437330391_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* BoxoUtils_DisableServerExecution_m72CBC1963A4A1C769C6B30872901452D7D55ED55_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* BoxoUtils_GetMaterialFloat_m1A55A983ACAE486C695221FD18ADFB00F343631A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* BoxoUtils_GetMaterialFloat_m9F3DEBFC67D847D911D37D1E7D4B6C0A7660C146_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* BoxoUtils_GetMaterialInt_m95D481DEE2B9681B40EB3E60D9A5C471803C68C7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* BoxoUtils_GetMaterialInt_mF2ED52EA07ED9F1036408504E5C9009FEE27170B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* BoxoUtils_GetMaterialTexture_mF2456917184B946C17717728253FC7814A029627_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* BoxoUtils_GetProjectData_mB1B38FF414E516F8CAF3BF24ABAB0C7E082E783F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* BoxoUtils_GetProjectPipeline_m62682D7681F703657BB85A435468BA71DC2A00FB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* BoxoUtils_IsMaterialTextureUsed_mA4C8F9FDF34F278A45EE1DDE029F721649C5E51C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* BoxoUtils_MathFloatFromVector2_mE69C000E4DC949483056BAD1D4F15514762C569B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* BoxoUtils_MathRemap_m18C64DB827B16C8F9D02E1520C7548BAE0B1EFF9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* BoxoUtils_MathRemap_m26BB9D0D0BF306265C76AE0F10E3E3BCC25F1CE1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* BoxoUtils_MathVector2ToFloat_mBC0D5B198D2A2E1E603582AF34E1D5B991EA8D9D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* BoxoUtils_SetMaterialBackfaceLegacy_m8BCEEE8AD24AF5A15DB0296297F341D226C0FA67_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* BoxoUtils_SetMaterialBackface_m33F287A2D59209075DD21895E0CC94E89991A2BE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* BoxoUtils_SetMaterialBool_mEAEE5C7960925FFCFB9CE6784D1ADBC782692AA9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* BoxoUtils_SetMaterialBounds_mC2B22C2E774221DDC67651901F46E8706E93B349_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* BoxoUtils_SetMaterialCoords_m08466004EDC71342355B0E98E4166D919D819E9A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* BoxoUtils_SetMaterialFloat_m1085EA44B76F628068B85E95E832BF0EC9B5CD94_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* BoxoUtils_SetMaterialInt_mDF16145968644C02CADBDD9145AE0A32A8475943_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* BoxoUtils_SetMaterialKeywordByTexture_m0D93731FBD3F29EB7747BCA7844C8C67F0B1E0B9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* BoxoUtils_SetMaterialKeywordInverted_m84622DAAA54407E11D3D3C5036E44D7F7587FED3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* BoxoUtils_SetMaterialKeyword_m25CA8E0BC4009D65C7FD04ED094DD94A2971B65B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* BoxoUtils_SetMaterialKeyword_m3DB276809F38CA462B7A3C77A1B414D28D738A52_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* BoxoUtils_SetMaterialKeyword_m438ACBFBEE5A739E389077B478D91F0A3489D63B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* BoxoUtils_SetMaterialKeyword_m6E5405F2874B9D6CA718F2FC053AF502D593243A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* BoxoUtils_SetMaterialKeyword_m7CD1689A056CB46AF7426FAE133B7982A6829690_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* BoxoUtils_SetMaterialKeyword_m835A2A892CF25CAFCA6CDF3BE6425059F5DDCFAE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* BoxoUtils_SetMaterialKeyword_mA311E06D8A3D71018B0869D90C18779BA1A78CA5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* BoxoUtils_SetMaterialKeyword_mF6818F496411F6729C06C0D7A5F171A17A13E525_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* BoxoUtils_SetMaterialOptions_m4504F4F947F09C5B6622F13B8634EFC204F34CD7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* BoxoUtils_SetMaterialOptions_m64D8CCD488E64BA7121EC8EE7EDD4805C668776A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* BoxoUtils_SetMaterialReciprocal_mFDDCF16BA4C524F6BA07CB707E93894E7CCB87F4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* BoxoUtils_SetMaterialTexture_mAB2C20BE967426E0BEF6D509898A21FACCE7F208_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* BoxoUtils_SetMaterialVector_m458F6ABCB72D2F33FD99DEA6A7FF192902CC5D04_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* CamController_Start_mDB7469AC84485ADDB2FFC6F7F190B765EB18E01D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* CamController_Update_m4100D5028F46EABBEB2F6ED20A2D57AE16C9BBA6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* CamController__ctor_mAF9FD4885FE8A02E0B09525BC45E68C698626A67_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisCharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A_m96B48A644EDC97C5C82F154D1FEA551B2E392040_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* FPSController_Start_m8753E0124AA1CA677A81AC26DB8E89130A50DECE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* FPSController_Update_mE8994F02DCF9EF202424DEA32BDB8A187B21D32D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* FPSController__ctor_mDE0A5EAB6A5CF795B0093546CC9989F2A16E4DC0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NPCController_ChangeDirection_m6B6E16A4DC9CEC2DF1DFBBBA05D6D01639162603_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NPCController_Start_mA219D2543BAB4E9EFC91A23B034794B4FFF8A8B0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NPCController_Update_mC467EAACCF2302C9C2C85586CDDAD2C860C666B6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NPCController__ctor_mD4740F0B57A46802A56B39666EF13FB9F95C3C96_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Notebox__ctor_m416F2F2A91BAC94AFB325869390979FC9E560F00_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ProjectData__ctor_m63F3CC3576D978D72C0923F787B45A4EDF19106E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SceneSwitch_OnEnable_m3C7E3BF3D5C6743049E8122689CE0DB7596F15F1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SceneSwitch__ctor_m17F05F981F30D4958592CCB11BC39165CF2DEC94_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SettingsData__ctor_m39E4288E5AF960891F56AD6434A013109271503A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* StyledBanner__ctor_m48FF726A4C27043B3090DBE235E6AB7331EEBC6F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* StyledBanner__ctor_mA36B6717F30CE4C1966D1C57BFE92E2DDA4B4F73_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* StyledBanner__ctor_mA4E76357B310E9026E6562C5D9741F68660D46D2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* StyledBanner__ctor_mA9E4F108BC438FBC440388E03DEF23A3756BD5DE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* StyledBanner__ctor_mDC764E3EAB374DFE823A45322C9F5E4CDADF7100_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* StyledBanner__ctor_mFAD877A2C3A661647755853C8B36E172485D12B3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* StyledButton__ctor_m30ADC90E15FD3F1A7EE613864F4E58E3A1E76CC7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* StyledButton__ctor_mF20F73D26F7D8471161CCE1AA071920EF3A31479_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* StyledCategory__ctor_m01290B72F7110EB2628DA9EDEEF7AF35672AAB2B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* StyledCategory__ctor_m718A41DF2A8937C8904F9B7ACD99D75D0B5490F8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* StyledCategory__ctor_mA353ED2E42459E73ECD2EC9BDE467F857A159F87_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* StyledCategory__ctor_mC26F8B39A0269835298052A7C228828E112071F5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* StyledDisplay__ctor_m5931538D0F5F2D23AA987293959155A43E32B8AD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* StyledEnum__ctor_m0BB365EC501EE35F12A275FA21AB5FE0C24D84D9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* StyledEnum__ctor_m9A9CE08D24585451394C018F60111B1B3764E20B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* StyledIndent__ctor_m23188C625E74668E9BEF81EDDE00A280D5A1BD24_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* StyledInteractive__ctor_m036B7462E3C1DC63C0666C87DDCD85AD7CE37C33_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* StyledLayers__ctor_m0BF712246C4474C8B36BE6FB99C3ED92E0414B40_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* StyledLayers__ctor_m5D9CC1374DB7BA1494A5F40594BD2B7FED797E4C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* StyledMask__ctor_m16C20A4AAFD092BD2B91031D9161EE9CD054CC6C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* StyledMask__ctor_mDFE18945F0D13596BC814C0864877DDAE7414B14_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* StyledMessage__ctor_m4E4A482EB98BBF0EBDDDEDE1C06EB51783135697_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* StyledMessage__ctor_m6CF47C2A3F6D0083B4E76D95DDD212C51B1DAE04_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* StyledMonoBehaviour__ctor_m703C907E17DDF775F58DF784F489640892F67FF6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* StyledRangeOptions__ctor_m1DBB842DE428EFF540D2B519249F0C555BA3E9C1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* StyledScriptableObject__ctor_m404FB06ACD2D0B9DB75A91423E37F92798DABE31_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* StyledSpace__ctor_mE1F660F326B9CEFAA3038C0379C710C28B214298_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* StyledText__ctor_m551C922D9B4487646AB9A14128599E9C4DA8B7B6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* StyledText__ctor_mB8D1A97A3AC3A6BA5C7AC4EEF5925F1021ADB5E4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* StyledText__ctor_mEC668FA735717798B07FBC1C90E5FE27CD15AA5B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* StyledTexturePreview__ctor_mA78F6E06AF7E47CF622EF3C2148685CA7BAC03D6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* StyledTexturePreview__ctor_mAE0EA95597346BCEC7F6CF349BDD0B60F4802974_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m44AD560E46ECB7D43EE9A13F6DADA38F0E32517C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m4C1B6AE1752CAACAB9C64E552E843087A45035D3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector2_op_Division_m57A2DCD71E0CE7420851D705D1951F9238902AAB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector3_get_right_mFF573AFBBB2186E7AFA1BA7CA271A78DF67E4EA0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector4_get_zero_m3D61F5FA9483CD9C08977D9D8852FB448B4CE6D1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* CamController_t142B21D3820925002E14EF1FED0BE7D331DC8B4D_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* FPSController_t8694A58ECF5A2944D751D43976D63B1B8155C5E7_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* MonoScriptData_t68380BEE28C7A994A7C0C6B186E2A05DD2078FD4_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* NPCController_tD209B502B7E9EE81293F75C091A942F24E09AE29_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* SceneSwitch_tD35DE378E994F341480620428D36BE98F4FCDD83_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* SettingsData_tA4DE57F8995E9394ADD26F693F7F6881E63AB1E1_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* StyledBanner_t9563605035FD8A4DC8E5035F1A996B861CC1873C_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* StyledButton_tA40AC186DFB9B4850C2A844A31E8E91E85007516_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* StyledCategory_t56EA34A1E7A8452D3DAF2B5066286B571539C9BE_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* StyledDisplay_tA831A6DE5EEDD78F90591F5043FAEA5C93257855_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* StyledEnum_tF11D18EC6AA2130E13FDFAE04EDCF989C7444F36_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* StyledIndent_tBD1203836B149BBDACAA229BFBE875874482B35C_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* StyledInteractive_t441B337F7D762BFAECC1815AD7523E2542F938E6_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* StyledLayers_tAFED366047AA4A071471268AE19FFDA1D0CD250E_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* StyledMask_t360C2709D699BB12A2A7A6A7193585C08433F6FE_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* StyledMessage_t9125BC8B5131542BF991B29F46D2AFF0B0CD991C_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* StyledRangeOptions_t6168F2B8FD5CCCB82C26242146A6CFE4B4C0D6AA_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* StyledSpace_t59FD27079C76ABD7E62742DD3FC6B4D1A44F3C7C_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* StyledText_t6AF253489FCD62B6143C76036C6385023FF1FE56_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* StyledTexturePreview_tB32E2E0081B25926B06D4DEE527D9B189F8575AF_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_0_0_0_var;
 struct CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_com;
 struct CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_pinvoke;
 struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_com;
@@ -869,43 +998,72 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 94857
+// Method Definition Index: 95181
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t68380BEE28C7A994A7C0C6B186E2A05DD2078FD4 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m44AD560E46ECB7D43EE9A13F6DADA38F0E32517C (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MonoScriptData_t68380BEE28C7A994A7C0C6B186E2A05DD2078FD4_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_tE745CBECFBC65CA4DB2B8CE04E6A82C99AA7DE81____2DFA28492EBA9C51B86E440B6A460E5111448A4EFD475B2EA529EBCA25B807D5_FieldInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_tE745CBECFBC65CA4DB2B8CE04E6A82C99AA7DE81____C352261888687E3D6F7DAE4D222D0269CDB290E3E8A73B36B0DE72F5439BBA4A_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m44AD560E46ECB7D43EE9A13F6DADA38F0E32517C_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	MonoScriptData_t68380BEE28C7A994A7C0C6B186E2A05DD2078FD4 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	MonoScriptData_t68380BEE28C7A994A7C0C6B186E2A05DD2078FD4 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m44AD560E46ECB7D43EE9A13F6DADA38F0E32517C_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 0));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 2));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 3));
 		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_t68380BEE28C7A994A7C0C6B186E2A05DD2078FD4));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)1690));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
 		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_tE745CBECFBC65CA4DB2B8CE04E6A82C99AA7DE81____2DFA28492EBA9C51B86E440B6A460E5111448A4EFD475B2EA529EBCA25B807D5_FieldInfo_var) };
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 4));
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 4));
 		(&V_0)->___FilePathsData = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)977));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
 		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_tE745CBECFBC65CA4DB2B8CE04E6A82C99AA7DE81____C352261888687E3D6F7DAE4D222D0269CDB290E3E8A73B36B0DE72F5439BBA4A_FieldInfo_var) };
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 5));
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_4, L_5, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 5));
 		(&V_0)->___TypesData = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
 		(&V_0)->___TotalFiles = ((int32_t)23);
 		(&V_0)->___TotalTypes = ((int32_t)25);
 		(&V_0)->___IsEditorOnly = (bool)0;
 		MonoScriptData_t68380BEE28C7A994A7C0C6B186E2A05DD2078FD4 L_6 = V_0;
-		return L_6;
+		V_1 = L_6;
+		goto IL_005f;
+	}
+
+IL_005f:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 6));
+		MonoScriptData_t68380BEE28C7A994A7C0C6B186E2A05DD2078FD4 L_7 = V_1;
+		return L_7;
 	}
 }
-// Method Definition Index: 94858
+// Method Definition Index: 95182
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m4C1B6AE1752CAACAB9C64E552E843087A45035D3 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t9EC4E11426C27E7AC501B14700262CEB46D7F19F* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m4C1B6AE1752CAACAB9C64E552E843087A45035D3_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m4C1B6AE1752CAACAB9C64E552E843087A45035D3_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
@@ -989,154 +1147,270 @@ IL2CPP_EXTERN_C void MonoScriptData_t68380BEE28C7A994A7C0C6B186E2A05DD2078FD4_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 94859
+// Method Definition Index: 95183
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledBanner__ctor_mA9E4F108BC438FBC440388E03DEF23A3756BD5DE (StyledBanner_t9563605035FD8A4DC8E5035F1A996B861CC1873C* __this, String_t* ___0_title, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledBanner__ctor_mA9E4F108BC438FBC440388E03DEF23A3756BD5DE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledBanner_t9563605035FD8A4DC8E5035F1A996B861CC1873C_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_title));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StyledBanner__ctor_mA9E4F108BC438FBC440388E03DEF23A3756BD5DE_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 7));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 8));
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs:13>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 9));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 10));
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 10));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 11));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs:15>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 12));
 		__this->___colorR = (-1.0f);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs:16>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 13));
 		String_t* L_0 = ___0_title;
 		__this->___title = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___title), (void*)L_0);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs:17>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 14));
 		__this->___helpURL = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___helpURL), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs:18>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 15));
 		return;
 	}
 }
-// Method Definition Index: 94860
+// Method Definition Index: 95184
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledBanner__ctor_mDC764E3EAB374DFE823A45322C9F5E4CDADF7100 (StyledBanner_t9563605035FD8A4DC8E5035F1A996B861CC1873C* __this, float ___0_colorR, float ___1_colorG, float ___2_colorB, String_t* ___3_title, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledBanner__ctor_mDC764E3EAB374DFE823A45322C9F5E4CDADF7100_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledBanner_t9563605035FD8A4DC8E5035F1A996B861CC1873C_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_colorR), (&___1_colorG), (&___2_colorB), (&___3_title));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StyledBanner__ctor_mDC764E3EAB374DFE823A45322C9F5E4CDADF7100_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 16));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 17));
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs:20>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 18));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 19));
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 19));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 20));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs:22>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 21));
 		float L_0 = ___0_colorR;
 		__this->___colorR = L_0;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs:23>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 22));
 		float L_1 = ___1_colorG;
 		__this->___colorG = L_1;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs:24>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 23));
 		float L_2 = ___2_colorB;
 		__this->___colorB = L_2;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs:25>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 24));
 		String_t* L_3 = ___3_title;
 		__this->___title = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___title), (void*)L_3);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs:26>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 25));
 		__this->___helpURL = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___helpURL), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs:27>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 26));
 		return;
 	}
 }
-// Method Definition Index: 94861
+// Method Definition Index: 95185
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledBanner__ctor_m48FF726A4C27043B3090DBE235E6AB7331EEBC6F (StyledBanner_t9563605035FD8A4DC8E5035F1A996B861CC1873C* __this, String_t* ___0_title, String_t* ___1_helpURL, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledBanner__ctor_m48FF726A4C27043B3090DBE235E6AB7331EEBC6F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledBanner_t9563605035FD8A4DC8E5035F1A996B861CC1873C_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_title), (&___1_helpURL));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StyledBanner__ctor_m48FF726A4C27043B3090DBE235E6AB7331EEBC6F_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 27));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 28));
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs:30>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 29));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 30));
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 30));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 31));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs:32>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 32));
 		__this->___colorR = (-1.0f);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs:33>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 33));
 		String_t* L_0 = ___0_title;
 		__this->___title = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___title), (void*)L_0);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs:34>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 34));
 		String_t* L_1 = ___1_helpURL;
 		__this->___helpURL = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___helpURL), (void*)L_1);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs:35>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 35));
 		return;
 	}
 }
-// Method Definition Index: 94862
+// Method Definition Index: 95186
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledBanner__ctor_mA36B6717F30CE4C1966D1C57BFE92E2DDA4B4F73 (StyledBanner_t9563605035FD8A4DC8E5035F1A996B861CC1873C* __this, float ___0_colorR, float ___1_colorG, float ___2_colorB, String_t* ___3_title, String_t* ___4_helpURL, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledBanner__ctor_mA36B6717F30CE4C1966D1C57BFE92E2DDA4B4F73_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledBanner_t9563605035FD8A4DC8E5035F1A996B861CC1873C_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_colorR), (&___1_colorG), (&___2_colorB), (&___3_title), (&___4_helpURL));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StyledBanner__ctor_mA36B6717F30CE4C1966D1C57BFE92E2DDA4B4F73_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 36));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 37));
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs:37>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 38));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 39));
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 39));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 40));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs:39>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 41));
 		float L_0 = ___0_colorR;
 		__this->___colorR = L_0;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs:40>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 42));
 		float L_1 = ___1_colorG;
 		__this->___colorG = L_1;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs:41>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 43));
 		float L_2 = ___2_colorB;
 		__this->___colorB = L_2;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs:42>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 44));
 		String_t* L_3 = ___3_title;
 		__this->___title = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___title), (void*)L_3);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs:43>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 45));
 		String_t* L_4 = ___4_helpURL;
 		__this->___helpURL = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___helpURL), (void*)L_4);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs:44>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 46));
 		return;
 	}
 }
-// Method Definition Index: 94863
+// Method Definition Index: 95187
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledBanner__ctor_mA4E76357B310E9026E6562C5D9741F68660D46D2 (StyledBanner_t9563605035FD8A4DC8E5035F1A996B861CC1873C* __this, String_t* ___0_title, String_t* ___1_subtitle, String_t* ___2_helpURL, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledBanner__ctor_mA4E76357B310E9026E6562C5D9741F68660D46D2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledBanner_t9563605035FD8A4DC8E5035F1A996B861CC1873C_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_title), (&___1_subtitle), (&___2_helpURL));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StyledBanner__ctor_mA4E76357B310E9026E6562C5D9741F68660D46D2_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 47));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 48));
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs:46>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 49));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 50));
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 50));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 51));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs:48>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 52));
 		__this->___colorR = (-1.0f);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs:49>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 53));
 		String_t* L_0 = ___0_title;
 		__this->___title = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___title), (void*)L_0);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs:50>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 54));
 		String_t* L_1 = ___2_helpURL;
 		__this->___helpURL = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___helpURL), (void*)L_1);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs:51>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 55));
 		return;
 	}
 }
-// Method Definition Index: 94864
+// Method Definition Index: 95188
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledBanner__ctor_mFAD877A2C3A661647755853C8B36E172485D12B3 (StyledBanner_t9563605035FD8A4DC8E5035F1A996B861CC1873C* __this, float ___0_colorR, float ___1_colorG, float ___2_colorB, String_t* ___3_title, String_t* ___4_subtitle, String_t* ___5_helpURL, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledBanner__ctor_mFAD877A2C3A661647755853C8B36E172485D12B3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledBanner_t9563605035FD8A4DC8E5035F1A996B861CC1873C_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_colorR), (&___1_colorG), (&___2_colorB), (&___3_title), (&___4_subtitle), (&___5_helpURL));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StyledBanner__ctor_mFAD877A2C3A661647755853C8B36E172485D12B3_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 56));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 57));
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs:53>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 58));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 59));
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 59));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 60));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs:55>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 61));
 		float L_0 = ___0_colorR;
 		__this->___colorR = L_0;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs:56>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 62));
 		float L_1 = ___1_colorG;
 		__this->___colorG = L_1;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs:57>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 63));
 		float L_2 = ___2_colorB;
 		__this->___colorB = L_2;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs:58>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 64));
 		String_t* L_3 = ___3_title;
 		__this->___title = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___title), (void*)L_3);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs:59>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 65));
 		String_t* L_4 = ___5_helpURL;
 		__this->___helpURL = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___helpURL), (void*)L_4);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs:60>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 66));
 		return;
 	}
 }
@@ -1148,59 +1422,103 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledBanner__ctor_mFAD877A2C3A661647755
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 94865
+// Method Definition Index: 95189
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledButton__ctor_mF20F73D26F7D8471161CCE1AA071920EF3A31479 (StyledButton_tA40AC186DFB9B4850C2A844A31E8E91E85007516* __this, String_t* ___0_text, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledButton__ctor_mF20F73D26F7D8471161CCE1AA071920EF3A31479_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledButton_tA40AC186DFB9B4850C2A844A31E8E91E85007516_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_text));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StyledButton__ctor_mF20F73D26F7D8471161CCE1AA071920EF3A31479_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 67));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 68));
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledButton.cs:9>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 69));
 		__this->___text = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___text), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledButton.cs:10>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 70));
+		__this->___top = (0.0f);
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledButton.cs:11>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 71));
+		__this->___down = (0.0f);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledButton.cs:13>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 72));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 73));
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 73));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 74));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledButton.cs:15>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 75));
 		String_t* L_0 = ___0_text;
 		__this->___text = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___text), (void*)L_0);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledButton.cs:16>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 76));
 		__this->___top = (0.0f);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledButton.cs:17>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 77));
 		__this->___down = (0.0f);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledButton.cs:18>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 78));
 		return;
 	}
 }
-// Method Definition Index: 94866
+// Method Definition Index: 95190
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledButton__ctor_m30ADC90E15FD3F1A7EE613864F4E58E3A1E76CC7 (StyledButton_tA40AC186DFB9B4850C2A844A31E8E91E85007516* __this, String_t* ___0_text, float ___1_top, float ___2_down, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledButton__ctor_m30ADC90E15FD3F1A7EE613864F4E58E3A1E76CC7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledButton_tA40AC186DFB9B4850C2A844A31E8E91E85007516_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_text), (&___1_top), (&___2_down));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StyledButton__ctor_m30ADC90E15FD3F1A7EE613864F4E58E3A1E76CC7_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 79));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 80));
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledButton.cs:9>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 81));
 		__this->___text = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___text), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledButton.cs:10>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 82));
+		__this->___top = (0.0f);
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledButton.cs:11>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 83));
+		__this->___down = (0.0f);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledButton.cs:20>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 84));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 85));
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 85));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 86));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledButton.cs:22>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 87));
 		String_t* L_0 = ___0_text;
 		__this->___text = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___text), (void*)L_0);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledButton.cs:23>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 88));
 		float L_1 = ___1_top;
 		__this->___top = L_1;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledButton.cs:24>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 89));
 		float L_2 = ___2_down;
 		__this->___down = L_2;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledButton.cs:25>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 90));
 		return;
 	}
 }
@@ -1212,89 +1530,173 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledButton__ctor_m30ADC90E15FD3F1A7EE6
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 94867
+// Method Definition Index: 95191
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledCategory__ctor_m718A41DF2A8937C8904F9B7ACD99D75D0B5490F8 (StyledCategory_t56EA34A1E7A8452D3DAF2B5066286B571539C9BE* __this, String_t* ___0_category, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledCategory__ctor_m718A41DF2A8937C8904F9B7ACD99D75D0B5490F8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledCategory_t56EA34A1E7A8452D3DAF2B5066286B571539C9BE_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_category));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StyledCategory__ctor_m718A41DF2A8937C8904F9B7ACD99D75D0B5490F8_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 91));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 92));
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledCategory.cs:12>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 93));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 94));
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 94));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 95));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledCategory.cs:14>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 96));
 		String_t* L_0 = ___0_category;
 		__this->___category = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___category), (void*)L_0);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledCategory.cs:15>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 97));
 		__this->___top = (10.0f);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledCategory.cs:16>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 98));
 		__this->___down = (10.0f);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledCategory.cs:17>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 99));
 		__this->___colapsable = (bool)0;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledCategory.cs:18>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 100));
 		return;
 	}
 }
-// Method Definition Index: 94868
+// Method Definition Index: 95192
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledCategory__ctor_mA353ED2E42459E73ECD2EC9BDE467F857A159F87 (StyledCategory_t56EA34A1E7A8452D3DAF2B5066286B571539C9BE* __this, String_t* ___0_category, bool ___1_colapsable, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledCategory__ctor_mA353ED2E42459E73ECD2EC9BDE467F857A159F87_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledCategory_t56EA34A1E7A8452D3DAF2B5066286B571539C9BE_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_category), (&___1_colapsable));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StyledCategory__ctor_mA353ED2E42459E73ECD2EC9BDE467F857A159F87_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 101));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 102));
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledCategory.cs:20>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 103));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 104));
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 104));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 105));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledCategory.cs:22>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 106));
 		String_t* L_0 = ___0_category;
 		__this->___category = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___category), (void*)L_0);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledCategory.cs:23>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 107));
 		__this->___top = (10.0f);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledCategory.cs:24>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 108));
 		__this->___down = (10.0f);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledCategory.cs:25>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 109));
 		bool L_1 = ___1_colapsable;
 		__this->___colapsable = L_1;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledCategory.cs:26>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 110));
 		return;
 	}
 }
-// Method Definition Index: 94869
+// Method Definition Index: 95193
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledCategory__ctor_mC26F8B39A0269835298052A7C228828E112071F5 (StyledCategory_t56EA34A1E7A8452D3DAF2B5066286B571539C9BE* __this, String_t* ___0_category, float ___1_top, float ___2_down, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledCategory__ctor_mC26F8B39A0269835298052A7C228828E112071F5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledCategory_t56EA34A1E7A8452D3DAF2B5066286B571539C9BE_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_category), (&___1_top), (&___2_down));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StyledCategory__ctor_mC26F8B39A0269835298052A7C228828E112071F5_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 111));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 112));
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledCategory.cs:28>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 113));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 114));
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 114));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 115));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledCategory.cs:30>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 116));
 		String_t* L_0 = ___0_category;
 		__this->___category = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___category), (void*)L_0);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledCategory.cs:31>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 117));
 		float L_1 = ___1_top;
 		__this->___top = L_1;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledCategory.cs:32>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 118));
 		float L_2 = ___2_down;
 		__this->___down = L_2;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledCategory.cs:33>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 119));
 		__this->___colapsable = (bool)0;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledCategory.cs:34>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 120));
 		return;
 	}
 }
-// Method Definition Index: 94870
+// Method Definition Index: 95194
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledCategory__ctor_m01290B72F7110EB2628DA9EDEEF7AF35672AAB2B (StyledCategory_t56EA34A1E7A8452D3DAF2B5066286B571539C9BE* __this, String_t* ___0_category, int32_t ___1_top, int32_t ___2_down, bool ___3_colapsable, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledCategory__ctor_m01290B72F7110EB2628DA9EDEEF7AF35672AAB2B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledCategory_t56EA34A1E7A8452D3DAF2B5066286B571539C9BE_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_category), (&___1_top), (&___2_down), (&___3_colapsable));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StyledCategory__ctor_m01290B72F7110EB2628DA9EDEEF7AF35672AAB2B_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 121));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 122));
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledCategory.cs:36>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 123));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 124));
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 124));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 125));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledCategory.cs:38>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 126));
 		String_t* L_0 = ___0_category;
 		__this->___category = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___category), (void*)L_0);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledCategory.cs:39>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 127));
 		int32_t L_1 = ___1_top;
 		__this->___top = ((float)L_1);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledCategory.cs:40>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 128));
 		int32_t L_2 = ___2_down;
 		__this->___down = ((float)L_2);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledCategory.cs:41>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 129));
 		bool L_3 = ___3_colapsable;
 		__this->___colapsable = L_3;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledCategory.cs:42>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 130));
 		return;
 	}
 }
@@ -1306,26 +1708,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledCategory__ctor_m01290B72F7110EB262
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 94871
+// Method Definition Index: 95195
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledDisplay__ctor_m5931538D0F5F2D23AA987293959155A43E32B8AD (StyledDisplay_tA831A6DE5EEDD78F90591F5043FAEA5C93257855* __this, String_t* ___0_displayName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledDisplay__ctor_m5931538D0F5F2D23AA987293959155A43E32B8AD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledDisplay_tA831A6DE5EEDD78F90591F5043FAEA5C93257855_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_displayName));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StyledDisplay__ctor_m5931538D0F5F2D23AA987293959155A43E32B8AD_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 131));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 132));
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledDisplay.cs:9>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 133));
 		__this->___displayName = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___displayName), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledDisplay.cs:11>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 134));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 135));
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 135));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 136));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledDisplay.cs:13>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 137));
 		String_t* L_0 = ___0_displayName;
 		__this->___displayName = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___displayName), (void*)L_0);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledDisplay.cs:14>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 138));
 		return;
 	}
 }
@@ -1337,85 +1753,136 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledDisplay__ctor_m5931538D0F5F2D23AA9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 94872
+// Method Definition Index: 95196
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledEnum__ctor_m0BB365EC501EE35F12A275FA21AB5FE0C24D84D9 (StyledEnum_tF11D18EC6AA2130E13FDFAE04EDCF989C7444F36* __this, String_t* ___0_file, String_t* ___1_options, int32_t ___2_top, int32_t ___3_down, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledEnum__ctor_m0BB365EC501EE35F12A275FA21AB5FE0C24D84D9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledEnum_tF11D18EC6AA2130E13FDFAE04EDCF989C7444F36_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_file), (&___1_options), (&___2_top), (&___3_down));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StyledEnum__ctor_m0BB365EC501EE35F12A275FA21AB5FE0C24D84D9_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 139));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 140));
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledEnum.cs:7>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 141));
 		__this->___display = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___display), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledEnum.cs:8>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 142));
 		__this->___file = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___file), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledEnum.cs:9>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 143));
 		__this->___options = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___options), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledEnum.cs:11>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 144));
+		__this->___top = 0;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledEnum.cs:12>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 145));
+		__this->___down = 0;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledEnum.cs:14>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 146));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 147));
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 147));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 148));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledEnum.cs:16>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 149));
 		String_t* L_0 = ___0_file;
 		__this->___file = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___file), (void*)L_0);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledEnum.cs:17>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 150));
 		String_t* L_1 = ___1_options;
 		__this->___options = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___options), (void*)L_1);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledEnum.cs:19>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 151));
 		int32_t L_2 = ___2_top;
 		__this->___top = L_2;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledEnum.cs:20>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 152));
 		int32_t L_3 = ___3_down;
 		__this->___down = L_3;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledEnum.cs:21>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 153));
 		return;
 	}
 }
-// Method Definition Index: 94873
+// Method Definition Index: 95197
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledEnum__ctor_m9A9CE08D24585451394C018F60111B1B3764E20B (StyledEnum_tF11D18EC6AA2130E13FDFAE04EDCF989C7444F36* __this, String_t* ___0_display, String_t* ___1_file, String_t* ___2_options, int32_t ___3_top, int32_t ___4_down, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledEnum__ctor_m9A9CE08D24585451394C018F60111B1B3764E20B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledEnum_tF11D18EC6AA2130E13FDFAE04EDCF989C7444F36_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_display), (&___1_file), (&___2_options), (&___3_top), (&___4_down));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StyledEnum__ctor_m9A9CE08D24585451394C018F60111B1B3764E20B_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 154));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 155));
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledEnum.cs:7>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 156));
 		__this->___display = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___display), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledEnum.cs:8>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 157));
 		__this->___file = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___file), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledEnum.cs:9>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 158));
 		__this->___options = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___options), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledEnum.cs:11>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 159));
+		__this->___top = 0;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledEnum.cs:12>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 160));
+		__this->___down = 0;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledEnum.cs:23>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 161));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 162));
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 162));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 163));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledEnum.cs:25>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 164));
 		String_t* L_0 = ___0_display;
 		__this->___display = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___display), (void*)L_0);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledEnum.cs:26>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 165));
 		String_t* L_1 = ___1_file;
 		__this->___file = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___file), (void*)L_1);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledEnum.cs:27>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 166));
 		String_t* L_2 = ___2_options;
 		__this->___options = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___options), (void*)L_2);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledEnum.cs:29>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 167));
 		int32_t L_3 = ___3_top;
 		__this->___top = L_3;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledEnum.cs:30>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 168));
 		int32_t L_4 = ___4_down;
 		__this->___down = L_4;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledEnum.cs:31>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 169));
 		return;
 	}
 }
@@ -1427,16 +1894,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledEnum__ctor_m9A9CE08D24585451394C01
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 94874
+// Method Definition Index: 95198
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledIndent__ctor_m23188C625E74668E9BEF81EDDE00A280D5A1BD24 (StyledIndent_tBD1203836B149BBDACAA229BFBE875874482B35C* __this, int32_t ___0_indent, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledIndent__ctor_m23188C625E74668E9BEF81EDDE00A280D5A1BD24_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledIndent_tBD1203836B149BBDACAA229BFBE875874482B35C_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_indent));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StyledIndent__ctor_m23188C625E74668E9BEF81EDDE00A280D5A1BD24_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 170));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 171));
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledIndent.cs:11>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 172));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 173));
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 173));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 174));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledIndent.cs:13>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 175));
 		int32_t L_0 = ___0_indent;
 		__this->___indent = L_0;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledIndent.cs:14>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 176));
 		return;
 	}
 }
@@ -1448,13 +1933,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledIndent__ctor_m23188C625E74668E9BEF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 94875
+// Method Definition Index: 95199
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledInteractive__ctor_m036B7462E3C1DC63C0666C87DDCD85AD7CE37C33 (StyledInteractive_t441B337F7D762BFAECC1815AD7523E2542F938E6* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledInteractive__ctor_m036B7462E3C1DC63C0666C87DDCD85AD7CE37C33_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledInteractive_t441B337F7D762BFAECC1815AD7523E2542F938E6_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StyledInteractive__ctor_m036B7462E3C1DC63C0666C87DDCD85AD7CE37C33_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 177));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 178));
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledInteractive.cs:9>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 179));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 180));
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 180));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 181));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledInteractive.cs:12>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 182));
 		return;
 	}
 }
@@ -1466,45 +1967,71 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledInteractive__ctor_m036B7462E3C1DC6
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 94876
+// Method Definition Index: 95200
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledLayers__ctor_m5D9CC1374DB7BA1494A5F40594BD2B7FED797E4C (StyledLayers_tAFED366047AA4A071471268AE19FFDA1D0CD250E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledLayers__ctor_m5D9CC1374DB7BA1494A5F40594BD2B7FED797E4C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledLayers_tAFED366047AA4A071471268AE19FFDA1D0CD250E_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StyledLayers__ctor_m5D9CC1374DB7BA1494A5F40594BD2B7FED797E4C_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 183));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 184));
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledLayers.cs:9>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 185));
 		__this->___display = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___display), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledLayers.cs:10>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 186));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 187));
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 187));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 188));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledLayers.cs:12>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 189));
 		return;
 	}
 }
-// Method Definition Index: 94877
+// Method Definition Index: 95201
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledLayers__ctor_m0BF712246C4474C8B36BE6FB99C3ED92E0414B40 (StyledLayers_tAFED366047AA4A071471268AE19FFDA1D0CD250E* __this, String_t* ___0_display, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledLayers__ctor_m0BF712246C4474C8B36BE6FB99C3ED92E0414B40_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledLayers_tAFED366047AA4A071471268AE19FFDA1D0CD250E_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_display));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StyledLayers__ctor_m0BF712246C4474C8B36BE6FB99C3ED92E0414B40_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 190));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 191));
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledLayers.cs:9>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 192));
 		__this->___display = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___display), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledLayers.cs:14>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 193));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 194));
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 194));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 195));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledLayers.cs:16>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 196));
 		String_t* L_0 = ___0_display;
 		__this->___display = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___display), (void*)L_0);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledLayers.cs:17>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 197));
 		return;
 	}
 }
@@ -1516,85 +2043,136 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledLayers__ctor_m0BF712246C4474C8B36B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 94878
+// Method Definition Index: 95202
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledMask__ctor_mDFE18945F0D13596BC814C0864877DDAE7414B14 (StyledMask_t360C2709D699BB12A2A7A6A7193585C08433F6FE* __this, String_t* ___0_file, String_t* ___1_options, int32_t ___2_top, int32_t ___3_down, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledMask__ctor_mDFE18945F0D13596BC814C0864877DDAE7414B14_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledMask_t360C2709D699BB12A2A7A6A7193585C08433F6FE_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_file), (&___1_options), (&___2_top), (&___3_down));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StyledMask__ctor_mDFE18945F0D13596BC814C0864877DDAE7414B14_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 198));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 199));
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMask.cs:7>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 200));
 		__this->___display = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___display), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMask.cs:8>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 201));
 		__this->___file = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___file), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMask.cs:9>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 202));
 		__this->___options = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___options), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMask.cs:11>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 203));
+		__this->___top = 0;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMask.cs:12>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 204));
+		__this->___down = 0;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMask.cs:14>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 205));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 206));
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 206));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 207));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMask.cs:16>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 208));
 		String_t* L_0 = ___0_file;
 		__this->___file = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___file), (void*)L_0);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMask.cs:17>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 209));
 		String_t* L_1 = ___1_options;
 		__this->___options = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___options), (void*)L_1);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMask.cs:19>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 210));
 		int32_t L_2 = ___2_top;
 		__this->___top = L_2;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMask.cs:20>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 211));
 		int32_t L_3 = ___3_down;
 		__this->___down = L_3;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMask.cs:21>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 212));
 		return;
 	}
 }
-// Method Definition Index: 94879
+// Method Definition Index: 95203
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledMask__ctor_m16C20A4AAFD092BD2B91031D9161EE9CD054CC6C (StyledMask_t360C2709D699BB12A2A7A6A7193585C08433F6FE* __this, String_t* ___0_display, String_t* ___1_file, String_t* ___2_options, int32_t ___3_top, int32_t ___4_down, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledMask__ctor_m16C20A4AAFD092BD2B91031D9161EE9CD054CC6C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledMask_t360C2709D699BB12A2A7A6A7193585C08433F6FE_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_display), (&___1_file), (&___2_options), (&___3_top), (&___4_down));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StyledMask__ctor_m16C20A4AAFD092BD2B91031D9161EE9CD054CC6C_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 213));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 214));
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMask.cs:7>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 215));
 		__this->___display = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___display), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMask.cs:8>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 216));
 		__this->___file = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___file), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMask.cs:9>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 217));
 		__this->___options = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___options), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMask.cs:11>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 218));
+		__this->___top = 0;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMask.cs:12>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 219));
+		__this->___down = 0;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMask.cs:23>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 220));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 221));
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 221));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 222));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMask.cs:25>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 223));
 		String_t* L_0 = ___0_display;
 		__this->___display = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___display), (void*)L_0);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMask.cs:26>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 224));
 		String_t* L_1 = ___1_file;
 		__this->___file = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___file), (void*)L_1);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMask.cs:27>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 225));
 		String_t* L_2 = ___2_options;
 		__this->___options = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___options), (void*)L_2);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMask.cs:29>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 226));
 		int32_t L_3 = ___3_top;
 		__this->___top = L_3;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMask.cs:30>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 227));
 		int32_t L_4 = ___4_down;
 		__this->___down = L_4;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMask.cs:31>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 228));
 		return;
 	}
 }
@@ -1606,49 +2184,91 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledMask__ctor_m16C20A4AAFD092BD2B9103
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 94880
+// Method Definition Index: 95204
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledMessage__ctor_m4E4A482EB98BBF0EBDDDEDE1C06EB51783135697 (StyledMessage_t9125BC8B5131542BF991B29F46D2AFF0B0CD991C* __this, String_t* ___0_type, String_t* ___1_message, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledMessage__ctor_m4E4A482EB98BBF0EBDDDEDE1C06EB51783135697_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledMessage_t9125BC8B5131542BF991B29F46D2AFF0B0CD991C_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_type), (&___1_message));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StyledMessage__ctor_m4E4A482EB98BBF0EBDDDEDE1C06EB51783135697_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 229));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 230));
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMessage.cs:15>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 231));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 232));
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 232));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 233));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMessage.cs:17>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 234));
 		String_t* L_0 = ___0_type;
 		__this->___type = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___type), (void*)L_0);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMessage.cs:18>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 235));
 		String_t* L_1 = ___1_message;
 		__this->___message = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___message), (void*)L_1);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMessage.cs:19>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 236));
 		__this->___top = (0.0f);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMessage.cs:20>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 237));
 		__this->___down = (0.0f);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMessage.cs:21>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 238));
 		return;
 	}
 }
-// Method Definition Index: 94881
+// Method Definition Index: 95205
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledMessage__ctor_m6CF47C2A3F6D0083B4E76D95DDD212C51B1DAE04 (StyledMessage_t9125BC8B5131542BF991B29F46D2AFF0B0CD991C* __this, String_t* ___0_type, String_t* ___1_message, float ___2_top, float ___3_down, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledMessage__ctor_m6CF47C2A3F6D0083B4E76D95DDD212C51B1DAE04_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledMessage_t9125BC8B5131542BF991B29F46D2AFF0B0CD991C_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_type), (&___1_message), (&___2_top), (&___3_down));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StyledMessage__ctor_m6CF47C2A3F6D0083B4E76D95DDD212C51B1DAE04_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 239));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 240));
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMessage.cs:23>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 241));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 242));
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 242));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 243));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMessage.cs:25>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 244));
 		String_t* L_0 = ___0_type;
 		__this->___type = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___type), (void*)L_0);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMessage.cs:26>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 245));
 		String_t* L_1 = ___1_message;
 		__this->___message = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___message), (void*)L_1);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMessage.cs:27>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 246));
 		float L_2 = ___2_top;
 		__this->___top = L_2;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMessage.cs:28>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 247));
 		float L_3 = ___3_down;
 		__this->___down = L_3;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMessage.cs:29>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 248));
 		return;
 	}
 }
@@ -1660,27 +2280,48 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledMessage__ctor_m6CF47C2A3F6D0083B4E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 94882
+// Method Definition Index: 95206
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledRangeOptions__ctor_m1DBB842DE428EFF540D2B519249F0C555BA3E9C1 (StyledRangeOptions_t6168F2B8FD5CCCB82C26242146A6CFE4B4C0D6AA* __this, String_t* ___0_display, float ___1_min, float ___2_max, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___3_options, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledRangeOptions__ctor_m1DBB842DE428EFF540D2B519249F0C555BA3E9C1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledRangeOptions_t6168F2B8FD5CCCB82C26242146A6CFE4B4C0D6AA_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_display), (&___1_min), (&___2_max), (&___3_options));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StyledRangeOptions__ctor_m1DBB842DE428EFF540D2B519249F0C555BA3E9C1_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 249));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 250));
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledRangeOptions.cs:14>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 251));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 252));
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 252));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 253));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledRangeOptions.cs:16>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 254));
 		String_t* L_0 = ___0_display;
 		__this->___display = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___display), (void*)L_0);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledRangeOptions.cs:17>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 255));
 		float L_1 = ___1_min;
 		__this->___min = L_1;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledRangeOptions.cs:18>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 256));
 		float L_2 = ___2_max;
 		__this->___max = L_2;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledRangeOptions.cs:20>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 257));
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3 = ___3_options;
 		__this->___options = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___options), (void*)L_3);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledRangeOptions.cs:21>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 258));
 		return;
 	}
 }
@@ -1692,16 +2333,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledRangeOptions__ctor_m1DBB842DE428EF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 94883
+// Method Definition Index: 95207
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledSpace__ctor_mE1F660F326B9CEFAA3038C0379C710C28B214298 (StyledSpace_t59FD27079C76ABD7E62742DD3FC6B4D1A44F3C7C* __this, int32_t ___0_space, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledSpace__ctor_mE1F660F326B9CEFAA3038C0379C710C28B214298_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledSpace_t59FD27079C76ABD7E62742DD3FC6B4D1A44F3C7C_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_space));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StyledSpace__ctor_mE1F660F326B9CEFAA3038C0379C710C28B214298_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 259));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 260));
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledSpace.cs:9>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 261));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 262));
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 262));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 263));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledSpace.cs:11>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 264));
 		int32_t L_0 = ___0_space;
 		__this->___space = L_0;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledSpace.cs:12>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 265));
 		return;
 	}
 }
@@ -1713,78 +2372,141 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledSpace__ctor_mE1F660F326B9CEFAA3038
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 94884
+// Method Definition Index: 95208
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledText__ctor_mB8D1A97A3AC3A6BA5C7AC4EEF5925F1021ADB5E4 (StyledText_t6AF253489FCD62B6143C76036C6385023FF1FE56* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledText__ctor_mB8D1A97A3AC3A6BA5C7AC4EEF5925F1021ADB5E4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledText_t6AF253489FCD62B6143C76036C6385023FF1FE56_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StyledText__ctor_mB8D1A97A3AC3A6BA5C7AC4EEF5925F1021ADB5E4_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 266));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 267));
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledText.cs:9>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 268));
 		__this->___text = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___text), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledText.cs:10>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 269));
 		__this->___alignment = 4;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledText.cs:11>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 270));
+		__this->___top = (0.0f);
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledText.cs:12>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 271));
+		__this->___down = (0.0f);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledText.cs:14>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 272));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 273));
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 273));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 274));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledText.cs:17>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 275));
 		return;
 	}
 }
-// Method Definition Index: 94885
+// Method Definition Index: 95209
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledText__ctor_m551C922D9B4487646AB9A14128599E9C4DA8B7B6 (StyledText_t6AF253489FCD62B6143C76036C6385023FF1FE56* __this, int32_t ___0_alignment, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledText__ctor_m551C922D9B4487646AB9A14128599E9C4DA8B7B6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledText_t6AF253489FCD62B6143C76036C6385023FF1FE56_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_alignment));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StyledText__ctor_m551C922D9B4487646AB9A14128599E9C4DA8B7B6_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 276));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 277));
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledText.cs:9>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 278));
 		__this->___text = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___text), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledText.cs:10>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 279));
 		__this->___alignment = 4;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledText.cs:11>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 280));
+		__this->___top = (0.0f);
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledText.cs:12>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 281));
+		__this->___down = (0.0f);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledText.cs:19>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 282));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 283));
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 283));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 284));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledText.cs:21>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 285));
 		int32_t L_0 = ___0_alignment;
 		__this->___alignment = L_0;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledText.cs:22>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 286));
 		return;
 	}
 }
-// Method Definition Index: 94886
+// Method Definition Index: 95210
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledText__ctor_mEC668FA735717798B07FBC1C90E5FE27CD15AA5B (StyledText_t6AF253489FCD62B6143C76036C6385023FF1FE56* __this, int32_t ___0_alignment, float ___1_top, float ___2_down, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledText__ctor_mEC668FA735717798B07FBC1C90E5FE27CD15AA5B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledText_t6AF253489FCD62B6143C76036C6385023FF1FE56_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_alignment), (&___1_top), (&___2_down));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StyledText__ctor_mEC668FA735717798B07FBC1C90E5FE27CD15AA5B_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 287));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 288));
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledText.cs:9>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 289));
 		__this->___text = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___text), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledText.cs:10>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 290));
 		__this->___alignment = 4;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledText.cs:11>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 291));
+		__this->___top = (0.0f);
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledText.cs:12>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 292));
+		__this->___down = (0.0f);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledText.cs:24>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 293));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 294));
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 294));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 295));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledText.cs:26>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 296));
 		int32_t L_0 = ___0_alignment;
 		__this->___alignment = L_0;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledText.cs:27>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 297));
 		float L_1 = ___1_top;
 		__this->___top = L_1;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledText.cs:28>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 298));
 		float L_2 = ___2_down;
 		__this->___down = L_2;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledText.cs:29>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 299));
 		return;
 	}
 }
@@ -1796,48 +2518,75 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledText__ctor_mEC668FA735717798B07FBC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 94887
+// Method Definition Index: 95211
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledTexturePreview__ctor_mA78F6E06AF7E47CF622EF3C2148685CA7BAC03D6 (StyledTexturePreview_tB32E2E0081B25926B06D4DEE527D9B189F8575AF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledTexturePreview__ctor_mA78F6E06AF7E47CF622EF3C2148685CA7BAC03D6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledTexturePreview_tB32E2E0081B25926B06D4DEE527D9B189F8575AF_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StyledTexturePreview__ctor_mA78F6E06AF7E47CF622EF3C2148685CA7BAC03D6_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 300));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 301));
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledTexturePreview.cs:7>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 302));
 		__this->___displayName = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___displayName), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledTexturePreview.cs:9>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 303));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 304));
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 304));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 305));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledTexturePreview.cs:11>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 306));
 		__this->___displayName = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___displayName), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledTexturePreview.cs:12>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 307));
 		return;
 	}
 }
-// Method Definition Index: 94888
+// Method Definition Index: 95212
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledTexturePreview__ctor_mAE0EA95597346BCEC7F6CF349BDD0B60F4802974 (StyledTexturePreview_tB32E2E0081B25926B06D4DEE527D9B189F8575AF* __this, String_t* ___0_displayName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledTexturePreview__ctor_mAE0EA95597346BCEC7F6CF349BDD0B60F4802974_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledTexturePreview_tB32E2E0081B25926B06D4DEE527D9B189F8575AF_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_displayName));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StyledTexturePreview__ctor_mAE0EA95597346BCEC7F6CF349BDD0B60F4802974_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 308));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 309));
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledTexturePreview.cs:7>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 310));
 		__this->___displayName = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___displayName), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledTexturePreview.cs:14>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 311));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 312));
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 312));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 313));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledTexturePreview.cs:16>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 314));
 		String_t* L_0 = ___0_displayName;
 		__this->___displayName = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___displayName), (void*)L_0);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledTexturePreview.cs:17>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 315));
 		return;
 	}
 }
@@ -1849,9 +2598,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledTexturePreview__ctor_mAE0EA9559734
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 94889
+// Method Definition Index: 95213
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledMonoBehaviour__ctor_m703C907E17DDF775F58DF784F489640892F67FF6 (StyledMonoBehaviour_tDA9B90EBB48C52C6B19543B44A4E21055F155A7B* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledMonoBehaviour__ctor_m703C907E17DDF775F58DF784F489640892F67FF6_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StyledMonoBehaviour__ctor_m703C907E17DDF775F58DF784F489640892F67FF6_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -1865,9 +2622,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledMonoBehaviour__ctor_m703C907E17DDF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 94890
+// Method Definition Index: 95214
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledScriptableObject__ctor_m404FB06ACD2D0B9DB75A91423E37F92798DABE31 (StyledScriptableObject_t39DCE01A8A0420094720CEF0A39A2E90F8F3CBE3* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyledScriptableObject__ctor_m404FB06ACD2D0B9DB75A91423E37F92798DABE31_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, StyledScriptableObject__ctor_m404FB06ACD2D0B9DB75A91423E37F92798DABE31_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF(__this, NULL);
 		return;
@@ -1881,9 +2646,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledScriptableObject__ctor_m404FB06ACD
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 94891
+// Method Definition Index: 95215
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Notebox__ctor_m416F2F2A91BAC94AFB325869390979FC9E560F00 (Notebox_tB57229C6990F3C3CCDEABC25B47C82C6F016B5E0* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Notebox__ctor_m416F2F2A91BAC94AFB325869390979FC9E560F00_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Notebox__ctor_m416F2F2A91BAC94AFB325869390979FC9E560F00_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -1897,36 +2670,61 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Notebox__ctor_m416F2F2A91BAC94AFB3258693
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 94892
+// Method Definition Index: 95216
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CamController_Start_mDB7469AC84485ADDB2FFC6F7F190B765EB18E01D (CamController_t142B21D3820925002E14EF1FED0BE7D331DC8B4D* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CamController_Start_mDB7469AC84485ADDB2FFC6F7F190B765EB18E01D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CamController_t142B21D3820925002E14EF1FED0BE7D331DC8B4D_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, CamController_Start_mDB7469AC84485ADDB2FFC6F7F190B765EB18E01D_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 316));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 317));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 318));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/CamController.cs:17>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 319));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 320));
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 320));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 321));
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Transform_get_eulerAngles_mCAAF48EFCF628F1ED91C2FFE75A4FD19C039DD6A(L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 321));
 		float L_2 = L_1.___y;
 		__this->___yaw = L_2;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/CamController.cs:18>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 322));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 323));
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
 		L_3 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 323));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 324));
 		NullCheck(L_3);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
 		L_4 = Transform_get_eulerAngles_mCAAF48EFCF628F1ED91C2FFE75A4FD19C039DD6A(L_3, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 324));
 		float L_5 = L_4.___x;
 		__this->___pitch = L_5;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/CamController.cs:19>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 325));
 		return;
 	}
 }
-// Method Definition Index: 94893
+// Method Definition Index: 95217
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CamController_Update_m4100D5028F46EABBEB2F6ED20A2D57AE16C9BBA6 (CamController_t142B21D3820925002E14EF1FED0BE7D331DC8B4D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CamController_Update_m4100D5028F46EABBEB2F6ED20A2D57AE16C9BBA6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CamController_t142B21D3820925002E14EF1FED0BE7D331DC8B4D_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral16DD21BE77B115D392226EB71A2D3A9FDC29E3F0);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral265E15F1F86F1C766555899D5771CF29055DE75A);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7F8C014BD4810CC276D0F9F81A1E759C7B098B1E);
@@ -1936,99 +2734,182 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CamController_Update_m4100D5028F46EABBEB
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	float V_2 = 0.0f;
+	bool V_3 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, CamController_Update_m4100D5028F46EABBEB2F6ED20A2D57AE16C9BBA6_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 326));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 327));
+	int32_t G_B3_0 = 0;
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 328));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/CamController.cs:23>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 329));
 		float L_0 = __this->___movementSpeed;
 		V_0 = L_0;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/CamController.cs:24>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 330));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 331));
 		bool L_1;
 		L_1 = Input_GetKey_mE5681EF775F3CEBA7EAD7C63984F7B34C8E8D434(((int32_t)304), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 331));
 		if (L_1)
 		{
-			goto IL_001f;
+			goto IL_0020;
 		}
 	}
 	{
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 332));
 		bool L_2;
 		L_2 = Input_GetKey_mE5681EF775F3CEBA7EAD7C63984F7B34C8E8D434(((int32_t)303), NULL);
-		if (!L_2)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 332));
+		G_B3_0 = ((int32_t)(L_2));
+		goto IL_0021;
+	}
+
+IL_0020:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_0021:
+	{
+		V_3 = (bool)G_B3_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 333));
+		bool L_3 = V_3;
+		if (!L_3)
 		{
-			goto IL_0028;
+			goto IL_0030;
 		}
 	}
-
-IL_001f:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 334));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/CamController.cs:26>
-		float L_3 = V_0;
-		float L_4 = __this->___accelerationMultiplier;
-		V_0 = ((float)il2cpp_codegen_multiply(L_3, L_4));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 335));
+		float L_4 = V_0;
+		float L_5 = __this->___accelerationMultiplier;
+		V_0 = ((float)il2cpp_codegen_multiply(L_4, L_5));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 336));
 	}
 
-IL_0028:
+IL_0030:
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/CamController.cs:29>
-		float L_5;
-		L_5 = Input_GetAxis_m10372E6C5FF591668D2DC5F58C58D213CC598A62(_stringLiteral7F8C014BD4810CC276D0F9F81A1E759C7B098B1E, NULL);
-		float L_6 = V_0;
-		float L_7;
-		L_7 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
-		V_1 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_5, L_6)), L_7));
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/CamController.cs:30>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 337));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 338));
+		float L_6;
+		L_6 = Input_GetAxis_m10372E6C5FF591668D2DC5F58C58D213CC598A62(_stringLiteral7F8C014BD4810CC276D0F9F81A1E759C7B098B1E, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 338));
+		float L_7 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 339));
 		float L_8;
-		L_8 = Input_GetAxis_m10372E6C5FF591668D2DC5F58C58D213CC598A62(_stringLiteral265E15F1F86F1C766555899D5771CF29055DE75A, NULL);
-		float L_9 = V_0;
-		float L_10;
-		L_10 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
-		V_2 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_8, L_9)), L_10));
+		L_8 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 339));
+		V_1 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_6, L_7)), L_8));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/CamController.cs:30>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 340));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 341));
+		float L_9;
+		L_9 = Input_GetAxis_m10372E6C5FF591668D2DC5F58C58D213CC598A62(_stringLiteral265E15F1F86F1C766555899D5771CF29055DE75A, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 341));
+		float L_10 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 342));
+		float L_11;
+		L_11 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 342));
+		V_2 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_9, L_10)), L_11));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/CamController.cs:32>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11;
-		L_11 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
-		float L_12 = V_1;
-		float L_13 = V_2;
-		NullCheck(L_11);
-		Transform_Translate_mB42A27EE20E123E0B47336F795B62B017489E3F7(L_11, L_12, (0.0f), L_13, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 343));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 344));
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
+		L_12 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 344));
+		float L_13 = V_1;
+		float L_14 = V_2;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 345));
+		NullCheck(L_12);
+		Transform_Translate_mB42A27EE20E123E0B47336F795B62B017489E3F7(L_12, L_13, (0.0f), L_14, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 345));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/CamController.cs:34>
-		float L_14 = __this->___yaw;
-		float L_15 = __this->___sensitivity;
-		float L_16;
-		L_16 = Input_GetAxis_m10372E6C5FF591668D2DC5F58C58D213CC598A62(_stringLiteral88BEE283254D7094E258B3A88730F4CC4F1E4AC7, NULL);
-		__this->___yaw = ((float)il2cpp_codegen_add(L_14, ((float)il2cpp_codegen_multiply(L_15, L_16))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 346));
+		float L_15 = __this->___yaw;
+		float L_16 = __this->___sensitivity;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 347));
+		float L_17;
+		L_17 = Input_GetAxis_m10372E6C5FF591668D2DC5F58C58D213CC598A62(_stringLiteral88BEE283254D7094E258B3A88730F4CC4F1E4AC7, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 347));
+		__this->___yaw = ((float)il2cpp_codegen_add(L_15, ((float)il2cpp_codegen_multiply(L_16, L_17))));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/CamController.cs:35>
-		float L_17 = __this->___pitch;
-		float L_18 = __this->___sensitivity;
-		float L_19;
-		L_19 = Input_GetAxis_m10372E6C5FF591668D2DC5F58C58D213CC598A62(_stringLiteral16DD21BE77B115D392226EB71A2D3A9FDC29E3F0, NULL);
-		__this->___pitch = ((float)il2cpp_codegen_subtract(L_17, ((float)il2cpp_codegen_multiply(L_18, L_19))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 348));
+		float L_18 = __this->___pitch;
+		float L_19 = __this->___sensitivity;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 349));
+		float L_20;
+		L_20 = Input_GetAxis_m10372E6C5FF591668D2DC5F58C58D213CC598A62(_stringLiteral16DD21BE77B115D392226EB71A2D3A9FDC29E3F0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 349));
+		__this->___pitch = ((float)il2cpp_codegen_subtract(L_18, ((float)il2cpp_codegen_multiply(L_19, L_20))));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/CamController.cs:36>
-		float L_20 = __this->___pitch;
-		float L_21;
-		L_21 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_20, (-90.0f), (90.0f), NULL);
-		__this->___pitch = L_21;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 350));
+		float L_21 = __this->___pitch;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 351));
+		float L_22;
+		L_22 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_21, (-90.0f), (90.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 351));
+		__this->___pitch = L_22;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/CamController.cs:38>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_22;
-		L_22 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
-		float L_23 = __this->___pitch;
-		float L_24 = __this->___yaw;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_25;
-		L_25 = Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline(L_23, L_24, (0.0f), NULL);
-		NullCheck(L_22);
-		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_22, L_25, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 352));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 353));
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_23;
+		L_23 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 353));
+		float L_24 = __this->___pitch;
+		float L_25 = __this->___yaw;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 354));
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_26;
+		L_26 = Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline(L_24, L_25, (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 354));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 355));
+		NullCheck(L_23);
+		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_23, L_26, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 355));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/CamController.cs:39>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 356));
 		return;
 	}
 }
-// Method Definition Index: 94894
+// Method Definition Index: 95218
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CamController__ctor_mAF9FD4885FE8A02E0B09525BC45E68C698626A67 (CamController_t142B21D3820925002E14EF1FED0BE7D331DC8B4D* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CamController__ctor_mAF9FD4885FE8A02E0B09525BC45E68C698626A67_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CamController_t142B21D3820925002E14EF1FED0BE7D331DC8B4D_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, CamController__ctor_mAF9FD4885FE8A02E0B09525BC45E68C698626A67_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 357));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 358));
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/CamController.cs:7>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 359));
 		__this->___movementSpeed = (5.0f);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/CamController.cs:8>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 360));
 		__this->___accelerationMultiplier = (2.0f);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/CamController.cs:9>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 361));
 		__this->___sensitivity = (2.0f);
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/CamController.cs:11>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 362));
+		__this->___yaw = (0.0f);
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/CamController.cs:12>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 363));
+		__this->___pitch = (0.0f);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 364));
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 364));
 		return;
 	}
 }
@@ -2040,36 +2921,56 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CamController__ctor_mAF9FD4885FE8A02E0B0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 94895
+// Method Definition Index: 95219
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FPSController_Start_m8753E0124AA1CA677A81AC26DB8E89130A50DECE (FPSController_t8694A58ECF5A2944D751D43976D63B1B8155C5E7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisCharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A_m96B48A644EDC97C5C82F154D1FEA551B2E392040_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FPSController_Start_m8753E0124AA1CA677A81AC26DB8E89130A50DECE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FPSController_t8694A58ECF5A2944D751D43976D63B1B8155C5E7_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, FPSController_Start_m8753E0124AA1CA677A81AC26DB8E89130A50DECE_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 365));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 366));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 367));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/FPSController.cs:24>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 368));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 369));
 		CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* L_0;
 		L_0 = Component_GetComponent_TisCharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A_m96B48A644EDC97C5C82F154D1FEA551B2E392040(__this, Component_GetComponent_TisCharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A_m96B48A644EDC97C5C82F154D1FEA551B2E392040_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 369));
 		__this->___characterController = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___characterController), (void*)L_0);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/FPSController.cs:26>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 370));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 371));
 		Cursor_set_lockState_mD81F6E5F3D86506FFB88567689A3A00A7AD242E9(1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 371));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/FPSController.cs:27>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 372));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 373));
 		Cursor_set_visible_m612FCB2E86C15F91CE2E6148D1B556667954A2B7((bool)0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 373));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/FPSController.cs:28>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 374));
 		return;
 	}
 }
-// Method Definition Index: 94896
+// Method Definition Index: 95220
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FPSController_Update_mE8994F02DCF9EF202424DEA32BDB8A187B21D32D (FPSController_t8694A58ECF5A2944D751D43976D63B1B8155C5E7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FPSController_Update_mE8994F02DCF9EF202424DEA32BDB8A187B21D32D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FPSController_t8694A58ECF5A2944D751D43976D63B1B8155C5E7_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral16DD21BE77B115D392226EB71A2D3A9FDC29E3F0);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral265E15F1F86F1C766555899D5771CF29055DE75A);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7F8C014BD4810CC276D0F9F81A1E759C7B098B1E);
@@ -2081,153 +2982,274 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FPSController_Update_mE8994F02DCF9EF2024
 	memset((&V_1), 0, sizeof(V_1));
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	bool V_4 = false;
+	bool V_5 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_2), (&V_3));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, FPSController_Update_mE8994F02DCF9EF202424DEA32BDB8A187B21D32D_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 375));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 376));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 377));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/FPSController.cs:32>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 378));
 		V_0 = (1.0f);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/FPSController.cs:34>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 379));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 380));
 		bool L_0;
 		L_0 = Input_GetKey_mE5681EF775F3CEBA7EAD7C63984F7B34C8E8D434(((int32_t)304), NULL);
-		if (!L_0)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 380));
+		V_4 = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 381));
+		bool L_1 = V_4;
+		if (!L_1)
 		{
-			goto IL_0018;
+			goto IL_001f;
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 382));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/FPSController.cs:36>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 383));
 		V_0 = (3.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 384));
 	}
 
-IL_0018:
+IL_001f:
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/FPSController.cs:39>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
-		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
-		L_2 = Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline(NULL);
-		NullCheck(L_1);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 385));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 386));
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
+		L_2 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 386));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 387));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
-		L_3 = Transform_TransformDirection_m9BE1261DF2D48B7A4A27D31EE24D2D97F89E7757(L_1, L_2, NULL);
+		L_3 = Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 387));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 388));
+		NullCheck(L_2);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Transform_TransformDirection_m9BE1261DF2D48B7A4A27D31EE24D2D97F89E7757(L_2, L_3, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 388));
+		V_1 = L_4;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/FPSController.cs:40>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
-		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
-		L_5 = Vector3_get_right_mFF573AFBBB2186E7AFA1BA7CA271A78DF67E4EA0_inline(NULL);
-		NullCheck(L_4);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 389));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 390));
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
+		L_5 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 390));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 391));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
-		L_6 = Transform_TransformDirection_m9BE1261DF2D48B7A4A27D31EE24D2D97F89E7757(L_4, L_5, NULL);
-		V_1 = L_6;
+		L_6 = Vector3_get_right_mFF573AFBBB2186E7AFA1BA7CA271A78DF67E4EA0_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 391));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 392));
+		NullCheck(L_5);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = Transform_TransformDirection_m9BE1261DF2D48B7A4A27D31EE24D2D97F89E7757(L_5, L_6, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 392));
+		V_2 = L_7;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/FPSController.cs:41>
-		float L_7 = __this->___walkingSpeed;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
-		L_8 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_3, L_7, NULL);
-		float L_9 = V_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 393));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = V_1;
+		float L_9 = __this->___walkingSpeed;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 394));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
 		L_10 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_8, L_9, NULL);
-		float L_11;
-		L_11 = Input_GetAxis_m10372E6C5FF591668D2DC5F58C58D213CC598A62(_stringLiteral265E15F1F86F1C766555899D5771CF29055DE75A, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 394));
+		float L_11 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 395));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
 		L_12 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_10, L_11, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_1;
-		float L_14 = __this->___walkingSpeed;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15;
-		L_15 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_13, L_14, NULL);
-		float L_16 = V_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 395));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 396));
+		float L_13;
+		L_13 = Input_GetAxis_m10372E6C5FF591668D2DC5F58C58D213CC598A62(_stringLiteral265E15F1F86F1C766555899D5771CF29055DE75A, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 396));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 397));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
+		L_14 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_12, L_13, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 397));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15 = V_2;
+		float L_16 = __this->___walkingSpeed;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 398));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17;
 		L_17 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_15, L_16, NULL);
-		float L_18;
-		L_18 = Input_GetAxis_m10372E6C5FF591668D2DC5F58C58D213CC598A62(_stringLiteral7F8C014BD4810CC276D0F9F81A1E759C7B098B1E, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 398));
+		float L_18 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 399));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19;
 		L_19 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_17, L_18, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20;
-		L_20 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_12, L_19, NULL);
-		V_2 = L_20;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 399));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 400));
+		float L_20;
+		L_20 = Input_GetAxis_m10372E6C5FF591668D2DC5F58C58D213CC598A62(_stringLiteral7F8C014BD4810CC276D0F9F81A1E759C7B098B1E, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 400));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 401));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21;
+		L_21 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_19, L_20, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 401));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 402));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22;
+		L_22 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_14, L_21, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 402));
+		V_3 = L_22;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/FPSController.cs:43>
-		CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* L_21 = __this->___characterController;
-		NullCheck(L_21);
-		bool L_22;
-		L_22 = CharacterController_get_isGrounded_m548072EC190878925C0F97595B6C307714EFDD67(L_21, NULL);
-		if (L_22)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 403));
+		CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* L_23 = __this->___characterController;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 404));
+		NullCheck(L_23);
+		bool L_24;
+		L_24 = CharacterController_get_isGrounded_m548072EC190878925C0F97595B6C307714EFDD67(L_23, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 404));
+		V_5 = (bool)((((int32_t)L_24) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 405));
+		bool L_25 = V_5;
+		if (!L_25)
 		{
-			goto IL_0099;
+			goto IL_00ab;
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 406));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/FPSController.cs:45>
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23 = V_2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 407));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26 = V_3;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 408));
 		il2cpp_codegen_runtime_class_init_inline(Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24;
-		L_24 = Physics_get_gravity_m94393492AE4ED8B38A22ECCDCD2DDDB71BFA010D(NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25;
-		L_25 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_23, L_24, NULL);
-		V_2 = L_25;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27;
+		L_27 = Physics_get_gravity_m94393492AE4ED8B38A22ECCDCD2DDDB71BFA010D(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 408));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 409));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28;
+		L_28 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_26, L_27, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 409));
+		V_3 = L_28;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 410));
 	}
 
-IL_0099:
+IL_00ab:
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/FPSController.cs:48>
-		CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* L_26 = __this->___characterController;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27 = V_2;
-		float L_28;
-		L_28 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_29;
-		L_29 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_27, L_28, NULL);
-		NullCheck(L_26);
-		int32_t L_30;
-		L_30 = CharacterController_Move_mE3F7AC1B4A2D6955980811C088B68ED3A31D2DA4(L_26, L_29, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 411));
+		CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* L_29 = __this->___characterController;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_30 = V_3;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 412));
+		float L_31;
+		L_31 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 412));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 413));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32;
+		L_32 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_30, L_31, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 413));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 414));
+		NullCheck(L_29);
+		int32_t L_33;
+		L_33 = CharacterController_Move_mE3F7AC1B4A2D6955980811C088B68ED3A31D2DA4(L_29, L_32, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 414));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/FPSController.cs:50>
-		float L_31 = __this->___rotationX;
-		float L_32;
-		L_32 = Input_GetAxis_m10372E6C5FF591668D2DC5F58C58D213CC598A62(_stringLiteral16DD21BE77B115D392226EB71A2D3A9FDC29E3F0, NULL);
-		float L_33 = __this->___lookSpeed;
-		__this->___rotationX = ((float)il2cpp_codegen_add(L_31, ((float)il2cpp_codegen_multiply(((-L_32)), L_33))));
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/FPSController.cs:51>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 415));
 		float L_34 = __this->___rotationX;
-		float L_35 = __this->___lookXLimit;
-		float L_36 = __this->___lookXLimit;
-		float L_37;
-		L_37 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_34, ((-L_35)), L_36, NULL);
-		__this->___rotationX = L_37;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 416));
+		float L_35;
+		L_35 = Input_GetAxis_m10372E6C5FF591668D2DC5F58C58D213CC598A62(_stringLiteral16DD21BE77B115D392226EB71A2D3A9FDC29E3F0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 416));
+		float L_36 = __this->___lookSpeed;
+		__this->___rotationX = ((float)il2cpp_codegen_add(L_34, ((float)il2cpp_codegen_multiply(((-L_35)), L_36))));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/FPSController.cs:51>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 417));
+		float L_37 = __this->___rotationX;
+		float L_38 = __this->___lookXLimit;
+		float L_39 = __this->___lookXLimit;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 418));
+		float L_40;
+		L_40 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_37, ((-L_38)), L_39, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 418));
+		__this->___rotationX = L_40;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/FPSController.cs:52>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_38 = __this->___playerCamera;
-		NullCheck(L_38);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_39;
-		L_39 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_38, NULL);
-		float L_40 = __this->___rotationX;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_41;
-		L_41 = Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline(L_40, (0.0f), (0.0f), NULL);
-		NullCheck(L_39);
-		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_39, L_41, NULL);
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/FPSController.cs:53>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 419));
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_41 = __this->___playerCamera;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 420));
+		NullCheck(L_41);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_42;
-		L_42 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_43 = L_42;
-		NullCheck(L_43);
+		L_42 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_41, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 420));
+		float L_43 = __this->___rotationX;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 421));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_44;
-		L_44 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_43, NULL);
-		float L_45;
-		L_45 = Input_GetAxis_m10372E6C5FF591668D2DC5F58C58D213CC598A62(_stringLiteral88BEE283254D7094E258B3A88730F4CC4F1E4AC7, NULL);
-		float L_46 = __this->___lookSpeed;
+		L_44 = Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline(L_43, (0.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 421));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 422));
+		NullCheck(L_42);
+		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_42, L_44, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 422));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/FPSController.cs:53>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 423));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 424));
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_45;
+		L_45 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 424));
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_46 = L_45;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 425));
+		NullCheck(L_46);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_47;
-		L_47 = Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline((0.0f), ((float)il2cpp_codegen_multiply(L_45, L_46)), (0.0f), NULL);
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_48;
-		L_48 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_44, L_47, NULL);
-		NullCheck(L_43);
-		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_43, L_48, NULL);
+		L_47 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_46, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 425));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 426));
+		float L_48;
+		L_48 = Input_GetAxis_m10372E6C5FF591668D2DC5F58C58D213CC598A62(_stringLiteral88BEE283254D7094E258B3A88730F4CC4F1E4AC7, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 426));
+		float L_49 = __this->___lookSpeed;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 427));
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_50;
+		L_50 = Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline((0.0f), ((float)il2cpp_codegen_multiply(L_48, L_49)), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 427));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 428));
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_51;
+		L_51 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_47, L_50, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 428));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 429));
+		NullCheck(L_46);
+		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_46, L_51, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 429));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/FPSController.cs:55>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 430));
 		return;
 	}
 }
-// Method Definition Index: 94897
+// Method Definition Index: 95221
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FPSController__ctor_mDE0A5EAB6A5CF795B0093546CC9989F2A16E4DC0 (FPSController_t8694A58ECF5A2944D751D43976D63B1B8155C5E7* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FPSController__ctor_mDE0A5EAB6A5CF795B0093546CC9989F2A16E4DC0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FPSController_t8694A58ECF5A2944D751D43976D63B1B8155C5E7_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, FPSController__ctor_mDE0A5EAB6A5CF795B0093546CC9989F2A16E4DC0_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 431));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 432));
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/FPSController.cs:12>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 433));
 		__this->___walkingSpeed = (2.0f);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/FPSController.cs:13>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 434));
 		__this->___lookSpeed = (2.0f);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/FPSController.cs:14>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 435));
 		__this->___lookXLimit = (45.0f);
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/FPSController.cs:20>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 436));
+		__this->___rotationX = (0.0f);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 437));
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 437));
 		return;
 	}
 }
@@ -2239,80 +3261,162 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FPSController__ctor_mDE0A5EAB6A5CF795B00
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 94898
+// Method Definition Index: 95222
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NPCController_Start_mA219D2543BAB4E9EFC91A23B034794B4FFF8A8B0 (NPCController_tD209B502B7E9EE81293F75C091A942F24E09AE29* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NPCController_Start_mA219D2543BAB4E9EFC91A23B034794B4FFF8A8B0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NPCController_tD209B502B7E9EE81293F75C091A942F24E09AE29_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, NPCController_Start_mA219D2543BAB4E9EFC91A23B034794B4FFF8A8B0_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 438));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 439));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 440));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/NPCController.cs:12>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 441));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 442));
 		NPCController_ChangeDirection_m6B6E16A4DC9CEC2DF1DFBBBA05D6D01639162603(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 442));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/NPCController.cs:13>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 443));
 		return;
 	}
 }
-// Method Definition Index: 94899
+// Method Definition Index: 95223
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NPCController_Update_mC467EAACCF2302C9C2C85586CDDAD2C860C666B6 (NPCController_tD209B502B7E9EE81293F75C091A942F24E09AE29* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NPCController_Update_mC467EAACCF2302C9C2C85586CDDAD2C860C666B6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NPCController_tD209B502B7E9EE81293F75C091A942F24E09AE29_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, NPCController_Update_mC467EAACCF2302C9C2C85586CDDAD2C860C666B6_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 444));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 445));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 446));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/NPCController.cs:17>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 447));
 		float L_0 = __this->___timeToChangeDirection;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 448));
 		float L_1;
 		L_1 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 448));
 		__this->___timeToChangeDirection = ((float)il2cpp_codegen_subtract(L_0, L_1));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/NPCController.cs:19>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 449));
 		float L_2 = __this->___timeToChangeDirection;
-		if ((!(((float)L_2) <= ((float)(0.0f)))))
+		V_0 = (bool)((((int32_t)((!(((float)L_2) <= ((float)(0.0f))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 450));
+		bool L_3 = V_0;
+		if (!L_3)
 		{
-			goto IL_0025;
+			goto IL_0030;
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 451));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/NPCController.cs:21>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 452));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 453));
 		NPCController_ChangeDirection_m6B6E16A4DC9CEC2DF1DFBBBA05D6D01639162603(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 453));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 454));
 	}
 
-IL_0025:
+IL_0030:
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/NPCController.cs:24>
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
-		L_3 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = __this->___direction;
-		NullCheck(L_3);
-		Transform_Translate_m4A9E3D8836586E7562F6A18EBF5F5B6089D8B649(L_3, L_4, 0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 455));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 456));
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
+		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 456));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = __this->___direction;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 457));
+		NullCheck(L_4);
+		Transform_Translate_m4A9E3D8836586E7562F6A18EBF5F5B6089D8B649(L_4, L_5, 0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 457));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/NPCController.cs:25>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 458));
 		return;
 	}
 }
-// Method Definition Index: 94900
+// Method Definition Index: 95224
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NPCController_ChangeDirection_m6B6E16A4DC9CEC2DF1DFBBBA05D6D01639162603 (NPCController_tD209B502B7E9EE81293F75C091A942F24E09AE29* __this, const RuntimeMethod* method) 
 {
-	float V_0 = 0.0f;
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NPCController_ChangeDirection_m6B6E16A4DC9CEC2DF1DFBBBA05D6D01639162603_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NPCController_tD209B502B7E9EE81293F75C091A942F24E09AE29_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, NPCController_ChangeDirection_m6B6E16A4DC9CEC2DF1DFBBBA05D6D01639162603_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 459));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 460));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 461));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/NPCController.cs:29>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 462));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 463));
 		float L_0;
 		L_0 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494((0.00499999989f), (0.00999999978f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 463));
 		V_0 = L_0;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/NPCController.cs:30>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 464));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 465));
 		float L_1;
 		L_1 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494((-1.0f), (1.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 465));
 		float L_2 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 466));
 		float L_3;
 		L_3 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494((-1.0f), (1.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 466));
 		float L_4 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 467));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
 		memset((&L_5), 0, sizeof(L_5));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_5), ((float)il2cpp_codegen_multiply(L_1, L_2)), (0.0f), ((float)il2cpp_codegen_multiply(L_3, L_4)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 467));
 		__this->___direction = L_5;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/NPCController.cs:31>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 468));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 469));
 		float L_6;
 		L_6 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494((0.5f), (2.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 469));
 		__this->___timeToChangeDirection = L_6;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/NPCController.cs:32>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 470));
 		return;
 	}
 }
-// Method Definition Index: 94901
+// Method Definition Index: 95225
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NPCController__ctor_mD4740F0B57A46802A56B39666EF13FB9F95C3C96 (NPCController_tD209B502B7E9EE81293F75C091A942F24E09AE29* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NPCController__ctor_mD4740F0B57A46802A56B39666EF13FB9F95C3C96_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, NPCController__ctor_mD4740F0B57A46802A56B39666EF13FB9F95C3C96_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -2326,7 +3430,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NPCController__ctor_mD4740F0B57A46802A56
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 94902
+// Method Definition Index: 95226
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneSwitch_OnEnable_m3C7E3BF3D5C6743049E8122689CE0DB7596F15F1 (SceneSwitch_tD35DE378E994F341480620428D36BE98F4FCDD83* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2336,6 +3440,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneSwitch_OnEnable_m3C7E3BF3D5C6743049
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GraphicsSettings_t01785CE5CB5C5105CB527619AF4D74BEF417EF1A_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneSwitch_OnEnable_m3C7E3BF3D5C6743049E8122689CE0DB7596F15F1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneSwitch_tD35DE378E994F341480620428D36BE98F4FCDD83_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral03DECF49C988233B9A4A4D34037382DA914166F4);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD41D89DAD98E1F1783260FD0A5A774F557A05F0F);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
@@ -2343,352 +3449,641 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneSwitch_OnEnable_m3C7E3BF3D5C6743049
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
+	bool V_1 = false;
+	bool V_2 = false;
+	bool V_3 = false;
+	bool V_4 = false;
+	bool V_5 = false;
+	bool V_6 = false;
+	bool V_7 = false;
+	bool V_8 = false;
+	bool V_9 = false;
+	bool V_10 = false;
+	bool V_11 = false;
+	bool V_12 = false;
+	bool V_13 = false;
+	bool V_14 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SceneSwitch_OnEnable_m3C7E3BF3D5C6743049E8122689CE0DB7596F15F1_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 471));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 472));
+	int32_t G_B18_0 = 0;
+	int32_t G_B25_0 = 0;
+	int32_t G_B32_0 = 0;
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 473));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/SceneSwitch.cs:43>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 474));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 475));
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		bool L_0;
 		L_0 = Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34(NULL);
-		if (!L_0)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 475));
+		V_1 = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 476));
+		bool L_1 = V_1;
+		if (!L_1)
 		{
-			goto IL_0008;
+			goto IL_0010;
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 477));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/SceneSwitch.cs:45>
-		return;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 478));
+		goto IL_0251;
 	}
 
-IL_0008:
+IL_0010:
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/SceneSwitch.cs:48>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 479));
 		V_0 = 0;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/SceneSwitch.cs:50>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 480));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 481));
 		il2cpp_codegen_runtime_class_init_inline(GraphicsSettings_t01785CE5CB5C5105CB527619AF4D74BEF417EF1A_il2cpp_TypeInfo_var);
-		RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* L_1;
-		L_1 = GraphicsSettings_get_defaultRenderPipeline_m2B69E2AFC36189F7FEF3EB453C8A1A165A5CF9CD(NULL);
+		RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* L_2;
+		L_2 = GraphicsSettings_get_defaultRenderPipeline_m2B69E2AFC36189F7FEF3EB453C8A1A165A5CF9CD(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 481));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 482));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_2;
-		L_2 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_2)
+		bool L_3;
+		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 482));
+		V_2 = L_3;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 483));
+		bool L_4 = V_2;
+		if (!L_4)
 		{
-			goto IL_0051;
+			goto IL_0067;
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 484));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/SceneSwitch.cs:52>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 485));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 486));
 		il2cpp_codegen_runtime_class_init_inline(GraphicsSettings_t01785CE5CB5C5105CB527619AF4D74BEF417EF1A_il2cpp_TypeInfo_var);
-		RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* L_3;
-		L_3 = GraphicsSettings_get_defaultRenderPipeline_m2B69E2AFC36189F7FEF3EB453C8A1A165A5CF9CD(NULL);
-		NullCheck(L_3);
-		Type_t* L_4;
-		L_4 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_3, NULL);
-		NullCheck(L_4);
-		String_t* L_5;
-		L_5 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_4);
+		RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* L_5;
+		L_5 = GraphicsSettings_get_defaultRenderPipeline_m2B69E2AFC36189F7FEF3EB453C8A1A165A5CF9CD(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 486));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 487));
 		NullCheck(L_5);
-		bool L_6;
-		L_6 = String_Contains_m6D77B121FADA7CA5F397C0FABB65DA62DF03B6C3(L_5, _stringLiteralDEAC03BC08603A926530E878D97B96FA6C0CFEED, NULL);
-		if (!L_6)
+		Type_t* L_6;
+		L_6 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_5, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 487));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 488));
+		NullCheck(L_6);
+		String_t* L_7;
+		L_7 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_6);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 488));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 489));
+		NullCheck(L_7);
+		bool L_8;
+		L_8 = String_Contains_m6D77B121FADA7CA5F397C0FABB65DA62DF03B6C3(L_7, _stringLiteralDEAC03BC08603A926530E878D97B96FA6C0CFEED, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 489));
+		V_3 = L_8;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 490));
+		bool L_9 = V_3;
+		if (!L_9)
 		{
-			goto IL_0034;
+			goto IL_0043;
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 491));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/SceneSwitch.cs:54>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 492));
 		V_0 = 1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 493));
 	}
 
-IL_0034:
+IL_0043:
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/SceneSwitch.cs:57>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 494));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 495));
 		il2cpp_codegen_runtime_class_init_inline(GraphicsSettings_t01785CE5CB5C5105CB527619AF4D74BEF417EF1A_il2cpp_TypeInfo_var);
-		RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* L_7;
-		L_7 = GraphicsSettings_get_defaultRenderPipeline_m2B69E2AFC36189F7FEF3EB453C8A1A165A5CF9CD(NULL);
-		NullCheck(L_7);
-		Type_t* L_8;
-		L_8 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_7, NULL);
-		NullCheck(L_8);
-		String_t* L_9;
-		L_9 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_8);
-		NullCheck(L_9);
-		bool L_10;
-		L_10 = String_Contains_m6D77B121FADA7CA5F397C0FABB65DA62DF03B6C3(L_9, _stringLiteral03DECF49C988233B9A4A4D34037382DA914166F4, NULL);
-		if (!L_10)
+		RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* L_10;
+		L_10 = GraphicsSettings_get_defaultRenderPipeline_m2B69E2AFC36189F7FEF3EB453C8A1A165A5CF9CD(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 495));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 496));
+		NullCheck(L_10);
+		Type_t* L_11;
+		L_11 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_10, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 496));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 497));
+		NullCheck(L_11);
+		String_t* L_12;
+		L_12 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_11);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 497));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 498));
+		NullCheck(L_12);
+		bool L_13;
+		L_13 = String_Contains_m6D77B121FADA7CA5F397C0FABB65DA62DF03B6C3(L_12, _stringLiteral03DECF49C988233B9A4A4D34037382DA914166F4, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 498));
+		V_4 = L_13;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 499));
+		bool L_14 = V_4;
+		if (!L_14)
 		{
-			goto IL_0051;
+			goto IL_0066;
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 500));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/SceneSwitch.cs:59>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 501));
 		V_0 = 2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 502));
 	}
 
-IL_0051:
+IL_0066:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 503));
+	}
+
+IL_0067:
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/SceneSwitch.cs:63>
-		RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* L_11;
-		L_11 = QualitySettings_get_renderPipeline_mBED269CBEC7409C297A2A5120DBAF185DCC4AFC8(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 504));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 505));
+		RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* L_15;
+		L_15 = QualitySettings_get_renderPipeline_mBED269CBEC7409C297A2A5120DBAF185DCC4AFC8(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 505));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 506));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_12;
-		L_12 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_11, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_12)
-		{
-			goto IL_0098;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/SceneSwitch.cs:65>
-		RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* L_13;
-		L_13 = QualitySettings_get_renderPipeline_mBED269CBEC7409C297A2A5120DBAF185DCC4AFC8(NULL);
-		NullCheck(L_13);
-		Type_t* L_14;
-		L_14 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_13, NULL);
-		NullCheck(L_14);
-		String_t* L_15;
-		L_15 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_14);
-		NullCheck(L_15);
 		bool L_16;
-		L_16 = String_Contains_m6D77B121FADA7CA5F397C0FABB65DA62DF03B6C3(L_15, _stringLiteralDEAC03BC08603A926530E878D97B96FA6C0CFEED, NULL);
-		if (!L_16)
+		L_16 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_15, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 506));
+		V_5 = L_16;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 507));
+		bool L_17 = V_5;
+		if (!L_17)
 		{
-			goto IL_007b;
+			goto IL_00c0;
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 508));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/SceneSwitch.cs:65>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 509));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 510));
+		RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* L_18;
+		L_18 = QualitySettings_get_renderPipeline_mBED269CBEC7409C297A2A5120DBAF185DCC4AFC8(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 510));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 511));
+		NullCheck(L_18);
+		Type_t* L_19;
+		L_19 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_18, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 511));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 512));
+		NullCheck(L_19);
+		String_t* L_20;
+		L_20 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_19);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 512));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 513));
+		NullCheck(L_20);
+		bool L_21;
+		L_21 = String_Contains_m6D77B121FADA7CA5F397C0FABB65DA62DF03B6C3(L_20, _stringLiteralDEAC03BC08603A926530E878D97B96FA6C0CFEED, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 513));
+		V_6 = L_21;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 514));
+		bool L_22 = V_6;
+		if (!L_22)
+		{
+			goto IL_009c;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 515));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/SceneSwitch.cs:67>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 516));
 		V_0 = 1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 517));
 	}
 
-IL_007b:
+IL_009c:
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/SceneSwitch.cs:70>
-		RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* L_17;
-		L_17 = QualitySettings_get_renderPipeline_mBED269CBEC7409C297A2A5120DBAF185DCC4AFC8(NULL);
-		NullCheck(L_17);
-		Type_t* L_18;
-		L_18 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_17, NULL);
-		NullCheck(L_18);
-		String_t* L_19;
-		L_19 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_18);
-		NullCheck(L_19);
-		bool L_20;
-		L_20 = String_Contains_m6D77B121FADA7CA5F397C0FABB65DA62DF03B6C3(L_19, _stringLiteral03DECF49C988233B9A4A4D34037382DA914166F4, NULL);
-		if (!L_20)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 518));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 519));
+		RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* L_23;
+		L_23 = QualitySettings_get_renderPipeline_mBED269CBEC7409C297A2A5120DBAF185DCC4AFC8(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 519));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 520));
+		NullCheck(L_23);
+		Type_t* L_24;
+		L_24 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_23, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 520));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 521));
+		NullCheck(L_24);
+		String_t* L_25;
+		L_25 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_24);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 521));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 522));
+		NullCheck(L_25);
+		bool L_26;
+		L_26 = String_Contains_m6D77B121FADA7CA5F397C0FABB65DA62DF03B6C3(L_25, _stringLiteral03DECF49C988233B9A4A4D34037382DA914166F4, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 522));
+		V_7 = L_26;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 523));
+		bool L_27 = V_7;
+		if (!L_27)
 		{
-			goto IL_0098;
+			goto IL_00bf;
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 524));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/SceneSwitch.cs:72>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 525));
 		V_0 = 2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 526));
 	}
 
-IL_0098:
+IL_00bf:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 527));
+	}
+
+IL_00c0:
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/SceneSwitch.cs:76>
-		int32_t L_21 = V_0;
-		if (L_21)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 528));
+		int32_t L_28 = V_0;
+		V_8 = (bool)((((int32_t)L_28) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 529));
+		bool L_29 = V_8;
+		if (!L_29)
 		{
-			goto IL_00f8;
+			goto IL_0133;
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 530));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/SceneSwitch.cs:78>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22 = __this->___setupStandard;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 531));
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_30 = __this->___setupStandard;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 532));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_23;
-		L_23 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_22, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_23)
+		bool L_31;
+		L_31 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_30, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 532));
+		if (!L_31)
 		{
-			goto IL_00f8;
+			goto IL_00e7;
 		}
 	}
 	{
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24 = __this->___objectStandard;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_32 = __this->___objectStandard;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 533));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_25;
-		L_25 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_24, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_25)
-		{
-			goto IL_00f8;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/SceneSwitch.cs:80>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_26 = __this->___setupStandard;
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_27;
-		L_27 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
-		NullCheck(L_27);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_28;
-		L_28 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_27, NULL);
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_29;
-		L_29 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811(L_26, L_28, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
-		__this->___objectStandard = L_29;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___objectStandard), (void*)L_29);
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/SceneSwitch.cs:81>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_30 = __this->___objectStandard;
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_31 = __this->___objectStandard;
-		NullCheck(L_31);
-		String_t* L_32;
-		L_32 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_31, NULL);
-		NullCheck(L_32);
-		String_t* L_33;
-		L_33 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_32, _stringLiteralD41D89DAD98E1F1783260FD0A5A774F557A05F0F, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
-		NullCheck(L_30);
-		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_30, L_33, NULL);
+		bool L_33;
+		L_33 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_32, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 533));
+		G_B18_0 = ((int32_t)(L_33));
+		goto IL_00e8;
 	}
 
-IL_00f8:
+IL_00e7:
+	{
+		G_B18_0 = 0;
+	}
+
+IL_00e8:
+	{
+		V_9 = (bool)G_B18_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 534));
+		bool L_34 = V_9;
+		if (!L_34)
+		{
+			goto IL_0132;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 535));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/SceneSwitch.cs:80>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 536));
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_35 = __this->___setupStandard;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 537));
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_36;
+		L_36 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 537));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 538));
+		NullCheck(L_36);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_37;
+		L_37 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_36, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 538));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 539));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_38;
+		L_38 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811(L_35, L_37, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 539));
+		__this->___objectStandard = L_38;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___objectStandard), (void*)L_38);
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/SceneSwitch.cs:81>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 540));
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_39 = __this->___objectStandard;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_40 = __this->___objectStandard;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 541));
+		NullCheck(L_40);
+		String_t* L_41;
+		L_41 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_40, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 541));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 542));
+		NullCheck(L_41);
+		String_t* L_42;
+		L_42 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_41, _stringLiteralD41D89DAD98E1F1783260FD0A5A774F557A05F0F, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 542));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 543));
+		NullCheck(L_39);
+		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_39, L_42, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 543));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 544));
+	}
+
+IL_0132:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 545));
+	}
+
+IL_0133:
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/SceneSwitch.cs:85>
-		int32_t L_34 = V_0;
-		if ((!(((uint32_t)L_34) == ((uint32_t)1))))
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 546));
+		int32_t L_43 = V_0;
+		V_10 = (bool)((((int32_t)L_43) == ((int32_t)1))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 547));
+		bool L_44 = V_10;
+		if (!L_44)
 		{
-			goto IL_0159;
+			goto IL_01a6;
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 548));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/SceneSwitch.cs:87>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_35 = __this->___setupUniversal;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 549));
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_45 = __this->___setupUniversal;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 550));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_36;
-		L_36 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_35, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_36)
+		bool L_46;
+		L_46 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_45, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 550));
+		if (!L_46)
 		{
-			goto IL_0159;
+			goto IL_015a;
 		}
 	}
 	{
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_37 = __this->___objectUniversal;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_47 = __this->___objectUniversal;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 551));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_38;
-		L_38 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_37, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_38)
-		{
-			goto IL_0159;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/SceneSwitch.cs:89>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_39 = __this->___setupUniversal;
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_40;
-		L_40 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
-		NullCheck(L_40);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_41;
-		L_41 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_40, NULL);
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_42;
-		L_42 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811(L_39, L_41, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
-		__this->___objectUniversal = L_42;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___objectUniversal), (void*)L_42);
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/SceneSwitch.cs:90>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_43 = __this->___objectUniversal;
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_44 = __this->___objectUniversal;
-		NullCheck(L_44);
-		String_t* L_45;
-		L_45 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_44, NULL);
-		NullCheck(L_45);
-		String_t* L_46;
-		L_46 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_45, _stringLiteralD41D89DAD98E1F1783260FD0A5A774F557A05F0F, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
-		NullCheck(L_43);
-		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_43, L_46, NULL);
+		bool L_48;
+		L_48 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_47, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 551));
+		G_B25_0 = ((int32_t)(L_48));
+		goto IL_015b;
 	}
 
-IL_0159:
+IL_015a:
 	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/SceneSwitch.cs:94>
-		int32_t L_47 = V_0;
-		if ((!(((uint32_t)L_47) == ((uint32_t)2))))
-		{
-			goto IL_01ba;
-		}
+		G_B25_0 = 0;
 	}
+
+IL_015b:
 	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/SceneSwitch.cs:96>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_48 = __this->___setupHD;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_49;
-		L_49 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_48, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_11 = (bool)G_B25_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 552));
+		bool L_49 = V_11;
 		if (!L_49)
 		{
-			goto IL_01ba;
+			goto IL_01a5;
 		}
 	}
 	{
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_50 = __this->___objectHD;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 553));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/SceneSwitch.cs:89>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 554));
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_50 = __this->___setupUniversal;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 555));
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_51;
+		L_51 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 555));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 556));
+		NullCheck(L_51);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_52;
+		L_52 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_51, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 556));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 557));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_51;
-		L_51 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_50, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_51)
-		{
-			goto IL_01ba;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/SceneSwitch.cs:98>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_52 = __this->___setupHD;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_53;
-		L_53 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
-		NullCheck(L_53);
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_54;
-		L_54 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_53, NULL);
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_55;
-		L_55 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811(L_52, L_54, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
-		__this->___objectHD = L_55;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___objectHD), (void*)L_55);
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/SceneSwitch.cs:99>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_56 = __this->___objectHD;
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_57 = __this->___objectHD;
-		NullCheck(L_57);
-		String_t* L_58;
-		L_58 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_57, NULL);
-		NullCheck(L_58);
-		String_t* L_59;
-		L_59 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_58, _stringLiteralD41D89DAD98E1F1783260FD0A5A774F557A05F0F, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		L_53 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811(L_50, L_52, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 557));
+		__this->___objectUniversal = L_53;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___objectUniversal), (void*)L_53);
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/SceneSwitch.cs:90>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 558));
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_54 = __this->___objectUniversal;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_55 = __this->___objectUniversal;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 559));
+		NullCheck(L_55);
+		String_t* L_56;
+		L_56 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_55, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 559));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 560));
 		NullCheck(L_56);
-		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_56, L_59, NULL);
+		String_t* L_57;
+		L_57 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_56, _stringLiteralD41D89DAD98E1F1783260FD0A5A774F557A05F0F, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 560));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 561));
+		NullCheck(L_54);
+		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_54, L_57, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 561));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 562));
 	}
 
-IL_01ba:
+IL_01a5:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 563));
+	}
+
+IL_01a6:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/SceneSwitch.cs:94>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 564));
+		int32_t L_58 = V_0;
+		V_12 = (bool)((((int32_t)L_58) == ((int32_t)2))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 565));
+		bool L_59 = V_12;
+		if (!L_59)
+		{
+			goto IL_0219;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 566));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/SceneSwitch.cs:96>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 567));
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_60 = __this->___setupHD;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 568));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_61;
+		L_61 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_60, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 568));
+		if (!L_61)
+		{
+			goto IL_01cd;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_62 = __this->___objectHD;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 569));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_63;
+		L_63 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_62, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 569));
+		G_B32_0 = ((int32_t)(L_63));
+		goto IL_01ce;
+	}
+
+IL_01cd:
+	{
+		G_B32_0 = 0;
+	}
+
+IL_01ce:
+	{
+		V_13 = (bool)G_B32_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 570));
+		bool L_64 = V_13;
+		if (!L_64)
+		{
+			goto IL_0218;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 571));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/SceneSwitch.cs:98>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 572));
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_65 = __this->___setupHD;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 573));
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_66;
+		L_66 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 573));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 574));
+		NullCheck(L_66);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_67;
+		L_67 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_66, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 574));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 575));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_68;
+		L_68 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811(L_65, L_67, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 575));
+		__this->___objectHD = L_68;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___objectHD), (void*)L_68);
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/SceneSwitch.cs:99>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 576));
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_69 = __this->___objectHD;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_70 = __this->___objectHD;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 577));
+		NullCheck(L_70);
+		String_t* L_71;
+		L_71 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_70, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 577));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 578));
+		NullCheck(L_71);
+		String_t* L_72;
+		L_72 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_71, _stringLiteralD41D89DAD98E1F1783260FD0A5A774F557A05F0F, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 578));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 579));
+		NullCheck(L_69);
+		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_69, L_72, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 579));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 580));
+	}
+
+IL_0218:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 581));
+	}
+
+IL_0219:
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/SceneSwitch.cs:103>
-		bool L_60 = __this->___setRenderSettings;
-		if (!L_60)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 582));
+		bool L_73 = __this->___setRenderSettings;
+		V_14 = L_73;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 583));
+		bool L_74 = V_14;
+		if (!L_74)
 		{
-			goto IL_01e8;
+			goto IL_0251;
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 584));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/SceneSwitch.cs:105>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_61 = __this->___skyboxMaterial;
-		RenderSettings_set_skybox_m7988CC3217B1456CA0A7294127527BFC18EEC872(L_61, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 585));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_75 = __this->___skyboxMaterial;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 586));
+		RenderSettings_set_skybox_m7988CC3217B1456CA0A7294127527BFC18EEC872(L_75, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 586));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/SceneSwitch.cs:106>
-		float L_62 = __this->___skyboxAmbient;
-		RenderSettings_set_ambientIntensity_m27875436E47E2D28C13F362DAE9C24D0DEC4A844(L_62, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 587));
+		float L_76 = __this->___skyboxAmbient;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 588));
+		RenderSettings_set_ambientIntensity_m27875436E47E2D28C13F362DAE9C24D0DEC4A844(L_76, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 588));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/SceneSwitch.cs:107>
-		float L_63 = __this->___skyboxReflection;
-		RenderSettings_set_reflectionIntensity_m70A9545EBFEE2100AEB017149034592AF23D224E(L_63, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 589));
+		float L_77 = __this->___skyboxReflection;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 590));
+		RenderSettings_set_reflectionIntensity_m70A9545EBFEE2100AEB017149034592AF23D224E(L_77, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 590));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/SceneSwitch.cs:109>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 591));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 592));
 		DynamicGI_UpdateEnvironment_m70AC224196548AC7A7FD7E6182591F692E98CF06(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 592));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 593));
 	}
 
-IL_01e8:
+IL_0251:
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/SceneSwitch.cs:115>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 594));
 		return;
 	}
 }
-// Method Definition Index: 94903
+// Method Definition Index: 95227
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneSwitch__ctor_m17F05F981F30D4958592CCB11BC39165CF2DEC94 (SceneSwitch_tD35DE378E994F341480620428D36BE98F4FCDD83* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneSwitch__ctor_m17F05F981F30D4958592CCB11BC39165CF2DEC94_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneSwitch_tD35DE378E994F341480620428D36BE98F4FCDD83_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SceneSwitch__ctor_m17F05F981F30D4958592CCB11BC39165CF2DEC94_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 595));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 596));
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/SceneSwitch.cs:34>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 597));
 		__this->___skyboxAmbient = (1.0f);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Runtime/SceneSwitch.cs:36>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 598));
 		__this->___skyboxReflection = (1.0f);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 599));
 		StyledMonoBehaviour__ctor_m703C907E17DDF775F58DF784F489640892F67FF6(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 599));
 		return;
 	}
 }
@@ -2700,20 +4095,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneSwitch__ctor_m17F05F981F30D4958592C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 94904
+// Method Definition Index: 95228
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsData__ctor_m39E4288E5AF960891F56AD6434A013109271503A (SettingsData_tA4DE57F8995E9394ADD26F693F7F6881E63AB1E1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SettingsData__ctor_m39E4288E5AF960891F56AD6434A013109271503A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SettingsData_tA4DE57F8995E9394ADD26F693F7F6881E63AB1E1_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SettingsData__ctor_m39E4288E5AF960891F56AD6434A013109271503A_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 600));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 601));
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/SettingsUtils/SettingsData.cs:15>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 602));
 		__this->___data = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___data), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 603));
 		StyledScriptableObject__ctor_m404FB06ACD2D0B9DB75A91423E37F92798DABE31(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 603));
 		return;
 	}
 }
@@ -2725,17 +4129,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsData__ctor_m39E4288E5AF960891F56
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 94905
+// Method Definition Index: 95229
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* BoxoUtils_GetProjectData_mB1B38FF414E516F8CAF3BF24ABAB0C7E082E783F (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BoxoUtils_GetProjectData_mB1B38FF414E516F8CAF3BF24ABAB0C7E082E783F_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GraphicsSettings_t01785CE5CB5C5105CB527619AF4D74BEF417EF1A_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral03DECF49C988233B9A4A4D34037382DA914166F4);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral062DB096C728515E033CF8C48A1C1F0B9A79384B);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral07894566EBEA1E79D147EABA5FC12F9D0D832650);
@@ -2763,684 +4170,1109 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ProjectData_tF2385DCBD79476E0AFE7ED115ED84426
 	ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* V_0 = NULL;
 	String_t* V_1 = NULL;
 	String_t* V_2 = NULL;
-	int32_t V_3 = 0;
-	int32_t V_4 = 0;
-	int32_t V_5 = 0;
-	String_t* V_6 = NULL;
-	int32_t V_7 = 0;
-	int32_t V_8 = 0;
-	int32_t V_9 = 0;
-	int32_t V_10 = 0;
-	int32_t V_11 = 0;
+	bool V_3 = false;
+	bool V_4 = false;
+	bool V_5 = false;
+	bool V_6 = false;
+	bool V_7 = false;
+	bool V_8 = false;
+	bool V_9 = false;
+	bool V_10 = false;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* V_11 = NULL;
 	int32_t V_12 = 0;
+	int32_t V_13 = 0;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* V_14 = NULL;
+	int32_t V_15 = 0;
+	String_t* V_16 = NULL;
+	bool V_17 = false;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* V_18 = NULL;
+	int32_t V_19 = 0;
+	bool V_20 = false;
+	bool V_21 = false;
+	bool V_22 = false;
+	bool V_23 = false;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* V_24 = NULL;
+	int32_t V_25 = 0;
+	bool V_26 = false;
+	bool V_27 = false;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* V_28 = NULL;
+	int32_t V_29 = 0;
+	bool V_30 = false;
+	bool V_31 = false;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* V_32 = NULL;
+	int32_t V_33 = 0;
+	bool V_34 = false;
+	bool V_35 = false;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* V_36 = NULL;
+	int32_t V_37 = 0;
+	bool V_38 = false;
+	bool V_39 = false;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* V_40 = NULL;
+	int32_t V_41 = 0;
+	bool V_42 = false;
+	bool V_43 = false;
+	bool V_44 = false;
+	bool V_45 = false;
+	bool V_46 = false;
+	bool V_47 = false;
+	bool V_48 = false;
+	ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* V_49 = NULL;
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_2), (&V_11), (&V_12), (&V_13), (&V_14), (&V_15), (&V_16), (&V_18), (&V_19), (&V_24), (&V_25), (&V_28), (&V_29), (&V_32), (&V_33), (&V_36), (&V_37), (&V_40), (&V_41));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BoxoUtils_GetProjectData_mB1B38FF414E516F8CAF3BF24ABAB0C7E082E783F_RuntimeMethod_var, NULL, NULL, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 604));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 605));
+	int32_t G_B15_0 = 0;
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 606));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:26>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 607));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 608));
 		ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* L_0 = (ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5*)il2cpp_codegen_object_new(ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5_il2cpp_TypeInfo_var);
 		ProjectData__ctor_m63F3CC3576D978D72C0923F787B45A4EDF19106E(L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 608));
 		V_0 = L_0;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:28>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 609));
 		V_1 = _stringLiteral2620038B8A71EF21A205CC921576171A3CA9B0F4;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:30>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 610));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 611));
 		il2cpp_codegen_runtime_class_init_inline(GraphicsSettings_t01785CE5CB5C5105CB527619AF4D74BEF417EF1A_il2cpp_TypeInfo_var);
 		RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* L_1;
 		L_1 = GraphicsSettings_get_defaultRenderPipeline_m2B69E2AFC36189F7FEF3EB453C8A1A165A5CF9CD(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 611));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 612));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
 		L_2 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_2)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 612));
+		V_3 = L_2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 613));
+		bool L_3 = V_3;
+		if (!L_3)
 		{
-			goto IL_005b;
+			goto IL_006c;
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 614));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:32>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 615));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 616));
 		il2cpp_codegen_runtime_class_init_inline(GraphicsSettings_t01785CE5CB5C5105CB527619AF4D74BEF417EF1A_il2cpp_TypeInfo_var);
-		RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* L_3;
-		L_3 = GraphicsSettings_get_defaultRenderPipeline_m2B69E2AFC36189F7FEF3EB453C8A1A165A5CF9CD(NULL);
-		NullCheck(L_3);
-		Type_t* L_4;
-		L_4 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_3, NULL);
+		RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* L_4;
+		L_4 = GraphicsSettings_get_defaultRenderPipeline_m2B69E2AFC36189F7FEF3EB453C8A1A165A5CF9CD(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 616));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 617));
 		NullCheck(L_4);
-		String_t* L_5;
-		L_5 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_4);
+		Type_t* L_5;
+		L_5 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_4, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 617));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 618));
 		NullCheck(L_5);
-		bool L_6;
-		L_6 = String_Contains_m6D77B121FADA7CA5F397C0FABB65DA62DF03B6C3(L_5, _stringLiteralDEAC03BC08603A926530E878D97B96FA6C0CFEED, NULL);
-		if (!L_6)
+		String_t* L_6;
+		L_6 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_5);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 618));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 619));
+		NullCheck(L_6);
+		bool L_7;
+		L_7 = String_Contains_m6D77B121FADA7CA5F397C0FABB65DA62DF03B6C3(L_6, _stringLiteralDEAC03BC08603A926530E878D97B96FA6C0CFEED, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 619));
+		V_4 = L_7;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 620));
+		bool L_8 = V_4;
+		if (!L_8)
 		{
-			goto IL_003a;
+			goto IL_0044;
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 621));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:34>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 622));
 		V_1 = _stringLiteralDEAC03BC08603A926530E878D97B96FA6C0CFEED;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 623));
 	}
 
-IL_003a:
+IL_0044:
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:37>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 624));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 625));
 		il2cpp_codegen_runtime_class_init_inline(GraphicsSettings_t01785CE5CB5C5105CB527619AF4D74BEF417EF1A_il2cpp_TypeInfo_var);
-		RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* L_7;
-		L_7 = GraphicsSettings_get_defaultRenderPipeline_m2B69E2AFC36189F7FEF3EB453C8A1A165A5CF9CD(NULL);
-		NullCheck(L_7);
-		Type_t* L_8;
-		L_8 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_7, NULL);
-		NullCheck(L_8);
-		String_t* L_9;
-		L_9 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_8);
+		RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* L_9;
+		L_9 = GraphicsSettings_get_defaultRenderPipeline_m2B69E2AFC36189F7FEF3EB453C8A1A165A5CF9CD(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 625));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 626));
 		NullCheck(L_9);
-		bool L_10;
-		L_10 = String_Contains_m6D77B121FADA7CA5F397C0FABB65DA62DF03B6C3(L_9, _stringLiteral03DECF49C988233B9A4A4D34037382DA914166F4, NULL);
-		if (!L_10)
+		Type_t* L_10;
+		L_10 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_9, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 626));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 627));
+		NullCheck(L_10);
+		String_t* L_11;
+		L_11 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_10);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 627));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 628));
+		NullCheck(L_11);
+		bool L_12;
+		L_12 = String_Contains_m6D77B121FADA7CA5F397C0FABB65DA62DF03B6C3(L_11, _stringLiteral03DECF49C988233B9A4A4D34037382DA914166F4, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 628));
+		V_5 = L_12;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 629));
+		bool L_13 = V_5;
+		if (!L_13)
 		{
-			goto IL_005b;
+			goto IL_006b;
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 630));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:39>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 631));
 		V_1 = _stringLiteralEAB619AA5F3FF34776F518452C4983B13C13457F;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 632));
 	}
 
-IL_005b:
+IL_006b:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 633));
+	}
+
+IL_006c:
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:43>
-		RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* L_11;
-		L_11 = QualitySettings_get_renderPipeline_mBED269CBEC7409C297A2A5120DBAF185DCC4AFC8(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 634));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 635));
+		RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* L_14;
+		L_14 = QualitySettings_get_renderPipeline_mBED269CBEC7409C297A2A5120DBAF185DCC4AFC8(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 635));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 636));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_12;
-		L_12 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_11, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_12)
-		{
-			goto IL_00aa;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:45>
-		RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* L_13;
-		L_13 = QualitySettings_get_renderPipeline_mBED269CBEC7409C297A2A5120DBAF185DCC4AFC8(NULL);
-		NullCheck(L_13);
-		Type_t* L_14;
-		L_14 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_13, NULL);
-		NullCheck(L_14);
-		String_t* L_15;
-		L_15 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_14);
-		NullCheck(L_15);
-		bool L_16;
-		L_16 = String_Contains_m6D77B121FADA7CA5F397C0FABB65DA62DF03B6C3(L_15, _stringLiteralDEAC03BC08603A926530E878D97B96FA6C0CFEED, NULL);
+		bool L_15;
+		L_15 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_14, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 636));
+		V_6 = L_15;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 637));
+		bool L_16 = V_6;
 		if (!L_16)
 		{
-			goto IL_0089;
+			goto IL_00cd;
 		}
 	}
 	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:47>
-		V_1 = _stringLiteralDEAC03BC08603A926530E878D97B96FA6C0CFEED;
-	}
-
-IL_0089:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:50>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 638));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:45>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 639));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 640));
 		RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* L_17;
 		L_17 = QualitySettings_get_renderPipeline_mBED269CBEC7409C297A2A5120DBAF185DCC4AFC8(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 640));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 641));
 		NullCheck(L_17);
 		Type_t* L_18;
 		L_18 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_17, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 641));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 642));
 		NullCheck(L_18);
 		String_t* L_19;
 		L_19 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_18);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 642));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 643));
 		NullCheck(L_19);
 		bool L_20;
-		L_20 = String_Contains_m6D77B121FADA7CA5F397C0FABB65DA62DF03B6C3(L_19, _stringLiteral03DECF49C988233B9A4A4D34037382DA914166F4, NULL);
-		if (!L_20)
+		L_20 = String_Contains_m6D77B121FADA7CA5F397C0FABB65DA62DF03B6C3(L_19, _stringLiteralDEAC03BC08603A926530E878D97B96FA6C0CFEED, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 643));
+		V_7 = L_20;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 644));
+		bool L_21 = V_7;
+		if (!L_21)
 		{
-			goto IL_00aa;
+			goto IL_00a5;
 		}
 	}
 	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:52>
-		V_1 = _stringLiteralEAB619AA5F3FF34776F518452C4983B13C13457F;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 645));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:47>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 646));
+		V_1 = _stringLiteralDEAC03BC08603A926530E878D97B96FA6C0CFEED;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 647));
 	}
 
-IL_00aa:
+IL_00a5:
 	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:56>
-		ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* L_21 = V_0;
-		String_t* L_22 = V_1;
-		NullCheck(L_21);
-		L_21->___pipeline = L_22;
-		Il2CppCodeGenWriteBarrier((void**)(&L_21->___pipeline), (void*)L_22);
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:58>
-		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
-		String_t* L_23;
-		L_23 = Application_get_unityVersion_m27BB3207901305BD239E1C3A74035E15CF3E5D21(NULL);
-		V_2 = L_23;
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:60>
-		String_t* L_24 = V_2;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:50>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 648));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 649));
+		RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* L_22;
+		L_22 = QualitySettings_get_renderPipeline_mBED269CBEC7409C297A2A5120DBAF185DCC4AFC8(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 649));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 650));
+		NullCheck(L_22);
+		Type_t* L_23;
+		L_23 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_22, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 650));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 651));
+		NullCheck(L_23);
+		String_t* L_24;
+		L_24 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_23);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 651));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 652));
 		NullCheck(L_24);
 		bool L_25;
-		L_25 = String_Contains_m6D77B121FADA7CA5F397C0FABB65DA62DF03B6C3(L_24, _stringLiteral0A04B971B03DA607CE6C455184037B660CA89F78, NULL);
-		if (L_25)
+		L_25 = String_Contains_m6D77B121FADA7CA5F397C0FABB65DA62DF03B6C3(L_24, _stringLiteral03DECF49C988233B9A4A4D34037382DA914166F4, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 652));
+		V_8 = L_25;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 653));
+		bool L_26 = V_8;
+		if (!L_26)
 		{
-			goto IL_00d1;
+			goto IL_00cc;
 		}
 	}
 	{
-		String_t* L_26 = V_2;
-		NullCheck(L_26);
-		bool L_27;
-		L_27 = String_Contains_m6D77B121FADA7CA5F397C0FABB65DA62DF03B6C3(L_26, _stringLiteral4609D79FE2FAD95C38B6DA64FC671E8594984D4C, NULL);
-		if (!L_27)
-		{
-			goto IL_00d8;
-		}
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 654));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:52>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 655));
+		V_1 = _stringLiteralEAB619AA5F3FF34776F518452C4983B13C13457F;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 656));
 	}
 
-IL_00d1:
+IL_00cc:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 657));
+	}
+
+IL_00cd:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:56>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 658));
+		ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* L_27 = V_0;
+		String_t* L_28 = V_1;
+		NullCheck(L_27);
+		L_27->___pipeline = L_28;
+		Il2CppCodeGenWriteBarrier((void**)(&L_27->___pipeline), (void*)L_28);
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:58>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 659));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 660));
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		String_t* L_29;
+		L_29 = Application_get_unityVersion_m27BB3207901305BD239E1C3A74035E15CF3E5D21(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 660));
+		V_2 = L_29;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:60>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 661));
+		String_t* L_30 = V_2;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 662));
+		NullCheck(L_30);
+		bool L_31;
+		L_31 = String_Contains_m6D77B121FADA7CA5F397C0FABB65DA62DF03B6C3(L_30, _stringLiteral0A04B971B03DA607CE6C455184037B660CA89F78, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 662));
+		if (L_31)
+		{
+			goto IL_00f4;
+		}
+	}
+	{
+		String_t* L_32 = V_2;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 663));
+		NullCheck(L_32);
+		bool L_33;
+		L_33 = String_Contains_m6D77B121FADA7CA5F397C0FABB65DA62DF03B6C3(L_32, _stringLiteral4609D79FE2FAD95C38B6DA64FC671E8594984D4C, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 663));
+		G_B15_0 = ((int32_t)(L_33));
+		goto IL_00f5;
+	}
+
+IL_00f4:
+	{
+		G_B15_0 = 1;
+	}
+
+IL_00f5:
+	{
+		V_9 = (bool)G_B15_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 664));
+		bool L_34 = V_9;
+		if (!L_34)
+		{
+			goto IL_0104;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 665));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:62>
-		ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* L_28 = V_0;
-		NullCheck(L_28);
-		L_28->___isAlphaOrBetaRelease = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 666));
+		ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* L_35 = V_0;
+		NullCheck(L_35);
+		L_35->___isAlphaOrBetaRelease = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 667));
 	}
 
-IL_00d8:
+IL_0104:
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:65>
-		String_t* L_29 = V_2;
-		NullCheck(L_29);
-		String_t* L_30;
-		L_30 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_29, _stringLiteral2C945D246C2B7897F000E1C591A686EB9EF010F0, _stringLiteral062DB096C728515E033CF8C48A1C1F0B9A79384B, NULL);
-		NullCheck(L_30);
-		String_t* L_31;
-		L_31 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_30, _stringLiteral0A04B971B03DA607CE6C455184037B660CA89F78, _stringLiteral062DB096C728515E033CF8C48A1C1F0B9A79384B, NULL);
-		NullCheck(L_31);
-		String_t* L_32;
-		L_32 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_31, _stringLiteral4609D79FE2FAD95C38B6DA64FC671E8594984D4C, _stringLiteral062DB096C728515E033CF8C48A1C1F0B9A79384B, NULL);
-		V_2 = L_32;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 668));
+		String_t* L_36 = V_2;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 669));
+		NullCheck(L_36);
+		String_t* L_37;
+		L_37 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_36, _stringLiteral2C945D246C2B7897F000E1C591A686EB9EF010F0, _stringLiteral062DB096C728515E033CF8C48A1C1F0B9A79384B, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 669));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 670));
+		NullCheck(L_37);
+		String_t* L_38;
+		L_38 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_37, _stringLiteral0A04B971B03DA607CE6C455184037B660CA89F78, _stringLiteral062DB096C728515E033CF8C48A1C1F0B9A79384B, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 670));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 671));
+		NullCheck(L_38);
+		String_t* L_39;
+		L_39 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_38, _stringLiteral4609D79FE2FAD95C38B6DA64FC671E8594984D4C, _stringLiteral062DB096C728515E033CF8C48A1C1F0B9A79384B, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 671));
+		V_2 = L_39;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:67>
-		String_t* L_33 = V_1;
-		bool L_34;
-		L_34 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_33, _stringLiteral2620038B8A71EF21A205CC921576171A3CA9B0F4, NULL);
-		if (!L_34)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 672));
+		String_t* L_40 = V_1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 673));
+		bool L_41;
+		L_41 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_40, _stringLiteral2620038B8A71EF21A205CC921576171A3CA9B0F4, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 673));
+		V_10 = L_41;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 674));
+		bool L_42 = V_10;
+		if (!L_42)
+		{
+			goto IL_0459;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 675));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:69>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 676));
+		String_t* L_43 = V_2;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 677));
+		NullCheck(L_43);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_44;
+		L_44 = String_Split_m15EB0AE498D606D2ABC49FC5F1EC3E29121F8AFB(L_43, _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, 0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 677));
+		V_11 = L_44;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:71>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 678));
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_45 = V_11;
+		NullCheck(L_45);
+		int32_t L_46 = 0;
+		String_t* L_47 = (L_45)->GetAt(static_cast<il2cpp_array_size_t>(L_46));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 679));
+		il2cpp_codegen_runtime_class_init_inline(CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var);
+		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_48;
+		L_48 = CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 679));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 680));
+		int32_t L_49;
+		L_49 = Int32_Parse_mD1B67560310D4E9CC1EA31177CA1CB2CFDFE5D57(L_47, L_48, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 680));
+		V_12 = L_49;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:72>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 681));
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_50 = V_11;
+		NullCheck(L_50);
+		int32_t L_51 = 1;
+		String_t* L_52 = (L_50)->GetAt(static_cast<il2cpp_array_size_t>(L_51));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 682));
+		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_53;
+		L_53 = CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 682));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 683));
+		int32_t L_54;
+		L_54 = Int32_Parse_mD1B67560310D4E9CC1EA31177CA1CB2CFDFE5D57(L_52, L_53, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 683));
+		V_13 = L_54;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:73>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 684));
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_55 = V_11;
+		NullCheck(L_55);
+		int32_t L_56 = 2;
+		String_t* L_57 = (L_55)->GetAt(static_cast<il2cpp_array_size_t>(L_56));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 685));
+		NullCheck(L_57);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_58;
+		L_58 = String_Split_m15EB0AE498D606D2ABC49FC5F1EC3E29121F8AFB(L_57, _stringLiteral062DB096C728515E033CF8C48A1C1F0B9A79384B, 0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 685));
+		V_14 = L_58;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:74>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 686));
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_59 = V_14;
+		NullCheck(L_59);
+		int32_t L_60 = 0;
+		String_t* L_61 = (L_59)->GetAt(static_cast<il2cpp_array_size_t>(L_60));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 687));
+		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_62;
+		L_62 = CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 687));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 688));
+		int32_t L_63;
+		L_63 = Int32_Parse_mD1B67560310D4E9CC1EA31177CA1CB2CFDFE5D57(L_61, L_62, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 688));
+		V_15 = L_63;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:96>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 689));
+		int32_t L_64 = V_12;
+		V_17 = (bool)((((int32_t)L_64) == ((int32_t)((int32_t)2022)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 690));
+		bool L_65 = V_17;
+		if (!L_65)
+		{
+			goto IL_0205;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 691));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:98>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 692));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 693));
+		NullCheck(_stringLiteral0F943846AF842E6E5DFD432E444FA0B74803306D);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_66;
+		L_66 = String_Split_m15EB0AE498D606D2ABC49FC5F1EC3E29121F8AFB(_stringLiteral0F943846AF842E6E5DFD432E444FA0B74803306D, _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, 0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 693));
+		V_18 = L_66;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:99>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 694));
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_67 = V_18;
+		NullCheck(L_67);
+		int32_t L_68 = 2;
+		String_t* L_69 = (L_67)->GetAt(static_cast<il2cpp_array_size_t>(L_68));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 695));
+		il2cpp_codegen_runtime_class_init_inline(CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var);
+		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_70;
+		L_70 = CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 695));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 696));
+		int32_t L_71;
+		L_71 = Int32_Parse_mD1B67560310D4E9CC1EA31177CA1CB2CFDFE5D57(L_69, L_70, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 696));
+		V_19 = L_71;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:101>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 697));
+		int32_t L_72 = V_13;
+		V_20 = (bool)((((int32_t)((((int32_t)L_72) == ((int32_t)3))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 698));
+		bool L_73 = V_20;
+		if (!L_73)
+		{
+			goto IL_01e2;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 699));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:103>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 700));
+		ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* L_74 = V_0;
+		NullCheck(L_74);
+		L_74->___isSupported = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 701));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 702));
+		goto IL_01f9;
+	}
+
+IL_01e2:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 703));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:107>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 704));
+		int32_t L_75 = V_15;
+		int32_t L_76 = V_19;
+		V_21 = (bool)((((int32_t)L_75) < ((int32_t)L_76))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 705));
+		bool L_77 = V_21;
+		if (!L_77)
+		{
+			goto IL_01f8;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 706));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:109>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 707));
+		ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* L_78 = V_0;
+		NullCheck(L_78);
+		L_78->___isSupported = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 708));
+	}
+
+IL_01f8:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 709));
+	}
+
+IL_01f9:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:113>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 710));
+		ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* L_79 = V_0;
+		NullCheck(L_79);
+		L_79->___package = _stringLiteral07894566EBEA1E79D147EABA5FC12F9D0D832650;
+		Il2CppCodeGenWriteBarrier((void**)(&L_79->___package), (void*)_stringLiteral07894566EBEA1E79D147EABA5FC12F9D0D832650);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 711));
+	}
+
+IL_0205:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:116>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 712));
+		int32_t L_80 = V_12;
+		V_22 = (bool)((((int32_t)L_80) == ((int32_t)((int32_t)6000)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 713));
+		bool L_81 = V_22;
+		if (!L_81)
+		{
+			goto IL_03b9;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 714));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:118>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 715));
+		int32_t L_82 = V_13;
+		V_23 = (bool)((((int32_t)L_82) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 716));
+		bool L_83 = V_23;
+		if (!L_83)
+		{
+			goto IL_0267;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 717));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:120>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 718));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 719));
+		NullCheck(_stringLiteral15107A52C41E407F63F258604BDA437533D394F5);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_84;
+		L_84 = String_Split_m15EB0AE498D606D2ABC49FC5F1EC3E29121F8AFB(_stringLiteral15107A52C41E407F63F258604BDA437533D394F5, _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, 0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 719));
+		V_24 = L_84;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:121>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 720));
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_85 = V_24;
+		NullCheck(L_85);
+		int32_t L_86 = 2;
+		String_t* L_87 = (L_85)->GetAt(static_cast<il2cpp_array_size_t>(L_86));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 721));
+		il2cpp_codegen_runtime_class_init_inline(CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var);
+		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_88;
+		L_88 = CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 721));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 722));
+		int32_t L_89;
+		L_89 = Int32_Parse_mD1B67560310D4E9CC1EA31177CA1CB2CFDFE5D57(L_87, L_88, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 722));
+		V_25 = L_89;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:123>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 723));
+		int32_t L_90 = V_15;
+		int32_t L_91 = V_25;
+		V_26 = (bool)((((int32_t)L_90) < ((int32_t)L_91))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 724));
+		bool L_92 = V_26;
+		if (!L_92)
+		{
+			goto IL_025b;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 725));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:125>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 726));
+		ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* L_93 = V_0;
+		NullCheck(L_93);
+		L_93->___isSupported = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 727));
+	}
+
+IL_025b:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:128>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 728));
+		ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* L_94 = V_0;
+		NullCheck(L_94);
+		L_94->___package = _stringLiteral6F69102CB3AD76FA7E796FA91D15DA4BBEF4637F;
+		Il2CppCodeGenWriteBarrier((void**)(&L_94->___package), (void*)_stringLiteral6F69102CB3AD76FA7E796FA91D15DA4BBEF4637F);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 729));
+	}
+
+IL_0267:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:131>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 730));
+		int32_t L_95 = V_13;
+		V_27 = (bool)((((int32_t)L_95) == ((int32_t)1))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 731));
+		bool L_96 = V_27;
+		if (!L_96)
+		{
+			goto IL_02bd;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 732));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:133>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 733));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 734));
+		NullCheck(_stringLiteralD190BC6641BB315B0935732E84A86561E7DB863C);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_97;
+		L_97 = String_Split_m15EB0AE498D606D2ABC49FC5F1EC3E29121F8AFB(_stringLiteralD190BC6641BB315B0935732E84A86561E7DB863C, _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, 0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 734));
+		V_28 = L_97;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:134>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 735));
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_98 = V_28;
+		NullCheck(L_98);
+		int32_t L_99 = 2;
+		String_t* L_100 = (L_98)->GetAt(static_cast<il2cpp_array_size_t>(L_99));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 736));
+		il2cpp_codegen_runtime_class_init_inline(CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var);
+		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_101;
+		L_101 = CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 736));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 737));
+		int32_t L_102;
+		L_102 = Int32_Parse_mD1B67560310D4E9CC1EA31177CA1CB2CFDFE5D57(L_100, L_101, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 737));
+		V_29 = L_102;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:136>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 738));
+		int32_t L_103 = V_15;
+		int32_t L_104 = V_29;
+		V_30 = (bool)((((int32_t)L_103) < ((int32_t)L_104))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 739));
+		bool L_105 = V_30;
+		if (!L_105)
+		{
+			goto IL_02aa;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 740));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:138>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 741));
+		ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* L_106 = V_0;
+		NullCheck(L_106);
+		L_106->___isSupported = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 742));
+	}
+
+IL_02aa:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:141>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 743));
+		ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* L_107 = V_0;
+		NullCheck(L_107);
+		L_107->___isTechRelease = (bool)1;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:143>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 744));
+		ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* L_108 = V_0;
+		NullCheck(L_108);
+		L_108->___package = _stringLiteral5BA3D4C3FEE1F16B3782CCE33DF84FA2C5718DA3;
+		Il2CppCodeGenWriteBarrier((void**)(&L_108->___package), (void*)_stringLiteral5BA3D4C3FEE1F16B3782CCE33DF84FA2C5718DA3);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 745));
+	}
+
+IL_02bd:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:146>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 746));
+		int32_t L_109 = V_13;
+		V_31 = (bool)((((int32_t)L_109) == ((int32_t)2))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 747));
+		bool L_110 = V_31;
+		if (!L_110)
+		{
+			goto IL_0313;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 748));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:148>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 749));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 750));
+		NullCheck(_stringLiteral13EB2D1FD88EE25DC51B3D130DA6735F1D1F807C);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_111;
+		L_111 = String_Split_m15EB0AE498D606D2ABC49FC5F1EC3E29121F8AFB(_stringLiteral13EB2D1FD88EE25DC51B3D130DA6735F1D1F807C, _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, 0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 750));
+		V_32 = L_111;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:149>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 751));
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_112 = V_32;
+		NullCheck(L_112);
+		int32_t L_113 = 2;
+		String_t* L_114 = (L_112)->GetAt(static_cast<il2cpp_array_size_t>(L_113));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 752));
+		il2cpp_codegen_runtime_class_init_inline(CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var);
+		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_115;
+		L_115 = CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 752));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 753));
+		int32_t L_116;
+		L_116 = Int32_Parse_mD1B67560310D4E9CC1EA31177CA1CB2CFDFE5D57(L_114, L_115, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 753));
+		V_33 = L_116;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:151>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 754));
+		int32_t L_117 = V_15;
+		int32_t L_118 = V_33;
+		V_34 = (bool)((((int32_t)L_117) < ((int32_t)L_118))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 755));
+		bool L_119 = V_34;
+		if (!L_119)
+		{
+			goto IL_0300;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 756));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:153>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 757));
+		ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* L_120 = V_0;
+		NullCheck(L_120);
+		L_120->___isSupported = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 758));
+	}
+
+IL_0300:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:156>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 759));
+		ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* L_121 = V_0;
+		NullCheck(L_121);
+		L_121->___isTechRelease = (bool)1;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:158>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 760));
+		ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* L_122 = V_0;
+		NullCheck(L_122);
+		L_122->___package = _stringLiteral91BD2C940A72E92CADC82D84E64B002B57A226F9;
+		Il2CppCodeGenWriteBarrier((void**)(&L_122->___package), (void*)_stringLiteral91BD2C940A72E92CADC82D84E64B002B57A226F9);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 761));
+	}
+
+IL_0313:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:161>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 762));
+		int32_t L_123 = V_13;
+		V_35 = (bool)((((int32_t)L_123) == ((int32_t)3))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 763));
+		bool L_124 = V_35;
+		if (!L_124)
+		{
+			goto IL_0362;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 764));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:163>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 765));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 766));
+		NullCheck(_stringLiteral13EB2D1FD88EE25DC51B3D130DA6735F1D1F807C);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_125;
+		L_125 = String_Split_m15EB0AE498D606D2ABC49FC5F1EC3E29121F8AFB(_stringLiteral13EB2D1FD88EE25DC51B3D130DA6735F1D1F807C, _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, 0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 766));
+		V_36 = L_125;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:164>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 767));
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_126 = V_36;
+		NullCheck(L_126);
+		int32_t L_127 = 2;
+		String_t* L_128 = (L_126)->GetAt(static_cast<il2cpp_array_size_t>(L_127));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 768));
+		il2cpp_codegen_runtime_class_init_inline(CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var);
+		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_129;
+		L_129 = CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 768));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 769));
+		int32_t L_130;
+		L_130 = Int32_Parse_mD1B67560310D4E9CC1EA31177CA1CB2CFDFE5D57(L_128, L_129, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 769));
+		V_37 = L_130;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:166>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 770));
+		int32_t L_131 = V_15;
+		int32_t L_132 = V_37;
+		V_38 = (bool)((((int32_t)L_131) < ((int32_t)L_132))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 771));
+		bool L_133 = V_38;
+		if (!L_133)
 		{
 			goto IL_0356;
 		}
 	}
 	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:69>
-		String_t* L_35 = V_2;
-		NullCheck(L_35);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_36;
-		L_36 = String_Split_m15EB0AE498D606D2ABC49FC5F1EC3E29121F8AFB(L_35, _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, 0, NULL);
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:71>
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_37 = L_36;
-		NullCheck(L_37);
-		int32_t L_38 = 0;
-		String_t* L_39 = (L_37)->GetAt(static_cast<il2cpp_array_size_t>(L_38));
-		il2cpp_codegen_runtime_class_init_inline(CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var);
-		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_40;
-		L_40 = CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6(NULL);
-		int32_t L_41;
-		L_41 = Int32_Parse_mD1B67560310D4E9CC1EA31177CA1CB2CFDFE5D57(L_39, L_40, NULL);
-		V_3 = L_41;
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:72>
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_42 = L_37;
-		NullCheck(L_42);
-		int32_t L_43 = 1;
-		String_t* L_44 = (L_42)->GetAt(static_cast<il2cpp_array_size_t>(L_43));
-		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_45;
-		L_45 = CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6(NULL);
-		int32_t L_46;
-		L_46 = Int32_Parse_mD1B67560310D4E9CC1EA31177CA1CB2CFDFE5D57(L_44, L_45, NULL);
-		V_4 = L_46;
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:73>
-		NullCheck(L_42);
-		int32_t L_47 = 2;
-		String_t* L_48 = (L_42)->GetAt(static_cast<il2cpp_array_size_t>(L_47));
-		NullCheck(L_48);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_49;
-		L_49 = String_Split_m15EB0AE498D606D2ABC49FC5F1EC3E29121F8AFB(L_48, _stringLiteral062DB096C728515E033CF8C48A1C1F0B9A79384B, 0, NULL);
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:74>
-		NullCheck(L_49);
-		int32_t L_50 = 0;
-		String_t* L_51 = (L_49)->GetAt(static_cast<il2cpp_array_size_t>(L_50));
-		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_52;
-		L_52 = CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6(NULL);
-		int32_t L_53;
-		L_53 = Int32_Parse_mD1B67560310D4E9CC1EA31177CA1CB2CFDFE5D57(L_51, L_52, NULL);
-		V_5 = L_53;
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:96>
-		int32_t L_54 = V_3;
-		if ((!(((uint32_t)L_54) == ((uint32_t)((int32_t)2022)))))
-		{
-			goto IL_01a7;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:98>
-		NullCheck(_stringLiteral0F943846AF842E6E5DFD432E444FA0B74803306D);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_55;
-		L_55 = String_Split_m15EB0AE498D606D2ABC49FC5F1EC3E29121F8AFB(_stringLiteral0F943846AF842E6E5DFD432E444FA0B74803306D, _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, 0, NULL);
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:99>
-		NullCheck(L_55);
-		int32_t L_56 = 2;
-		String_t* L_57 = (L_55)->GetAt(static_cast<il2cpp_array_size_t>(L_56));
-		il2cpp_codegen_runtime_class_init_inline(CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var);
-		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_58;
-		L_58 = CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6(NULL);
-		int32_t L_59;
-		L_59 = Int32_Parse_mD1B67560310D4E9CC1EA31177CA1CB2CFDFE5D57(L_57, L_58, NULL);
-		V_7 = L_59;
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:101>
-		int32_t L_60 = V_4;
-		if ((((int32_t)L_60) == ((int32_t)3)))
-		{
-			goto IL_018f;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:103>
-		ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* L_61 = V_0;
-		NullCheck(L_61);
-		L_61->___isSupported = (bool)0;
-		goto IL_019c;
-	}
-
-IL_018f:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:107>
-		int32_t L_62 = V_5;
-		int32_t L_63 = V_7;
-		if ((((int32_t)L_62) >= ((int32_t)L_63)))
-		{
-			goto IL_019c;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:109>
-		ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* L_64 = V_0;
-		NullCheck(L_64);
-		L_64->___isSupported = (bool)0;
-	}
-
-IL_019c:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:113>
-		ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* L_65 = V_0;
-		NullCheck(L_65);
-		L_65->___package = _stringLiteral07894566EBEA1E79D147EABA5FC12F9D0D832650;
-		Il2CppCodeGenWriteBarrier((void**)(&L_65->___package), (void*)_stringLiteral07894566EBEA1E79D147EABA5FC12F9D0D832650);
-	}
-
-IL_01a7:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:116>
-		int32_t L_66 = V_3;
-		if ((!(((uint32_t)L_66) == ((uint32_t)((int32_t)6000)))))
-		{
-			goto IL_02ed;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:118>
-		int32_t L_67 = V_4;
-		if (L_67)
-		{
-			goto IL_01ec;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:120>
-		NullCheck(_stringLiteral15107A52C41E407F63F258604BDA437533D394F5);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_68;
-		L_68 = String_Split_m15EB0AE498D606D2ABC49FC5F1EC3E29121F8AFB(_stringLiteral15107A52C41E407F63F258604BDA437533D394F5, _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, 0, NULL);
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:121>
-		NullCheck(L_68);
-		int32_t L_69 = 2;
-		String_t* L_70 = (L_68)->GetAt(static_cast<il2cpp_array_size_t>(L_69));
-		il2cpp_codegen_runtime_class_init_inline(CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var);
-		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_71;
-		L_71 = CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6(NULL);
-		int32_t L_72;
-		L_72 = Int32_Parse_mD1B67560310D4E9CC1EA31177CA1CB2CFDFE5D57(L_70, L_71, NULL);
-		V_8 = L_72;
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:123>
-		int32_t L_73 = V_5;
-		int32_t L_74 = V_8;
-		if ((((int32_t)L_73) >= ((int32_t)L_74)))
-		{
-			goto IL_01e1;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:125>
-		ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* L_75 = V_0;
-		NullCheck(L_75);
-		L_75->___isSupported = (bool)0;
-	}
-
-IL_01e1:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:128>
-		ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* L_76 = V_0;
-		NullCheck(L_76);
-		L_76->___package = _stringLiteral6F69102CB3AD76FA7E796FA91D15DA4BBEF4637F;
-		Il2CppCodeGenWriteBarrier((void**)(&L_76->___package), (void*)_stringLiteral6F69102CB3AD76FA7E796FA91D15DA4BBEF4637F);
-	}
-
-IL_01ec:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:131>
-		int32_t L_77 = V_4;
-		if ((!(((uint32_t)L_77) == ((uint32_t)1))))
-		{
-			goto IL_022e;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:133>
-		NullCheck(_stringLiteralD190BC6641BB315B0935732E84A86561E7DB863C);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_78;
-		L_78 = String_Split_m15EB0AE498D606D2ABC49FC5F1EC3E29121F8AFB(_stringLiteralD190BC6641BB315B0935732E84A86561E7DB863C, _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, 0, NULL);
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:134>
-		NullCheck(L_78);
-		int32_t L_79 = 2;
-		String_t* L_80 = (L_78)->GetAt(static_cast<il2cpp_array_size_t>(L_79));
-		il2cpp_codegen_runtime_class_init_inline(CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var);
-		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_81;
-		L_81 = CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6(NULL);
-		int32_t L_82;
-		L_82 = Int32_Parse_mD1B67560310D4E9CC1EA31177CA1CB2CFDFE5D57(L_80, L_81, NULL);
-		V_9 = L_82;
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:136>
-		int32_t L_83 = V_5;
-		int32_t L_84 = V_9;
-		if ((((int32_t)L_83) >= ((int32_t)L_84)))
-		{
-			goto IL_021c;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:138>
-		ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* L_85 = V_0;
-		NullCheck(L_85);
-		L_85->___isSupported = (bool)0;
-	}
-
-IL_021c:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:141>
-		ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* L_86 = V_0;
-		NullCheck(L_86);
-		L_86->___isTechRelease = (bool)1;
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:143>
-		ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* L_87 = V_0;
-		NullCheck(L_87);
-		L_87->___package = _stringLiteral5BA3D4C3FEE1F16B3782CCE33DF84FA2C5718DA3;
-		Il2CppCodeGenWriteBarrier((void**)(&L_87->___package), (void*)_stringLiteral5BA3D4C3FEE1F16B3782CCE33DF84FA2C5718DA3);
-	}
-
-IL_022e:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:146>
-		int32_t L_88 = V_4;
-		if ((!(((uint32_t)L_88) == ((uint32_t)2))))
-		{
-			goto IL_0270;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:148>
-		NullCheck(_stringLiteral13EB2D1FD88EE25DC51B3D130DA6735F1D1F807C);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_89;
-		L_89 = String_Split_m15EB0AE498D606D2ABC49FC5F1EC3E29121F8AFB(_stringLiteral13EB2D1FD88EE25DC51B3D130DA6735F1D1F807C, _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, 0, NULL);
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:149>
-		NullCheck(L_89);
-		int32_t L_90 = 2;
-		String_t* L_91 = (L_89)->GetAt(static_cast<il2cpp_array_size_t>(L_90));
-		il2cpp_codegen_runtime_class_init_inline(CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var);
-		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_92;
-		L_92 = CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6(NULL);
-		int32_t L_93;
-		L_93 = Int32_Parse_mD1B67560310D4E9CC1EA31177CA1CB2CFDFE5D57(L_91, L_92, NULL);
-		V_10 = L_93;
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:151>
-		int32_t L_94 = V_5;
-		int32_t L_95 = V_10;
-		if ((((int32_t)L_94) >= ((int32_t)L_95)))
-		{
-			goto IL_025e;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:153>
-		ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* L_96 = V_0;
-		NullCheck(L_96);
-		L_96->___isSupported = (bool)0;
-	}
-
-IL_025e:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:156>
-		ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* L_97 = V_0;
-		NullCheck(L_97);
-		L_97->___isTechRelease = (bool)1;
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:158>
-		ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* L_98 = V_0;
-		NullCheck(L_98);
-		L_98->___package = _stringLiteral91BD2C940A72E92CADC82D84E64B002B57A226F9;
-		Il2CppCodeGenWriteBarrier((void**)(&L_98->___package), (void*)_stringLiteral91BD2C940A72E92CADC82D84E64B002B57A226F9);
-	}
-
-IL_0270:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:161>
-		int32_t L_99 = V_4;
-		if ((!(((uint32_t)L_99) == ((uint32_t)3))))
-		{
-			goto IL_02ab;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:163>
-		NullCheck(_stringLiteral13EB2D1FD88EE25DC51B3D130DA6735F1D1F807C);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_100;
-		L_100 = String_Split_m15EB0AE498D606D2ABC49FC5F1EC3E29121F8AFB(_stringLiteral13EB2D1FD88EE25DC51B3D130DA6735F1D1F807C, _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, 0, NULL);
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:164>
-		NullCheck(L_100);
-		int32_t L_101 = 2;
-		String_t* L_102 = (L_100)->GetAt(static_cast<il2cpp_array_size_t>(L_101));
-		il2cpp_codegen_runtime_class_init_inline(CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var);
-		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_103;
-		L_103 = CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6(NULL);
-		int32_t L_104;
-		L_104 = Int32_Parse_mD1B67560310D4E9CC1EA31177CA1CB2CFDFE5D57(L_102, L_103, NULL);
-		V_11 = L_104;
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:166>
-		int32_t L_105 = V_5;
-		int32_t L_106 = V_11;
-		if ((((int32_t)L_105) >= ((int32_t)L_106)))
-		{
-			goto IL_02a0;
-		}
-	}
-	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 772));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:168>
-		ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* L_107 = V_0;
-		NullCheck(L_107);
-		L_107->___isSupported = (bool)0;
-	}
-
-IL_02a0:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:171>
-		ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* L_108 = V_0;
-		NullCheck(L_108);
-		L_108->___package = _stringLiteral3DD7A80AEBCC272A03C6DE4D60FE627A39147C28;
-		Il2CppCodeGenWriteBarrier((void**)(&L_108->___package), (void*)_stringLiteral3DD7A80AEBCC272A03C6DE4D60FE627A39147C28);
-	}
-
-IL_02ab:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:174>
-		int32_t L_109 = V_4;
-		if ((!(((uint32_t)L_109) == ((uint32_t)4))))
-		{
-			goto IL_02ed;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:176>
-		NullCheck(_stringLiteral13EB2D1FD88EE25DC51B3D130DA6735F1D1F807C);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_110;
-		L_110 = String_Split_m15EB0AE498D606D2ABC49FC5F1EC3E29121F8AFB(_stringLiteral13EB2D1FD88EE25DC51B3D130DA6735F1D1F807C, _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, 0, NULL);
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:177>
-		NullCheck(L_110);
-		int32_t L_111 = 2;
-		String_t* L_112 = (L_110)->GetAt(static_cast<il2cpp_array_size_t>(L_111));
-		il2cpp_codegen_runtime_class_init_inline(CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var);
-		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_113;
-		L_113 = CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6(NULL);
-		int32_t L_114;
-		L_114 = Int32_Parse_mD1B67560310D4E9CC1EA31177CA1CB2CFDFE5D57(L_112, L_113, NULL);
-		V_12 = L_114;
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:179>
-		int32_t L_115 = V_5;
-		int32_t L_116 = V_12;
-		if ((((int32_t)L_115) >= ((int32_t)L_116)))
-		{
-			goto IL_02db;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:181>
-		ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* L_117 = V_0;
-		NullCheck(L_117);
-		L_117->___isSupported = (bool)0;
-	}
-
-IL_02db:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:184>
-		ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* L_118 = V_0;
-		NullCheck(L_118);
-		L_118->___isTechRelease = (bool)1;
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:186>
-		ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* L_119 = V_0;
-		NullCheck(L_119);
-		L_119->___package = _stringLiteral0A21E6275C2E30EE24EEFFB4D637DE33D0B87949;
-		Il2CppCodeGenWriteBarrier((void**)(&L_119->___package), (void*)_stringLiteral0A21E6275C2E30EE24EEFFB4D637DE33D0B87949);
-	}
-
-IL_02ed:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:190>
-		V_6 = _stringLiteral16E2D2356102EEF5657B9DFB97EEFE49EFE1EE0B;
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:192>
-		int32_t L_120 = V_3;
-		if ((!(((uint32_t)L_120) == ((uint32_t)((int32_t)2022)))))
-		{
-			goto IL_0303;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:194>
-		V_6 = _stringLiteral0F943846AF842E6E5DFD432E444FA0B74803306D;
-	}
-
-IL_0303:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:197>
-		int32_t L_121 = V_3;
-		if ((!(((uint32_t)L_121) == ((uint32_t)((int32_t)6000)))))
-		{
-			goto IL_0312;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:199>
-		V_6 = _stringLiteral15107A52C41E407F63F258604BDA437533D394F5;
-	}
-
-IL_0312:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:202>
-		int32_t L_122 = V_3;
-		if ((!(((uint32_t)L_122) == ((uint32_t)((int32_t)6001)))))
-		{
-			goto IL_0321;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:204>
-		V_6 = _stringLiteralD190BC6641BB315B0935732E84A86561E7DB863C;
-	}
-
-IL_0321:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:207>
-		int32_t L_123 = V_3;
-		if ((!(((uint32_t)L_123) == ((uint32_t)((int32_t)6002)))))
-		{
-			goto IL_0330;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:209>
-		V_6 = _stringLiteral13EB2D1FD88EE25DC51B3D130DA6735F1D1F807C;
-	}
-
-IL_0330:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:212>
-		int32_t L_124 = V_3;
-		if ((!(((uint32_t)L_124) == ((uint32_t)((int32_t)6003)))))
-		{
-			goto IL_033f;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:214>
-		V_6 = _stringLiteral73EE1B5448FD2C521CBFD7D42958320588AE446A;
-	}
-
-IL_033f:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:217>
-		int32_t L_125 = V_3;
-		if ((!(((uint32_t)L_125) == ((uint32_t)((int32_t)6004)))))
-		{
-			goto IL_034e;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:219>
-		V_6 = _stringLiteralCC0563F1698B76548D677036F38AF040A8EB7474;
-	}
-
-IL_034e:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:222>
-		ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* L_126 = V_0;
-		String_t* L_127 = V_6;
-		NullCheck(L_126);
-		L_126->___minimum = L_127;
-		Il2CppCodeGenWriteBarrier((void**)(&L_126->___minimum), (void*)L_127);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 773));
+		ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* L_134 = V_0;
+		NullCheck(L_134);
+		L_134->___isSupported = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 774));
 	}
 
 IL_0356:
 	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:171>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 775));
+		ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* L_135 = V_0;
+		NullCheck(L_135);
+		L_135->___package = _stringLiteral3DD7A80AEBCC272A03C6DE4D60FE627A39147C28;
+		Il2CppCodeGenWriteBarrier((void**)(&L_135->___package), (void*)_stringLiteral3DD7A80AEBCC272A03C6DE4D60FE627A39147C28);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 776));
+	}
+
+IL_0362:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:174>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 777));
+		int32_t L_136 = V_13;
+		V_39 = (bool)((((int32_t)L_136) == ((int32_t)4))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 778));
+		bool L_137 = V_39;
+		if (!L_137)
+		{
+			goto IL_03b8;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 779));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:176>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 780));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 781));
+		NullCheck(_stringLiteral13EB2D1FD88EE25DC51B3D130DA6735F1D1F807C);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_138;
+		L_138 = String_Split_m15EB0AE498D606D2ABC49FC5F1EC3E29121F8AFB(_stringLiteral13EB2D1FD88EE25DC51B3D130DA6735F1D1F807C, _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, 0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 781));
+		V_40 = L_138;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:177>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 782));
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_139 = V_40;
+		NullCheck(L_139);
+		int32_t L_140 = 2;
+		String_t* L_141 = (L_139)->GetAt(static_cast<il2cpp_array_size_t>(L_140));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 783));
+		il2cpp_codegen_runtime_class_init_inline(CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var);
+		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_142;
+		L_142 = CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 783));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 784));
+		int32_t L_143;
+		L_143 = Int32_Parse_mD1B67560310D4E9CC1EA31177CA1CB2CFDFE5D57(L_141, L_142, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 784));
+		V_41 = L_143;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:179>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 785));
+		int32_t L_144 = V_15;
+		int32_t L_145 = V_41;
+		V_42 = (bool)((((int32_t)L_144) < ((int32_t)L_145))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 786));
+		bool L_146 = V_42;
+		if (!L_146)
+		{
+			goto IL_03a5;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 787));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:181>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 788));
+		ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* L_147 = V_0;
+		NullCheck(L_147);
+		L_147->___isSupported = (bool)0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 789));
+	}
+
+IL_03a5:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:184>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 790));
+		ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* L_148 = V_0;
+		NullCheck(L_148);
+		L_148->___isTechRelease = (bool)1;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:186>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 791));
+		ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* L_149 = V_0;
+		NullCheck(L_149);
+		L_149->___package = _stringLiteral0A21E6275C2E30EE24EEFFB4D637DE33D0B87949;
+		Il2CppCodeGenWriteBarrier((void**)(&L_149->___package), (void*)_stringLiteral0A21E6275C2E30EE24EEFFB4D637DE33D0B87949);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 792));
+	}
+
+IL_03b8:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 793));
+	}
+
+IL_03b9:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:190>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 794));
+		V_16 = _stringLiteral16E2D2356102EEF5657B9DFB97EEFE49EFE1EE0B;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:192>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 795));
+		int32_t L_150 = V_12;
+		V_43 = (bool)((((int32_t)L_150) == ((int32_t)((int32_t)2022)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 796));
+		bool L_151 = V_43;
+		if (!L_151)
+		{
+			goto IL_03d8;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 797));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:194>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 798));
+		V_16 = _stringLiteral0F943846AF842E6E5DFD432E444FA0B74803306D;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 799));
+	}
+
+IL_03d8:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:197>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 800));
+		int32_t L_152 = V_12;
+		V_44 = (bool)((((int32_t)L_152) == ((int32_t)((int32_t)6000)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 801));
+		bool L_153 = V_44;
+		if (!L_153)
+		{
+			goto IL_03f0;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 802));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:199>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 803));
+		V_16 = _stringLiteral15107A52C41E407F63F258604BDA437533D394F5;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 804));
+	}
+
+IL_03f0:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:202>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 805));
+		int32_t L_154 = V_12;
+		V_45 = (bool)((((int32_t)L_154) == ((int32_t)((int32_t)6001)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 806));
+		bool L_155 = V_45;
+		if (!L_155)
+		{
+			goto IL_0408;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 807));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:204>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 808));
+		V_16 = _stringLiteralD190BC6641BB315B0935732E84A86561E7DB863C;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 809));
+	}
+
+IL_0408:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:207>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 810));
+		int32_t L_156 = V_12;
+		V_46 = (bool)((((int32_t)L_156) == ((int32_t)((int32_t)6002)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 811));
+		bool L_157 = V_46;
+		if (!L_157)
+		{
+			goto IL_0420;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 812));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:209>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 813));
+		V_16 = _stringLiteral13EB2D1FD88EE25DC51B3D130DA6735F1D1F807C;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 814));
+	}
+
+IL_0420:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:212>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 815));
+		int32_t L_158 = V_12;
+		V_47 = (bool)((((int32_t)L_158) == ((int32_t)((int32_t)6003)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 816));
+		bool L_159 = V_47;
+		if (!L_159)
+		{
+			goto IL_0438;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 817));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:214>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 818));
+		V_16 = _stringLiteral73EE1B5448FD2C521CBFD7D42958320588AE446A;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 819));
+	}
+
+IL_0438:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:217>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 820));
+		int32_t L_160 = V_12;
+		V_48 = (bool)((((int32_t)L_160) == ((int32_t)((int32_t)6004)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 821));
+		bool L_161 = V_48;
+		if (!L_161)
+		{
+			goto IL_0450;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 822));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:219>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 823));
+		V_16 = _stringLiteralCC0563F1698B76548D677036F38AF040A8EB7474;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 824));
+	}
+
+IL_0450:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:222>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 825));
+		ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* L_162 = V_0;
+		String_t* L_163 = V_16;
+		NullCheck(L_162);
+		L_162->___minimum = L_163;
+		Il2CppCodeGenWriteBarrier((void**)(&L_162->___minimum), (void*)L_163);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 826));
+	}
+
+IL_0459:
+	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:225>
-		ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* L_128 = V_0;
-		return L_128;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 827));
+		ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* L_164 = V_0;
+		V_49 = L_164;
+		goto IL_045e;
+	}
+
+IL_045e:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:226>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 828));
+		ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* L_165 = V_49;
+		return L_165;
 	}
 }
-// Method Definition Index: 94906
+// Method Definition Index: 95230
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* BoxoUtils_GetProjectPipeline_m62682D7681F703657BB85A435468BA71DC2A00FB (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BoxoUtils_GetProjectPipeline_m62682D7681F703657BB85A435468BA71DC2A00FB_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GraphicsSettings_t01785CE5CB5C5105CB527619AF4D74BEF417EF1A_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral03DECF49C988233B9A4A4D34037382DA914166F4);
@@ -3450,2549 +5282,4435 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* BoxoUtils_GetProjectPipeline_m62682
 		s_Il2CppMethodInitialized = true;
 	}
 	String_t* V_0 = NULL;
+	bool V_1 = false;
+	bool V_2 = false;
+	bool V_3 = false;
+	bool V_4 = false;
+	bool V_5 = false;
+	bool V_6 = false;
+	String_t* V_7 = NULL;
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BoxoUtils_GetProjectPipeline_m62682D7681F703657BB85A435468BA71DC2A00FB_RuntimeMethod_var, NULL, NULL, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 829));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 830));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 831));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:230>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 832));
 		V_0 = _stringLiteral2620038B8A71EF21A205CC921576171A3CA9B0F4;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:232>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 833));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 834));
 		il2cpp_codegen_runtime_class_init_inline(GraphicsSettings_t01785CE5CB5C5105CB527619AF4D74BEF417EF1A_il2cpp_TypeInfo_var);
 		RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* L_0;
 		L_0 = GraphicsSettings_get_defaultRenderPipeline_m2B69E2AFC36189F7FEF3EB453C8A1A165A5CF9CD(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 834));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 835));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_1)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 835));
+		V_1 = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 836));
+		bool L_2 = V_1;
+		if (!L_2)
 		{
-			goto IL_0055;
+			goto IL_0062;
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 837));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:234>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 838));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 839));
 		il2cpp_codegen_runtime_class_init_inline(GraphicsSettings_t01785CE5CB5C5105CB527619AF4D74BEF417EF1A_il2cpp_TypeInfo_var);
-		RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* L_2;
-		L_2 = GraphicsSettings_get_defaultRenderPipeline_m2B69E2AFC36189F7FEF3EB453C8A1A165A5CF9CD(NULL);
-		NullCheck(L_2);
-		Type_t* L_3;
-		L_3 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_2, NULL);
+		RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* L_3;
+		L_3 = GraphicsSettings_get_defaultRenderPipeline_m2B69E2AFC36189F7FEF3EB453C8A1A165A5CF9CD(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 839));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 840));
 		NullCheck(L_3);
-		String_t* L_4;
-		L_4 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_3);
+		Type_t* L_4;
+		L_4 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_3, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 840));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 841));
 		NullCheck(L_4);
-		bool L_5;
-		L_5 = String_Contains_m6D77B121FADA7CA5F397C0FABB65DA62DF03B6C3(L_4, _stringLiteralDEAC03BC08603A926530E878D97B96FA6C0CFEED, NULL);
-		if (!L_5)
-		{
-			goto IL_0034;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:236>
-		V_0 = _stringLiteralDEAC03BC08603A926530E878D97B96FA6C0CFEED;
-	}
-
-IL_0034:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:239>
-		il2cpp_codegen_runtime_class_init_inline(GraphicsSettings_t01785CE5CB5C5105CB527619AF4D74BEF417EF1A_il2cpp_TypeInfo_var);
-		RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* L_6;
-		L_6 = GraphicsSettings_get_defaultRenderPipeline_m2B69E2AFC36189F7FEF3EB453C8A1A165A5CF9CD(NULL);
-		NullCheck(L_6);
-		Type_t* L_7;
-		L_7 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_6, NULL);
-		NullCheck(L_7);
-		String_t* L_8;
-		L_8 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_7);
-		NullCheck(L_8);
-		bool L_9;
-		L_9 = String_Contains_m6D77B121FADA7CA5F397C0FABB65DA62DF03B6C3(L_8, _stringLiteral03DECF49C988233B9A4A4D34037382DA914166F4, NULL);
-		if (!L_9)
-		{
-			goto IL_0055;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:241>
-		V_0 = _stringLiteralEAB619AA5F3FF34776F518452C4983B13C13457F;
-	}
-
-IL_0055:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:245>
-		RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* L_10;
-		L_10 = QualitySettings_get_renderPipeline_mBED269CBEC7409C297A2A5120DBAF185DCC4AFC8(NULL);
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_11;
-		L_11 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_10, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_11)
-		{
-			goto IL_00a4;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:247>
-		RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* L_12;
-		L_12 = QualitySettings_get_renderPipeline_mBED269CBEC7409C297A2A5120DBAF185DCC4AFC8(NULL);
-		NullCheck(L_12);
-		Type_t* L_13;
-		L_13 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_12, NULL);
-		NullCheck(L_13);
-		String_t* L_14;
-		L_14 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_13);
-		NullCheck(L_14);
-		bool L_15;
-		L_15 = String_Contains_m6D77B121FADA7CA5F397C0FABB65DA62DF03B6C3(L_14, _stringLiteralDEAC03BC08603A926530E878D97B96FA6C0CFEED, NULL);
-		if (!L_15)
-		{
-			goto IL_0083;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:249>
-		V_0 = _stringLiteralDEAC03BC08603A926530E878D97B96FA6C0CFEED;
-	}
-
-IL_0083:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:252>
-		RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* L_16;
-		L_16 = QualitySettings_get_renderPipeline_mBED269CBEC7409C297A2A5120DBAF185DCC4AFC8(NULL);
-		NullCheck(L_16);
-		Type_t* L_17;
-		L_17 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_16, NULL);
-		NullCheck(L_17);
-		String_t* L_18;
-		L_18 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_17);
-		NullCheck(L_18);
-		bool L_19;
-		L_19 = String_Contains_m6D77B121FADA7CA5F397C0FABB65DA62DF03B6C3(L_18, _stringLiteral03DECF49C988233B9A4A4D34037382DA914166F4, NULL);
-		if (!L_19)
-		{
-			goto IL_00a4;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:254>
-		V_0 = _stringLiteralEAB619AA5F3FF34776F518452C4983B13C13457F;
-	}
-
-IL_00a4:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:258>
-		String_t* L_20 = V_0;
-		return L_20;
-	}
-}
-// Method Definition Index: 94907
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_SetMaterialBool_mEAEE5C7960925FFCFB9CE6784D1ADBC782692AA9 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_valueProp, String_t* ___2_internalProp, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:264>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
-		String_t* L_1 = ___1_valueProp;
-		NullCheck(L_0);
-		bool L_2;
-		L_2 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_0, L_1, NULL);
-		if (!L_2)
-		{
-			goto IL_0028;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:266>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = ___0_material;
-		String_t* L_4 = ___1_valueProp;
-		NullCheck(L_3);
-		float L_5;
-		L_5 = Material_GetFloat_m2A77F10E6AA13EA3FA56166EFEA897115A14FA5A(L_3, L_4, NULL);
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:268>
-		if ((!(((float)L_5) > ((float)(0.0f)))))
-		{
-			goto IL_0020;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:270>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_6 = ___0_material;
-		String_t* L_7 = ___2_internalProp;
-		NullCheck(L_6);
-		Material_SetInt_m41DF5404A9942239265888105E1DC83F2FBF901A(L_6, L_7, 1, NULL);
-		return;
-	}
-
-IL_0020:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:274>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_8 = ___0_material;
-		String_t* L_9 = ___2_internalProp;
-		NullCheck(L_8);
-		Material_SetInt_m41DF5404A9942239265888105E1DC83F2FBF901A(L_8, L_9, 0, NULL);
-	}
-
-IL_0028:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:277>
-		return;
-	}
-}
-// Method Definition Index: 94908
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_SetMaterialInt_mDF16145968644C02CADBDD9145AE0A32A8475943 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_valueProp, String_t* ___2_internalProp, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:281>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
-		String_t* L_1 = ___1_valueProp;
-		NullCheck(L_0);
-		bool L_2;
-		L_2 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_0, L_1, NULL);
-		if (!L_2)
-		{
-			goto IL_0017;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:283>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = ___0_material;
-		String_t* L_4 = ___2_internalProp;
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_5 = ___0_material;
-		String_t* L_6 = ___1_valueProp;
+		String_t* L_5;
+		L_5 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_4);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 841));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 842));
 		NullCheck(L_5);
-		int32_t L_7;
-		L_7 = Material_GetInt_mA772B615274DD11B37A352BC66EFA81BFD9C13EA(L_5, L_6, NULL);
-		NullCheck(L_3);
-		Material_SetInt_m41DF5404A9942239265888105E1DC83F2FBF901A(L_3, L_4, L_7, NULL);
-	}
-
-IL_0017:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:285>
-		return;
-	}
-}
-// Method Definition Index: 94909
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_SetMaterialFloat_m1085EA44B76F628068B85E95E832BF0EC9B5CD94 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_valueProp, String_t* ___2_internalProp, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:289>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
-		String_t* L_1 = ___1_valueProp;
-		NullCheck(L_0);
-		bool L_2;
-		L_2 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_0, L_1, NULL);
-		if (!L_2)
-		{
-			goto IL_0017;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:291>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = ___0_material;
-		String_t* L_4 = ___2_internalProp;
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_5 = ___0_material;
-		String_t* L_6 = ___1_valueProp;
-		NullCheck(L_5);
-		float L_7;
-		L_7 = Material_GetFloat_m2A77F10E6AA13EA3FA56166EFEA897115A14FA5A(L_5, L_6, NULL);
-		NullCheck(L_3);
-		Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836(L_3, L_4, L_7, NULL);
-	}
-
-IL_0017:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:293>
-		return;
-	}
-}
-// Method Definition Index: 94910
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_SetMaterialVector_m458F6ABCB72D2F33FD99DEA6A7FF192902CC5D04 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_valueProp, String_t* ___2_internalProp, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:297>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
-		String_t* L_1 = ___1_valueProp;
-		NullCheck(L_0);
-		bool L_2;
-		L_2 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_0, L_1, NULL);
-		if (!L_2)
-		{
-			goto IL_0017;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:299>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = ___0_material;
-		String_t* L_4 = ___2_internalProp;
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_5 = ___0_material;
-		String_t* L_6 = ___1_valueProp;
-		NullCheck(L_5);
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_7;
-		L_7 = Material_GetVector_mA2011D4DA2CC58003AE90DBF0802CF5EE31B014D(L_5, L_6, NULL);
-		NullCheck(L_3);
-		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_3, L_4, L_7, NULL);
-	}
-
-IL_0017:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:301>
-		return;
-	}
-}
-// Method Definition Index: 94911
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_SetMaterialTexture_mAB2C20BE967426E0BEF6D509898A21FACCE7F208 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_valueProp, String_t* ___2_internalProp, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:305>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
-		String_t* L_1 = ___1_valueProp;
-		NullCheck(L_0);
-		bool L_2;
-		L_2 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_0, L_1, NULL);
-		if (!L_2)
-		{
-			goto IL_0017;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:307>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = ___0_material;
-		String_t* L_4 = ___2_internalProp;
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_5 = ___0_material;
-		String_t* L_6 = ___1_valueProp;
-		NullCheck(L_5);
-		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_7;
-		L_7 = Material_GetTexture_mBA07A377A7DDD29CD53E6F687DE6D49A42C0C719(L_5, L_6, NULL);
-		NullCheck(L_3);
-		Material_SetTexture_m06083C3F52EF02FFB1177901D9907314F280F9A5(L_3, L_4, L_7, NULL);
-	}
-
-IL_0017:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:309>
-		return;
-	}
-}
-// Method Definition Index: 94912
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_SetMaterialCoords_m08466004EDC71342355B0E98E4166D919D819E9A (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_modeProp, String_t* ___2_valueProp, String_t* ___3_internalProp, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 V_1;
-	memset((&V_1), 0, sizeof(V_1));
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:313>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
-		String_t* L_1 = ___1_modeProp;
-		NullCheck(L_0);
-		bool L_2;
-		L_2 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_0, L_1, NULL);
-		if (!L_2)
-		{
-			goto IL_0062;
-		}
-	}
-	{
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = ___0_material;
-		String_t* L_4 = ___2_valueProp;
-		NullCheck(L_3);
-		bool L_5;
-		L_5 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_3, L_4, NULL);
-		if (!L_5)
-		{
-			goto IL_0062;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:315>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_6 = ___0_material;
-		String_t* L_7 = ___1_modeProp;
-		NullCheck(L_6);
-		int32_t L_8;
-		L_8 = Material_GetInt_mA772B615274DD11B37A352BC66EFA81BFD9C13EA(L_6, L_7, NULL);
-		V_0 = L_8;
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:316>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_9 = ___0_material;
-		String_t* L_10 = ___2_valueProp;
-		NullCheck(L_9);
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_11;
-		L_11 = Material_GetVector_mA2011D4DA2CC58003AE90DBF0802CF5EE31B014D(L_9, L_10, NULL);
-		V_1 = L_11;
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:318>
-		int32_t L_12 = V_0;
-		if (L_12)
-		{
-			goto IL_002e;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:320>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_13 = ___0_material;
-		String_t* L_14 = ___3_internalProp;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_15 = V_1;
-		NullCheck(L_13);
-		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_13, L_14, L_15, NULL);
-		return;
-	}
-
-IL_002e:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:322>
-		int32_t L_16 = V_0;
-		if ((!(((uint32_t)L_16) == ((uint32_t)1))))
-		{
-			goto IL_0062;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:324>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_17 = ___0_material;
-		String_t* L_18 = ___3_internalProp;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_19 = V_1;
-		float L_20 = L_19.___x;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_21 = V_1;
-		float L_22 = L_21.___y;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_23 = V_1;
-		float L_24 = L_23.___z;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_25 = V_1;
-		float L_26 = L_25.___w;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_27;
-		memset((&L_27), 0, sizeof(L_27));
-		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_27), ((float)((1.0f)/L_20)), ((float)((1.0f)/L_22)), L_24, L_26, NULL);
-		NullCheck(L_17);
-		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_17, L_18, L_27, NULL);
-	}
-
-IL_0062:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:327>
-		return;
-	}
-}
-// Method Definition Index: 94913
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_SetMaterialBounds_mC2B22C2E774221DDC67651901F46E8706E93B349 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_modeProp, String_t* ___2_valueProp, String_t* ___3_internalProp, const RuntimeMethod* method) 
-{
-	float V_0 = 0.0f;
-	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 V_1;
-	memset((&V_1), 0, sizeof(V_1));
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_2;
-	memset((&V_2), 0, sizeof(V_2));
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_3;
-	memset((&V_3), 0, sizeof(V_3));
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:331>
-		V_0 = (0.0f);
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:333>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
-		String_t* L_1 = ___1_modeProp;
-		NullCheck(L_0);
-		bool L_2;
-		L_2 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_0, L_1, NULL);
-		if (!L_2)
-		{
-			goto IL_00a7;
-		}
-	}
-	{
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = ___0_material;
-		String_t* L_4 = ___2_valueProp;
-		NullCheck(L_3);
-		bool L_5;
-		L_5 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_3, L_4, NULL);
-		if (!L_5)
-		{
-			goto IL_00a7;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:335>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_6 = ___0_material;
-		String_t* L_7 = ___1_modeProp;
-		NullCheck(L_6);
-		int32_t L_8;
-		L_8 = Material_GetInt_mA772B615274DD11B37A352BC66EFA81BFD9C13EA(L_6, L_7, NULL);
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:337>
-		if ((!(((uint32_t)L_8) == ((uint32_t)1))))
-		{
-			goto IL_002e;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:339>
-		V_0 = (0.5f);
-	}
-
-IL_002e:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:342>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_9 = ___0_material;
-		String_t* L_10 = ___2_valueProp;
-		NullCheck(L_9);
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_11;
-		L_11 = Material_GetVector_mA2011D4DA2CC58003AE90DBF0802CF5EE31B014D(L_9, L_10, NULL);
-		V_1 = L_11;
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:343>
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_12 = V_1;
-		float L_13 = L_12.___z;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_14 = V_1;
-		float L_15 = L_14.___w;
-		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&V_2), ((float)((1.0f)/L_13)), ((float)((1.0f)/L_15)), NULL);
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:344>
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_16 = V_1;
-		float L_17 = L_16.___x;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_18 = V_2;
-		float L_19 = L_18.___x;
-		float L_20 = V_0;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_21 = V_1;
-		float L_22 = L_21.___y;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_23 = V_2;
-		float L_24 = L_23.___y;
-		float L_25 = V_0;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_26;
-		memset((&L_26), 0, sizeof(L_26));
-		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_26), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_17, L_19)), L_20)), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_22, L_24)), L_25)), NULL);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_27;
-		L_27 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_26, (-1.0f), NULL);
-		V_3 = L_27;
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:346>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_28 = ___0_material;
-		String_t* L_29 = ___3_internalProp;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_30 = V_2;
-		float L_31 = L_30.___x;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_32 = V_2;
-		float L_33 = L_32.___y;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_34 = V_3;
-		float L_35 = L_34.___x;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_36 = V_3;
-		float L_37 = L_36.___y;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_38;
-		memset((&L_38), 0, sizeof(L_38));
-		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_38), L_31, L_33, L_35, L_37, NULL);
-		NullCheck(L_28);
-		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_28, L_29, L_38, NULL);
-	}
-
-IL_00a7:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:348>
-		return;
-	}
-}
-// Method Definition Index: 94914
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_SetMaterialOptions_m4504F4F947F09C5B6622F13B8634EFC204F34CD7 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_modeProp, String_t* ___2_valueProp, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:352>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
-		String_t* L_1 = ___1_modeProp;
-		NullCheck(L_0);
-		bool L_2;
-		L_2 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_0, L_1, NULL);
-		if (!L_2)
-		{
-			goto IL_00a6;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:354>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = ___0_material;
-		String_t* L_4 = ___1_modeProp;
-		NullCheck(L_3);
-		int32_t L_5;
-		L_5 = Material_GetInt_mA772B615274DD11B37A352BC66EFA81BFD9C13EA(L_3, L_4, NULL);
-		V_0 = L_5;
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:356>
-		int32_t L_6 = V_0;
-		if (L_6)
-		{
-			goto IL_0038;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:358>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_7 = ___0_material;
-		String_t* L_8 = ___2_valueProp;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_9;
-		memset((&L_9), 0, sizeof(L_9));
-		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_9), (1.0f), (0.0f), (0.0f), (0.0f), NULL);
-		NullCheck(L_7);
-		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_7, L_8, L_9, NULL);
-		return;
-	}
-
-IL_0038:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:360>
-		int32_t L_10 = V_0;
-		if ((!(((uint32_t)L_10) == ((uint32_t)1))))
-		{
-			goto IL_005d;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:362>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_11 = ___0_material;
-		String_t* L_12 = ___2_valueProp;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_13;
-		memset((&L_13), 0, sizeof(L_13));
-		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_13), (0.0f), (1.0f), (0.0f), (0.0f), NULL);
-		NullCheck(L_11);
-		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_11, L_12, L_13, NULL);
-		return;
-	}
-
-IL_005d:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:364>
-		int32_t L_14 = V_0;
-		if ((!(((uint32_t)L_14) == ((uint32_t)2))))
-		{
-			goto IL_0082;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:366>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_15 = ___0_material;
-		String_t* L_16 = ___2_valueProp;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_17;
-		memset((&L_17), 0, sizeof(L_17));
-		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_17), (0.0f), (0.0f), (1.0f), (0.0f), NULL);
-		NullCheck(L_15);
-		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_15, L_16, L_17, NULL);
-		return;
-	}
-
-IL_0082:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:368>
-		int32_t L_18 = V_0;
-		if ((!(((uint32_t)L_18) == ((uint32_t)3))))
-		{
-			goto IL_00a6;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:370>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_19 = ___0_material;
-		String_t* L_20 = ___2_valueProp;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_21;
-		memset((&L_21), 0, sizeof(L_21));
-		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_21), (0.0f), (0.0f), (0.0f), (1.0f), NULL);
-		NullCheck(L_19);
-		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_19, L_20, L_21, NULL);
-	}
-
-IL_00a6:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:373>
-		return;
-	}
-}
-// Method Definition Index: 94915
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_SetMaterialOptions_m64D8CCD488E64BA7121EC8EE7EDD4805C668776A (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_modeProp, String_t* ___2_valuePropA, String_t* ___3_valuePropB, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:377>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
-		String_t* L_1 = ___1_modeProp;
-		NullCheck(L_0);
-		bool L_2;
-		L_2 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_0, L_1, NULL);
-		if (!L_2)
-		{
-			goto IL_019a;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:379>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = ___0_material;
-		String_t* L_4 = ___1_modeProp;
-		NullCheck(L_3);
-		int32_t L_5;
-		L_5 = Material_GetInt_mA772B615274DD11B37A352BC66EFA81BFD9C13EA(L_3, L_4, NULL);
-		V_0 = L_5;
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:381>
-		int32_t L_6 = V_0;
-		if (L_6)
-		{
-			goto IL_0044;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:383>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_7 = ___0_material;
-		String_t* L_8 = ___2_valuePropA;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_9;
-		memset((&L_9), 0, sizeof(L_9));
-		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_9), (1.0f), (0.0f), (0.0f), (0.0f), NULL);
-		NullCheck(L_7);
-		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_7, L_8, L_9, NULL);
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:384>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_10 = ___0_material;
-		String_t* L_11 = ___3_valuePropB;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_12;
-		L_12 = Vector4_get_zero_m3D61F5FA9483CD9C08977D9D8852FB448B4CE6D1_inline(NULL);
-		NullCheck(L_10);
-		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_10, L_11, L_12, NULL);
-		return;
-	}
-
-IL_0044:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:386>
-		int32_t L_13 = V_0;
-		if ((!(((uint32_t)L_13) == ((uint32_t)1))))
-		{
-			goto IL_0075;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:388>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_14 = ___0_material;
-		String_t* L_15 = ___2_valuePropA;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_16;
-		memset((&L_16), 0, sizeof(L_16));
-		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_16), (0.0f), (1.0f), (0.0f), (0.0f), NULL);
-		NullCheck(L_14);
-		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_14, L_15, L_16, NULL);
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:389>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_17 = ___0_material;
-		String_t* L_18 = ___3_valuePropB;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_19;
-		L_19 = Vector4_get_zero_m3D61F5FA9483CD9C08977D9D8852FB448B4CE6D1_inline(NULL);
-		NullCheck(L_17);
-		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_17, L_18, L_19, NULL);
-		return;
-	}
-
-IL_0075:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:391>
-		int32_t L_20 = V_0;
-		if ((!(((uint32_t)L_20) == ((uint32_t)2))))
-		{
-			goto IL_00a6;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:393>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_21 = ___0_material;
-		String_t* L_22 = ___2_valuePropA;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_23;
-		memset((&L_23), 0, sizeof(L_23));
-		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_23), (0.0f), (0.0f), (1.0f), (0.0f), NULL);
-		NullCheck(L_21);
-		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_21, L_22, L_23, NULL);
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:394>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_24 = ___0_material;
-		String_t* L_25 = ___3_valuePropB;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_26;
-		L_26 = Vector4_get_zero_m3D61F5FA9483CD9C08977D9D8852FB448B4CE6D1_inline(NULL);
-		NullCheck(L_24);
-		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_24, L_25, L_26, NULL);
-		return;
-	}
-
-IL_00a6:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:396>
-		int32_t L_27 = V_0;
-		if ((!(((uint32_t)L_27) == ((uint32_t)3))))
-		{
-			goto IL_00d7;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:398>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_28 = ___0_material;
-		String_t* L_29 = ___2_valuePropA;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_30;
-		memset((&L_30), 0, sizeof(L_30));
-		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_30), (0.0f), (0.0f), (0.0f), (1.0f), NULL);
-		NullCheck(L_28);
-		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_28, L_29, L_30, NULL);
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:399>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_31 = ___0_material;
-		String_t* L_32 = ___3_valuePropB;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_33;
-		L_33 = Vector4_get_zero_m3D61F5FA9483CD9C08977D9D8852FB448B4CE6D1_inline(NULL);
-		NullCheck(L_31);
-		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_31, L_32, L_33, NULL);
-		return;
-	}
-
-IL_00d7:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:401>
-		int32_t L_34 = V_0;
-		if ((!(((uint32_t)L_34) == ((uint32_t)4))))
-		{
-			goto IL_0108;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:403>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_35 = ___0_material;
-		String_t* L_36 = ___2_valuePropA;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_37;
-		L_37 = Vector4_get_zero_m3D61F5FA9483CD9C08977D9D8852FB448B4CE6D1_inline(NULL);
-		NullCheck(L_35);
-		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_35, L_36, L_37, NULL);
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:404>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_38 = ___0_material;
-		String_t* L_39 = ___3_valuePropB;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_40;
-		memset((&L_40), 0, sizeof(L_40));
-		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_40), (1.0f), (0.0f), (0.0f), (0.0f), NULL);
-		NullCheck(L_38);
-		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_38, L_39, L_40, NULL);
-		return;
-	}
-
-IL_0108:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:406>
-		int32_t L_41 = V_0;
-		if ((!(((uint32_t)L_41) == ((uint32_t)5))))
-		{
-			goto IL_0139;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:408>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_42 = ___0_material;
-		String_t* L_43 = ___2_valuePropA;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_44;
-		L_44 = Vector4_get_zero_m3D61F5FA9483CD9C08977D9D8852FB448B4CE6D1_inline(NULL);
-		NullCheck(L_42);
-		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_42, L_43, L_44, NULL);
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:409>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_45 = ___0_material;
-		String_t* L_46 = ___3_valuePropB;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_47;
-		memset((&L_47), 0, sizeof(L_47));
-		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_47), (0.0f), (1.0f), (0.0f), (0.0f), NULL);
-		NullCheck(L_45);
-		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_45, L_46, L_47, NULL);
-		return;
-	}
-
-IL_0139:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:411>
-		int32_t L_48 = V_0;
-		if ((!(((uint32_t)L_48) == ((uint32_t)6))))
-		{
-			goto IL_016a;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:413>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_49 = ___0_material;
-		String_t* L_50 = ___2_valuePropA;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_51;
-		L_51 = Vector4_get_zero_m3D61F5FA9483CD9C08977D9D8852FB448B4CE6D1_inline(NULL);
-		NullCheck(L_49);
-		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_49, L_50, L_51, NULL);
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:414>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_52 = ___0_material;
-		String_t* L_53 = ___3_valuePropB;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_54;
-		memset((&L_54), 0, sizeof(L_54));
-		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_54), (0.0f), (0.0f), (1.0f), (0.0f), NULL);
-		NullCheck(L_52);
-		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_52, L_53, L_54, NULL);
-		return;
-	}
-
-IL_016a:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:416>
-		int32_t L_55 = V_0;
-		if ((!(((uint32_t)L_55) == ((uint32_t)7))))
-		{
-			goto IL_019a;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:418>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_56 = ___0_material;
-		String_t* L_57 = ___2_valuePropA;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_58;
-		L_58 = Vector4_get_zero_m3D61F5FA9483CD9C08977D9D8852FB448B4CE6D1_inline(NULL);
-		NullCheck(L_56);
-		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_56, L_57, L_58, NULL);
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:419>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_59 = ___0_material;
-		String_t* L_60 = ___3_valuePropB;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_61;
-		memset((&L_61), 0, sizeof(L_61));
-		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_61), (0.0f), (0.0f), (0.0f), (1.0f), NULL);
-		NullCheck(L_59);
-		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_59, L_60, L_61, NULL);
-	}
-
-IL_019a:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:422>
-		return;
-	}
-}
-// Method Definition Index: 94916
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_SetMaterialBackface_m33F287A2D59209075DD21895E0CC94E89991A2BE (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_modeProp, String_t* ___2_valueProp, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:426>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
-		String_t* L_1 = ___1_modeProp;
-		NullCheck(L_0);
-		bool L_2;
-		L_2 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_0, L_1, NULL);
-		if (!L_2)
-		{
-			goto IL_007e;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:429>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = ___0_material;
-		String_t* L_4 = ___1_modeProp;
-		NullCheck(L_3);
-		int32_t L_5;
-		L_5 = Material_GetInt_mA772B615274DD11B37A352BC66EFA81BFD9C13EA(L_3, L_4, NULL);
-		V_0 = L_5;
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:431>
-		int32_t L_6 = V_0;
-		if (L_6)
-		{
-			goto IL_0035;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:433>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_7 = ___0_material;
-		String_t* L_8 = ___2_valueProp;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_9;
-		memset((&L_9), 0, sizeof(L_9));
-		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_9), (1.0f), (1.0f), (1.0f), (0.0f), NULL);
-		NullCheck(L_7);
-		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_7, L_8, L_9, NULL);
-		return;
-	}
-
-IL_0035:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:435>
-		int32_t L_10 = V_0;
-		if ((!(((uint32_t)L_10) == ((uint32_t)1))))
-		{
-			goto IL_005a;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:437>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_11 = ___0_material;
-		String_t* L_12 = ___2_valueProp;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_13;
-		memset((&L_13), 0, sizeof(L_13));
-		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_13), (-1.0f), (-1.0f), (-1.0f), (0.0f), NULL);
-		NullCheck(L_11);
-		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_11, L_12, L_13, NULL);
-		return;
-	}
-
-IL_005a:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:439>
-		int32_t L_14 = V_0;
-		if ((!(((uint32_t)L_14) == ((uint32_t)2))))
-		{
-			goto IL_007e;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:441>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_15 = ___0_material;
-		String_t* L_16 = ___2_valueProp;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_17;
-		memset((&L_17), 0, sizeof(L_17));
-		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_17), (1.0f), (1.0f), (-1.0f), (0.0f), NULL);
-		NullCheck(L_15);
-		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_15, L_16, L_17, NULL);
-	}
-
-IL_007e:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:444>
-		return;
-	}
-}
-// Method Definition Index: 94917
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_SetMaterialBackfaceLegacy_m8BCEEE8AD24AF5A15DB0296297F341D226C0FA67 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_modeProp, String_t* ___2_valueProp, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:448>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
-		String_t* L_1 = ___1_modeProp;
-		NullCheck(L_0);
-		bool L_2;
-		L_2 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_0, L_1, NULL);
-		if (!L_2)
-		{
-			goto IL_007e;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:451>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = ___0_material;
-		String_t* L_4 = ___1_modeProp;
-		NullCheck(L_3);
-		int32_t L_5;
-		L_5 = Material_GetInt_mA772B615274DD11B37A352BC66EFA81BFD9C13EA(L_3, L_4, NULL);
-		V_0 = L_5;
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:453>
-		int32_t L_6 = V_0;
-		if (L_6)
-		{
-			goto IL_0035;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:455>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_7 = ___0_material;
-		String_t* L_8 = ___2_valueProp;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_9;
-		memset((&L_9), 0, sizeof(L_9));
-		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_9), (-1.0f), (-1.0f), (-1.0f), (0.0f), NULL);
-		NullCheck(L_7);
-		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_7, L_8, L_9, NULL);
-		return;
-	}
-
-IL_0035:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:457>
-		int32_t L_10 = V_0;
-		if ((!(((uint32_t)L_10) == ((uint32_t)1))))
-		{
-			goto IL_005a;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:459>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_11 = ___0_material;
-		String_t* L_12 = ___2_valueProp;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_13;
-		memset((&L_13), 0, sizeof(L_13));
-		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_13), (1.0f), (1.0f), (-1.0f), (0.0f), NULL);
-		NullCheck(L_11);
-		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_11, L_12, L_13, NULL);
-		return;
-	}
-
-IL_005a:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:461>
-		int32_t L_14 = V_0;
-		if ((!(((uint32_t)L_14) == ((uint32_t)2))))
-		{
-			goto IL_007e;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:463>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_15 = ___0_material;
-		String_t* L_16 = ___2_valueProp;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_17;
-		memset((&L_17), 0, sizeof(L_17));
-		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_17), (1.0f), (1.0f), (1.0f), (0.0f), NULL);
-		NullCheck(L_15);
-		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_15, L_16, L_17, NULL);
-	}
-
-IL_007e:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:466>
-		return;
-	}
-}
-// Method Definition Index: 94918
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_SetMaterialReciprocal_mFDDCF16BA4C524F6BA07CB707E93894E7CCB87F4 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_valueProp, const RuntimeMethod* method) 
-{
-	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:470>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
-		String_t* L_1 = ___1_valueProp;
-		NullCheck(L_0);
-		bool L_2;
-		L_2 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_0, L_1, NULL);
-		if (!L_2)
-		{
-			goto IL_0042;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:472>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = ___0_material;
-		String_t* L_4 = ___1_valueProp;
-		NullCheck(L_3);
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_5;
-		L_5 = Material_GetVector_mA2011D4DA2CC58003AE90DBF0802CF5EE31B014D(L_3, L_4, NULL);
-		V_0 = L_5;
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:474>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_6 = ___0_material;
-		String_t* L_7 = ___1_valueProp;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_8 = V_0;
-		float L_9 = L_8.___x;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_10 = V_0;
-		float L_11 = L_10.___y;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_12 = V_0;
-		float L_13 = L_12.___y;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_14 = V_0;
-		float L_15 = L_14.___x;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_16 = V_0;
-		float L_17 = L_16.___w;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_18;
-		memset((&L_18), 0, sizeof(L_18));
-		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_18), L_9, L_11, ((float)((1.0f)/((float)il2cpp_codegen_subtract(L_13, L_15)))), L_17, NULL);
-		NullCheck(L_6);
-		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_6, L_7, L_18, NULL);
-	}
-
-IL_0042:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:476>
-		return;
-	}
-}
-// Method Definition Index: 94919
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_SetMaterialKeyword_m438ACBFBEE5A739E389077B478D91F0A3489D63B (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_keyword, bool ___2_enable, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:480>
-		bool L_0 = ___2_enable;
-		if (!L_0)
-		{
-			goto IL_000b;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:482>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_1 = ___0_material;
-		String_t* L_2 = ___1_keyword;
-		NullCheck(L_1);
-		Material_EnableKeyword_mE8523EF6CF694284DF976D47ADEDE9363A1174AC(L_1, L_2, NULL);
-		return;
-	}
-
-IL_000b:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:486>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = ___0_material;
-		String_t* L_4 = ___1_keyword;
-		NullCheck(L_3);
-		Material_DisableKeyword_mC123927EBF2F2A19220A4456C8EA19F2BA416E8C(L_3, L_4, NULL);
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:488>
-		return;
-	}
-}
-// Method Definition Index: 94920
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_SetMaterialKeyword_m6E5405F2874B9D6CA718F2FC053AF502D593243A (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_property, String_t* ___2_keyword, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:492>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
-		String_t* L_1 = ___1_property;
-		NullCheck(L_0);
-		bool L_2;
-		L_2 = Material_HasFloat_m56838BD2D4657D355DDCFE8E9785F6EB6B0F1EB8(L_0, L_1, NULL);
-		if (!L_2)
-		{
-			goto IL_0026;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:494>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = ___0_material;
-		String_t* L_4 = ___1_property;
-		NullCheck(L_3);
-		float L_5;
-		L_5 = Material_GetFloat_m2A77F10E6AA13EA3FA56166EFEA897115A14FA5A(L_3, L_4, NULL);
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:496>
-		if ((!(((float)L_5) == ((float)(0.0f)))))
-		{
-			goto IL_001f;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:498>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_6 = ___0_material;
-		String_t* L_7 = ___2_keyword;
-		NullCheck(L_6);
-		Material_DisableKeyword_mC123927EBF2F2A19220A4456C8EA19F2BA416E8C(L_6, L_7, NULL);
-		return;
-	}
-
-IL_001f:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:502>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_8 = ___0_material;
-		String_t* L_9 = ___2_keyword;
-		NullCheck(L_8);
-		Material_EnableKeyword_mE8523EF6CF694284DF976D47ADEDE9363A1174AC(L_8, L_9, NULL);
-	}
-
-IL_0026:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:505>
-		return;
-	}
-}
-// Method Definition Index: 94921
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_SetMaterialKeyword_m835A2A892CF25CAFCA6CDF3BE6425059F5DDCFAE (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_property, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___2_keywords, const RuntimeMethod* method) 
-{
-	float V_0 = 0.0f;
-	int32_t V_1 = 0;
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:509>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
-		String_t* L_1 = ___1_property;
-		NullCheck(L_0);
-		bool L_2;
-		L_2 = Material_HasFloat_m56838BD2D4657D355DDCFE8E9785F6EB6B0F1EB8(L_0, L_1, NULL);
-		if (!L_2)
-		{
-			goto IL_0038;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:511>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = ___0_material;
-		String_t* L_4 = ___1_property;
-		NullCheck(L_3);
-		float L_5;
-		L_5 = Material_GetFloat_m2A77F10E6AA13EA3FA56166EFEA897115A14FA5A(L_3, L_4, NULL);
-		V_0 = L_5;
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:513>
-		V_1 = 0;
-		goto IL_0032;
-	}
-
-IL_0015:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:515>
-		int32_t L_6 = V_1;
-		float L_7 = V_0;
-		if ((!(((float)((float)L_6)) == ((float)L_7))))
-		{
-			goto IL_0025;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:517>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_8 = ___0_material;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_9 = ___2_keywords;
-		int32_t L_10 = V_1;
-		NullCheck(L_9);
-		int32_t L_11 = L_10;
-		String_t* L_12 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
-		NullCheck(L_8);
-		Material_EnableKeyword_mE8523EF6CF694284DF976D47ADEDE9363A1174AC(L_8, L_12, NULL);
-		goto IL_002e;
-	}
-
-IL_0025:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:521>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_13 = ___0_material;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_14 = ___2_keywords;
-		int32_t L_15 = V_1;
-		NullCheck(L_14);
-		int32_t L_16 = L_15;
-		String_t* L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
-		NullCheck(L_13);
-		Material_DisableKeyword_mC123927EBF2F2A19220A4456C8EA19F2BA416E8C(L_13, L_17, NULL);
-	}
-
-IL_002e:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:513>
-		int32_t L_18 = V_1;
-		V_1 = ((int32_t)il2cpp_codegen_add(L_18, 1));
-	}
-
-IL_0032:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:513>
-		int32_t L_19 = V_1;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_20 = ___2_keywords;
-		NullCheck(L_20);
-		if ((((int32_t)L_19) < ((int32_t)((int32_t)(((RuntimeArray*)L_20)->max_length)))))
-		{
-			goto IL_0015;
-		}
-	}
-
-IL_0038:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:525>
-		return;
-	}
-}
-// Method Definition Index: 94922
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_SetMaterialKeyword_m7CD1689A056CB46AF7426FAE133B7982A6829690 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_parent, String_t* ___2_property, String_t* ___3_keyword, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:529>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
-		String_t* L_1 = ___1_parent;
-		NullCheck(L_0);
-		bool L_2;
-		L_2 = Material_HasFloat_m56838BD2D4657D355DDCFE8E9785F6EB6B0F1EB8(L_0, L_1, NULL);
-		if (!L_2)
-		{
-			goto IL_0045;
-		}
-	}
-	{
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = ___0_material;
-		String_t* L_4 = ___2_property;
-		NullCheck(L_3);
-		bool L_5;
-		L_5 = Material_HasFloat_m56838BD2D4657D355DDCFE8E9785F6EB6B0F1EB8(L_3, L_4, NULL);
-		if (!L_5)
-		{
-			goto IL_0045;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:531>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_6 = ___0_material;
-		String_t* L_7 = ___1_parent;
-		NullCheck(L_6);
-		float L_8;
-		L_8 = Material_GetFloat_m2A77F10E6AA13EA3FA56166EFEA897115A14FA5A(L_6, L_7, NULL);
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:533>
-		if ((!(((float)L_8) > ((float)(0.0f)))))
-		{
-			goto IL_003e;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:535>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_9 = ___0_material;
-		String_t* L_10 = ___2_property;
-		NullCheck(L_9);
-		float L_11;
-		L_11 = Material_GetFloat_m2A77F10E6AA13EA3FA56166EFEA897115A14FA5A(L_9, L_10, NULL);
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:537>
-		if ((!(((float)L_11) == ((float)(0.0f)))))
-		{
-			goto IL_0036;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:539>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_12 = ___0_material;
-		String_t* L_13 = ___3_keyword;
-		NullCheck(L_12);
-		Material_DisableKeyword_mC123927EBF2F2A19220A4456C8EA19F2BA416E8C(L_12, L_13, NULL);
-		return;
-	}
-
-IL_0036:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:543>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_14 = ___0_material;
-		String_t* L_15 = ___3_keyword;
-		NullCheck(L_14);
-		Material_EnableKeyword_mE8523EF6CF694284DF976D47ADEDE9363A1174AC(L_14, L_15, NULL);
-		return;
-	}
-
-IL_003e:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:548>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_16 = ___0_material;
-		String_t* L_17 = ___3_keyword;
-		NullCheck(L_16);
-		Material_DisableKeyword_mC123927EBF2F2A19220A4456C8EA19F2BA416E8C(L_16, L_17, NULL);
-	}
-
-IL_0045:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:551>
-		return;
-	}
-}
-// Method Definition Index: 94923
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_SetMaterialKeyword_m25CA8E0BC4009D65C7FD04ED094DD94A2971B65B (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_parent, String_t* ___2_property, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___3_keywords, const RuntimeMethod* method) 
-{
-	float V_0 = 0.0f;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:555>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
-		String_t* L_1 = ___1_parent;
-		NullCheck(L_0);
-		bool L_2;
-		L_2 = Material_HasFloat_m56838BD2D4657D355DDCFE8E9785F6EB6B0F1EB8(L_0, L_1, NULL);
-		if (!L_2)
-		{
-			goto IL_0067;
-		}
-	}
-	{
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = ___0_material;
-		String_t* L_4 = ___2_property;
-		NullCheck(L_3);
-		bool L_5;
-		L_5 = Material_HasFloat_m56838BD2D4657D355DDCFE8E9785F6EB6B0F1EB8(L_3, L_4, NULL);
-		if (!L_5)
-		{
-			goto IL_0067;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:557>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_6 = ___0_material;
-		String_t* L_7 = ___1_parent;
-		NullCheck(L_6);
-		float L_8;
-		L_8 = Material_GetFloat_m2A77F10E6AA13EA3FA56166EFEA897115A14FA5A(L_6, L_7, NULL);
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:559>
-		if ((!(((float)L_8) > ((float)(0.0f)))))
-		{
-			goto IL_0050;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:561>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_9 = ___0_material;
-		String_t* L_10 = ___2_property;
-		NullCheck(L_9);
-		float L_11;
-		L_11 = Material_GetFloat_m2A77F10E6AA13EA3FA56166EFEA897115A14FA5A(L_9, L_10, NULL);
-		V_0 = L_11;
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:563>
-		V_1 = 0;
-		goto IL_0049;
-	}
-
-IL_002c:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:565>
-		int32_t L_12 = V_1;
-		float L_13 = V_0;
-		if ((!(((float)((float)L_12)) == ((float)L_13))))
+		bool L_6;
+		L_6 = String_Contains_m6D77B121FADA7CA5F397C0FABB65DA62DF03B6C3(L_5, _stringLiteralDEAC03BC08603A926530E878D97B96FA6C0CFEED, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 842));
+		V_2 = L_6;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 843));
+		bool L_7 = V_2;
+		if (!L_7)
 		{
 			goto IL_003c;
 		}
 	}
 	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:567>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_14 = ___0_material;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_15 = ___3_keywords;
-		int32_t L_16 = V_1;
-		NullCheck(L_15);
-		int32_t L_17 = L_16;
-		String_t* L_18 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
-		NullCheck(L_14);
-		Material_EnableKeyword_mE8523EF6CF694284DF976D47ADEDE9363A1174AC(L_14, L_18, NULL);
-		goto IL_0045;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 844));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:236>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 845));
+		V_0 = _stringLiteralDEAC03BC08603A926530E878D97B96FA6C0CFEED;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 846));
 	}
 
 IL_003c:
 	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:571>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_19 = ___0_material;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_20 = ___3_keywords;
-		int32_t L_21 = V_1;
-		NullCheck(L_20);
-		int32_t L_22 = L_21;
-		String_t* L_23 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
-		NullCheck(L_19);
-		Material_DisableKeyword_mC123927EBF2F2A19220A4456C8EA19F2BA416E8C(L_19, L_23, NULL);
-	}
-
-IL_0045:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:563>
-		int32_t L_24 = V_1;
-		V_1 = ((int32_t)il2cpp_codegen_add(L_24, 1));
-	}
-
-IL_0049:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:563>
-		int32_t L_25 = V_1;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_26 = ___3_keywords;
-		NullCheck(L_26);
-		if ((((int32_t)L_25) < ((int32_t)((int32_t)(((RuntimeArray*)L_26)->max_length)))))
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:239>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 847));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 848));
+		il2cpp_codegen_runtime_class_init_inline(GraphicsSettings_t01785CE5CB5C5105CB527619AF4D74BEF417EF1A_il2cpp_TypeInfo_var);
+		RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* L_8;
+		L_8 = GraphicsSettings_get_defaultRenderPipeline_m2B69E2AFC36189F7FEF3EB453C8A1A165A5CF9CD(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 848));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 849));
+		NullCheck(L_8);
+		Type_t* L_9;
+		L_9 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_8, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 849));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 850));
+		NullCheck(L_9);
+		String_t* L_10;
+		L_10 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_9);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 850));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 851));
+		NullCheck(L_10);
+		bool L_11;
+		L_11 = String_Contains_m6D77B121FADA7CA5F397C0FABB65DA62DF03B6C3(L_10, _stringLiteral03DECF49C988233B9A4A4D34037382DA914166F4, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 851));
+		V_3 = L_11;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 852));
+		bool L_12 = V_3;
+		if (!L_12)
 		{
-			goto IL_002c;
+			goto IL_0061;
 		}
 	}
 	{
-		return;
-	}
-
-IL_0050:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:577>
-		V_2 = 0;
-		goto IL_0061;
-	}
-
-IL_0054:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:579>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_27 = ___0_material;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_28 = ___3_keywords;
-		int32_t L_29 = V_2;
-		NullCheck(L_28);
-		int32_t L_30 = L_29;
-		String_t* L_31 = (L_28)->GetAt(static_cast<il2cpp_array_size_t>(L_30));
-		NullCheck(L_27);
-		Material_DisableKeyword_mC123927EBF2F2A19220A4456C8EA19F2BA416E8C(L_27, L_31, NULL);
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:577>
-		int32_t L_32 = V_2;
-		V_2 = ((int32_t)il2cpp_codegen_add(L_32, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 853));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:241>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 854));
+		V_0 = _stringLiteralEAB619AA5F3FF34776F518452C4983B13C13457F;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 855));
 	}
 
 IL_0061:
 	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:577>
-		int32_t L_33 = V_2;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_34 = ___3_keywords;
-		NullCheck(L_34);
-		if ((((int32_t)L_33) < ((int32_t)((int32_t)(((RuntimeArray*)L_34)->max_length)))))
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 856));
+	}
+
+IL_0062:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:245>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 857));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 858));
+		RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* L_13;
+		L_13 = QualitySettings_get_renderPipeline_mBED269CBEC7409C297A2A5120DBAF185DCC4AFC8(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 858));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 859));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_14;
+		L_14 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_13, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 859));
+		V_4 = L_14;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 860));
+		bool L_15 = V_4;
+		if (!L_15)
 		{
-			goto IL_0054;
+			goto IL_00c3;
 		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 861));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:247>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 862));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 863));
+		RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* L_16;
+		L_16 = QualitySettings_get_renderPipeline_mBED269CBEC7409C297A2A5120DBAF185DCC4AFC8(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 863));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 864));
+		NullCheck(L_16);
+		Type_t* L_17;
+		L_17 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_16, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 864));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 865));
+		NullCheck(L_17);
+		String_t* L_18;
+		L_18 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_17);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 865));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 866));
+		NullCheck(L_18);
+		bool L_19;
+		L_19 = String_Contains_m6D77B121FADA7CA5F397C0FABB65DA62DF03B6C3(L_18, _stringLiteralDEAC03BC08603A926530E878D97B96FA6C0CFEED, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 866));
+		V_5 = L_19;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 867));
+		bool L_20 = V_5;
+		if (!L_20)
+		{
+			goto IL_009b;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 868));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:249>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 869));
+		V_0 = _stringLiteralDEAC03BC08603A926530E878D97B96FA6C0CFEED;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 870));
+	}
+
+IL_009b:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:252>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 871));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 872));
+		RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* L_21;
+		L_21 = QualitySettings_get_renderPipeline_mBED269CBEC7409C297A2A5120DBAF185DCC4AFC8(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 872));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 873));
+		NullCheck(L_21);
+		Type_t* L_22;
+		L_22 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_21, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 873));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 874));
+		NullCheck(L_22);
+		String_t* L_23;
+		L_23 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_22);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 874));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 875));
+		NullCheck(L_23);
+		bool L_24;
+		L_24 = String_Contains_m6D77B121FADA7CA5F397C0FABB65DA62DF03B6C3(L_23, _stringLiteral03DECF49C988233B9A4A4D34037382DA914166F4, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 875));
+		V_6 = L_24;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 876));
+		bool L_25 = V_6;
+		if (!L_25)
+		{
+			goto IL_00c2;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 877));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:254>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 878));
+		V_0 = _stringLiteralEAB619AA5F3FF34776F518452C4983B13C13457F;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 879));
+	}
+
+IL_00c2:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 880));
+	}
+
+IL_00c3:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:258>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 881));
+		String_t* L_26 = V_0;
+		V_7 = L_26;
+		goto IL_00c8;
+	}
+
+IL_00c8:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:259>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 882));
+		String_t* L_27 = V_7;
+		return L_27;
+	}
+}
+// Method Definition Index: 95231
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_SetMaterialBool_mEAEE5C7960925FFCFB9CE6784D1ADBC782692AA9 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_valueProp, String_t* ___2_internalProp, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BoxoUtils_SetMaterialBool_mEAEE5C7960925FFCFB9CE6784D1ADBC782692AA9_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	float V_1 = 0.0f;
+	bool V_2 = false;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_material), (&___1_valueProp), (&___2_internalProp));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_1));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BoxoUtils_SetMaterialBool_mEAEE5C7960925FFCFB9CE6784D1ADBC782692AA9_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 883));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 884));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 885));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:264>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 886));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
+		String_t* L_1 = ___1_valueProp;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 887));
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_0, L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 887));
+		V_0 = L_2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 888));
+		bool L_3 = V_0;
+		if (!L_3)
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 889));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:266>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 890));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_4 = ___0_material;
+		String_t* L_5 = ___1_valueProp;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 891));
+		NullCheck(L_4);
+		float L_6;
+		L_6 = Material_GetFloat_m2A77F10E6AA13EA3FA56166EFEA897115A14FA5A(L_4, L_5, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 891));
+		V_1 = L_6;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:268>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 892));
+		float L_7 = V_1;
+		V_2 = (bool)((((float)L_7) > ((float)(0.0f)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 893));
+		bool L_8 = V_2;
+		if (!L_8)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 894));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:270>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 895));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_9 = ___0_material;
+		String_t* L_10 = ___2_internalProp;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 896));
+		NullCheck(L_9);
+		Material_SetInt_m41DF5404A9942239265888105E1DC83F2FBF901A(L_9, L_10, 1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 896));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 897));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 898));
+		goto IL_0039;
+	}
+
+IL_002e:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 899));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:274>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 900));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_11 = ___0_material;
+		String_t* L_12 = ___2_internalProp;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 901));
+		NullCheck(L_11);
+		Material_SetInt_m41DF5404A9942239265888105E1DC83F2FBF901A(L_11, L_12, 0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 901));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 902));
+	}
+
+IL_0039:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 903));
+	}
+
+IL_003a:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:277>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 904));
+		return;
+	}
+}
+// Method Definition Index: 95232
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_SetMaterialInt_mDF16145968644C02CADBDD9145AE0A32A8475943 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_valueProp, String_t* ___2_internalProp, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BoxoUtils_SetMaterialInt_mDF16145968644C02CADBDD9145AE0A32A8475943_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_material), (&___1_valueProp), (&___2_internalProp));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BoxoUtils_SetMaterialInt_mDF16145968644C02CADBDD9145AE0A32A8475943_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 905));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 906));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 907));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:281>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 908));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
+		String_t* L_1 = ___1_valueProp;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 909));
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_0, L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 909));
+		V_0 = L_2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 910));
+		bool L_3 = V_0;
+		if (!L_3)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 911));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:283>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 912));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_4 = ___0_material;
+		String_t* L_5 = ___2_internalProp;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_6 = ___0_material;
+		String_t* L_7 = ___1_valueProp;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 913));
+		NullCheck(L_6);
+		int32_t L_8;
+		L_8 = Material_GetInt_mA772B615274DD11B37A352BC66EFA81BFD9C13EA(L_6, L_7, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 913));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 914));
+		NullCheck(L_4);
+		Material_SetInt_m41DF5404A9942239265888105E1DC83F2FBF901A(L_4, L_5, L_8, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 914));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 915));
+	}
+
+IL_001d:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:285>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 916));
+		return;
+	}
+}
+// Method Definition Index: 95233
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_SetMaterialFloat_m1085EA44B76F628068B85E95E832BF0EC9B5CD94 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_valueProp, String_t* ___2_internalProp, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BoxoUtils_SetMaterialFloat_m1085EA44B76F628068B85E95E832BF0EC9B5CD94_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_material), (&___1_valueProp), (&___2_internalProp));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BoxoUtils_SetMaterialFloat_m1085EA44B76F628068B85E95E832BF0EC9B5CD94_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 917));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 918));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 919));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:289>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 920));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
+		String_t* L_1 = ___1_valueProp;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 921));
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_0, L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 921));
+		V_0 = L_2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 922));
+		bool L_3 = V_0;
+		if (!L_3)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 923));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:291>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 924));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_4 = ___0_material;
+		String_t* L_5 = ___2_internalProp;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_6 = ___0_material;
+		String_t* L_7 = ___1_valueProp;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 925));
+		NullCheck(L_6);
+		float L_8;
+		L_8 = Material_GetFloat_m2A77F10E6AA13EA3FA56166EFEA897115A14FA5A(L_6, L_7, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 925));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 926));
+		NullCheck(L_4);
+		Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836(L_4, L_5, L_8, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 926));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 927));
+	}
+
+IL_001d:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:293>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 928));
+		return;
+	}
+}
+// Method Definition Index: 95234
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_SetMaterialVector_m458F6ABCB72D2F33FD99DEA6A7FF192902CC5D04 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_valueProp, String_t* ___2_internalProp, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BoxoUtils_SetMaterialVector_m458F6ABCB72D2F33FD99DEA6A7FF192902CC5D04_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_material), (&___1_valueProp), (&___2_internalProp));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BoxoUtils_SetMaterialVector_m458F6ABCB72D2F33FD99DEA6A7FF192902CC5D04_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 929));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 930));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 931));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:297>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 932));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
+		String_t* L_1 = ___1_valueProp;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 933));
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_0, L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 933));
+		V_0 = L_2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 934));
+		bool L_3 = V_0;
+		if (!L_3)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 935));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:299>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 936));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_4 = ___0_material;
+		String_t* L_5 = ___2_internalProp;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_6 = ___0_material;
+		String_t* L_7 = ___1_valueProp;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 937));
+		NullCheck(L_6);
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_8;
+		L_8 = Material_GetVector_mA2011D4DA2CC58003AE90DBF0802CF5EE31B014D(L_6, L_7, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 937));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 938));
+		NullCheck(L_4);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_4, L_5, L_8, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 938));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 939));
+	}
+
+IL_001d:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:301>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 940));
+		return;
+	}
+}
+// Method Definition Index: 95235
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_SetMaterialTexture_mAB2C20BE967426E0BEF6D509898A21FACCE7F208 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_valueProp, String_t* ___2_internalProp, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BoxoUtils_SetMaterialTexture_mAB2C20BE967426E0BEF6D509898A21FACCE7F208_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_material), (&___1_valueProp), (&___2_internalProp));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BoxoUtils_SetMaterialTexture_mAB2C20BE967426E0BEF6D509898A21FACCE7F208_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 941));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 942));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 943));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:305>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 944));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
+		String_t* L_1 = ___1_valueProp;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 945));
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_0, L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 945));
+		V_0 = L_2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 946));
+		bool L_3 = V_0;
+		if (!L_3)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 947));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:307>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 948));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_4 = ___0_material;
+		String_t* L_5 = ___2_internalProp;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_6 = ___0_material;
+		String_t* L_7 = ___1_valueProp;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 949));
+		NullCheck(L_6);
+		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_8;
+		L_8 = Material_GetTexture_mBA07A377A7DDD29CD53E6F687DE6D49A42C0C719(L_6, L_7, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 949));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 950));
+		NullCheck(L_4);
+		Material_SetTexture_m06083C3F52EF02FFB1177901D9907314F280F9A5(L_4, L_5, L_8, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 950));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 951));
+	}
+
+IL_001d:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:309>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 952));
+		return;
+	}
+}
+// Method Definition Index: 95236
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_SetMaterialCoords_m08466004EDC71342355B0E98E4166D919D819E9A (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_modeProp, String_t* ___2_valueProp, String_t* ___3_internalProp, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BoxoUtils_SetMaterialCoords_m08466004EDC71342355B0E98E4166D919D819E9A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	int32_t V_1 = 0;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	bool V_4 = false;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_material), (&___1_modeProp), (&___2_valueProp), (&___3_internalProp));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_1), (&V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BoxoUtils_SetMaterialCoords_m08466004EDC71342355B0E98E4166D919D819E9A_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 953));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 954));
+	int32_t G_B3_0 = 0;
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 955));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:313>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 956));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
+		String_t* L_1 = ___1_modeProp;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 957));
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_0, L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 957));
+		if (!L_2)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = ___0_material;
+		String_t* L_4 = ___2_valueProp;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 958));
+		NullCheck(L_3);
+		bool L_5;
+		L_5 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_3, L_4, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 958));
+		G_B3_0 = ((int32_t)(L_5));
+		goto IL_0014;
+	}
+
+IL_0013:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_0014:
+	{
+		V_0 = (bool)G_B3_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 959));
+		bool L_6 = V_0;
+		if (!L_6)
+		{
+			goto IL_007c;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 960));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:315>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 961));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_7 = ___0_material;
+		String_t* L_8 = ___1_modeProp;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 962));
+		NullCheck(L_7);
+		int32_t L_9;
+		L_9 = Material_GetInt_mA772B615274DD11B37A352BC66EFA81BFD9C13EA(L_7, L_8, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 962));
+		V_1 = L_9;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:316>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 963));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_10 = ___0_material;
+		String_t* L_11 = ___2_valueProp;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 964));
+		NullCheck(L_10);
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_12;
+		L_12 = Material_GetVector_mA2011D4DA2CC58003AE90DBF0802CF5EE31B014D(L_10, L_11, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 964));
+		V_2 = L_12;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:318>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 965));
+		int32_t L_13 = V_1;
+		V_3 = (bool)((((int32_t)L_13) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 966));
+		bool L_14 = V_3;
+		if (!L_14)
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 967));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:320>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 968));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_15 = ___0_material;
+		String_t* L_16 = ___3_internalProp;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_17 = V_2;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 969));
+		NullCheck(L_15);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_15, L_16, L_17, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 969));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 970));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 971));
+		goto IL_007b;
+	}
+
+IL_003e:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:322>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 972));
+		int32_t L_18 = V_1;
+		V_4 = (bool)((((int32_t)L_18) == ((int32_t)1))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 973));
+		bool L_19 = V_4;
+		if (!L_19)
+		{
+			goto IL_007b;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 974));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:324>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 975));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_20 = ___0_material;
+		String_t* L_21 = ___3_internalProp;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_22 = V_2;
+		float L_23 = L_22.___x;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_24 = V_2;
+		float L_25 = L_24.___y;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_26 = V_2;
+		float L_27 = L_26.___z;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_28 = V_2;
+		float L_29 = L_28.___w;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 976));
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_30;
+		memset((&L_30), 0, sizeof(L_30));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_30), ((float)((1.0f)/L_23)), ((float)((1.0f)/L_25)), L_27, L_29, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 976));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 977));
+		NullCheck(L_20);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_20, L_21, L_30, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 977));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 978));
+	}
+
+IL_007b:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 979));
+	}
+
+IL_007c:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:327>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 980));
+		return;
+	}
+}
+// Method Definition Index: 95237
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_SetMaterialBounds_mC2B22C2E774221DDC67651901F46E8706E93B349 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_modeProp, String_t* ___2_valueProp, String_t* ___3_internalProp, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BoxoUtils_SetMaterialBounds_mC2B22C2E774221DDC67651901F46E8706E93B349_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	bool V_1 = false;
+	int32_t V_2 = 0;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	bool V_6 = false;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_material), (&___1_modeProp), (&___2_valueProp), (&___3_internalProp));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_2), (&V_3), (&V_4), (&V_5));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BoxoUtils_SetMaterialBounds_mC2B22C2E774221DDC67651901F46E8706E93B349_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 981));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 982));
+	int32_t G_B3_0 = 0;
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 983));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:331>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 984));
+		V_0 = (0.0f);
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:333>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 985));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
+		String_t* L_1 = ___1_modeProp;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 986));
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_0, L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 986));
+		if (!L_2)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = ___0_material;
+		String_t* L_4 = ___2_valueProp;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 987));
+		NullCheck(L_3);
+		bool L_5;
+		L_5 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_3, L_4, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 987));
+		G_B3_0 = ((int32_t)(L_5));
+		goto IL_001a;
+	}
+
+IL_0019:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_001a:
+	{
+		V_1 = (bool)G_B3_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 988));
+		bool L_6 = V_1;
+		if (!L_6)
+		{
+			goto IL_00be;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 989));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:335>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 990));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_7 = ___0_material;
+		String_t* L_8 = ___1_modeProp;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 991));
+		NullCheck(L_7);
+		int32_t L_9;
+		L_9 = Material_GetInt_mA772B615274DD11B37A352BC66EFA81BFD9C13EA(L_7, L_8, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 991));
+		V_2 = L_9;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:337>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 992));
+		int32_t L_10 = V_2;
+		V_6 = (bool)((((int32_t)L_10) == ((int32_t)1))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 993));
+		bool L_11 = V_6;
+		if (!L_11)
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 994));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:339>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 995));
+		V_0 = (0.5f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 996));
+	}
+
+IL_003c:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:342>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 997));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_12 = ___0_material;
+		String_t* L_13 = ___2_valueProp;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 998));
+		NullCheck(L_12);
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_14;
+		L_14 = Material_GetVector_mA2011D4DA2CC58003AE90DBF0802CF5EE31B014D(L_12, L_13, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 998));
+		V_3 = L_14;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:343>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 999));
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_15 = V_3;
+		float L_16 = L_15.___z;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_17 = V_3;
+		float L_18 = L_17.___w;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1000));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&V_4), ((float)((1.0f)/L_16)), ((float)((1.0f)/L_18)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1000));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:344>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1001));
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_19 = V_3;
+		float L_20 = L_19.___x;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_21 = V_4;
+		float L_22 = L_21.___x;
+		float L_23 = V_0;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_24 = V_3;
+		float L_25 = L_24.___y;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_26 = V_4;
+		float L_27 = L_26.___y;
+		float L_28 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1002));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_29;
+		memset((&L_29), 0, sizeof(L_29));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_29), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_20, L_22)), L_23)), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_25, L_27)), L_28)), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1002));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1003));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_30;
+		L_30 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_29, (-1.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1003));
+		V_5 = L_30;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:346>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1004));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_31 = ___0_material;
+		String_t* L_32 = ___3_internalProp;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_33 = V_4;
+		float L_34 = L_33.___x;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_35 = V_4;
+		float L_36 = L_35.___y;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_37 = V_5;
+		float L_38 = L_37.___x;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_39 = V_5;
+		float L_40 = L_39.___y;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1005));
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_41;
+		memset((&L_41), 0, sizeof(L_41));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_41), L_34, L_36, L_38, L_40, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1005));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1006));
+		NullCheck(L_31);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_31, L_32, L_41, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1006));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1007));
+	}
+
+IL_00be:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:348>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1008));
+		return;
+	}
+}
+// Method Definition Index: 95238
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_SetMaterialOptions_m4504F4F947F09C5B6622F13B8634EFC204F34CD7 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_modeProp, String_t* ___2_valueProp, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BoxoUtils_SetMaterialOptions_m4504F4F947F09C5B6622F13B8634EFC204F34CD7_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	int32_t V_1 = 0;
+	bool V_2 = false;
+	bool V_3 = false;
+	bool V_4 = false;
+	bool V_5 = false;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_material), (&___1_modeProp), (&___2_valueProp));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_1));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BoxoUtils_SetMaterialOptions_m4504F4F947F09C5B6622F13B8634EFC204F34CD7_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1009));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1010));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1011));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:352>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1012));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
+		String_t* L_1 = ___1_modeProp;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1013));
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_0, L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1013));
+		V_0 = L_2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1014));
+		bool L_3 = V_0;
+		if (!L_3)
+		{
+			goto IL_00d2;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1015));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:354>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1016));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_4 = ___0_material;
+		String_t* L_5 = ___1_modeProp;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1017));
+		NullCheck(L_4);
+		int32_t L_6;
+		L_6 = Material_GetInt_mA772B615274DD11B37A352BC66EFA81BFD9C13EA(L_4, L_5, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1017));
+		V_1 = L_6;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:356>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1018));
+		int32_t L_7 = V_1;
+		V_2 = (bool)((((int32_t)L_7) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1019));
+		bool L_8 = V_2;
+		if (!L_8)
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1020));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:358>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1021));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_9 = ___0_material;
+		String_t* L_10 = ___2_valueProp;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1022));
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_11;
+		memset((&L_11), 0, sizeof(L_11));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_11), (1.0f), (0.0f), (0.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1022));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1023));
+		NullCheck(L_9);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_9, L_10, L_11, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1023));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1024));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1025));
+		goto IL_00d1;
+	}
+
+IL_0048:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:360>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1026));
+		int32_t L_12 = V_1;
+		V_3 = (bool)((((int32_t)L_12) == ((int32_t)1))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1027));
+		bool L_13 = V_3;
+		if (!L_13)
+		{
+			goto IL_0075;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1028));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:362>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1029));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_14 = ___0_material;
+		String_t* L_15 = ___2_valueProp;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1030));
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_16;
+		memset((&L_16), 0, sizeof(L_16));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_16), (0.0f), (1.0f), (0.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1030));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1031));
+		NullCheck(L_14);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_14, L_15, L_16, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1031));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1032));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1033));
+		goto IL_00d1;
+	}
+
+IL_0075:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:364>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1034));
+		int32_t L_17 = V_1;
+		V_4 = (bool)((((int32_t)L_17) == ((int32_t)2))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1035));
+		bool L_18 = V_4;
+		if (!L_18)
+		{
+			goto IL_00a4;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1036));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:366>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1037));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_19 = ___0_material;
+		String_t* L_20 = ___2_valueProp;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1038));
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_21;
+		memset((&L_21), 0, sizeof(L_21));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_21), (0.0f), (0.0f), (1.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1038));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1039));
+		NullCheck(L_19);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_19, L_20, L_21, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1039));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1040));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1041));
+		goto IL_00d1;
+	}
+
+IL_00a4:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:368>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1042));
+		int32_t L_22 = V_1;
+		V_5 = (bool)((((int32_t)L_22) == ((int32_t)3))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1043));
+		bool L_23 = V_5;
+		if (!L_23)
+		{
+			goto IL_00d1;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1044));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:370>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1045));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_24 = ___0_material;
+		String_t* L_25 = ___2_valueProp;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1046));
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_26), (0.0f), (0.0f), (0.0f), (1.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1046));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1047));
+		NullCheck(L_24);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_24, L_25, L_26, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1047));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1048));
+	}
+
+IL_00d1:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1049));
+	}
+
+IL_00d2:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:373>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1050));
+		return;
+	}
+}
+// Method Definition Index: 95239
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_SetMaterialOptions_m64D8CCD488E64BA7121EC8EE7EDD4805C668776A (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_modeProp, String_t* ___2_valuePropA, String_t* ___3_valuePropB, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BoxoUtils_SetMaterialOptions_m64D8CCD488E64BA7121EC8EE7EDD4805C668776A_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	int32_t V_1 = 0;
+	bool V_2 = false;
+	bool V_3 = false;
+	bool V_4 = false;
+	bool V_5 = false;
+	bool V_6 = false;
+	bool V_7 = false;
+	bool V_8 = false;
+	bool V_9 = false;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_material), (&___1_modeProp), (&___2_valuePropA), (&___3_valuePropB));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_1));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BoxoUtils_SetMaterialOptions_m64D8CCD488E64BA7121EC8EE7EDD4805C668776A_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1051));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1052));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1053));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:377>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1054));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
+		String_t* L_1 = ___1_modeProp;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1055));
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_0, L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1055));
+		V_0 = L_2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1056));
+		bool L_3 = V_0;
+		if (!L_3)
+		{
+			goto IL_0202;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1057));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:379>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1058));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_4 = ___0_material;
+		String_t* L_5 = ___1_modeProp;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1059));
+		NullCheck(L_4);
+		int32_t L_6;
+		L_6 = Material_GetInt_mA772B615274DD11B37A352BC66EFA81BFD9C13EA(L_4, L_5, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1059));
+		V_1 = L_6;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:381>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1060));
+		int32_t L_7 = V_1;
+		V_2 = (bool)((((int32_t)L_7) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1061));
+		bool L_8 = V_2;
+		if (!L_8)
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1062));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:383>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1063));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_9 = ___0_material;
+		String_t* L_10 = ___2_valuePropA;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1064));
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_11;
+		memset((&L_11), 0, sizeof(L_11));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_11), (1.0f), (0.0f), (0.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1064));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1065));
+		NullCheck(L_9);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_9, L_10, L_11, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1065));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:384>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1066));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_12 = ___0_material;
+		String_t* L_13 = ___3_valuePropB;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1067));
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_14;
+		L_14 = Vector4_get_zero_m3D61F5FA9483CD9C08977D9D8852FB448B4CE6D1_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1067));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1068));
+		NullCheck(L_12);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_12, L_13, L_14, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1068));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1069));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1070));
+		goto IL_0201;
+	}
+
+IL_0055:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:386>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1071));
+		int32_t L_15 = V_1;
+		V_3 = (bool)((((int32_t)L_15) == ((int32_t)1))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1072));
+		bool L_16 = V_3;
+		if (!L_16)
+		{
+			goto IL_0092;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1073));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:388>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1074));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_17 = ___0_material;
+		String_t* L_18 = ___2_valuePropA;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1075));
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_19;
+		memset((&L_19), 0, sizeof(L_19));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_19), (0.0f), (1.0f), (0.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1075));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1076));
+		NullCheck(L_17);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_17, L_18, L_19, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1076));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:389>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1077));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_20 = ___0_material;
+		String_t* L_21 = ___3_valuePropB;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1078));
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_22;
+		L_22 = Vector4_get_zero_m3D61F5FA9483CD9C08977D9D8852FB448B4CE6D1_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1078));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1079));
+		NullCheck(L_20);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_20, L_21, L_22, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1079));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1080));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1081));
+		goto IL_0201;
+	}
+
+IL_0092:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:391>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1082));
+		int32_t L_23 = V_1;
+		V_4 = (bool)((((int32_t)L_23) == ((int32_t)2))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1083));
+		bool L_24 = V_4;
+		if (!L_24)
+		{
+			goto IL_00d1;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1084));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:393>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1085));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_25 = ___0_material;
+		String_t* L_26 = ___2_valuePropA;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1086));
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_27;
+		memset((&L_27), 0, sizeof(L_27));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_27), (0.0f), (0.0f), (1.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1086));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1087));
+		NullCheck(L_25);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_25, L_26, L_27, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1087));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:394>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1088));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_28 = ___0_material;
+		String_t* L_29 = ___3_valuePropB;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1089));
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_30;
+		L_30 = Vector4_get_zero_m3D61F5FA9483CD9C08977D9D8852FB448B4CE6D1_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1089));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1090));
+		NullCheck(L_28);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_28, L_29, L_30, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1090));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1091));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1092));
+		goto IL_0201;
+	}
+
+IL_00d1:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:396>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1093));
+		int32_t L_31 = V_1;
+		V_5 = (bool)((((int32_t)L_31) == ((int32_t)3))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1094));
+		bool L_32 = V_5;
+		if (!L_32)
+		{
+			goto IL_0110;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1095));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:398>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1096));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_33 = ___0_material;
+		String_t* L_34 = ___2_valuePropA;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1097));
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_35;
+		memset((&L_35), 0, sizeof(L_35));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_35), (0.0f), (0.0f), (0.0f), (1.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1097));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1098));
+		NullCheck(L_33);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_33, L_34, L_35, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1098));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:399>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1099));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_36 = ___0_material;
+		String_t* L_37 = ___3_valuePropB;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1100));
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_38;
+		L_38 = Vector4_get_zero_m3D61F5FA9483CD9C08977D9D8852FB448B4CE6D1_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1100));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1101));
+		NullCheck(L_36);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_36, L_37, L_38, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1101));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1102));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1103));
+		goto IL_0201;
+	}
+
+IL_0110:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:401>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1104));
+		int32_t L_39 = V_1;
+		V_6 = (bool)((((int32_t)L_39) == ((int32_t)4))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1105));
+		bool L_40 = V_6;
+		if (!L_40)
+		{
+			goto IL_014f;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1106));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:403>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1107));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_41 = ___0_material;
+		String_t* L_42 = ___2_valuePropA;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1108));
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_43;
+		L_43 = Vector4_get_zero_m3D61F5FA9483CD9C08977D9D8852FB448B4CE6D1_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1108));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1109));
+		NullCheck(L_41);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_41, L_42, L_43, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1109));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:404>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1110));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_44 = ___0_material;
+		String_t* L_45 = ___3_valuePropB;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1111));
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_46;
+		memset((&L_46), 0, sizeof(L_46));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_46), (1.0f), (0.0f), (0.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1111));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1112));
+		NullCheck(L_44);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_44, L_45, L_46, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1112));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1113));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1114));
+		goto IL_0201;
+	}
+
+IL_014f:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:406>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1115));
+		int32_t L_47 = V_1;
+		V_7 = (bool)((((int32_t)L_47) == ((int32_t)5))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1116));
+		bool L_48 = V_7;
+		if (!L_48)
+		{
+			goto IL_018b;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1117));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:408>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1118));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_49 = ___0_material;
+		String_t* L_50 = ___2_valuePropA;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1119));
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_51;
+		L_51 = Vector4_get_zero_m3D61F5FA9483CD9C08977D9D8852FB448B4CE6D1_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1119));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1120));
+		NullCheck(L_49);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_49, L_50, L_51, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1120));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:409>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1121));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_52 = ___0_material;
+		String_t* L_53 = ___3_valuePropB;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1122));
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_54;
+		memset((&L_54), 0, sizeof(L_54));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_54), (0.0f), (1.0f), (0.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1122));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1123));
+		NullCheck(L_52);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_52, L_53, L_54, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1123));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1124));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1125));
+		goto IL_0201;
+	}
+
+IL_018b:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:411>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1126));
+		int32_t L_55 = V_1;
+		V_8 = (bool)((((int32_t)L_55) == ((int32_t)6))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1127));
+		bool L_56 = V_8;
+		if (!L_56)
+		{
+			goto IL_01c7;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1128));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:413>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1129));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_57 = ___0_material;
+		String_t* L_58 = ___2_valuePropA;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1130));
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_59;
+		L_59 = Vector4_get_zero_m3D61F5FA9483CD9C08977D9D8852FB448B4CE6D1_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1130));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1131));
+		NullCheck(L_57);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_57, L_58, L_59, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1131));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:414>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1132));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_60 = ___0_material;
+		String_t* L_61 = ___3_valuePropB;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1133));
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_62;
+		memset((&L_62), 0, sizeof(L_62));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_62), (0.0f), (0.0f), (1.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1133));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1134));
+		NullCheck(L_60);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_60, L_61, L_62, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1134));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1135));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1136));
+		goto IL_0201;
+	}
+
+IL_01c7:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:416>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1137));
+		int32_t L_63 = V_1;
+		V_9 = (bool)((((int32_t)L_63) == ((int32_t)7))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1138));
+		bool L_64 = V_9;
+		if (!L_64)
+		{
+			goto IL_0201;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1139));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:418>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1140));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_65 = ___0_material;
+		String_t* L_66 = ___2_valuePropA;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1141));
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_67;
+		L_67 = Vector4_get_zero_m3D61F5FA9483CD9C08977D9D8852FB448B4CE6D1_inline(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1141));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1142));
+		NullCheck(L_65);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_65, L_66, L_67, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1142));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:419>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1143));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_68 = ___0_material;
+		String_t* L_69 = ___3_valuePropB;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1144));
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_70;
+		memset((&L_70), 0, sizeof(L_70));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_70), (0.0f), (0.0f), (0.0f), (1.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1144));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1145));
+		NullCheck(L_68);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_68, L_69, L_70, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1145));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1146));
+	}
+
+IL_0201:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1147));
+	}
+
+IL_0202:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:422>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1148));
+		return;
+	}
+}
+// Method Definition Index: 95240
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_SetMaterialBackface_m33F287A2D59209075DD21895E0CC94E89991A2BE (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_modeProp, String_t* ___2_valueProp, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BoxoUtils_SetMaterialBackface_m33F287A2D59209075DD21895E0CC94E89991A2BE_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	int32_t V_1 = 0;
+	bool V_2 = false;
+	bool V_3 = false;
+	bool V_4 = false;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_material), (&___1_modeProp), (&___2_valueProp));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_1));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BoxoUtils_SetMaterialBackface_m33F287A2D59209075DD21895E0CC94E89991A2BE_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1149));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1150));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1151));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:426>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1152));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
+		String_t* L_1 = ___1_modeProp;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1153));
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_0, L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1153));
+		V_0 = L_2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1154));
+		bool L_3 = V_0;
+		if (!L_3)
+		{
+			goto IL_00a0;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1155));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:429>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1156));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_4 = ___0_material;
+		String_t* L_5 = ___1_modeProp;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1157));
+		NullCheck(L_4);
+		int32_t L_6;
+		L_6 = Material_GetInt_mA772B615274DD11B37A352BC66EFA81BFD9C13EA(L_4, L_5, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1157));
+		V_1 = L_6;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:431>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1158));
+		int32_t L_7 = V_1;
+		V_2 = (bool)((((int32_t)L_7) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1159));
+		bool L_8 = V_2;
+		if (!L_8)
+		{
+			goto IL_0045;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1160));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:433>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1161));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_9 = ___0_material;
+		String_t* L_10 = ___2_valueProp;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1162));
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_11;
+		memset((&L_11), 0, sizeof(L_11));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_11), (1.0f), (1.0f), (1.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1162));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1163));
+		NullCheck(L_9);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_9, L_10, L_11, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1163));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1164));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1165));
+		goto IL_009f;
+	}
+
+IL_0045:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:435>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1166));
+		int32_t L_12 = V_1;
+		V_3 = (bool)((((int32_t)L_12) == ((int32_t)1))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1167));
+		bool L_13 = V_3;
+		if (!L_13)
+		{
+			goto IL_0072;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1168));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:437>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1169));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_14 = ___0_material;
+		String_t* L_15 = ___2_valueProp;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1170));
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_16;
+		memset((&L_16), 0, sizeof(L_16));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_16), (-1.0f), (-1.0f), (-1.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1170));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1171));
+		NullCheck(L_14);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_14, L_15, L_16, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1171));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1172));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1173));
+		goto IL_009f;
+	}
+
+IL_0072:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:439>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1174));
+		int32_t L_17 = V_1;
+		V_4 = (bool)((((int32_t)L_17) == ((int32_t)2))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1175));
+		bool L_18 = V_4;
+		if (!L_18)
+		{
+			goto IL_009f;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1176));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:441>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1177));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_19 = ___0_material;
+		String_t* L_20 = ___2_valueProp;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1178));
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_21;
+		memset((&L_21), 0, sizeof(L_21));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_21), (1.0f), (1.0f), (-1.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1178));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1179));
+		NullCheck(L_19);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_19, L_20, L_21, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1179));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1180));
+	}
+
+IL_009f:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1181));
+	}
+
+IL_00a0:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:444>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1182));
+		return;
+	}
+}
+// Method Definition Index: 95241
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_SetMaterialBackfaceLegacy_m8BCEEE8AD24AF5A15DB0296297F341D226C0FA67 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_modeProp, String_t* ___2_valueProp, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BoxoUtils_SetMaterialBackfaceLegacy_m8BCEEE8AD24AF5A15DB0296297F341D226C0FA67_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	int32_t V_1 = 0;
+	bool V_2 = false;
+	bool V_3 = false;
+	bool V_4 = false;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_material), (&___1_modeProp), (&___2_valueProp));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_1));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BoxoUtils_SetMaterialBackfaceLegacy_m8BCEEE8AD24AF5A15DB0296297F341D226C0FA67_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1183));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1184));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1185));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:448>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1186));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
+		String_t* L_1 = ___1_modeProp;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1187));
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_0, L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1187));
+		V_0 = L_2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1188));
+		bool L_3 = V_0;
+		if (!L_3)
+		{
+			goto IL_00a0;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1189));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:451>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1190));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_4 = ___0_material;
+		String_t* L_5 = ___1_modeProp;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1191));
+		NullCheck(L_4);
+		int32_t L_6;
+		L_6 = Material_GetInt_mA772B615274DD11B37A352BC66EFA81BFD9C13EA(L_4, L_5, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1191));
+		V_1 = L_6;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:453>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1192));
+		int32_t L_7 = V_1;
+		V_2 = (bool)((((int32_t)L_7) == ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1193));
+		bool L_8 = V_2;
+		if (!L_8)
+		{
+			goto IL_0045;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1194));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:455>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1195));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_9 = ___0_material;
+		String_t* L_10 = ___2_valueProp;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1196));
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_11;
+		memset((&L_11), 0, sizeof(L_11));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_11), (-1.0f), (-1.0f), (-1.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1196));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1197));
+		NullCheck(L_9);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_9, L_10, L_11, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1197));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1198));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1199));
+		goto IL_009f;
+	}
+
+IL_0045:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:457>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1200));
+		int32_t L_12 = V_1;
+		V_3 = (bool)((((int32_t)L_12) == ((int32_t)1))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1201));
+		bool L_13 = V_3;
+		if (!L_13)
+		{
+			goto IL_0072;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1202));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:459>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1203));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_14 = ___0_material;
+		String_t* L_15 = ___2_valueProp;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1204));
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_16;
+		memset((&L_16), 0, sizeof(L_16));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_16), (1.0f), (1.0f), (-1.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1204));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1205));
+		NullCheck(L_14);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_14, L_15, L_16, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1205));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1206));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1207));
+		goto IL_009f;
+	}
+
+IL_0072:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:461>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1208));
+		int32_t L_17 = V_1;
+		V_4 = (bool)((((int32_t)L_17) == ((int32_t)2))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1209));
+		bool L_18 = V_4;
+		if (!L_18)
+		{
+			goto IL_009f;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1210));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:463>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1211));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_19 = ___0_material;
+		String_t* L_20 = ___2_valueProp;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1212));
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_21;
+		memset((&L_21), 0, sizeof(L_21));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_21), (1.0f), (1.0f), (1.0f), (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1212));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1213));
+		NullCheck(L_19);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_19, L_20, L_21, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1213));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1214));
+	}
+
+IL_009f:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1215));
+	}
+
+IL_00a0:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:466>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1216));
+		return;
+	}
+}
+// Method Definition Index: 95242
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_SetMaterialReciprocal_mFDDCF16BA4C524F6BA07CB707E93894E7CCB87F4 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_valueProp, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BoxoUtils_SetMaterialReciprocal_mFDDCF16BA4C524F6BA07CB707E93894E7CCB87F4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_material), (&___1_valueProp));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_1));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BoxoUtils_SetMaterialReciprocal_mFDDCF16BA4C524F6BA07CB707E93894E7CCB87F4_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1217));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1218));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1219));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:470>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1220));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
+		String_t* L_1 = ___1_valueProp;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1221));
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_0, L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1221));
+		V_0 = L_2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1222));
+		bool L_3 = V_0;
+		if (!L_3)
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1223));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:472>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1224));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_4 = ___0_material;
+		String_t* L_5 = ___1_valueProp;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1225));
+		NullCheck(L_4);
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_6;
+		L_6 = Material_GetVector_mA2011D4DA2CC58003AE90DBF0802CF5EE31B014D(L_4, L_5, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1225));
+		V_1 = L_6;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:474>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1226));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_7 = ___0_material;
+		String_t* L_8 = ___1_valueProp;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_9 = V_1;
+		float L_10 = L_9.___x;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_11 = V_1;
+		float L_12 = L_11.___y;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_13 = V_1;
+		float L_14 = L_13.___y;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_15 = V_1;
+		float L_16 = L_15.___x;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_17 = V_1;
+		float L_18 = L_17.___w;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1227));
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_19;
+		memset((&L_19), 0, sizeof(L_19));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_19), L_10, L_12, ((float)((1.0f)/((float)il2cpp_codegen_subtract(L_14, L_16)))), L_18, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1227));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1228));
+		NullCheck(L_7);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_7, L_8, L_19, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1228));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1229));
+	}
+
+IL_0048:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:476>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1230));
+		return;
+	}
+}
+// Method Definition Index: 95243
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_SetMaterialKeyword_m438ACBFBEE5A739E389077B478D91F0A3489D63B (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_keyword, bool ___2_enable, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BoxoUtils_SetMaterialKeyword_m438ACBFBEE5A739E389077B478D91F0A3489D63B_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_material), (&___1_keyword), (&___2_enable));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BoxoUtils_SetMaterialKeyword_m438ACBFBEE5A739E389077B478D91F0A3489D63B_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1231));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1232));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1233));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:480>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1234));
+		bool L_0 = ___2_enable;
+		V_0 = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1235));
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1236));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:482>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1237));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_2 = ___0_material;
+		String_t* L_3 = ___1_keyword;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1238));
+		NullCheck(L_2);
+		Material_EnableKeyword_mE8523EF6CF694284DF976D47ADEDE9363A1174AC(L_2, L_3, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1238));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1239));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1240));
+		goto IL_001c;
+	}
+
+IL_0012:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1241));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:486>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1242));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_4 = ___0_material;
+		String_t* L_5 = ___1_keyword;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1243));
+		NullCheck(L_4);
+		Material_DisableKeyword_mC123927EBF2F2A19220A4456C8EA19F2BA416E8C(L_4, L_5, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1243));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1244));
+	}
+
+IL_001c:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:488>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1245));
+		return;
+	}
+}
+// Method Definition Index: 95244
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_SetMaterialKeyword_m6E5405F2874B9D6CA718F2FC053AF502D593243A (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_property, String_t* ___2_keyword, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BoxoUtils_SetMaterialKeyword_m6E5405F2874B9D6CA718F2FC053AF502D593243A_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	float V_1 = 0.0f;
+	bool V_2 = false;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_material), (&___1_property), (&___2_keyword));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_1));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BoxoUtils_SetMaterialKeyword_m6E5405F2874B9D6CA718F2FC053AF502D593243A_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1246));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1247));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1248));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:492>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1249));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
+		String_t* L_1 = ___1_property;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1250));
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = Material_HasFloat_m56838BD2D4657D355DDCFE8E9785F6EB6B0F1EB8(L_0, L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1250));
+		V_0 = L_2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1251));
+		bool L_3 = V_0;
+		if (!L_3)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1252));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:494>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1253));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_4 = ___0_material;
+		String_t* L_5 = ___1_property;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1254));
+		NullCheck(L_4);
+		float L_6;
+		L_6 = Material_GetFloat_m2A77F10E6AA13EA3FA56166EFEA897115A14FA5A(L_4, L_5, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1254));
+		V_1 = L_6;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:496>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1255));
+		float L_7 = V_1;
+		V_2 = (bool)((((float)L_7) == ((float)(0.0f)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1256));
+		bool L_8 = V_2;
+		if (!L_8)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1257));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:498>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1258));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_9 = ___0_material;
+		String_t* L_10 = ___2_keyword;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1259));
+		NullCheck(L_9);
+		Material_DisableKeyword_mC123927EBF2F2A19220A4456C8EA19F2BA416E8C(L_9, L_10, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1259));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1260));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1261));
+		goto IL_0037;
+	}
+
+IL_002d:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1262));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:502>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1263));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_11 = ___0_material;
+		String_t* L_12 = ___2_keyword;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1264));
+		NullCheck(L_11);
+		Material_EnableKeyword_mE8523EF6CF694284DF976D47ADEDE9363A1174AC(L_11, L_12, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1264));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1265));
+	}
+
+IL_0037:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1266));
+	}
+
+IL_0038:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:505>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1267));
+		return;
+	}
+}
+// Method Definition Index: 95245
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_SetMaterialKeyword_m835A2A892CF25CAFCA6CDF3BE6425059F5DDCFAE (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_property, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___2_keywords, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BoxoUtils_SetMaterialKeyword_m835A2A892CF25CAFCA6CDF3BE6425059F5DDCFAE_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	float V_1 = 0.0f;
+	int32_t V_2 = 0;
+	bool V_3 = false;
+	bool V_4 = false;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_material), (&___1_property), (&___2_keywords));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_1), (&V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BoxoUtils_SetMaterialKeyword_m835A2A892CF25CAFCA6CDF3BE6425059F5DDCFAE_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1268));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1269));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1270));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:509>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1271));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
+		String_t* L_1 = ___1_property;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1272));
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = Material_HasFloat_m56838BD2D4657D355DDCFE8E9785F6EB6B0F1EB8(L_0, L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1272));
+		V_0 = L_2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1273));
+		bool L_3 = V_0;
+		if (!L_3)
+		{
+			goto IL_004f;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1274));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:511>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1275));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_4 = ___0_material;
+		String_t* L_5 = ___1_property;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1276));
+		NullCheck(L_4);
+		float L_6;
+		L_6 = Material_GetFloat_m2A77F10E6AA13EA3FA56166EFEA897115A14FA5A(L_4, L_5, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1276));
+		V_1 = L_6;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:513>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1277));
+		V_2 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1278));
+		goto IL_0042;
+	}
+
+IL_0019:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1279));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:515>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1280));
+		int32_t L_7 = V_2;
+		float L_8 = V_1;
+		V_3 = (bool)((((float)((float)L_7)) == ((float)L_8))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1281));
+		bool L_9 = V_3;
+		if (!L_9)
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1282));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:517>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1283));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_10 = ___0_material;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_11 = ___2_keywords;
+		int32_t L_12 = V_2;
+		NullCheck(L_11);
+		int32_t L_13 = L_12;
+		String_t* L_14 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1284));
+		NullCheck(L_10);
+		Material_EnableKeyword_mE8523EF6CF694284DF976D47ADEDE9363A1174AC(L_10, L_14, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1284));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1285));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1286));
+		goto IL_003d;
+	}
+
+IL_0031:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1287));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:521>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1288));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_15 = ___0_material;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_16 = ___2_keywords;
+		int32_t L_17 = V_2;
+		NullCheck(L_16);
+		int32_t L_18 = L_17;
+		String_t* L_19 = (L_16)->GetAt(static_cast<il2cpp_array_size_t>(L_18));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1289));
+		NullCheck(L_15);
+		Material_DisableKeyword_mC123927EBF2F2A19220A4456C8EA19F2BA416E8C(L_15, L_19, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1289));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1290));
+	}
+
+IL_003d:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1291));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:513>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1292));
+		int32_t L_20 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_20, 1));
+	}
+
+IL_0042:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:513>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1293));
+		int32_t L_21 = V_2;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_22 = ___2_keywords;
+		NullCheck(L_22);
+		V_4 = (bool)((((int32_t)L_21) < ((int32_t)((int32_t)(((RuntimeArray*)L_22)->max_length))))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1294));
+		bool L_23 = V_4;
+		if (L_23)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1295));
+	}
+
+IL_004f:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:525>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1296));
+		return;
+	}
+}
+// Method Definition Index: 95246
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_SetMaterialKeyword_m7CD1689A056CB46AF7426FAE133B7982A6829690 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_parent, String_t* ___2_property, String_t* ___3_keyword, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BoxoUtils_SetMaterialKeyword_m7CD1689A056CB46AF7426FAE133B7982A6829690_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	float V_1 = 0.0f;
+	bool V_2 = false;
+	float V_3 = 0.0f;
+	bool V_4 = false;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_material), (&___1_parent), (&___2_property), (&___3_keyword));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_1), (&V_3));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BoxoUtils_SetMaterialKeyword_m7CD1689A056CB46AF7426FAE133B7982A6829690_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1297));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1298));
+	int32_t G_B3_0 = 0;
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1299));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:529>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1300));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
+		String_t* L_1 = ___1_parent;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1301));
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = Material_HasFloat_m56838BD2D4657D355DDCFE8E9785F6EB6B0F1EB8(L_0, L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1301));
+		if (!L_2)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = ___0_material;
+		String_t* L_4 = ___2_property;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1302));
+		NullCheck(L_3);
+		bool L_5;
+		L_5 = Material_HasFloat_m56838BD2D4657D355DDCFE8E9785F6EB6B0F1EB8(L_3, L_4, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1302));
+		G_B3_0 = ((int32_t)(L_5));
+		goto IL_0014;
+	}
+
+IL_0013:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_0014:
+	{
+		V_0 = (bool)G_B3_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1303));
+		bool L_6 = V_0;
+		if (!L_6)
+		{
+			goto IL_0068;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1304));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:531>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1305));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_7 = ___0_material;
+		String_t* L_8 = ___1_parent;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1306));
+		NullCheck(L_7);
+		float L_9;
+		L_9 = Material_GetFloat_m2A77F10E6AA13EA3FA56166EFEA897115A14FA5A(L_7, L_8, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1306));
+		V_1 = L_9;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:533>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1307));
+		float L_10 = V_1;
+		V_2 = (bool)((((float)L_10) > ((float)(0.0f)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1308));
+		bool L_11 = V_2;
+		if (!L_11)
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1309));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:535>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1310));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_12 = ___0_material;
+		String_t* L_13 = ___2_property;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1311));
+		NullCheck(L_12);
+		float L_14;
+		L_14 = Material_GetFloat_m2A77F10E6AA13EA3FA56166EFEA897115A14FA5A(L_12, L_13, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1311));
+		V_3 = L_14;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:537>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1312));
+		float L_15 = V_3;
+		V_4 = (bool)((((float)L_15) == ((float)(0.0f)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1313));
+		bool L_16 = V_4;
+		if (!L_16)
+		{
+			goto IL_0050;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1314));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:539>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1315));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_17 = ___0_material;
+		String_t* L_18 = ___3_keyword;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1316));
+		NullCheck(L_17);
+		Material_DisableKeyword_mC123927EBF2F2A19220A4456C8EA19F2BA416E8C(L_17, L_18, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1316));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1317));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1318));
+		goto IL_005a;
+	}
+
+IL_0050:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1319));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:543>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1320));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_19 = ___0_material;
+		String_t* L_20 = ___3_keyword;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1321));
+		NullCheck(L_19);
+		Material_EnableKeyword_mE8523EF6CF694284DF976D47ADEDE9363A1174AC(L_19, L_20, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1321));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1322));
+	}
+
+IL_005a:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1323));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1324));
+		goto IL_0067;
+	}
+
+IL_005d:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1325));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:548>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1326));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_21 = ___0_material;
+		String_t* L_22 = ___3_keyword;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1327));
+		NullCheck(L_21);
+		Material_DisableKeyword_mC123927EBF2F2A19220A4456C8EA19F2BA416E8C(L_21, L_22, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1327));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1328));
 	}
 
 IL_0067:
 	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:583>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1329));
+	}
+
+IL_0068:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:551>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1330));
 		return;
 	}
 }
-// Method Definition Index: 94924
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_SetMaterialKeyword_mF6818F496411F6729C06C0D7A5F171A17A13E525 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, bool ___1_allParentsOn, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___2_parents, String_t* ___3_property, String_t* ___4_keyword, const RuntimeMethod* method) 
+// Method Definition Index: 95247
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_SetMaterialKeyword_m25CA8E0BC4009D65C7FD04ED094DD94A2971B65B (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_parent, String_t* ___2_property, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___3_keywords, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BoxoUtils_SetMaterialKeyword_m25CA8E0BC4009D65C7FD04ED094DD94A2971B65B_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	bool V_0 = false;
 	float V_1 = 0.0f;
-	int32_t V_2 = 0;
-	int32_t V_3 = 0;
-	String_t* V_4 = NULL;
-	float V_5 = 0.0f;
-	int32_t V_6 = 0;
-	String_t* V_7 = NULL;
+	bool V_2 = false;
+	float V_3 = 0.0f;
+	int32_t V_4 = 0;
+	bool V_5 = false;
+	bool V_6 = false;
+	int32_t V_7 = 0;
+	bool V_8 = false;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_material), (&___1_parent), (&___2_property), (&___3_keywords));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_1), (&V_3), (&V_4), (&V_7));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BoxoUtils_SetMaterialKeyword_m25CA8E0BC4009D65C7FD04ED094DD94A2971B65B_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1331));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1332));
+	int32_t G_B3_0 = 0;
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1333));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:555>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1334));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
+		String_t* L_1 = ___1_parent;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1335));
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = Material_HasFloat_m56838BD2D4657D355DDCFE8E9785F6EB6B0F1EB8(L_0, L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1335));
+		if (!L_2)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = ___0_material;
+		String_t* L_4 = ___2_property;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1336));
+		NullCheck(L_3);
+		bool L_5;
+		L_5 = Material_HasFloat_m56838BD2D4657D355DDCFE8E9785F6EB6B0F1EB8(L_3, L_4, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1336));
+		G_B3_0 = ((int32_t)(L_5));
+		goto IL_0014;
+	}
+
+IL_0013:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_0014:
+	{
+		V_0 = (bool)G_B3_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1337));
+		bool L_6 = V_0;
+		if (!L_6)
+		{
+			goto IL_00a6;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1338));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:557>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1339));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_7 = ___0_material;
+		String_t* L_8 = ___1_parent;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1340));
+		NullCheck(L_7);
+		float L_9;
+		L_9 = Material_GetFloat_m2A77F10E6AA13EA3FA56166EFEA897115A14FA5A(L_7, L_8, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1340));
+		V_1 = L_9;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:559>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1341));
+		float L_10 = V_1;
+		V_2 = (bool)((((float)L_10) > ((float)(0.0f)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1342));
+		bool L_11 = V_2;
+		if (!L_11)
+		{
+			goto IL_007e;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1343));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:561>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1344));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_12 = ___0_material;
+		String_t* L_13 = ___2_property;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1345));
+		NullCheck(L_12);
+		float L_14;
+		L_14 = Material_GetFloat_m2A77F10E6AA13EA3FA56166EFEA897115A14FA5A(L_12, L_13, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1345));
+		V_3 = L_14;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:563>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1346));
+		V_4 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1347));
+		goto IL_006e;
+	}
+
+IL_003e:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1348));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:565>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1349));
+		int32_t L_15 = V_4;
+		float L_16 = V_3;
+		V_5 = (bool)((((float)((float)L_15)) == ((float)L_16))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1350));
+		bool L_17 = V_5;
+		if (!L_17)
+		{
+			goto IL_005a;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1351));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:567>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1352));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_18 = ___0_material;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_19 = ___3_keywords;
+		int32_t L_20 = V_4;
+		NullCheck(L_19);
+		int32_t L_21 = L_20;
+		String_t* L_22 = (L_19)->GetAt(static_cast<il2cpp_array_size_t>(L_21));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1353));
+		NullCheck(L_18);
+		Material_EnableKeyword_mE8523EF6CF694284DF976D47ADEDE9363A1174AC(L_18, L_22, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1353));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1354));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1355));
+		goto IL_0067;
+	}
+
+IL_005a:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1356));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:571>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1357));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_23 = ___0_material;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_24 = ___3_keywords;
+		int32_t L_25 = V_4;
+		NullCheck(L_24);
+		int32_t L_26 = L_25;
+		String_t* L_27 = (L_24)->GetAt(static_cast<il2cpp_array_size_t>(L_26));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1358));
+		NullCheck(L_23);
+		Material_DisableKeyword_mC123927EBF2F2A19220A4456C8EA19F2BA416E8C(L_23, L_27, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1358));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1359));
+	}
+
+IL_0067:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1360));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:563>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1361));
+		int32_t L_28 = V_4;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_28, 1));
+	}
+
+IL_006e:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:563>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1362));
+		int32_t L_29 = V_4;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_30 = ___3_keywords;
+		NullCheck(L_30);
+		V_6 = (bool)((((int32_t)L_29) < ((int32_t)((int32_t)(((RuntimeArray*)L_30)->max_length))))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1363));
+		bool L_31 = V_6;
+		if (L_31)
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1364));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1365));
+		goto IL_00a5;
+	}
+
+IL_007e:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1366));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:577>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1367));
+		V_7 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1368));
+		goto IL_0097;
+	}
+
+IL_0084:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1369));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:579>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1370));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_32 = ___0_material;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_33 = ___3_keywords;
+		int32_t L_34 = V_7;
+		NullCheck(L_33);
+		int32_t L_35 = L_34;
+		String_t* L_36 = (L_33)->GetAt(static_cast<il2cpp_array_size_t>(L_35));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1371));
+		NullCheck(L_32);
+		Material_DisableKeyword_mC123927EBF2F2A19220A4456C8EA19F2BA416E8C(L_32, L_36, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1371));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1372));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:577>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1373));
+		int32_t L_37 = V_7;
+		V_7 = ((int32_t)il2cpp_codegen_add(L_37, 1));
+	}
+
+IL_0097:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:577>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1374));
+		int32_t L_38 = V_7;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_39 = ___3_keywords;
+		NullCheck(L_39);
+		V_8 = (bool)((((int32_t)L_38) < ((int32_t)((int32_t)(((RuntimeArray*)L_39)->max_length))))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1375));
+		bool L_40 = V_8;
+		if (L_40)
+		{
+			goto IL_0084;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1376));
+	}
+
+IL_00a5:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1377));
+	}
+
+IL_00a6:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:583>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1378));
+		return;
+	}
+}
+// Method Definition Index: 95248
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_SetMaterialKeyword_mF6818F496411F6729C06C0D7A5F171A17A13E525 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, bool ___1_allParentsOn, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___2_parents, String_t* ___3_property, String_t* ___4_keyword, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BoxoUtils_SetMaterialKeyword_mF6818F496411F6729C06C0D7A5F171A17A13E525_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	float V_1 = 0.0f;
+	bool V_2 = false;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	String_t* V_5 = NULL;
+	bool V_6 = false;
+	bool V_7 = false;
+	bool V_8 = false;
+	bool V_9 = false;
+	float V_10 = 0.0f;
+	int32_t V_11 = 0;
+	String_t* V_12 = NULL;
+	bool V_13 = false;
+	bool V_14 = false;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_material), (&___1_allParentsOn), (&___2_parents), (&___3_property), (&___4_keyword));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1), (&V_3), (&V_4), (&V_5), (&V_10), (&V_11), (&V_12));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BoxoUtils_SetMaterialKeyword_mF6818F496411F6729C06C0D7A5F171A17A13E525_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1379));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1380));
+	int32_t G_B24_0 = 0;
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1381));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:587>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1382));
 		V_0 = (bool)0;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:588>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1383));
 		V_1 = (0.0f);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:590>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1384));
 		bool L_0 = ___1_allParentsOn;
-		if (!L_0)
+		V_2 = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1385));
+		bool L_1 = V_2;
+		if (!L_1)
+		{
+			goto IL_006f;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1386));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:592>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1387));
+		V_3 = 0;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:594>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1388));
+		V_4 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1389));
+		goto IL_004f;
+	}
+
+IL_0016:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1390));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:596>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1391));
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = ___2_parents;
+		int32_t L_3 = V_4;
+		NullCheck(L_2);
+		int32_t L_4 = L_3;
+		String_t* L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		V_5 = L_5;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:598>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1392));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_6 = ___0_material;
+		String_t* L_7 = V_5;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1393));
+		NullCheck(L_6);
+		bool L_8;
+		L_8 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_6, L_7, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1393));
+		V_6 = L_8;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1394));
+		bool L_9 = V_6;
+		if (!L_9)
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1395));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:600>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1396));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_10 = ___0_material;
+		String_t* L_11 = V_5;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1397));
+		NullCheck(L_10);
+		float L_12;
+		L_12 = Material_GetFloat_m2A77F10E6AA13EA3FA56166EFEA897115A14FA5A(L_10, L_11, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1397));
+		V_7 = (bool)((((float)L_12) > ((float)(0.0f)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1398));
+		bool L_13 = V_7;
+		if (!L_13)
 		{
 			goto IL_0047;
 		}
 	}
 	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:592>
-		V_2 = 0;
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:594>
-		V_3 = 0;
-		goto IL_0037;
-	}
-
-IL_0011:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:596>
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = ___2_parents;
-		int32_t L_2 = V_3;
-		NullCheck(L_1);
-		int32_t L_3 = L_2;
-		String_t* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
-		V_4 = L_4;
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:598>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_5 = ___0_material;
-		String_t* L_6 = V_4;
-		NullCheck(L_5);
-		bool L_7;
-		L_7 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_5, L_6, NULL);
-		if (!L_7)
-		{
-			goto IL_0033;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:600>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_8 = ___0_material;
-		String_t* L_9 = V_4;
-		NullCheck(L_8);
-		float L_10;
-		L_10 = Material_GetFloat_m2A77F10E6AA13EA3FA56166EFEA897115A14FA5A(L_8, L_9, NULL);
-		if ((!(((float)L_10) > ((float)(0.0f)))))
-		{
-			goto IL_0033;
-		}
-	}
-	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1399));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:602>
-		int32_t L_11 = V_2;
-		V_2 = ((int32_t)il2cpp_codegen_add(L_11, 1));
-	}
-
-IL_0033:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:594>
-		int32_t L_12 = V_3;
-		V_3 = ((int32_t)il2cpp_codegen_add(L_12, 1));
-	}
-
-IL_0037:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:594>
-		int32_t L_13 = V_3;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_14 = ___2_parents;
-		NullCheck(L_14);
-		if ((((int32_t)L_13) < ((int32_t)((int32_t)(((RuntimeArray*)L_14)->max_length)))))
-		{
-			goto IL_0011;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:607>
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_15 = ___2_parents;
-		NullCheck(L_15);
-		int32_t L_16 = V_2;
-		if ((!(((uint32_t)((int32_t)(((RuntimeArray*)L_15)->max_length))) == ((uint32_t)L_16))))
-		{
-			goto IL_0088;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:609>
-		V_0 = (bool)1;
-		goto IL_0088;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1400));
+		int32_t L_14 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_14, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1401));
 	}
 
 IL_0047:
 	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:614>
-		V_5 = (0.0f);
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:616>
-		V_6 = 0;
-		goto IL_0076;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1402));
 	}
 
-IL_0053:
+IL_0048:
 	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:618>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1403));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:594>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1404));
+		int32_t L_15 = V_4;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_15, 1));
+	}
+
+IL_004f:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:594>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1405));
+		int32_t L_16 = V_4;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_17 = ___2_parents;
-		int32_t L_18 = V_6;
 		NullCheck(L_17);
-		int32_t L_19 = L_18;
-		String_t* L_20 = (L_17)->GetAt(static_cast<il2cpp_array_size_t>(L_19));
-		V_7 = L_20;
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:620>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_21 = ___0_material;
-		String_t* L_22 = V_7;
-		NullCheck(L_21);
-		bool L_23;
-		L_23 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_21, L_22, NULL);
-		if (!L_23)
+		V_8 = (bool)((((int32_t)L_16) < ((int32_t)((int32_t)(((RuntimeArray*)L_17)->max_length))))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1406));
+		bool L_18 = V_8;
+		if (L_18)
 		{
-			goto IL_0070;
+			goto IL_0016;
 		}
 	}
 	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:622>
-		float L_24 = V_5;
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_25 = ___0_material;
-		String_t* L_26 = V_7;
-		NullCheck(L_25);
-		float L_27;
-		L_27 = Material_GetFloat_m2A77F10E6AA13EA3FA56166EFEA897115A14FA5A(L_25, L_26, NULL);
-		V_5 = ((float)il2cpp_codegen_add(L_24, L_27));
-	}
-
-IL_0070:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:616>
-		int32_t L_28 = V_6;
-		V_6 = ((int32_t)il2cpp_codegen_add(L_28, 1));
-	}
-
-IL_0076:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:616>
-		int32_t L_29 = V_6;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_30 = ___2_parents;
-		NullCheck(L_30);
-		if ((((int32_t)L_29) < ((int32_t)((int32_t)(((RuntimeArray*)L_30)->max_length)))))
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:607>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1407));
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_19 = ___2_parents;
+		NullCheck(L_19);
+		int32_t L_20 = V_3;
+		V_9 = (bool)((((int32_t)((int32_t)(((RuntimeArray*)L_19)->max_length))) == ((int32_t)L_20))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1408));
+		bool L_21 = V_9;
+		if (!L_21)
 		{
-			goto IL_0053;
+			goto IL_006c;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1409));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:609>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1410));
+		V_0 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1411));
+	}
+
+IL_006c:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1412));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1413));
+		goto IL_00c8;
+	}
+
+IL_006f:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1414));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:614>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1415));
+		V_10 = (0.0f);
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:616>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1416));
+		V_11 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1417));
+		goto IL_00a7;
+	}
+
+IL_007c:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1418));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:618>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1419));
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_22 = ___2_parents;
+		int32_t L_23 = V_11;
+		NullCheck(L_22);
+		int32_t L_24 = L_23;
+		String_t* L_25 = (L_22)->GetAt(static_cast<il2cpp_array_size_t>(L_24));
+		V_12 = L_25;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:620>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1420));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_26 = ___0_material;
+		String_t* L_27 = V_12;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1421));
+		NullCheck(L_26);
+		bool L_28;
+		L_28 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_26, L_27, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1421));
+		V_13 = L_28;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1422));
+		bool L_29 = V_13;
+		if (!L_29)
+		{
+			goto IL_00a0;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1423));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:622>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1424));
+		float L_30 = V_10;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_31 = ___0_material;
+		String_t* L_32 = V_12;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1425));
+		NullCheck(L_31);
+		float L_33;
+		L_33 = Material_GetFloat_m2A77F10E6AA13EA3FA56166EFEA897115A14FA5A(L_31, L_32, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1425));
+		V_10 = ((float)il2cpp_codegen_add(L_30, L_33));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1426));
+	}
+
+IL_00a0:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1427));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:616>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1428));
+		int32_t L_34 = V_11;
+		V_11 = ((int32_t)il2cpp_codegen_add(L_34, 1));
+	}
+
+IL_00a7:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:616>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1429));
+		int32_t L_35 = V_11;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_36 = ___2_parents;
+		NullCheck(L_36);
+		V_14 = (bool)((((int32_t)L_35) < ((int32_t)((int32_t)(((RuntimeArray*)L_36)->max_length))))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1430));
+		bool L_37 = V_14;
+		if (L_37)
+		{
+			goto IL_007c;
 		}
 	}
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:626>
-		float L_31 = V_5;
-		if ((!(((float)L_31) > ((float)(0.0f)))))
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1431));
+		float L_38 = V_10;
+		V_15 = (bool)((((float)L_38) > ((float)(0.0f)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1432));
+		bool L_39 = V_15;
+		if (!L_39)
 		{
-			goto IL_0088;
+			goto IL_00c7;
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1433));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:628>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1434));
 		V_0 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1435));
 	}
 
-IL_0088:
+IL_00c7:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1436));
+	}
+
+IL_00c8:
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:632>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_32 = ___0_material;
-		String_t* L_33 = ___3_property;
-		NullCheck(L_32);
-		bool L_34;
-		L_34 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_32, L_33, NULL);
-		if (!L_34)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1437));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_40 = ___0_material;
+		String_t* L_41 = ___3_property;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1438));
+		NullCheck(L_40);
+		bool L_42;
+		L_42 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_40, L_41, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1438));
+		V_16 = L_42;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1439));
+		bool L_43 = V_16;
+		if (!L_43)
 		{
-			goto IL_0099;
+			goto IL_00df;
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1440));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:634>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_35 = ___0_material;
-		String_t* L_36 = ___3_property;
-		NullCheck(L_35);
-		float L_37;
-		L_37 = Material_GetFloat_m2A77F10E6AA13EA3FA56166EFEA897115A14FA5A(L_35, L_36, NULL);
-		V_1 = L_37;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1441));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_44 = ___0_material;
+		String_t* L_45 = ___3_property;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1442));
+		NullCheck(L_44);
+		float L_46;
+		L_46 = Material_GetFloat_m2A77F10E6AA13EA3FA56166EFEA897115A14FA5A(L_44, L_45, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1442));
+		V_1 = L_46;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1443));
 	}
 
-IL_0099:
+IL_00df:
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:637>
-		bool L_38 = V_0;
-		if (!L_38)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1444));
+		bool L_47 = V_0;
+		if (!L_47)
 		{
-			goto IL_00ad;
+			goto IL_00ec;
 		}
 	}
 	{
-		float L_39 = V_1;
-		if ((!(((float)L_39) > ((float)(0.0f)))))
-		{
-			goto IL_00ad;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:639>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_40 = ___0_material;
-		String_t* L_41 = ___4_keyword;
-		NullCheck(L_40);
-		Material_EnableKeyword_mE8523EF6CF694284DF976D47ADEDE9363A1174AC(L_40, L_41, NULL);
-		return;
+		float L_48 = V_1;
+		G_B24_0 = ((((float)L_48) > ((float)(0.0f)))? 1 : 0);
+		goto IL_00ed;
 	}
 
-IL_00ad:
+IL_00ec:
 	{
+		G_B24_0 = 0;
+	}
+
+IL_00ed:
+	{
+		V_17 = (bool)G_B24_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1445));
+		bool L_49 = V_17;
+		if (!L_49)
+		{
+			goto IL_0100;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1446));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:639>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1447));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_50 = ___0_material;
+		String_t* L_51 = ___4_keyword;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1448));
+		NullCheck(L_50);
+		Material_EnableKeyword_mE8523EF6CF694284DF976D47ADEDE9363A1174AC(L_50, L_51, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1448));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1449));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1450));
+		goto IL_010b;
+	}
+
+IL_0100:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1451));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:643>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_42 = ___0_material;
-		String_t* L_43 = ___4_keyword;
-		NullCheck(L_42);
-		Material_DisableKeyword_mC123927EBF2F2A19220A4456C8EA19F2BA416E8C(L_42, L_43, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1452));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_52 = ___0_material;
+		String_t* L_53 = ___4_keyword;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1453));
+		NullCheck(L_52);
+		Material_DisableKeyword_mC123927EBF2F2A19220A4456C8EA19F2BA416E8C(L_52, L_53, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1453));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1454));
+	}
+
+IL_010b:
+	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:645>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1455));
 		return;
 	}
 }
-// Method Definition Index: 94925
+// Method Definition Index: 95249
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_SetMaterialKeyword_mA311E06D8A3D71018B0869D90C18779BA1A78CA5 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, bool ___1_allParentsOn, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___2_parents, String_t* ___3_property, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___4_keywords, const RuntimeMethod* method) 
 {
-	bool V_0 = false;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	String_t* V_3 = NULL;
-	float V_4 = 0.0f;
-	int32_t V_5 = 0;
-	String_t* V_6 = NULL;
-	int32_t V_7 = 0;
-	int32_t V_8 = 0;
-	int32_t V_9 = 0;
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BoxoUtils_SetMaterialKeyword_mA311E06D8A3D71018B0869D90C18779BA1A78CA5_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	String_t* V_4 = NULL;
+	bool V_5 = false;
+	bool V_6 = false;
+	bool V_7 = false;
+	bool V_8 = false;
+	float V_9 = 0.0f;
+	int32_t V_10 = 0;
+	String_t* V_11 = NULL;
+	bool V_12 = false;
+	bool V_13 = false;
+	bool V_14 = false;
+	bool V_15 = false;
+	bool V_16 = false;
+	int32_t V_17 = 0;
+	int32_t V_18 = 0;
+	bool V_19 = false;
+	bool V_20 = false;
+	int32_t V_21 = 0;
+	bool V_22 = false;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_material), (&___1_allParentsOn), (&___2_parents), (&___3_property), (&___4_keywords));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_2), (&V_3), (&V_4), (&V_9), (&V_10), (&V_11), (&V_17), (&V_18), (&V_21));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BoxoUtils_SetMaterialKeyword_mA311E06D8A3D71018B0869D90C18779BA1A78CA5_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1456));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1457));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1458));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:649>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1459));
 		V_0 = (bool)0;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:651>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1460));
 		bool L_0 = ___1_allParentsOn;
-		if (!L_0)
+		V_1 = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1461));
+		bool L_1 = V_1;
+		if (!L_1)
 		{
-			goto IL_003e;
+			goto IL_0064;
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1462));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:653>
-		V_1 = 0;
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:655>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1463));
 		V_2 = 0;
-		goto IL_002e;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:655>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1464));
+		V_3 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1465));
+		goto IL_0045;
 	}
 
-IL_000b:
+IL_000f:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1466));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:657>
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = ___2_parents;
-		int32_t L_2 = V_2;
-		NullCheck(L_1);
-		int32_t L_3 = L_2;
-		String_t* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
-		V_3 = L_4;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1467));
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = ___2_parents;
+		int32_t L_3 = V_3;
+		NullCheck(L_2);
+		int32_t L_4 = L_3;
+		String_t* L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		V_4 = L_5;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:659>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_5 = ___0_material;
-		String_t* L_6 = V_3;
-		NullCheck(L_5);
-		bool L_7;
-		L_7 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_5, L_6, NULL);
-		if (!L_7)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1468));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_6 = ___0_material;
+		String_t* L_7 = V_4;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1469));
+		NullCheck(L_6);
+		bool L_8;
+		L_8 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_6, L_7, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1469));
+		V_5 = L_8;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1470));
+		bool L_9 = V_5;
+		if (!L_9)
 		{
-			goto IL_002a;
+			goto IL_0040;
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1471));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:661>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_8 = ___0_material;
-		String_t* L_9 = V_3;
-		NullCheck(L_8);
-		float L_10;
-		L_10 = Material_GetFloat_m2A77F10E6AA13EA3FA56166EFEA897115A14FA5A(L_8, L_9, NULL);
-		if ((!(((float)L_10) > ((float)(0.0f)))))
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1472));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_10 = ___0_material;
+		String_t* L_11 = V_4;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1473));
+		NullCheck(L_10);
+		float L_12;
+		L_12 = Material_GetFloat_m2A77F10E6AA13EA3FA56166EFEA897115A14FA5A(L_10, L_11, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1473));
+		V_6 = (bool)((((float)L_12) > ((float)(0.0f)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1474));
+		bool L_13 = V_6;
+		if (!L_13)
 		{
-			goto IL_002a;
+			goto IL_003f;
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1475));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:663>
-		int32_t L_11 = V_1;
-		V_1 = ((int32_t)il2cpp_codegen_add(L_11, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1476));
+		int32_t L_14 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_14, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1477));
 	}
 
-IL_002a:
+IL_003f:
 	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:655>
-		int32_t L_12 = V_2;
-		V_2 = ((int32_t)il2cpp_codegen_add(L_12, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1478));
 	}
 
-IL_002e:
+IL_0040:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1479));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:655>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1480));
+		int32_t L_15 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_15, 1));
+	}
+
+IL_0045:
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:655>
-		int32_t L_13 = V_2;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_14 = ___2_parents;
-		NullCheck(L_14);
-		if ((((int32_t)L_13) < ((int32_t)((int32_t)(((RuntimeArray*)L_14)->max_length)))))
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1481));
+		int32_t L_16 = V_3;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_17 = ___2_parents;
+		NullCheck(L_17);
+		V_7 = (bool)((((int32_t)L_16) < ((int32_t)((int32_t)(((RuntimeArray*)L_17)->max_length))))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1482));
+		bool L_18 = V_7;
+		if (L_18)
 		{
-			goto IL_000b;
+			goto IL_000f;
 		}
 	}
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:668>
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_15 = ___2_parents;
-		NullCheck(L_15);
-		int32_t L_16 = V_1;
-		if ((!(((uint32_t)((int32_t)(((RuntimeArray*)L_15)->max_length))) == ((uint32_t)L_16))))
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1483));
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_19 = ___2_parents;
+		NullCheck(L_19);
+		int32_t L_20 = V_2;
+		V_8 = (bool)((((int32_t)((int32_t)(((RuntimeArray*)L_19)->max_length))) == ((int32_t)L_20))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1484));
+		bool L_21 = V_8;
+		if (!L_21)
 		{
-			goto IL_007f;
+			goto IL_0061;
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1485));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:670>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1486));
 		V_0 = (bool)1;
-		goto IL_007f;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1487));
 	}
 
-IL_003e:
+IL_0061:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1488));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1489));
+		goto IL_00bd;
+	}
+
+IL_0064:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1490));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:675>
-		V_4 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1491));
+		V_9 = (0.0f);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:677>
-		V_5 = 0;
-		goto IL_006d;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1492));
+		V_10 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1493));
+		goto IL_009c;
 	}
 
-IL_004a:
+IL_0071:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1494));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:679>
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_17 = ___2_parents;
-		int32_t L_18 = V_5;
-		NullCheck(L_17);
-		int32_t L_19 = L_18;
-		String_t* L_20 = (L_17)->GetAt(static_cast<il2cpp_array_size_t>(L_19));
-		V_6 = L_20;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1495));
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_22 = ___2_parents;
+		int32_t L_23 = V_10;
+		NullCheck(L_22);
+		int32_t L_24 = L_23;
+		String_t* L_25 = (L_22)->GetAt(static_cast<il2cpp_array_size_t>(L_24));
+		V_11 = L_25;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:681>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_21 = ___0_material;
-		String_t* L_22 = V_6;
-		NullCheck(L_21);
-		bool L_23;
-		L_23 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_21, L_22, NULL);
-		if (!L_23)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1496));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_26 = ___0_material;
+		String_t* L_27 = V_11;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1497));
+		NullCheck(L_26);
+		bool L_28;
+		L_28 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_26, L_27, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1497));
+		V_12 = L_28;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1498));
+		bool L_29 = V_12;
+		if (!L_29)
 		{
-			goto IL_0067;
+			goto IL_0095;
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1499));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:683>
-		float L_24 = V_4;
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_25 = ___0_material;
-		String_t* L_26 = V_6;
-		NullCheck(L_25);
-		float L_27;
-		L_27 = Material_GetFloat_m2A77F10E6AA13EA3FA56166EFEA897115A14FA5A(L_25, L_26, NULL);
-		V_4 = ((float)il2cpp_codegen_add(L_24, L_27));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1500));
+		float L_30 = V_9;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_31 = ___0_material;
+		String_t* L_32 = V_11;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1501));
+		NullCheck(L_31);
+		float L_33;
+		L_33 = Material_GetFloat_m2A77F10E6AA13EA3FA56166EFEA897115A14FA5A(L_31, L_32, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1501));
+		V_9 = ((float)il2cpp_codegen_add(L_30, L_33));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1502));
 	}
 
-IL_0067:
+IL_0095:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1503));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:677>
-		int32_t L_28 = V_5;
-		V_5 = ((int32_t)il2cpp_codegen_add(L_28, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1504));
+		int32_t L_34 = V_10;
+		V_10 = ((int32_t)il2cpp_codegen_add(L_34, 1));
 	}
 
-IL_006d:
+IL_009c:
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:677>
-		int32_t L_29 = V_5;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_30 = ___2_parents;
-		NullCheck(L_30);
-		if ((((int32_t)L_29) < ((int32_t)((int32_t)(((RuntimeArray*)L_30)->max_length)))))
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1505));
+		int32_t L_35 = V_10;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_36 = ___2_parents;
+		NullCheck(L_36);
+		V_13 = (bool)((((int32_t)L_35) < ((int32_t)((int32_t)(((RuntimeArray*)L_36)->max_length))))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1506));
+		bool L_37 = V_13;
+		if (L_37)
 		{
-			goto IL_004a;
+			goto IL_0071;
 		}
 	}
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:687>
-		float L_31 = V_4;
-		if ((!(((float)L_31) > ((float)(0.0f)))))
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1507));
+		float L_38 = V_9;
+		V_14 = (bool)((((float)L_38) > ((float)(0.0f)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1508));
+		bool L_39 = V_14;
+		if (!L_39)
 		{
-			goto IL_007f;
+			goto IL_00bc;
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1509));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:689>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1510));
 		V_0 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1511));
 	}
 
-IL_007f:
+IL_00bc:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1512));
+	}
+
+IL_00bd:
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:693>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_32 = ___0_material;
-		String_t* L_33 = ___3_property;
-		NullCheck(L_32);
-		bool L_34;
-		L_34 = Material_HasFloat_m56838BD2D4657D355DDCFE8E9785F6EB6B0F1EB8(L_32, L_33, NULL);
-		if (!L_34)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1513));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_40 = ___0_material;
+		String_t* L_41 = ___3_property;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1514));
+		NullCheck(L_40);
+		bool L_42;
+		L_42 = Material_HasFloat_m56838BD2D4657D355DDCFE8E9785F6EB6B0F1EB8(L_40, L_41, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1514));
+		V_15 = L_42;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1515));
+		bool L_43 = V_15;
+		if (!L_43)
+		{
+			goto IL_0151;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1516));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:695>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1517));
+		bool L_44 = V_0;
+		V_16 = L_44;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1518));
+		bool L_45 = V_16;
+		if (!L_45)
+		{
+			goto IL_0127;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1519));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:697>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1520));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_46 = ___0_material;
+		String_t* L_47 = ___3_property;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1521));
+		NullCheck(L_46);
+		int32_t L_48;
+		L_48 = Material_GetInt_mA772B615274DD11B37A352BC66EFA81BFD9C13EA(L_46, L_47, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1521));
+		V_17 = L_48;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:699>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1522));
+		V_18 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1523));
+		goto IL_0116;
+	}
+
+IL_00e4:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1524));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:701>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1525));
+		int32_t L_49 = V_18;
+		int32_t L_50 = V_17;
+		V_19 = (bool)((((int32_t)L_49) == ((int32_t)L_50))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1526));
+		bool L_51 = V_19;
+		if (!L_51)
+		{
+			goto IL_0101;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1527));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:703>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1528));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_52 = ___0_material;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_53 = ___4_keywords;
+		int32_t L_54 = V_18;
+		NullCheck(L_53);
+		int32_t L_55 = L_54;
+		String_t* L_56 = (L_53)->GetAt(static_cast<il2cpp_array_size_t>(L_55));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1529));
+		NullCheck(L_52);
+		Material_EnableKeyword_mE8523EF6CF694284DF976D47ADEDE9363A1174AC(L_52, L_56, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1529));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1530));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1531));
+		goto IL_010f;
+	}
+
+IL_0101:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1532));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:707>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1533));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_57 = ___0_material;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_58 = ___4_keywords;
+		int32_t L_59 = V_18;
+		NullCheck(L_58);
+		int32_t L_60 = L_59;
+		String_t* L_61 = (L_58)->GetAt(static_cast<il2cpp_array_size_t>(L_60));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1534));
+		NullCheck(L_57);
+		Material_DisableKeyword_mC123927EBF2F2A19220A4456C8EA19F2BA416E8C(L_57, L_61, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1534));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1535));
+	}
+
+IL_010f:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1536));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:699>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1537));
+		int32_t L_62 = V_18;
+		V_18 = ((int32_t)il2cpp_codegen_add(L_62, 1));
+	}
+
+IL_0116:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:699>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1538));
+		int32_t L_63 = V_18;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_64 = ___4_keywords;
+		NullCheck(L_64);
+		V_20 = (bool)((((int32_t)L_63) < ((int32_t)((int32_t)(((RuntimeArray*)L_64)->max_length))))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1539));
+		bool L_65 = V_20;
+		if (L_65)
 		{
 			goto IL_00e4;
 		}
 	}
 	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:695>
-		bool L_35 = V_0;
-		if (!L_35)
-		{
-			goto IL_00c6;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:697>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_36 = ___0_material;
-		String_t* L_37 = ___3_property;
-		NullCheck(L_36);
-		int32_t L_38;
-		L_38 = Material_GetInt_mA772B615274DD11B37A352BC66EFA81BFD9C13EA(L_36, L_37, NULL);
-		V_7 = L_38;
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:699>
-		V_8 = 0;
-		goto IL_00bd;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1540));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1541));
+		goto IL_0150;
 	}
 
-IL_0099:
+IL_0127:
 	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:701>
-		int32_t L_39 = V_8;
-		int32_t L_40 = V_7;
-		if ((!(((uint32_t)L_39) == ((uint32_t)L_40))))
-		{
-			goto IL_00ac;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:703>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_41 = ___0_material;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_42 = ___4_keywords;
-		int32_t L_43 = V_8;
-		NullCheck(L_42);
-		int32_t L_44 = L_43;
-		String_t* L_45 = (L_42)->GetAt(static_cast<il2cpp_array_size_t>(L_44));
-		NullCheck(L_41);
-		Material_EnableKeyword_mE8523EF6CF694284DF976D47ADEDE9363A1174AC(L_41, L_45, NULL);
-		goto IL_00b7;
-	}
-
-IL_00ac:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:707>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_46 = ___0_material;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_47 = ___4_keywords;
-		int32_t L_48 = V_8;
-		NullCheck(L_47);
-		int32_t L_49 = L_48;
-		String_t* L_50 = (L_47)->GetAt(static_cast<il2cpp_array_size_t>(L_49));
-		NullCheck(L_46);
-		Material_DisableKeyword_mC123927EBF2F2A19220A4456C8EA19F2BA416E8C(L_46, L_50, NULL);
-	}
-
-IL_00b7:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:699>
-		int32_t L_51 = V_8;
-		V_8 = ((int32_t)il2cpp_codegen_add(L_51, 1));
-	}
-
-IL_00bd:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:699>
-		int32_t L_52 = V_8;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_53 = ___4_keywords;
-		NullCheck(L_53);
-		if ((((int32_t)L_52) < ((int32_t)((int32_t)(((RuntimeArray*)L_53)->max_length)))))
-		{
-			goto IL_0099;
-		}
-	}
-	{
-		return;
-	}
-
-IL_00c6:
-	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1542));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:713>
-		V_9 = 0;
-		goto IL_00dc;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1543));
+		V_21 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1544));
+		goto IL_0141;
 	}
 
-IL_00cb:
+IL_012d:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1545));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:715>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_54 = ___0_material;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_55 = ___4_keywords;
-		int32_t L_56 = V_9;
-		NullCheck(L_55);
-		int32_t L_57 = L_56;
-		String_t* L_58 = (L_55)->GetAt(static_cast<il2cpp_array_size_t>(L_57));
-		NullCheck(L_54);
-		Material_DisableKeyword_mC123927EBF2F2A19220A4456C8EA19F2BA416E8C(L_54, L_58, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1546));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_66 = ___0_material;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_67 = ___4_keywords;
+		int32_t L_68 = V_21;
+		NullCheck(L_67);
+		int32_t L_69 = L_68;
+		String_t* L_70 = (L_67)->GetAt(static_cast<il2cpp_array_size_t>(L_69));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1547));
+		NullCheck(L_66);
+		Material_DisableKeyword_mC123927EBF2F2A19220A4456C8EA19F2BA416E8C(L_66, L_70, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1547));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1548));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:713>
-		int32_t L_59 = V_9;
-		V_9 = ((int32_t)il2cpp_codegen_add(L_59, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1549));
+		int32_t L_71 = V_21;
+		V_21 = ((int32_t)il2cpp_codegen_add(L_71, 1));
 	}
 
-IL_00dc:
+IL_0141:
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:713>
-		int32_t L_60 = V_9;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_61 = ___4_keywords;
-		NullCheck(L_61);
-		if ((((int32_t)L_60) < ((int32_t)((int32_t)(((RuntimeArray*)L_61)->max_length)))))
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1550));
+		int32_t L_72 = V_21;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_73 = ___4_keywords;
+		NullCheck(L_73);
+		V_22 = (bool)((((int32_t)L_72) < ((int32_t)((int32_t)(((RuntimeArray*)L_73)->max_length))))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1551));
+		bool L_74 = V_22;
+		if (L_74)
 		{
-			goto IL_00cb;
+			goto IL_012d;
 		}
 	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1552));
+	}
 
-IL_00e4:
+IL_0150:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1553));
+	}
+
+IL_0151:
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:719>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1554));
 		return;
 	}
 }
-// Method Definition Index: 94926
+// Method Definition Index: 95250
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_SetMaterialKeyword_m3DB276809F38CA462B7A3C77A1B414D28D738A52 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, bool ___1_allParentsOn, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___2_properties, String_t* ___3_keyword, const RuntimeMethod* method) 
 {
-	bool V_0 = false;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	String_t* V_3 = NULL;
-	float V_4 = 0.0f;
-	int32_t V_5 = 0;
-	String_t* V_6 = NULL;
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BoxoUtils_SetMaterialKeyword_m3DB276809F38CA462B7A3C77A1B414D28D738A52_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	String_t* V_4 = NULL;
+	bool V_5 = false;
+	bool V_6 = false;
+	bool V_7 = false;
+	bool V_8 = false;
+	float V_9 = 0.0f;
+	int32_t V_10 = 0;
+	String_t* V_11 = NULL;
+	bool V_12 = false;
+	bool V_13 = false;
+	bool V_14 = false;
+	bool V_15 = false;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_material), (&___1_allParentsOn), (&___2_properties), (&___3_keyword));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_2), (&V_3), (&V_4), (&V_9), (&V_10), (&V_11));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BoxoUtils_SetMaterialKeyword_m3DB276809F38CA462B7A3C77A1B414D28D738A52_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1555));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1556));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1557));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:723>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1558));
 		V_0 = (bool)0;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:725>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1559));
 		bool L_0 = ___1_allParentsOn;
-		if (!L_0)
+		V_1 = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1560));
+		bool L_1 = V_1;
+		if (!L_1)
 		{
-			goto IL_003e;
+			goto IL_0064;
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1561));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:727>
-		V_1 = 0;
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:729>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1562));
 		V_2 = 0;
-		goto IL_002e;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:729>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1563));
+		V_3 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1564));
+		goto IL_0045;
 	}
 
-IL_000b:
+IL_000f:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1565));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:731>
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = ___2_properties;
-		int32_t L_2 = V_2;
-		NullCheck(L_1);
-		int32_t L_3 = L_2;
-		String_t* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
-		V_3 = L_4;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1566));
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = ___2_properties;
+		int32_t L_3 = V_3;
+		NullCheck(L_2);
+		int32_t L_4 = L_3;
+		String_t* L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		V_4 = L_5;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:733>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_5 = ___0_material;
-		String_t* L_6 = V_3;
-		NullCheck(L_5);
-		bool L_7;
-		L_7 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_5, L_6, NULL);
-		if (!L_7)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1567));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_6 = ___0_material;
+		String_t* L_7 = V_4;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1568));
+		NullCheck(L_6);
+		bool L_8;
+		L_8 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_6, L_7, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1568));
+		V_5 = L_8;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1569));
+		bool L_9 = V_5;
+		if (!L_9)
 		{
-			goto IL_002a;
+			goto IL_0040;
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1570));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:735>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_8 = ___0_material;
-		String_t* L_9 = V_3;
-		NullCheck(L_8);
-		float L_10;
-		L_10 = Material_GetFloat_m2A77F10E6AA13EA3FA56166EFEA897115A14FA5A(L_8, L_9, NULL);
-		if ((!(((float)L_10) > ((float)(0.0f)))))
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1571));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_10 = ___0_material;
+		String_t* L_11 = V_4;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1572));
+		NullCheck(L_10);
+		float L_12;
+		L_12 = Material_GetFloat_m2A77F10E6AA13EA3FA56166EFEA897115A14FA5A(L_10, L_11, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1572));
+		V_6 = (bool)((((float)L_12) > ((float)(0.0f)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1573));
+		bool L_13 = V_6;
+		if (!L_13)
 		{
-			goto IL_002a;
+			goto IL_003f;
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1574));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:737>
-		int32_t L_11 = V_1;
-		V_1 = ((int32_t)il2cpp_codegen_add(L_11, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1575));
+		int32_t L_14 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_14, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1576));
 	}
 
-IL_002a:
+IL_003f:
 	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:729>
-		int32_t L_12 = V_2;
-		V_2 = ((int32_t)il2cpp_codegen_add(L_12, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1577));
 	}
 
-IL_002e:
+IL_0040:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1578));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:729>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1579));
+		int32_t L_15 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_15, 1));
+	}
+
+IL_0045:
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:729>
-		int32_t L_13 = V_2;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_14 = ___2_properties;
-		NullCheck(L_14);
-		if ((((int32_t)L_13) < ((int32_t)((int32_t)(((RuntimeArray*)L_14)->max_length)))))
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1580));
+		int32_t L_16 = V_3;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_17 = ___2_properties;
+		NullCheck(L_17);
+		V_7 = (bool)((((int32_t)L_16) < ((int32_t)((int32_t)(((RuntimeArray*)L_17)->max_length))))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1581));
+		bool L_18 = V_7;
+		if (L_18)
 		{
-			goto IL_000b;
+			goto IL_000f;
 		}
 	}
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:742>
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_15 = ___2_properties;
-		NullCheck(L_15);
-		int32_t L_16 = V_1;
-		if ((!(((uint32_t)((int32_t)(((RuntimeArray*)L_15)->max_length))) == ((uint32_t)L_16))))
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1582));
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_19 = ___2_properties;
+		NullCheck(L_19);
+		int32_t L_20 = V_2;
+		V_8 = (bool)((((int32_t)((int32_t)(((RuntimeArray*)L_19)->max_length))) == ((int32_t)L_20))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1583));
+		bool L_21 = V_8;
+		if (!L_21)
 		{
-			goto IL_007f;
+			goto IL_0061;
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1584));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:744>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1585));
 		V_0 = (bool)1;
-		goto IL_007f;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1586));
 	}
 
-IL_003e:
+IL_0061:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1587));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1588));
+		goto IL_00bd;
+	}
+
+IL_0064:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1589));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:749>
-		V_4 = (0.0f);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1590));
+		V_9 = (0.0f);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:751>
-		V_5 = 0;
-		goto IL_006d;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1591));
+		V_10 = 0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1592));
+		goto IL_009c;
 	}
 
-IL_004a:
+IL_0071:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1593));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:753>
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_17 = ___2_properties;
-		int32_t L_18 = V_5;
-		NullCheck(L_17);
-		int32_t L_19 = L_18;
-		String_t* L_20 = (L_17)->GetAt(static_cast<il2cpp_array_size_t>(L_19));
-		V_6 = L_20;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1594));
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_22 = ___2_properties;
+		int32_t L_23 = V_10;
+		NullCheck(L_22);
+		int32_t L_24 = L_23;
+		String_t* L_25 = (L_22)->GetAt(static_cast<il2cpp_array_size_t>(L_24));
+		V_11 = L_25;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:755>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_21 = ___0_material;
-		String_t* L_22 = V_6;
-		NullCheck(L_21);
-		bool L_23;
-		L_23 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_21, L_22, NULL);
-		if (!L_23)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1595));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_26 = ___0_material;
+		String_t* L_27 = V_11;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1596));
+		NullCheck(L_26);
+		bool L_28;
+		L_28 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_26, L_27, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1596));
+		V_12 = L_28;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1597));
+		bool L_29 = V_12;
+		if (!L_29)
 		{
-			goto IL_0067;
+			goto IL_0095;
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1598));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:757>
-		float L_24 = V_4;
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_25 = ___0_material;
-		String_t* L_26 = V_6;
-		NullCheck(L_25);
-		float L_27;
-		L_27 = Material_GetFloat_m2A77F10E6AA13EA3FA56166EFEA897115A14FA5A(L_25, L_26, NULL);
-		V_4 = ((float)il2cpp_codegen_add(L_24, L_27));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1599));
+		float L_30 = V_9;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_31 = ___0_material;
+		String_t* L_32 = V_11;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1600));
+		NullCheck(L_31);
+		float L_33;
+		L_33 = Material_GetFloat_m2A77F10E6AA13EA3FA56166EFEA897115A14FA5A(L_31, L_32, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1600));
+		V_9 = ((float)il2cpp_codegen_add(L_30, L_33));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1601));
 	}
 
-IL_0067:
+IL_0095:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1602));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:751>
-		int32_t L_28 = V_5;
-		V_5 = ((int32_t)il2cpp_codegen_add(L_28, 1));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1603));
+		int32_t L_34 = V_10;
+		V_10 = ((int32_t)il2cpp_codegen_add(L_34, 1));
 	}
 
-IL_006d:
+IL_009c:
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:751>
-		int32_t L_29 = V_5;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_30 = ___2_properties;
-		NullCheck(L_30);
-		if ((((int32_t)L_29) < ((int32_t)((int32_t)(((RuntimeArray*)L_30)->max_length)))))
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1604));
+		int32_t L_35 = V_10;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_36 = ___2_properties;
+		NullCheck(L_36);
+		V_13 = (bool)((((int32_t)L_35) < ((int32_t)((int32_t)(((RuntimeArray*)L_36)->max_length))))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1605));
+		bool L_37 = V_13;
+		if (L_37)
 		{
-			goto IL_004a;
+			goto IL_0071;
 		}
 	}
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:761>
-		float L_31 = V_4;
-		if ((!(((float)L_31) > ((float)(0.0f)))))
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1606));
+		float L_38 = V_9;
+		V_14 = (bool)((((float)L_38) > ((float)(0.0f)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1607));
+		bool L_39 = V_14;
+		if (!L_39)
 		{
-			goto IL_007f;
+			goto IL_00bc;
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1608));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:763>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1609));
 		V_0 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1610));
 	}
 
-IL_007f:
+IL_00bc:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1611));
+	}
+
+IL_00bd:
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:767>
-		bool L_32 = V_0;
-		if (!L_32)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1612));
+		bool L_40 = V_0;
+		V_15 = L_40;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1613));
+		bool L_41 = V_15;
+		if (!L_41)
 		{
-			goto IL_008a;
+			goto IL_00d0;
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1614));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:769>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_33 = ___0_material;
-		String_t* L_34 = ___3_keyword;
-		NullCheck(L_33);
-		Material_EnableKeyword_mE8523EF6CF694284DF976D47ADEDE9363A1174AC(L_33, L_34, NULL);
-		return;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1615));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_42 = ___0_material;
+		String_t* L_43 = ___3_keyword;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1616));
+		NullCheck(L_42);
+		Material_EnableKeyword_mE8523EF6CF694284DF976D47ADEDE9363A1174AC(L_42, L_43, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1616));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1617));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1618));
+		goto IL_00da;
 	}
 
-IL_008a:
+IL_00d0:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1619));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:773>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_35 = ___0_material;
-		String_t* L_36 = ___3_keyword;
-		NullCheck(L_35);
-		Material_DisableKeyword_mC123927EBF2F2A19220A4456C8EA19F2BA416E8C(L_35, L_36, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1620));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_44 = ___0_material;
+		String_t* L_45 = ___3_keyword;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1621));
+		NullCheck(L_44);
+		Material_DisableKeyword_mC123927EBF2F2A19220A4456C8EA19F2BA416E8C(L_44, L_45, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1621));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1622));
+	}
+
+IL_00da:
+	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:775>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1623));
 		return;
 	}
 }
-// Method Definition Index: 94927
+// Method Definition Index: 95251
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_SetMaterialKeywordInverted_m84622DAAA54407E11D3D3C5036E44D7F7587FED3 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_property, String_t* ___2_keyword, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BoxoUtils_SetMaterialKeywordInverted_m84622DAAA54407E11D3D3C5036E44D7F7587FED3_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	float V_1 = 0.0f;
+	bool V_2 = false;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_material), (&___1_property), (&___2_keyword));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_1));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BoxoUtils_SetMaterialKeywordInverted_m84622DAAA54407E11D3D3C5036E44D7F7587FED3_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1624));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1625));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1626));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:779>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1627));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
 		String_t* L_1 = ___1_property;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1628));
 		NullCheck(L_0);
 		bool L_2;
 		L_2 = Material_HasFloat_m56838BD2D4657D355DDCFE8E9785F6EB6B0F1EB8(L_0, L_1, NULL);
-		if (!L_2)
-		{
-			goto IL_0026;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:781>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = ___0_material;
-		String_t* L_4 = ___1_property;
-		NullCheck(L_3);
-		float L_5;
-		L_5 = Material_GetFloat_m2A77F10E6AA13EA3FA56166EFEA897115A14FA5A(L_3, L_4, NULL);
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:783>
-		if ((!(((float)L_5) == ((float)(0.0f)))))
-		{
-			goto IL_001f;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:785>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_6 = ___0_material;
-		String_t* L_7 = ___2_keyword;
-		NullCheck(L_6);
-		Material_EnableKeyword_mE8523EF6CF694284DF976D47ADEDE9363A1174AC(L_6, L_7, NULL);
-		return;
-	}
-
-IL_001f:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:789>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_8 = ___0_material;
-		String_t* L_9 = ___2_keyword;
-		NullCheck(L_8);
-		Material_DisableKeyword_mC123927EBF2F2A19220A4456C8EA19F2BA416E8C(L_8, L_9, NULL);
-	}
-
-IL_0026:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:792>
-		return;
-	}
-}
-// Method Definition Index: 94928
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_SetMaterialKeywordByTexture_m0D93731FBD3F29EB7747BCA7844C8C67F0B1E0B9 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_property, String_t* ___2_keyword, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:796>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
-		String_t* L_1 = ___1_property;
-		bool L_2;
-		L_2 = BoxoUtils_IsMaterialTextureUsed_mA4C8F9FDF34F278A45EE1DDE029F721649C5E51C(L_0, L_1, NULL);
-		if (!L_2)
-		{
-			goto IL_0011;
-		}
-	}
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:798>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = ___0_material;
-		String_t* L_4 = ___2_keyword;
-		NullCheck(L_3);
-		Material_EnableKeyword_mE8523EF6CF694284DF976D47ADEDE9363A1174AC(L_3, L_4, NULL);
-		return;
-	}
-
-IL_0011:
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:802>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_5 = ___0_material;
-		String_t* L_6 = ___2_keyword;
-		NullCheck(L_5);
-		Material_DisableKeyword_mC123927EBF2F2A19220A4456C8EA19F2BA416E8C(L_5, L_6, NULL);
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:804>
-		return;
-	}
-}
-// Method Definition Index: 94929
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float BoxoUtils_GetMaterialFloat_m1A55A983ACAE486C695221FD18ADFB00F343631A (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_property, float ___2_defaultValue, const RuntimeMethod* method) 
-{
-	float V_0 = 0.0f;
-	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:808>
-		float L_0 = ___2_defaultValue;
-		V_0 = L_0;
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:810>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_1 = ___0_material;
-		String_t* L_2 = ___1_property;
-		NullCheck(L_1);
-		bool L_3;
-		L_3 = Material_HasFloat_m56838BD2D4657D355DDCFE8E9785F6EB6B0F1EB8(L_1, L_2, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1628));
+		V_0 = L_2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1629));
+		bool L_3 = V_0;
 		if (!L_3)
 		{
-			goto IL_0013;
+			goto IL_0038;
 		}
 	}
 	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:812>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1630));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:781>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1631));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_4 = ___0_material;
 		String_t* L_5 = ___1_property;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1632));
 		NullCheck(L_4);
 		float L_6;
 		L_6 = Material_GetFloat_m2A77F10E6AA13EA3FA56166EFEA897115A14FA5A(L_4, L_5, NULL);
-		V_0 = L_6;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1632));
+		V_1 = L_6;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:783>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1633));
+		float L_7 = V_1;
+		V_2 = (bool)((((float)L_7) == ((float)(0.0f)))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1634));
+		bool L_8 = V_2;
+		if (!L_8)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1635));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:785>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1636));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_9 = ___0_material;
+		String_t* L_10 = ___2_keyword;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1637));
+		NullCheck(L_9);
+		Material_EnableKeyword_mE8523EF6CF694284DF976D47ADEDE9363A1174AC(L_9, L_10, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1637));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1638));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1639));
+		goto IL_0037;
 	}
 
-IL_0013:
+IL_002d:
 	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:815>
-		float L_7 = V_0;
-		return L_7;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1640));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:789>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1641));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_11 = ___0_material;
+		String_t* L_12 = ___2_keyword;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1642));
+		NullCheck(L_11);
+		Material_DisableKeyword_mC123927EBF2F2A19220A4456C8EA19F2BA416E8C(L_11, L_12, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1642));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1643));
+	}
+
+IL_0037:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1644));
+	}
+
+IL_0038:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:792>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1645));
+		return;
 	}
 }
-// Method Definition Index: 94930
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float BoxoUtils_GetMaterialFloat_m9F3DEBFC67D847D911D37D1E7D4B6C0A7660C146 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_property, const RuntimeMethod* method) 
+// Method Definition Index: 95252
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_SetMaterialKeywordByTexture_m0D93731FBD3F29EB7747BCA7844C8C67F0B1E0B9 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_property, String_t* ___2_keyword, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:820>
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BoxoUtils_SetMaterialKeywordByTexture_m0D93731FBD3F29EB7747BCA7844C8C67F0B1E0B9_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_material), (&___1_property), (&___2_keyword));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BoxoUtils_SetMaterialKeywordByTexture_m0D93731FBD3F29EB7747BCA7844C8C67F0B1E0B9_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1646));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1647));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1648));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:796>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1649));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
 		String_t* L_1 = ___1_property;
-		float L_2;
-		L_2 = BoxoUtils_GetMaterialFloat_m1A55A983ACAE486C695221FD18ADFB00F343631A(L_0, L_1, (0.0f), NULL);
-		return L_2;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1650));
+		bool L_2;
+		L_2 = BoxoUtils_IsMaterialTextureUsed_mA4C8F9FDF34F278A45EE1DDE029F721649C5E51C(L_0, L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1650));
+		V_0 = L_2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1651));
+		bool L_3 = V_0;
+		if (!L_3)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1652));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:798>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1653));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_4 = ___0_material;
+		String_t* L_5 = ___2_keyword;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1654));
+		NullCheck(L_4);
+		Material_EnableKeyword_mE8523EF6CF694284DF976D47ADEDE9363A1174AC(L_4, L_5, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1654));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1655));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1656));
+		goto IL_0022;
+	}
+
+IL_0018:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1657));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:802>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1658));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_6 = ___0_material;
+		String_t* L_7 = ___2_keyword;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1659));
+		NullCheck(L_6);
+		Material_DisableKeyword_mC123927EBF2F2A19220A4456C8EA19F2BA416E8C(L_6, L_7, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1659));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1660));
+	}
+
+IL_0022:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:804>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1661));
+		return;
 	}
 }
-// Method Definition Index: 94931
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BoxoUtils_GetMaterialInt_mF2ED52EA07ED9F1036408504E5C9009FEE27170B (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_property, int32_t ___2_defaultValue, const RuntimeMethod* method) 
+// Method Definition Index: 95253
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float BoxoUtils_GetMaterialFloat_m1A55A983ACAE486C695221FD18ADFB00F343631A (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_property, float ___2_defaultValue, const RuntimeMethod* method) 
 {
-	int32_t V_0 = 0;
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:825>
-		int32_t L_0 = ___2_defaultValue;
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BoxoUtils_GetMaterialFloat_m1A55A983ACAE486C695221FD18ADFB00F343631A_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	bool V_1 = false;
+	float V_2 = 0.0f;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_material), (&___1_property), (&___2_defaultValue));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BoxoUtils_GetMaterialFloat_m1A55A983ACAE486C695221FD18ADFB00F343631A_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1662));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1663));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1664));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:808>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1665));
+		float L_0 = ___2_defaultValue;
 		V_0 = L_0;
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:827>
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:810>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1666));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_1 = ___0_material;
 		String_t* L_2 = ___1_property;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1667));
 		NullCheck(L_1);
 		bool L_3;
 		L_3 = Material_HasFloat_m56838BD2D4657D355DDCFE8E9785F6EB6B0F1EB8(L_1, L_2, NULL);
-		if (!L_3)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1667));
+		V_1 = L_3;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1668));
+		bool L_4 = V_1;
+		if (!L_4)
 		{
-			goto IL_0013;
+			goto IL_0018;
 		}
 	}
 	{
-		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:829>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_4 = ___0_material;
-		String_t* L_5 = ___1_property;
-		NullCheck(L_4);
-		int32_t L_6;
-		L_6 = Material_GetInt_mA772B615274DD11B37A352BC66EFA81BFD9C13EA(L_4, L_5, NULL);
-		V_0 = L_6;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1669));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:812>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1670));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_5 = ___0_material;
+		String_t* L_6 = ___1_property;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1671));
+		NullCheck(L_5);
+		float L_7;
+		L_7 = Material_GetFloat_m2A77F10E6AA13EA3FA56166EFEA897115A14FA5A(L_5, L_6, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1671));
+		V_0 = L_7;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1672));
 	}
 
-IL_0013:
+IL_0018:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:815>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1673));
+		float L_8 = V_0;
+		V_2 = L_8;
+		goto IL_001c;
+	}
+
+IL_001c:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:816>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1674));
+		float L_9 = V_2;
+		return L_9;
+	}
+}
+// Method Definition Index: 95254
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float BoxoUtils_GetMaterialFloat_m9F3DEBFC67D847D911D37D1E7D4B6C0A7660C146 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_property, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BoxoUtils_GetMaterialFloat_m9F3DEBFC67D847D911D37D1E7D4B6C0A7660C146_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_material), (&___1_property));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BoxoUtils_GetMaterialFloat_m9F3DEBFC67D847D911D37D1E7D4B6C0A7660C146_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1675));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1676));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1677));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:820>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1678));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
+		String_t* L_1 = ___1_property;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1679));
+		float L_2;
+		L_2 = BoxoUtils_GetMaterialFloat_m1A55A983ACAE486C695221FD18ADFB00F343631A(L_0, L_1, (0.0f), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1679));
+		V_0 = L_2;
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:821>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1680));
+		float L_3 = V_0;
+		return L_3;
+	}
+}
+// Method Definition Index: 95255
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BoxoUtils_GetMaterialInt_mF2ED52EA07ED9F1036408504E5C9009FEE27170B (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_property, int32_t ___2_defaultValue, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BoxoUtils_GetMaterialInt_mF2ED52EA07ED9F1036408504E5C9009FEE27170B_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	bool V_1 = false;
+	int32_t V_2 = 0;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_material), (&___1_property), (&___2_defaultValue));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BoxoUtils_GetMaterialInt_mF2ED52EA07ED9F1036408504E5C9009FEE27170B_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1681));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1682));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1683));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:825>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1684));
+		int32_t L_0 = ___2_defaultValue;
+		V_0 = L_0;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:827>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1685));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_1 = ___0_material;
+		String_t* L_2 = ___1_property;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1686));
+		NullCheck(L_1);
+		bool L_3;
+		L_3 = Material_HasFloat_m56838BD2D4657D355DDCFE8E9785F6EB6B0F1EB8(L_1, L_2, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1686));
+		V_1 = L_3;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1687));
+		bool L_4 = V_1;
+		if (!L_4)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1688));
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:829>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1689));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_5 = ___0_material;
+		String_t* L_6 = ___1_property;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1690));
+		NullCheck(L_5);
+		int32_t L_7;
+		L_7 = Material_GetInt_mA772B615274DD11B37A352BC66EFA81BFD9C13EA(L_5, L_6, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1690));
+		V_0 = L_7;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1691));
+	}
+
+IL_0018:
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:832>
-		int32_t L_7 = V_0;
-		return L_7;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1692));
+		int32_t L_8 = V_0;
+		V_2 = L_8;
+		goto IL_001c;
+	}
+
+IL_001c:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:833>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1693));
+		int32_t L_9 = V_2;
+		return L_9;
 	}
 }
-// Method Definition Index: 94932
+// Method Definition Index: 95256
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BoxoUtils_GetMaterialInt_m95D481DEE2B9681B40EB3E60D9A5C471803C68C7 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_property, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BoxoUtils_GetMaterialInt_m95D481DEE2B9681B40EB3E60D9A5C471803C68C7_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_material), (&___1_property));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BoxoUtils_GetMaterialInt_m95D481DEE2B9681B40EB3E60D9A5C471803C68C7_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1694));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1695));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1696));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:837>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1697));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
 		String_t* L_1 = ___1_property;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1698));
 		int32_t L_2;
 		L_2 = BoxoUtils_GetMaterialInt_mF2ED52EA07ED9F1036408504E5C9009FEE27170B(L_0, L_1, 0, NULL);
-		return L_2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1698));
+		V_0 = L_2;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:838>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1699));
+		int32_t L_3 = V_0;
+		return L_3;
 	}
 }
-// Method Definition Index: 94933
+// Method Definition Index: 95257
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* BoxoUtils_GetMaterialTexture_mF2456917184B946C17717728253FC7814A029627 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_property, const RuntimeMethod* method) 
 {
-	Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* V_0 = NULL;
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BoxoUtils_GetMaterialTexture_mF2456917184B946C17717728253FC7814A029627_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* V_0 = NULL;
+	bool V_1 = false;
+	Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* V_2 = NULL;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_material), (&___1_property));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BoxoUtils_GetMaterialTexture_mF2456917184B946C17717728253FC7814A029627_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1700));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1701));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1702));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:842>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1703));
 		V_0 = (Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700*)NULL;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:844>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1704));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
 		String_t* L_1 = ___1_property;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1705));
 		NullCheck(L_0);
 		bool L_2;
 		L_2 = Material_HasTexture_mCC431DD47D0A327404AEF30EDA98E5A2F212A3E3(L_0, L_1, NULL);
-		if (!L_2)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1705));
+		V_1 = L_2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1706));
+		bool L_3 = V_1;
+		if (!L_3)
 		{
-			goto IL_0013;
+			goto IL_0018;
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1707));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:846>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = ___0_material;
-		String_t* L_4 = ___1_property;
-		NullCheck(L_3);
-		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_5;
-		L_5 = Material_GetTexture_mBA07A377A7DDD29CD53E6F687DE6D49A42C0C719(L_3, L_4, NULL);
-		V_0 = L_5;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1708));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_4 = ___0_material;
+		String_t* L_5 = ___1_property;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1709));
+		NullCheck(L_4);
+		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_6;
+		L_6 = Material_GetTexture_mBA07A377A7DDD29CD53E6F687DE6D49A42C0C719(L_4, L_5, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1709));
+		V_0 = L_6;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1710));
 	}
 
-IL_0013:
+IL_0018:
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:849>
-		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_6 = V_0;
-		return L_6;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1711));
+		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_7 = V_0;
+		V_2 = L_7;
+		goto IL_001c;
+	}
+
+IL_001c:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:850>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1712));
+		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_8 = V_2;
+		return L_8;
 	}
 }
-// Method Definition Index: 94934
+// Method Definition Index: 95258
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BoxoUtils_IsMaterialTextureUsed_mA4C8F9FDF34F278A45EE1DDE029F721649C5E51C (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, String_t* ___1_property, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BoxoUtils_IsMaterialTextureUsed_mA4C8F9FDF34F278A45EE1DDE029F721649C5E51C_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	bool V_0 = false;
+	bool V_1 = false;
+	bool V_2 = false;
+	bool V_3 = false;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_material), (&___1_property));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BoxoUtils_IsMaterialTextureUsed_mA4C8F9FDF34F278A45EE1DDE029F721649C5E51C_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1713));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1714));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1715));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:854>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1716));
 		V_0 = (bool)0;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:856>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1717));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
 		String_t* L_1 = ___1_property;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1718));
 		NullCheck(L_0);
 		bool L_2;
 		L_2 = Material_HasTexture_mCC431DD47D0A327404AEF30EDA98E5A2F212A3E3(L_0, L_1, NULL);
-		if (!L_2)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1718));
+		V_1 = L_2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1719));
+		bool L_3 = V_1;
+		if (!L_3)
 		{
-			goto IL_001c;
+			goto IL_0025;
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1720));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:858>
-		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = ___0_material;
-		String_t* L_4 = ___1_property;
-		NullCheck(L_3);
-		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_5;
-		L_5 = Material_GetTexture_mBA07A377A7DDD29CD53E6F687DE6D49A42C0C719(L_3, L_4, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1721));
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_4 = ___0_material;
+		String_t* L_5 = ___1_property;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1722));
+		NullCheck(L_4);
+		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_6;
+		L_6 = Material_GetTexture_mBA07A377A7DDD29CD53E6F687DE6D49A42C0C719(L_4, L_5, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1722));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1723));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_6;
-		L_6 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_6)
+		bool L_7;
+		L_7 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_6, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1723));
+		V_2 = L_7;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1724));
+		bool L_8 = V_2;
+		if (!L_8)
 		{
-			goto IL_001c;
+			goto IL_0024;
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1725));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:860>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1726));
 		V_0 = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1727));
 	}
 
-IL_001c:
+IL_0024:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1728));
+	}
+
+IL_0025:
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:864>
-		bool L_7 = V_0;
-		return L_7;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1729));
+		bool L_9 = V_0;
+		V_3 = L_9;
+		goto IL_0029;
+	}
+
+IL_0029:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:865>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1730));
+		bool L_10 = V_3;
+		return L_10;
 	}
 }
-// Method Definition Index: 94935
+// Method Definition Index: 95259
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float BoxoUtils_MathRemap_m26BB9D0D0BF306265C76AE0F10E3E3BCC25F1CE1 (float ___0_value, float ___1_minOld, float ___2_maxOld, float ___3_minNew, float ___4_maxNew, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BoxoUtils_MathRemap_m26BB9D0D0BF306265C76AE0F10E3E3BCC25F1CE1_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value), (&___1_minOld), (&___2_maxOld), (&___3_minNew), (&___4_maxNew));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BoxoUtils_MathRemap_m26BB9D0D0BF306265C76AE0F10E3E3BCC25F1CE1_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1731));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1732));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1733));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:870>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1734));
 		float L_0 = ___3_minNew;
 		float L_1 = ___0_value;
 		float L_2 = ___1_minOld;
@@ -6000,89 +9718,202 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float BoxoUtils_MathRemap_m26BB9D0D0BF306265C
 		float L_4 = ___3_minNew;
 		float L_5 = ___2_maxOld;
 		float L_6 = ___1_minOld;
-		return ((float)il2cpp_codegen_add(L_0, ((float)(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_1, L_2)), ((float)il2cpp_codegen_subtract(L_3, L_4))))/((float)il2cpp_codegen_subtract(L_5, L_6))))));
+		V_0 = ((float)il2cpp_codegen_add(L_0, ((float)(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_1, L_2)), ((float)il2cpp_codegen_subtract(L_3, L_4))))/((float)il2cpp_codegen_subtract(L_5, L_6))))));
+		goto IL_0012;
+	}
+
+IL_0012:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:871>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1735));
+		float L_7 = V_0;
+		return L_7;
 	}
 }
-// Method Definition Index: 94936
+// Method Definition Index: 95260
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float BoxoUtils_MathRemap_m18C64DB827B16C8F9D02E1520C7548BAE0B1EFF9 (float ___0_value, float ___1_minOld, float ___2_maxOld, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BoxoUtils_MathRemap_m18C64DB827B16C8F9D02E1520C7548BAE0B1EFF9_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value), (&___1_minOld), (&___2_maxOld));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BoxoUtils_MathRemap_m18C64DB827B16C8F9D02E1520C7548BAE0B1EFF9_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1736));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1737));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1738));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:875>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1739));
 		float L_0 = ___0_value;
 		float L_1 = ___1_minOld;
 		float L_2 = ___2_maxOld;
 		float L_3 = ___1_minOld;
-		return ((float)(((float)il2cpp_codegen_subtract(L_0, L_1))/((float)il2cpp_codegen_subtract(L_2, L_3))));
+		V_0 = ((float)(((float)il2cpp_codegen_subtract(L_0, L_1))/((float)il2cpp_codegen_subtract(L_2, L_3))));
+		goto IL_000b;
+	}
+
+IL_000b:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:876>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1740));
+		float L_4 = V_0;
+		return L_4;
 	}
 }
-// Method Definition Index: 94937
+// Method Definition Index: 95261
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float BoxoUtils_MathVector2ToFloat_mBC0D5B198D2A2E1E603582AF34E1D5B991EA8D9D (float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BoxoUtils_MathVector2ToFloat_mBC0D5B198D2A2E1E603582AF34E1D5B991EA8D9D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	float V_1 = 0.0f;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BoxoUtils_MathVector2ToFloat_mBC0D5B198D2A2E1E603582AF34E1D5B991EA8D9D_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1741));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1742));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1743));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:882>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1744));
 		float L_0 = ___0_x;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1745));
 		float L_1;
 		L_1 = floorf(((float)il2cpp_codegen_multiply(L_0, (2047.0f))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1745));
 		(&V_0)->___x = L_1;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:883>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1746));
 		float L_2 = ___1_y;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1747));
 		float L_3;
 		L_3 = floorf(((float)il2cpp_codegen_multiply(L_2, (2047.0f))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1747));
 		(&V_0)->___y = L_3;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:885>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1748));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = V_0;
 		float L_5 = L_4.___x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = V_0;
 		float L_7 = L_6.___y;
-		return ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_5, (2048.0f))), L_7));
+		V_1 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_5, (2048.0f))), L_7));
+		goto IL_003d;
+	}
+
+IL_003d:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:886>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1749));
+		float L_8 = V_1;
+		return L_8;
 	}
 }
-// Method Definition Index: 94938
+// Method Definition Index: 95262
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 BoxoUtils_MathFloatFromVector2_mE69C000E4DC949483056BAD1D4F15514762C569B (float ___0_input, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BoxoUtils_MathFloatFromVector2_mE69C000E4DC949483056BAD1D4F15514762C569B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_input));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BoxoUtils_MathFloatFromVector2_mE69C000E4DC949483056BAD1D4F15514762C569B_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1750));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1751));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1752));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:892>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1753));
 		float L_0 = ___0_input;
 		(&V_0)->___y = (fmodf(L_0, (2048.0f)));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:893>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1754));
 		float L_1 = ___0_input;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1755));
 		float L_2;
 		L_2 = floorf(((float)(L_1/(2048.0f))));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1755));
 		(&V_0)->___x = L_2;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:895>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1756));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1757));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4;
 		L_4 = Vector2_op_Division_m57A2DCD71E0CE7420851D705D1951F9238902AAB_inline(L_3, (2047.0f), NULL);
-		return L_4;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1757));
+		V_1 = L_4;
+		goto IL_0030;
+	}
+
+IL_0030:
+	{
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:896>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1758));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_5 = V_1;
+		return L_5;
 	}
 }
-// Method Definition Index: 94939
+// Method Definition Index: 95263
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_DestryObject_m29C3D7CC6D58758CB176D9A4F858CBF437330391 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_objectToDestory, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BoxoUtils_DestryObject_m29C3D7CC6D58758CB176D9A4F858CBF437330391_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_objectToDestory));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BoxoUtils_DestryObject_m29C3D7CC6D58758CB176D9A4F858CBF437330391_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1759));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1760));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1761));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:1266>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1762));
 		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_0 = ___0_objectToDestory;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1763));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1763));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:1268>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1764));
 		return;
 	}
 }
-// Method Definition Index: 94940
+// Method Definition Index: 95264
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_DisableServerExecution_m72CBC1963A4A1C769C6B30872901452D7D55ED55 (const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BoxoUtils_DisableServerExecution_m72CBC1963A4A1C769C6B30872901452D7D55ED55_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BoxoUtils_DisableServerExecution_m72CBC1963A4A1C769C6B30872901452D7D55ED55_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1765));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1766));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1767));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:1275>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1768));
 		return;
 	}
 }
@@ -6094,26 +9925,39 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoUtils_DisableServerExecution_m72CBC1
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 94941
+// Method Definition Index: 95265
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoGlobals__ctor_m0C8E4E342CB7C8013247224C5579D8046C6CFE4B (BoxoGlobals_t97F6E5DEF80E631A72D88187046132B40A915890* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BoxoGlobals__ctor_m0C8E4E342CB7C8013247224C5579D8046C6CFE4B_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BoxoGlobals__ctor_m0C8E4E342CB7C8013247224C5579D8046C6CFE4B_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
 }
-// Method Definition Index: 94942
+// Method Definition Index: 95266
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoGlobals__cctor_m0EDC6FCB5CF92E1C38FF8DA8D345570ACF7FA24E (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BoxoGlobals__cctor_m0EDC6FCB5CF92E1C38FF8DA8D345570ACF7FA24E_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BoxoGlobals_t97F6E5DEF80E631A72D88187046132B40A915890_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral64E0B06CEC940FF8152F2310C3EB08D3E87E3120);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BoxoGlobals__cctor_m0EDC6FCB5CF92E1C38FF8DA8D345570ACF7FA24E_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1769));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1770));
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:1279>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1771));
 		((BoxoGlobals_t97F6E5DEF80E631A72D88187046132B40A915890_StaticFields*)il2cpp_codegen_static_fields_for(BoxoGlobals_t97F6E5DEF80E631A72D88187046132B40A915890_il2cpp_TypeInfo_var))->___userFolder = _stringLiteral64E0B06CEC940FF8152F2310C3EB08D3E87E3120;
 		Il2CppCodeGenWriteBarrier((void**)(&((BoxoGlobals_t97F6E5DEF80E631A72D88187046132B40A915890_StaticFields*)il2cpp_codegen_static_fields_for(BoxoGlobals_t97F6E5DEF80E631A72D88187046132B40A915890_il2cpp_TypeInfo_var))->___userFolder), (void*)_stringLiteral64E0B06CEC940FF8152F2310C3EB08D3E87E3120);
 		return;
@@ -6127,30 +9971,51 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoxoGlobals__cctor_m0EDC6FCB5CF92E1C38FF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 94943
+// Method Definition Index: 95267
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProjectData__ctor_m63F3CC3576D978D72C0923F787B45A4EDF19106E (ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProjectData__ctor_m63F3CC3576D978D72C0923F787B45A4EDF19106E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ProjectData_tF2385DCBD79476E0AFE7ED115ED844264293D8E5_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ProjectData__ctor_m63F3CC3576D978D72C0923F787B45A4EDF19106E_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1772));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1773));
 	{
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:1285>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1774));
 		__this->___pipeline = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___pipeline), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:1286>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1775));
 		__this->___minimum = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___minimum), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:1287>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1776));
 		__this->___package = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___package), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:1288>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1777));
 		__this->___isSupported = (bool)1;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:1289>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1778));
+		__this->___isTechRelease = (bool)0;
+		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:1290>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1779));
+		__this->___isAlphaOrBetaRelease = (bool)0;
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:1292>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1780));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1781));
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1781));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1782));
 		//<source_info:C:/GIT/UnityProjects/EchoesBeyondTheVeil/Assets/AS_BOXOPHOBIC/Utils/Scripts/Utility/Utility.cs:1295>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsBoxophobic_Utils_Scripts + 1783));
 		return;
 	}
 }
@@ -6181,16 +10046,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProjectData__ctor_m63F3CC3576D978D72C092
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 44858
+// Method Definition Index: 54592
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline (float ___0_value, float ___1_min, float ___2_max, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	bool V_0 = false;
 	bool V_1 = false;
 	float V_2 = 0.0f;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value), (&___1_min), (&___2_max));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12967));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12968));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12969));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12970));
 		float L_0 = ___0_value;
 		float L_1 = ___1_min;
 		V_0 = (bool)((((float)L_0) < ((float)L_1))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12971));
 		bool L_2 = V_0;
 		if (!L_2)
 		{
@@ -6198,16 +10076,20 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D2
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12972));
 		float L_3 = ___1_min;
 		___0_value = L_3;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12973));
 		goto IL_0019;
 	}
 
 IL_000e:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12974));
 		float L_4 = ___0_value;
 		float L_5 = ___2_max;
 		V_1 = (bool)((((float)L_4) > ((float)L_5))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12975));
 		bool L_6 = V_1;
 		if (!L_6)
 		{
@@ -6215,12 +10097,14 @@ IL_000e:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12976));
 		float L_7 = ___2_max;
 		___0_value = L_7;
 	}
 
 IL_0019:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12977));
 		float L_8 = ___0_value;
 		V_2 = L_8;
 		goto IL_001d;
@@ -6228,16 +10112,29 @@ IL_0019:
 
 IL_001d:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12978));
 		float L_9 = V_2;
 		return L_9;
 	}
 }
-// Method Definition Index: 44801
+// Method Definition Index: 54535
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline (float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y), (&___2_z));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12681));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12682));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12683));
 		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
 		float L_0 = ___0_x;
 		(&V_0)->___x = ((float)il2cpp_codegen_multiply(L_0, (0.0174532924f)));
@@ -6245,45 +10142,69 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E
 		(&V_0)->___y = ((float)il2cpp_codegen_multiply(L_1, (0.0174532924f)));
 		float L_2 = ___2_z;
 		(&V_0)->___z = ((float)il2cpp_codegen_multiply(L_2, (0.0174532924f)));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12684));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_3;
 		L_3 = Quaternion_Internal_FromEulerRad_mD0C4C0EFE1D70EC0EA4A92B11F1A4D5B0A134E49((&V_0), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12684));
 		return L_3;
 	}
 }
-// Method Definition Index: 44750
+// Method Definition Index: 54484
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12439));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12440));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12441));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___forwardVector;
 		return L_0;
 	}
 }
-// Method Definition Index: 44755
+// Method Definition Index: 54489
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_right_mFF573AFBBB2186E7AFA1BA7CA271A78DF67E4EA0_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_get_right_mFF573AFBBB2186E7AFA1BA7CA271A78DF67E4EA0_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3_get_right_mFF573AFBBB2186E7AFA1BA7CA271A78DF67E4EA0_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12454));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12455));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12456));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___rightVector;
 		return L_0;
 	}
 }
-// Method Definition Index: 44759
+// Method Definition Index: 54493
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_d));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12466));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12467));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12468));
 		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
 		float L_1 = L_0.___x;
@@ -6301,12 +10222,24 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_9;
 	}
 }
-// Method Definition Index: 44756
+// Method Definition Index: 54490
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_b));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12457));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12458));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12459));
 		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
 		float L_1 = L_0.___x;
@@ -6327,12 +10260,24 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_12;
 	}
 }
-// Method Definition Index: 44790
+// Method Definition Index: 54524
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_lhs, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rhs, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_lhs), (&___1_rhs));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12584));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12585));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12586));
 		il2cpp_codegen_initobj((&V_0), sizeof(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ___0_lhs;
 		float L_1 = L_0.___w;
@@ -6406,51 +10351,114 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E
 		return L_64;
 	}
 }
-// Method Definition Index: 44717
+// Method Definition Index: 54451
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y), (&___2_z));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12195));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12196));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12197));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12198));
 		float L_0 = ___0_x;
 		__this->___x = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12199));
 		float L_1 = ___1_y;
 		__this->___y = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12200));
 		float L_2 = ___2_z;
 		__this->___z = L_2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12201));
 		return;
 	}
 }
-// Method Definition Index: 44977
+// Method Definition Index: 54711
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* __this, float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y), (&___2_z), (&___3_w));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 13740));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 13741));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 13742));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 13743));
 		float L_0 = ___0_x;
 		__this->___x = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 13744));
 		float L_1 = ___1_y;
 		__this->___y = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 13745));
 		float L_2 = ___2_z;
 		__this->___z = L_2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 13746));
 		float L_3 = ___3_w;
 		__this->___w = L_3;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 13747));
 		return;
 	}
 }
-// Method Definition Index: 44883
+// Method Definition Index: 54617
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_x), (&___1_y));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 13221));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 13222));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 13223));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 13224));
 		float L_0 = ___0_x;
 		__this->___x = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 13225));
 		float L_1 = ___1_y;
 		__this->___y = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 13226));
 		return;
 	}
 }
-// Method Definition Index: 44912
+// Method Definition Index: 54646
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, float ___1_d, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_d));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 13399));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 13400));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 13401));
 		il2cpp_codegen_initobj((&V_0), sizeof(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_a;
 		float L_1 = L_0.___x;
@@ -6464,26 +10472,43 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 		return L_6;
 	}
 }
-// Method Definition Index: 44992
+// Method Definition Index: 54726
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 Vector4_get_zero_m3D61F5FA9483CD9C08977D9D8852FB448B4CE6D1_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector4_get_zero_m3D61F5FA9483CD9C08977D9D8852FB448B4CE6D1_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector4_get_zero_m3D61F5FA9483CD9C08977D9D8852FB448B4CE6D1_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 13832));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 13833));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 13834));
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_0 = ((Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_StaticFields*)il2cpp_codegen_static_fields_for(Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_il2cpp_TypeInfo_var))->___zeroVector;
 		return L_0;
 	}
 }
-// Method Definition Index: 44914
+// Method Definition Index: 54648
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Division_m57A2DCD71E0CE7420851D705D1951F9238902AAB_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, float ___1_d, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_op_Division_m57A2DCD71E0CE7420851D705D1951F9238902AAB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_d));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector2_op_Division_m57A2DCD71E0CE7420851D705D1951F9238902AAB_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 13405));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 13406));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 13407));
 		il2cpp_codegen_initobj((&V_0), sizeof(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_a;
 		float L_1 = L_0.___x;

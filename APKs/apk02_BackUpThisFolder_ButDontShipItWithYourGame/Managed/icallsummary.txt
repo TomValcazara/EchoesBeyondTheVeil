@@ -104,10 +104,12 @@ Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility::CreateCategory__Unmanaged
 Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility::BeginSample
 Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility::EndSample
 Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility::GetCategoryDescription_Injected
+Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility::Internal_BeginWithObject_Injected
 Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility::SetMarkerMetadata__Unmanaged
 Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility::CreateCounterValue__Unmanaged
 Unity.Profiling.ProfilerRecorder::GetRunning_Injected
 Unity.Profiling.ProfilerRecorder::GetValid_Injected
+Unity.Profiling.ProfilerRecorder::CopyTo_Pointer_Injected
 Unity.Profiling.ProfilerRecorder::GetCount_Injected
 Unity.Profiling.ProfilerRecorder::GetLastValue_Injected
 Unity.Profiling.ProfilerRecorder::Control_Injected
@@ -628,6 +630,7 @@ UnityEngine.ComputeBuffer::DestroyBuffer_Injected
 UnityEngine.ComputeBuffer::InternalSetData_Injected
 UnityEngine.ComputeBuffer::InternalSetNativeData_Injected
 UnityEngine.ComputeShader::HasKernel_Injected
+UnityEngine.ComputeShader::IsSupported_Injected
 UnityEngine.ComputeShader::FindKernel_Injected
 UnityEngine.ComputeShader::DisableKeyword_Injected
 UnityEngine.ComputeShader::Dispatch_Injected
@@ -833,6 +836,7 @@ UnityEngine.GraphicsBuffer::InternalSetNativeData_Injected
 UnityEngine.GraphicsBuffer::SetName_Injected
 UnityEngine.GraphicsBuffer::get_bufferHandle_Injected
 UnityEngine.GraphicsBuffer::BeginBufferWrite_Injected
+UnityEngine.GraphicsBuffer::get_target_Injected
 UnityEngine.GraphicsBuffer::GetUsageFlags_Injected
 UnityEngine.GUI::get_changed
 UnityEngine.GUI::get_enabled
@@ -864,8 +868,11 @@ UnityEngine.GUIStyle::GetRectOffsetPtr_Injected
 UnityEngine.GUIStyle::GetStyleStatePtr_Injected
 UnityEngine.GUIStyle::Internal_Create
 UnityEngine.GUIStyle::get_font_Injected
+UnityEngine.GUIStyle::Internal_CalcHeight_Injected
 UnityEngine.GUIStyle::get_fixedHeight_Injected
 UnityEngine.GUIStyle::get_fixedWidth_Injected
+UnityEngine.GUIStyle::Internal_CalcMinMaxWidth_Injected
+UnityEngine.GUIStyle::Internal_CalcSizeWithConstraints_Injected
 UnityEngine.GUIStyle::Internal_Destroy
 UnityEngine.GUIStyle::Internal_DestroyTextGenerator
 UnityEngine.GUIStyle::Internal_Draw2_Injected
@@ -1366,6 +1373,8 @@ UnityEngine.PolygonCollider2D::GetTotalPointCount_Injected
 UnityEngine.PolygonCollider2D::get_pathCount_Injected
 UnityEngine.PolygonCollider2D::GetPath_Internal_Injected
 UnityEngine.Profiling.Profiler::GetRuntimeMemorySizeLong_Injected
+UnityEngine.Profiling.Profiler::BeginSampleImpl_Injected
+UnityEngine.Profiling.Profiler::EndSample
 UnityEngine.PropertyNameUtils::PropertyNameFromString_Injected
 UnityEngine.QualitySettings::get_billboardsFaceCameraPosition
 UnityEngine.QualitySettings::get_enableLODCrossFade
@@ -1436,6 +1445,7 @@ UnityEngine.RenderAs2DUtil::DisposeCanRenderAs2D
 UnityEngine.RenderAs2DUtil::InitializeCanRenderAs2D
 UnityEngine.RenderBuffer::GetNativeRenderBufferPtr
 UnityEngine.Renderer::get_enabled_Injected
+UnityEngine.Renderer::get_isPartOfStaticBatch_Injected
 UnityEngine.Renderer::GetMaterialCount_Injected
 UnityEngine.Renderer::get_sortingGroupID_Injected
 UnityEngine.Renderer::get_sortingGroupOrder_Injected
@@ -1489,6 +1499,7 @@ UnityEngine.Rendering.CommandBuffer::InitBuffer
 UnityEngine.Rendering.CommandBuffer::BeginRenderPass_Internal_Injected
 UnityEngine.Rendering.CommandBuffer::BeginSample_CustomSampler_Injected
 UnityEngine.Rendering.CommandBuffer::BeginSample_Injected
+UnityEngine.Rendering.CommandBuffer::BeginSample_ProfilerMarker_Injected
 UnityEngine.Rendering.CommandBuffer::Blit_Texture_Injected
 UnityEngine.Rendering.CommandBuffer::ClearRandomWriteTargets_Injected
 UnityEngine.Rendering.CommandBuffer::ClearRenderTargetMulti_Internal_Injected
@@ -1513,6 +1524,7 @@ UnityEngine.Rendering.CommandBuffer::EnableShaderKeyword_Injected
 UnityEngine.Rendering.CommandBuffer::EndRenderPass_Internal_Injected
 UnityEngine.Rendering.CommandBuffer::EndSample_CustomSampler_Injected
 UnityEngine.Rendering.CommandBuffer::EndSample_Injected
+UnityEngine.Rendering.CommandBuffer::EndSample_ProfilerMarker_Injected
 UnityEngine.Rendering.CommandBuffer::IncrementUpdateCount_Injected
 UnityEngine.Rendering.CommandBuffer::InternalSetComputeBufferCounterValue_Injected
 UnityEngine.Rendering.CommandBuffer::InternalSetComputeBufferData_Injected

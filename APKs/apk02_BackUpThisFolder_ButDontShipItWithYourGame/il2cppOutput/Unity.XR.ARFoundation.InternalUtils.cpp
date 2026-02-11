@@ -28,6 +28,8 @@ struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700;
 struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t94BE2D40410DB3237531C6A1B0D4C62DE9ABCFA2;
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnityEngine_CoreModule[];
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnity_XR_ARFoundation_InternalUtils[];
 IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* GraphicsFormat_tC3D1898F3F3F1F57256C7F3FFD6BA9A37AE7E713_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
@@ -44,6 +46,27 @@ IL2CPP_EXTERN_C String_t* _stringLiteralB105D770A10A2FD4466874B305A999027C52E4D1
 IL2CPP_EXTERN_C String_t* _stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB;
 IL2CPP_EXTERN_C String_t* _stringLiteralC79E32735266397677C7E3884C2AE0D336A8038B;
 IL2CPP_EXTERN_C String_t* _stringLiteralD41976E879BBB017F601BD5B8B2B1655555B3264;
+IL2CPP_EXTERN_C const RuntimeMethod* Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PoseUtils_CalculateOffset_m6879E7AFD770A7788A8229393C573207C757FABF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PoseUtils_WithOffset_mB70A61FE6A3A0379F96848733DF4AFCBA6D6B910_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Quaternion_Inverse_mD9C060AC626A7B406F4984AC98F8358DC89EF512_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SerializableGuidUtility_AsSerializedGuid_m357A4BB3D52EC18EB467A58D9C8357C13767171B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ShowInDebugInspectorOnlyAttribute__ctor_m5B2D627BE3B9B5D04C7F3BB76B772AE9BCA9F7C3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TextureExtensions_ToDebugString_m3D2E7212B276ED7737C4937631F57FEC03B8E87C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnitConversionUtility_ConvertBrightnessToLumens_m6F15E8AB3B466F3FE6FEEB33D5CE471BCD9E8DED_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnitConversionUtility_ConvertLumensToBrightness_mB801F5903C041B3C3C76D1915180504542D2AFEC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mAE2DDF7FCE8FE1F3660DEB64FBC6BF057F09E861_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mD1FBF1E8C89F62B711476EB16EA754FB281D936B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* GraphicsFormat_tC3D1898F3F3F1F57256C7F3FFD6BA9A37AE7E713_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* MonoScriptData_t44A5E36BD951F01F57591E4EB452B0C75C1030ED_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* SerializableGuid_tCEABDCED6CD954AC100159BDEFC5D414049C0378_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* StringBuilder_t_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var;
 
 struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
 
@@ -408,43 +431,72 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 95639
+// Method Definition Index: 96213
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t44A5E36BD951F01F57591E4EB452B0C75C1030ED UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mAE2DDF7FCE8FE1F3660DEB64FBC6BF057F09E861 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MonoScriptData_t44A5E36BD951F01F57591E4EB452B0C75C1030ED_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_tA9228D835DE7C6E2EF507D434BA45257D2C7B31C____5F94D4016CD114F4F8907EA3254AE1F00D5617EF32E11A80689D3DF6273309AB_FieldInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_tA9228D835DE7C6E2EF507D434BA45257D2C7B31C____B2F8D2389EF8CC1A2963234850D6EE6478D68D6435E3DD3167F6F1827789AB27_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mAE2DDF7FCE8FE1F3660DEB64FBC6BF057F09E861_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	MonoScriptData_t44A5E36BD951F01F57591E4EB452B0C75C1030ED V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	MonoScriptData_t44A5E36BD951F01F57591E4EB452B0C75C1030ED V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mAE2DDF7FCE8FE1F3660DEB64FBC6BF057F09E861_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 0));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 1));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 2));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 3));
 		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_t44A5E36BD951F01F57591E4EB452B0C75C1030ED));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)905));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
 		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_tA9228D835DE7C6E2EF507D434BA45257D2C7B31C____5F94D4016CD114F4F8907EA3254AE1F00D5617EF32E11A80689D3DF6273309AB_FieldInfo_var) };
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 4));
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 4));
 		(&V_0)->___FilePathsData = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)587));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
 		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_tA9228D835DE7C6E2EF507D434BA45257D2C7B31C____B2F8D2389EF8CC1A2963234850D6EE6478D68D6435E3DD3167F6F1827789AB27_FieldInfo_var) };
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 5));
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_4, L_5, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 5));
 		(&V_0)->___TypesData = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
 		(&V_0)->___TotalFiles = 8;
 		(&V_0)->___TotalTypes = ((int32_t)9);
 		(&V_0)->___IsEditorOnly = (bool)0;
 		MonoScriptData_t44A5E36BD951F01F57591E4EB452B0C75C1030ED L_6 = V_0;
-		return L_6;
+		V_1 = L_6;
+		goto IL_005e;
+	}
+
+IL_005e:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 6));
+		MonoScriptData_t44A5E36BD951F01F57591E4EB452B0C75C1030ED L_7 = V_1;
+		return L_7;
 	}
 }
-// Method Definition Index: 95640
+// Method Definition Index: 96214
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mD1FBF1E8C89F62B711476EB16EA754FB281D936B (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t94BE2D40410DB3237531C6A1B0D4C62DE9ABCFA2* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mD1FBF1E8C89F62B711476EB16EA754FB281D936B_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mD1FBF1E8C89F62B711476EB16EA754FB281D936B_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
@@ -536,52 +588,114 @@ IL2CPP_EXTERN_C void MonoScriptData_t44A5E36BD951F01F57591E4EB452B0C75C1030ED_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 95651
+// Method Definition Index: 96225
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 PoseUtils_CalculateOffset_m6879E7AFD770A7788A8229393C573207C757FABF (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___0_a, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___1_b, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PoseUtils_CalculateOffset_m6879E7AFD770A7788A8229393C573207C757FABF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_b));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PoseUtils_CalculateOffset_m6879E7AFD770A7788A8229393C573207C757FABF_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 34));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 35));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 36));
 		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/InternalUtils/PoseUtils.cs:14>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 37));
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_0 = ___1_b;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = L_0.___position;
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_2 = ___0_a;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = L_2.___position;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 38));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
 		L_4 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_1, L_3, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 38));
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_5 = ___1_b;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6 = L_5.___rotation;
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_7 = ___0_a;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_8 = L_7.___rotation;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 39));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_9;
 		L_9 = Quaternion_Inverse_mD9C060AC626A7B406F4984AC98F8358DC89EF512_inline(L_8, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 39));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 40));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_10;
 		L_10 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_6, L_9, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 40));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 41));
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_11;
 		memset((&L_11), 0, sizeof(L_11));
 		Pose__ctor_m15CA45808A2BBF1956E836D22C387FAB80BED051((&L_11), L_4, L_10, NULL);
-		return L_11;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 41));
+		V_0 = L_11;
+		goto IL_0030;
+	}
+
+IL_0030:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/InternalUtils/PoseUtils.cs:15>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 42));
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_12 = V_0;
+		return L_12;
 	}
 }
-// Method Definition Index: 95652
+// Method Definition Index: 96226
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 PoseUtils_WithOffset_mB70A61FE6A3A0379F96848733DF4AFCBA6D6B910 (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___0_pose, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___1_offset, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PoseUtils_WithOffset_mB70A61FE6A3A0379F96848733DF4AFCBA6D6B910_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_pose), (&___1_offset));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, PoseUtils_WithOffset_mB70A61FE6A3A0379F96848733DF4AFCBA6D6B910_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 43));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 44));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 45));
 		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/InternalUtils/PoseUtils.cs:26>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 46));
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_0 = ___0_pose;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = L_0.___position;
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_2 = ___1_offset;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = L_2.___position;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 47));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
 		L_4 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_1, L_3, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 47));
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_5 = ___1_offset;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6 = L_5.___rotation;
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_7 = ___0_pose;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_8 = L_7.___rotation;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 48));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_9;
 		L_9 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_6, L_8, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 48));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 49));
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_10;
 		memset((&L_10), 0, sizeof(L_10));
 		Pose__ctor_m15CA45808A2BBF1956E836D22C387FAB80BED051((&L_10), L_4, L_9, NULL);
-		return L_10;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 49));
+		V_0 = L_10;
+		goto IL_002b;
+	}
+
+IL_002b:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/InternalUtils/PoseUtils.cs:27>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 50));
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_11 = V_0;
+		return L_11;
 	}
 }
 #ifdef __clang__
@@ -592,22 +706,52 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE797
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 95653
+// Method Definition Index: 96227
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SerializableGuid_tCEABDCED6CD954AC100159BDEFC5D414049C0378 SerializableGuidUtility_AsSerializedGuid_m357A4BB3D52EC18EB467A58D9C8357C13767171B (Guid_t ___0_guid, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableGuidUtility_AsSerializedGuid_m357A4BB3D52EC18EB467A58D9C8357C13767171B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableGuid_tCEABDCED6CD954AC100159BDEFC5D414049C0378_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	uint64_t V_0 = 0;
 	uint64_t V_1 = 0;
+	SerializableGuid_tCEABDCED6CD954AC100159BDEFC5D414049C0378 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_guid));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0), (&V_1));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, SerializableGuidUtility_AsSerializedGuid_m357A4BB3D52EC18EB467A58D9C8357C13767171B_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 51));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 52));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 53));
 		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/InternalUtils/SerializableGuidUtility.cs:15>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 54));
 		Guid_t L_0 = ___0_guid;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 55));
 		GuidExtensions_Decompose_mF664A6350BD60B57421D4716BC1504967394EDA9(L_0, (&V_0), (&V_1), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 55));
 		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/InternalUtils/SerializableGuidUtility.cs:16>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 56));
 		uint64_t L_1 = V_0;
 		uint64_t L_2 = V_1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 57));
 		SerializableGuid_tCEABDCED6CD954AC100159BDEFC5D414049C0378 L_3;
 		memset((&L_3), 0, sizeof(L_3));
 		SerializableGuid__ctor_m0F2435157FEC8427E91A7D0DD39960BADE7209F0((&L_3), L_1, L_2, NULL);
-		return L_3;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 57));
+		V_2 = L_3;
+		goto IL_0016;
+	}
+
+IL_0016:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/InternalUtils/SerializableGuidUtility.cs:17>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 58));
+		SerializableGuid_tCEABDCED6CD954AC100159BDEFC5D414049C0378 L_4 = V_2;
+		return L_4;
 	}
 }
 #ifdef __clang__
@@ -618,9 +762,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SerializableGuid_tCEABDCED6CD954AC100159BDEFC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 95654
+// Method Definition Index: 96228
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShowInDebugInspectorOnlyAttribute__ctor_m5B2D627BE3B9B5D04C7F3BB76B772AE9BCA9F7C3 (ShowInDebugInspectorOnlyAttribute_t3E94A2F12F1C2657C9F313DF1A2F52E03C045843* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ShowInDebugInspectorOnlyAttribute__ctor_m5B2D627BE3B9B5D04C7F3BB76B772AE9BCA9F7C3_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ShowInDebugInspectorOnlyAttribute__ctor_m5B2D627BE3B9B5D04C7F3BB76B772AE9BCA9F7C3_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
 		return;
@@ -642,16 +794,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShowInDebugInspectorOnlyAttribute__ctor_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 95658
+// Method Definition Index: 96232
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TextureExtensions_ToDebugString_m3D2E7212B276ED7737C4937631F57FEC03B8E87C (Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___0_texture, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GraphicsFormat_tC3D1898F3F3F1F57256C7F3FFD6BA9A37AE7E713_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GraphicsFormat_tC3D1898F3F3F1F57256C7F3FFD6BA9A37AE7E713_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringBuilder_t_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringBuilder_t_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureDimension_t8D7148B9168256EE1E9AF91378ABA148888CE642_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureExtensions_ToDebugString_m3D2E7212B276ED7737C4937631F57FEC03B8E87C_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0C3C6829C3CCF8020C6AC45B87963ADC095CD44A);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4D8D9C94AC5DA5FCED2EC8A64E10E714A2515C30);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5B08C870070CBBD5BCCD7F29885E5EDBCBABE9C1);
@@ -663,110 +818,187 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TextureExtensions_ToDebugString_m3D
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD41976E879BBB017F601BD5B8B2B1655555B3264);
 		s_Il2CppMethodInitialized = true;
 	}
-	int32_t V_0 = 0;
+	StringBuilder_t* V_0 = NULL;
+	bool V_1 = false;
+	String_t* V_2 = NULL;
+	int32_t V_3 = 0;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_texture));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, TextureExtensions_ToDebugString_m3D2E7212B276ED7737C4937631F57FEC03B8E87C_RuntimeMethod_var, NULL, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 111));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 112));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 113));
 		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/InternalUtils/TextureExtensions.cs:9>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 114));
 		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_0 = ___0_texture;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 115));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_1)
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 115));
+		V_1 = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 116));
+		bool L_2 = V_1;
+		if (!L_2)
 		{
-			goto IL_000f;
+			goto IL_0017;
 		}
 	}
 	{
 		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/InternalUtils/TextureExtensions.cs:10>
-		return _stringLiteral5BEFD8CC60A79699B5BB00E37BAC5B62D371E174;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 117));
+		V_2 = _stringLiteral5BEFD8CC60A79699B5BB00E37BAC5B62D371E174;
+		goto IL_00d8;
 	}
 
-IL_000f:
+IL_0017:
 	{
 		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/InternalUtils/TextureExtensions.cs:12>
-		StringBuilder_t* L_2 = (StringBuilder_t*)il2cpp_codegen_object_new(StringBuilder_t_il2cpp_TypeInfo_var);
-		StringBuilder__ctor_m1D99713357DE05DAFA296633639DB55F8C30587D(L_2, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 118));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 119));
+		StringBuilder_t* L_3 = (StringBuilder_t*)il2cpp_codegen_object_new(StringBuilder_t_il2cpp_TypeInfo_var);
+		StringBuilder__ctor_m1D99713357DE05DAFA296633639DB55F8C30587D(L_3, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 119));
+		V_0 = L_3;
 		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/InternalUtils/TextureExtensions.cs:13>
-		StringBuilder_t* L_3 = L_2;
-		NullCheck(L_3);
-		StringBuilder_t* L_4;
-		L_4 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_3, _stringLiteral0C3C6829C3CCF8020C6AC45B87963ADC095CD44A, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 120));
+		StringBuilder_t* L_4 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 121));
+		NullCheck(L_4);
+		StringBuilder_t* L_5;
+		L_5 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_4, _stringLiteral0C3C6829C3CCF8020C6AC45B87963ADC095CD44A, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 121));
 		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/InternalUtils/TextureExtensions.cs:14>
-		StringBuilder_t* L_5 = L_3;
-		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_6 = ___0_texture;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 122));
+		StringBuilder_t* L_6 = V_0;
+		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_7 = ___0_texture;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 123));
+		NullCheck(L_7);
+		int32_t L_8;
+		L_8 = VirtualFuncInvoker0< int32_t >::Invoke(5, L_7);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 123));
+		int32_t L_9 = L_8;
+		RuntimeObject* L_10 = Box(il2cpp_defaults.int32_class, &L_9);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 124));
+		String_t* L_11;
+		L_11 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralC79E32735266397677C7E3884C2AE0D336A8038B, L_10, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 124));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 125));
 		NullCheck(L_6);
-		int32_t L_7;
-		L_7 = VirtualFuncInvoker0< int32_t >::Invoke(5, L_6);
-		int32_t L_8 = L_7;
-		RuntimeObject* L_9 = Box(il2cpp_defaults.int32_class, &L_8);
-		String_t* L_10;
-		L_10 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralC79E32735266397677C7E3884C2AE0D336A8038B, L_9, NULL);
-		NullCheck(L_5);
-		StringBuilder_t* L_11;
-		L_11 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_5, L_10, NULL);
+		StringBuilder_t* L_12;
+		L_12 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_6, L_11, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 125));
 		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/InternalUtils/TextureExtensions.cs:15>
-		StringBuilder_t* L_12 = L_5;
-		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_13 = ___0_texture;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 126));
+		StringBuilder_t* L_13 = V_0;
+		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_14 = ___0_texture;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 127));
+		NullCheck(L_14);
+		int32_t L_15;
+		L_15 = VirtualFuncInvoker0< int32_t >::Invoke(7, L_14);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 127));
+		int32_t L_16 = L_15;
+		RuntimeObject* L_17 = Box(il2cpp_defaults.int32_class, &L_16);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 128));
+		String_t* L_18;
+		L_18 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralD41976E879BBB017F601BD5B8B2B1655555B3264, L_17, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 128));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 129));
 		NullCheck(L_13);
-		int32_t L_14;
-		L_14 = VirtualFuncInvoker0< int32_t >::Invoke(7, L_13);
-		int32_t L_15 = L_14;
-		RuntimeObject* L_16 = Box(il2cpp_defaults.int32_class, &L_15);
-		String_t* L_17;
-		L_17 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralD41976E879BBB017F601BD5B8B2B1655555B3264, L_16, NULL);
-		NullCheck(L_12);
-		StringBuilder_t* L_18;
-		L_18 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_12, L_17, NULL);
+		StringBuilder_t* L_19;
+		L_19 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_13, L_18, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 129));
 		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/InternalUtils/TextureExtensions.cs:16>
-		StringBuilder_t* L_19 = L_12;
-		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_20 = ___0_texture;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 130));
+		StringBuilder_t* L_20 = V_0;
+		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_21 = ___0_texture;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 131));
+		NullCheck(L_21);
+		int32_t L_22;
+		L_22 = VirtualFuncInvoker0< int32_t >::Invoke(9, L_21);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 131));
+		int32_t L_23 = L_22;
+		RuntimeObject* L_24 = Box(TextureDimension_t8D7148B9168256EE1E9AF91378ABA148888CE642_il2cpp_TypeInfo_var, &L_23);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 132));
+		String_t* L_25;
+		L_25 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral5B08C870070CBBD5BCCD7F29885E5EDBCBABE9C1, L_24, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 132));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 133));
 		NullCheck(L_20);
-		int32_t L_21;
-		L_21 = VirtualFuncInvoker0< int32_t >::Invoke(9, L_20);
-		int32_t L_22 = L_21;
-		RuntimeObject* L_23 = Box(TextureDimension_t8D7148B9168256EE1E9AF91378ABA148888CE642_il2cpp_TypeInfo_var, &L_22);
-		String_t* L_24;
-		L_24 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral5B08C870070CBBD5BCCD7F29885E5EDBCBABE9C1, L_23, NULL);
-		NullCheck(L_19);
-		StringBuilder_t* L_25;
-		L_25 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_19, L_24, NULL);
+		StringBuilder_t* L_26;
+		L_26 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_20, L_25, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 133));
 		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/InternalUtils/TextureExtensions.cs:17>
-		StringBuilder_t* L_26 = L_19;
-		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_27 = ___0_texture;
-		NullCheck(L_27);
-		int32_t L_28;
-		L_28 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_27);
-		V_0 = L_28;
-		Il2CppFakeBox<int32_t> L_29(GraphicsFormat_tC3D1898F3F3F1F57256C7F3FFD6BA9A37AE7E713_il2cpp_TypeInfo_var, (&V_0));
-		String_t* L_30;
-		L_30 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_29), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 134));
+		StringBuilder_t* L_27 = V_0;
+		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_28 = ___0_texture;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 135));
+		NullCheck(L_28);
+		int32_t L_29;
+		L_29 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_28);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 135));
+		V_3 = L_29;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 136));
+		Il2CppFakeBox<int32_t> L_30(GraphicsFormat_tC3D1898F3F3F1F57256C7F3FFD6BA9A37AE7E713_il2cpp_TypeInfo_var, (&V_3));
 		String_t* L_31;
-		L_31 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteralB105D770A10A2FD4466874B305A999027C52E4D1, L_30, _stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB, NULL);
-		NullCheck(L_26);
-		StringBuilder_t* L_32;
-		L_32 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_26, L_31, NULL);
+		L_31 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_30), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 136));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 137));
+		String_t* L_32;
+		L_32 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteralB105D770A10A2FD4466874B305A999027C52E4D1, L_31, _stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 137));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 138));
+		NullCheck(L_27);
+		StringBuilder_t* L_33;
+		L_33 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_27, L_32, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 138));
 		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/InternalUtils/TextureExtensions.cs:18>
-		StringBuilder_t* L_33 = L_26;
-		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_34 = ___0_texture;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 139));
+		StringBuilder_t* L_34 = V_0;
+		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_35 = ___0_texture;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 140));
+		NullCheck(L_35);
+		intptr_t L_36;
+		L_36 = Texture_GetNativeTexturePtr_mD3019CC9461338665885D431B86C03D3063867EE(L_35, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 140));
+		intptr_t L_37 = L_36;
+		RuntimeObject* L_38 = Box(il2cpp_defaults.int_class, &L_37);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 141));
+		String_t* L_39;
+		L_39 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralAFF3EB29335813FBD9D3390DDA8A96A2D6983F15, L_38, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 141));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 142));
 		NullCheck(L_34);
-		intptr_t L_35;
-		L_35 = Texture_GetNativeTexturePtr_mD3019CC9461338665885D431B86C03D3063867EE(L_34, NULL);
-		intptr_t L_36 = L_35;
-		RuntimeObject* L_37 = Box(il2cpp_defaults.int_class, &L_36);
-		String_t* L_38;
-		L_38 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralAFF3EB29335813FBD9D3390DDA8A96A2D6983F15, L_37, NULL);
-		NullCheck(L_33);
-		StringBuilder_t* L_39;
-		L_39 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_33, L_38, NULL);
+		StringBuilder_t* L_40;
+		L_40 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_34, L_39, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 142));
 		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/InternalUtils/TextureExtensions.cs:19>
-		StringBuilder_t* L_40 = L_33;
-		NullCheck(L_40);
-		StringBuilder_t* L_41;
-		L_41 = StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D(L_40, _stringLiteral4D8D9C94AC5DA5FCED2EC8A64E10E714A2515C30, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 143));
+		StringBuilder_t* L_41 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 144));
+		NullCheck(L_41);
+		StringBuilder_t* L_42;
+		L_42 = StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D(L_41, _stringLiteral4D8D9C94AC5DA5FCED2EC8A64E10E714A2515C30, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 144));
 		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/InternalUtils/TextureExtensions.cs:20>
-		NullCheck(L_40);
-		String_t* L_42;
-		L_42 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_40);
-		return L_42;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 145));
+		StringBuilder_t* L_43 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 146));
+		NullCheck(L_43);
+		String_t* L_44;
+		L_44 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_43);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 146));
+		V_2 = L_44;
+		goto IL_00d8;
+	}
+
+IL_00d8:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/InternalUtils/TextureExtensions.cs:21>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 147));
+		String_t* L_45 = V_2;
+		return L_45;
 	}
 }
 #ifdef __clang__
@@ -777,26 +1009,74 @@ IL_000f:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 95659
+// Method Definition Index: 96233
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float UnitConversionUtility_ConvertBrightnessToLumens_m6F15E8AB3B466F3FE6FEEB33D5CE471BCD9E8DED (float ___0_brightness, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnitConversionUtility_ConvertBrightnessToLumens_m6F15E8AB3B466F3FE6FEEB33D5CE471BCD9E8DED_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_brightness));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnitConversionUtility_ConvertBrightnessToLumens_m6F15E8AB3B466F3FE6FEEB33D5CE471BCD9E8DED_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 148));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 149));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 150));
 		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/InternalUtils/UnitConversionUtility.cs:9>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 151));
 		float L_0 = ___0_brightness;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 152));
 		float L_1;
 		L_1 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(((float)il2cpp_codegen_multiply(L_0, (2000.0f))), (0.0f), (2000.0f), NULL);
-		return L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 152));
+		V_0 = L_1;
+		goto IL_001a;
+	}
+
+IL_001a:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/InternalUtils/UnitConversionUtility.cs:10>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 153));
+		float L_2 = V_0;
+		return L_2;
 	}
 }
-// Method Definition Index: 95660
+// Method Definition Index: 96234
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float UnitConversionUtility_ConvertLumensToBrightness_mB801F5903C041B3C3C76D1915180504542D2AFEC (float ___0_lumens, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnitConversionUtility_ConvertLumensToBrightness_mB801F5903C041B3C3C76D1915180504542D2AFEC_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_lumens));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnitConversionUtility_ConvertLumensToBrightness_mB801F5903C041B3C3C76D1915180504542D2AFEC_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 154));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 155));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 156));
 		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/InternalUtils/UnitConversionUtility.cs:14>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 157));
 		float L_0 = ___0_lumens;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 158));
 		float L_1;
 		L_1 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(((float)(L_0/(2000.0f))), (0.0f), (1.0f), NULL);
-		return L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 158));
+		V_0 = L_1;
+		goto IL_001a;
+	}
+
+IL_001a:
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.arfoundation@f2cbfcba674a/Runtime/InternalUtils/UnitConversionUtility.cs:15>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_ARFoundation_InternalUtils + 159));
+		float L_2 = V_0;
+		return L_2;
 	}
 }
 #ifdef __clang__
@@ -834,12 +1114,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float UnitConversionUtility_ConvertLumensToBr
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 44757
+// Method Definition Index: 54491
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_b));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12460));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12461));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12462));
 		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
 		float L_1 = L_0.___x;
@@ -860,21 +1152,46 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_12;
 	}
 }
-// Method Definition Index: 44772
+// Method Definition Index: 54506
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Inverse_mD9C060AC626A7B406F4984AC98F8358DC89EF512_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_rotation, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_Inverse_mD9C060AC626A7B406F4984AC98F8358DC89EF512_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_rotation));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Quaternion_Inverse_mD9C060AC626A7B406F4984AC98F8358DC89EF512_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12540));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12541));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12542));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12543));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0;
 		L_0 = Quaternion_Internal_Inverse_m0ABC2C5E4F26053F9F6B8260065D08E264F62566((&___0_rotation), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12543));
 		return L_0;
 	}
 }
-// Method Definition Index: 44790
+// Method Definition Index: 54524
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_lhs, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rhs, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_lhs), (&___1_rhs));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12584));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12585));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12586));
 		il2cpp_codegen_initobj((&V_0), sizeof(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974));
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ___0_lhs;
 		float L_1 = L_0.___w;
@@ -948,12 +1265,24 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E
 		return L_64;
 	}
 }
-// Method Definition Index: 44756
+// Method Definition Index: 54490
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_a), (&___1_b));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12457));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12458));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12459));
 		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
 		float L_1 = L_0.___x;
@@ -974,16 +1303,29 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_12;
 	}
 }
-// Method Definition Index: 44858
+// Method Definition Index: 54592
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline (float ___0_value, float ___1_min, float ___2_max, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
 	bool V_0 = false;
 	bool V_1 = false;
 	float V_2 = 0.0f;
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value), (&___1_min), (&___2_max));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_RuntimeMethod_var, NULL, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12967));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12968));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12969));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12970));
 		float L_0 = ___0_value;
 		float L_1 = ___1_min;
 		V_0 = (bool)((((float)L_0) < ((float)L_1))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12971));
 		bool L_2 = V_0;
 		if (!L_2)
 		{
@@ -991,16 +1333,20 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D2
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12972));
 		float L_3 = ___1_min;
 		___0_value = L_3;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12973));
 		goto IL_0019;
 	}
 
 IL_000e:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12974));
 		float L_4 = ___0_value;
 		float L_5 = ___2_max;
 		V_1 = (bool)((((float)L_4) > ((float)L_5))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12975));
 		bool L_6 = V_1;
 		if (!L_6)
 		{
@@ -1008,12 +1354,14 @@ IL_000e:
 		}
 	}
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12976));
 		float L_7 = ___2_max;
 		___0_value = L_7;
 	}
 
 IL_0019:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12977));
 		float L_8 = ___0_value;
 		V_2 = L_8;
 		goto IL_001d;
@@ -1021,6 +1369,7 @@ IL_0019:
 
 IL_001d:
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnityEngine_CoreModule + 12978));
 		float L_9 = V_2;
 		return L_9;
 	}

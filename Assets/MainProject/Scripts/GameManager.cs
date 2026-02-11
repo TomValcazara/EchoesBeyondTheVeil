@@ -62,6 +62,8 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        Debug.Log("Toms game started!");
+
         // Safety check to avoid null reference errors
         if (terrain == null || bushPrefabs.Length == 0)
         {

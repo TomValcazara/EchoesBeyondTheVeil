@@ -12,9 +12,15 @@ struct String_t;
 struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tE9026CF1E86D87DDCF6F0A6D3247DB611A1A7778;
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsUnity_XR_OpenXR_Features_OculusQuestSupport[];
 IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_tAAD1FC8E58CBDB10C846E212B8B899EF6438A774____A294F67826AE6AF231B17DC92D07935EA7A07276CAC2C4D47C2B02CCD003C7A4_FieldInfo_var;
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_tAAD1FC8E58CBDB10C846E212B8B899EF6438A774____EDA5CF1CFFC32A321A7853D8294E5F6F5E842B1D433162D1E674E9B3A78ACE31_FieldInfo_var;
+IL2CPP_EXTERN_C const RuntimeMethod* OculusQuestFeature__ctor_mF38393F1A5FA04C3AF781D82EC58A4CBB9D85AA2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mA6C08ED6DC318DD3A8E6454728AD08B818197F58_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mC59A944338EC4FB4DE91E7F383E0F66EF4CF100C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* MonoScriptData_t43A5F7D0A2DEBD6989F287FB9EBB93116E0C1939_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* OculusQuestFeature_tF5FA7128BB36F546D5CF7094A93B812DAC667810_0_0_0_var;
 
 struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
 
@@ -237,43 +243,72 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenXRFeature__ctor_m120460E34ECC22ED2DB
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 95797
+// Method Definition Index: 96442
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t43A5F7D0A2DEBD6989F287FB9EBB93116E0C1939 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mA6C08ED6DC318DD3A8E6454728AD08B818197F58 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MonoScriptData_t43A5F7D0A2DEBD6989F287FB9EBB93116E0C1939_0_0_0_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_tAAD1FC8E58CBDB10C846E212B8B899EF6438A774____A294F67826AE6AF231B17DC92D07935EA7A07276CAC2C4D47C2B02CCD003C7A4_FieldInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_tAAD1FC8E58CBDB10C846E212B8B899EF6438A774____EDA5CF1CFFC32A321A7853D8294E5F6F5E842B1D433162D1E674E9B3A78ACE31_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mA6C08ED6DC318DD3A8E6454728AD08B818197F58_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	MonoScriptData_t43A5F7D0A2DEBD6989F287FB9EBB93116E0C1939 V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	MonoScriptData_t43A5F7D0A2DEBD6989F287FB9EBB93116E0C1939 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mA6C08ED6DC318DD3A8E6454728AD08B818197F58_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_OpenXR_Features_OculusQuestSupport + 0));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_OpenXR_Features_OculusQuestSupport + 1));
 	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_OpenXR_Features_OculusQuestSupport + 2));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_OpenXR_Features_OculusQuestSupport + 3));
 		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_t43A5F7D0A2DEBD6989F287FB9EBB93116E0C1939));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)104));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
 		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_tAAD1FC8E58CBDB10C846E212B8B899EF6438A774____EDA5CF1CFFC32A321A7853D8294E5F6F5E842B1D433162D1E674E9B3A78ACE31_FieldInfo_var) };
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_OpenXR_Features_OculusQuestSupport + 4));
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_OpenXR_Features_OculusQuestSupport + 4));
 		(&V_0)->___FilePathsData = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)73));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
 		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_tAAD1FC8E58CBDB10C846E212B8B899EF6438A774____A294F67826AE6AF231B17DC92D07935EA7A07276CAC2C4D47C2B02CCD003C7A4_FieldInfo_var) };
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_OpenXR_Features_OculusQuestSupport + 5));
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_4, L_5, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_OpenXR_Features_OculusQuestSupport + 5));
 		(&V_0)->___TypesData = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
 		(&V_0)->___TotalFiles = 1;
 		(&V_0)->___TotalTypes = 1;
 		(&V_0)->___IsEditorOnly = (bool)0;
 		MonoScriptData_t43A5F7D0A2DEBD6989F287FB9EBB93116E0C1939 L_6 = V_0;
-		return L_6;
+		V_1 = L_6;
+		goto IL_0057;
+	}
+
+IL_0057:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_OpenXR_Features_OculusQuestSupport + 6));
+		MonoScriptData_t43A5F7D0A2DEBD6989F287FB9EBB93116E0C1939 L_7 = V_1;
+		return L_7;
 	}
 }
-// Method Definition Index: 95798
+// Method Definition Index: 96443
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mC59A944338EC4FB4DE91E7F383E0F66EF4CF100C (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tE9026CF1E86D87DDCF6F0A6D3247DB611A1A7778* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mC59A944338EC4FB4DE91E7F383E0F66EF4CF100C_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mC59A944338EC4FB4DE91E7F383E0F66EF4CF100C_RuntimeMethod_var, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
@@ -357,15 +392,30 @@ IL2CPP_EXTERN_C void MonoScriptData_t43A5F7D0A2DEBD6989F287FB9EBB93116E0C1939_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 95799
+// Method Definition Index: 96444
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OculusQuestFeature__ctor_mF38393F1A5FA04C3AF781D82EC58A4CBB9D85AA2 (OculusQuestFeature_tF5FA7128BB36F546D5CF7094A93B812DAC667810* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OculusQuestFeature__ctor_mF38393F1A5FA04C3AF781D82EC58A4CBB9D85AA2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OculusQuestFeature_tF5FA7128BB36F546D5CF7094A93B812DAC667810_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, OculusQuestFeature__ctor_mF38393F1A5FA04C3AF781D82EC58A4CBB9D85AA2_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_OpenXR_Features_OculusQuestSupport + 7));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsUnity_XR_OpenXR_Features_OculusQuestSupport + 8));
 	{
 		//<source_info:./Library/PackageCache/com.unity.xr.openxr@68fc1ed67a95/Runtime/OculusQuest/OculusQuestFeature.cs:38>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_OpenXR_Features_OculusQuestSupport + 9));
 		__this->___targetQuest = (bool)1;
 		//<source_info:./Library/PackageCache/com.unity.xr.openxr@68fc1ed67a95/Runtime/OculusQuest/OculusQuestFeature.cs:42>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_OpenXR_Features_OculusQuestSupport + 10));
 		__this->___targetQuest2 = (bool)1;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_OpenXR_Features_OculusQuestSupport + 11));
 		OpenXRFeature__ctor_m120460E34ECC22ED2DB96797A6DCB5C870E78852(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_XR_OpenXR_Features_OculusQuestSupport + 11));
 		return;
 	}
 }
