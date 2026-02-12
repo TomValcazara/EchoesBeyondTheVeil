@@ -23,6 +23,9 @@ extern void U3CRevealSequenceU3Ed__22_MoveNext_mC99A9171CA796CC44AE06C2F43346E8E
 extern void U3CRevealSequenceU3Ed__22_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m675C282A776815A3ACC714F191FD4BE571413131 (void);
 extern void U3CRevealSequenceU3Ed__22_System_Collections_IEnumerator_Reset_m1C2FD61E005363411B0010C00131A882FEF50A56 (void);
 extern void U3CRevealSequenceU3Ed__22_System_Collections_IEnumerator_get_Current_m801788602F993036F37188712E68EF2F03D023AC (void);
+extern void CircularBoundaryLimiter_Start_mD5948C4E23A5EB77AEED818AE449BD9D3C9164B8 (void);
+extern void CircularBoundaryLimiter_LateUpdate_m915D963DDAA364D10E8CA61BADC4F02E68D5CA18 (void);
+extern void CircularBoundaryLimiter__ctor_m5F1241622C631FFAC004161B49A31D2949F5C276 (void);
 extern void GameManager_IsInsideWalkableArea_m8640A4658E2B189B3FF40EDAAFF7916FAF021173 (void);
 extern void GameManager_Start_m87A71D65F3171A58DBDDBFB03832ADA65643D0E2 (void);
 extern void GameManager_SpawnBushes_mB8EDE6B9625D74C7193279ECF6A31B36CEA6B9BC (void);
@@ -440,7 +443,7 @@ extern void M2MqttUnityTest_Update_m5DD4B1B054009C953BA710A38261A1ABEA80ACBB (vo
 extern void M2MqttUnityTest_OnDestroy_mA9169A75E9D16B3FB3BA29E649F099BDAD7B7AB1 (void);
 extern void M2MqttUnityTest_OnValidate_m1E2378D4ECCC596FD83E268BB6192E678375A7E2 (void);
 extern void M2MqttUnityTest__ctor_m35CCDCF052189BCE501EE6A7BA36321F9DC20599 (void);
-static Il2CppMethodPointer s_methodPointers[439] = 
+static Il2CppMethodPointer s_methodPointers[442] = 
 {
 	BushInteractable_get_AlreadyTriggered_m6075466EB40D20F4CA9F7C63702B066C1E7D4666,
 	BushInteractable_Awake_m318C43B674E89F598BEE1D8FAC4F2D8CD6268FD6,
@@ -458,6 +461,9 @@ static Il2CppMethodPointer s_methodPointers[439] =
 	U3CRevealSequenceU3Ed__22_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m675C282A776815A3ACC714F191FD4BE571413131,
 	U3CRevealSequenceU3Ed__22_System_Collections_IEnumerator_Reset_m1C2FD61E005363411B0010C00131A882FEF50A56,
 	U3CRevealSequenceU3Ed__22_System_Collections_IEnumerator_get_Current_m801788602F993036F37188712E68EF2F03D023AC,
+	CircularBoundaryLimiter_Start_mD5948C4E23A5EB77AEED818AE449BD9D3C9164B8,
+	CircularBoundaryLimiter_LateUpdate_m915D963DDAA364D10E8CA61BADC4F02E68D5CA18,
+	CircularBoundaryLimiter__ctor_m5F1241622C631FFAC004161B49A31D2949F5C276,
 	GameManager_IsInsideWalkableArea_m8640A4658E2B189B3FF40EDAAFF7916FAF021173,
 	GameManager_Start_m87A71D65F3171A58DBDDBFB03832ADA65643D0E2,
 	GameManager_SpawnBushes_mB8EDE6B9625D74C7193279ECF6A31B36CEA6B9BC,
@@ -890,14 +896,14 @@ extern void TrackedRotation_SetBaseFromVector_m0CAD68507FD5C7AA3C7CAE09720645F03
 extern void TrackedRotation_SetTargetFromVector_m42F1586C38A41E0FB628220D326B1572BB8F80D7_AdjustorThunk (void);
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[6] = 
 {
-	{ 0x06000041, AudioAdjustmentSettings__ctor_m455070B48EAF95DFD8BE8FE652DC7E3895EDB19B_AdjustorThunk },
-	{ 0x06000069, LevelInfo_LoadLevel_m57D53AE44069DFAB1F1DBE8180B99B614B339143_AdjustorThunk },
-	{ 0x06000154, TrackedRotation_get_totalOffset_mC129829FFE6CDD96C8885030BDAEF40D569F06C8_AdjustorThunk },
-	{ 0x06000155, TrackedRotation_Reset_m54545DE2D01827833956AEC4324C136A0CB72425_AdjustorThunk },
-	{ 0x06000156, TrackedRotation_SetBaseFromVector_m0CAD68507FD5C7AA3C7CAE09720645F033F1D26E_AdjustorThunk },
-	{ 0x06000157, TrackedRotation_SetTargetFromVector_m42F1586C38A41E0FB628220D326B1572BB8F80D7_AdjustorThunk },
+	{ 0x06000044, AudioAdjustmentSettings__ctor_m455070B48EAF95DFD8BE8FE652DC7E3895EDB19B_AdjustorThunk },
+	{ 0x0600006C, LevelInfo_LoadLevel_m57D53AE44069DFAB1F1DBE8180B99B614B339143_AdjustorThunk },
+	{ 0x06000157, TrackedRotation_get_totalOffset_mC129829FFE6CDD96C8885030BDAEF40D569F06C8_AdjustorThunk },
+	{ 0x06000158, TrackedRotation_Reset_m54545DE2D01827833956AEC4324C136A0CB72425_AdjustorThunk },
+	{ 0x06000159, TrackedRotation_SetBaseFromVector_m0CAD68507FD5C7AA3C7CAE09720645F033F1D26E_AdjustorThunk },
+	{ 0x0600015A, TrackedRotation_SetTargetFromVector_m42F1586C38A41E0FB628220D326B1572BB8F80D7_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[439] = 
+static const int32_t s_InvokerIndices[442] = 
 {
 	19796,
 	20263,
@@ -915,6 +921,9 @@ static const int32_t s_InvokerIndices[439] =
 	20024,
 	20263,
 	20024,
+	20263,
+	20263,
+	20263,
 	10834,
 	20263,
 	20263,
@@ -1344,7 +1353,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	439,
+	442,
 	s_methodPointers,
 	6,
 	s_adjustorThunks,

@@ -40,14 +40,25 @@ public class GameManager : MonoBehaviour
     private Vector3 terrainPos;
 
     [Header("Noise Bush Settings")]
-    public int numberOfNoiseBushes = 3; // change to 8 later
-
+    public int numberOfNoiseBushes = 6; 
+    
     private List<BushInteractable> allBushes = new List<BushInteractable>();
     private List<BushInteractable> noiseBushes = new List<BushInteractable>();
     private int currentNoiseIndex = 0;
 
     [Header("Walkable Area")]
     public float walkableHalfSize = 100f; // 200x200 area
+
+    private string[] story;
+    
+    public string GetStoryText(int index)
+    {
+        if (index >= 0 && index < story.Length)
+            return story[index];
+
+        return "";
+    }
+
     bool IsInsideWalkableArea(Vector3 position)
     {
         return
@@ -63,6 +74,13 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         Debug.Log("Toms game started!");
+
+        story[0] = "The forest whispered tonight - a new arrival had drifted in, soft as doubt, pale as confession.\nThe sleeping ones stirred, their sighs weaving beneath the roots.";
+        story[1] = "He took two slices, one murmured, their voice damp with envy.\nTwo! When one was enough for salvation.";
+        story[2] = "Another sighed. It’s always the gentle ones who wander too far - loving too much, laughing too loud, wanting too freely.\nTheir pity dripped like prayer wax.";
+        story[3] = "The fresh soul said nothing.\nHe remembered warmth, and hands that once fit his - forbidden, fleeting, holy.";
+        story[4] = "Sin, whispered the wind. Sin for loving, sin for being, sin for not hiding.\nAnd the in-between bloomed with forgiveness no one believed in.";
+        story[5] = "When dawn came, the sleeping ones fell quiet — ashamed, perhaps, or simply empty.\nThe fresh soul drifted on, too bright for limbo, too tender for The Red Garden Below.";
 
         // Safety check to avoid null reference errors
         if (terrain == null || bushPrefabs.Length == 0)
@@ -109,8 +127,10 @@ public class GameManager : MonoBehaviour
         for (int i = 0; i < numberOfBushes; i++)
         {
             // Random position around terrain CENTER
-            float x = Random.Range(centerX - halfX, centerX + halfX);
-            float z = Random.Range(centerZ - halfZ, centerZ + halfZ);
+            float radius = 100f; // same as movement boundary
+            Vector2 randomCircle = Random.insideUnitCircle * radius;
+            float x = centerX + randomCircle.x;
+            float z = centerZ + randomCircle.y;
 
             Vector3 position = new Vector3(x, 0f, z);
 
@@ -188,7 +208,10 @@ public class GameManager : MonoBehaviour
         }
 
         //Debug.Log("currentNoiseIndex:"+currentNoiseIndex);
-        noiseBushes[currentNoiseIndex].ActivateNoise();
+        //noiseBushes[currentNoiseIndex].ActivateNoise();
+        var bush = noiseBushes[currentNoiseIndex];
+        bush.SetLoreIndex(currentNoiseIndex);
+        bush.ActivateNoise();
 
     }
 

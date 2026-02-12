@@ -34,7 +34,12 @@ public class BushInteractable : MonoBehaviour
     //private bool isBrushing = false;
     private bool alreadyTriggered = false;
     public bool AlreadyTriggered => alreadyTriggered;
+    private int loreIndex = -1;
 
+    public void SetLoreIndex(int index)
+    {
+        loreIndex = index;
+    }
     void Awake()
     {
         audioSource = GetComponent<AudioSource>();
@@ -145,11 +150,24 @@ public class BushInteractable : MonoBehaviour
         // 5. Spawn lore panel
         if (lorePanelPrefab != null)
         {
-            Instantiate(
+            // Instantiate(
+            //     lorePanelPrefab,
+            //     pos + loreOffset,
+            //     Quaternion.identity
+            // );
+
+            GameObject panel = Instantiate(
                 lorePanelPrefab,
                 pos + loreOffset,
                 Quaternion.identity
             );
+
+            LorePanel lorePanel = panel.GetComponent<LorePanel>();
+            if (lorePanel != null)
+            {
+                lorePanel.SetText(gameManager.GetStoryText(loreIndex));
+            }
+
         }
 
         yield return new WaitForSeconds(0.5f);
