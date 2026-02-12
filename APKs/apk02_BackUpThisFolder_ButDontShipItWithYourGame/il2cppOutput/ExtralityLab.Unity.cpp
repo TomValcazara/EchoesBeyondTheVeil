@@ -2470,7 +2470,7 @@ inline void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4 (List
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92403
+// Method Definition Index: 92407
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8E609680A92D24848563EC151FA9F2AFBFA5DCAC UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mF40EA27F933A784FA25440E7C18AC76385BB0B14 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2525,7 +2525,7 @@ IL_005f:
 		return L_7;
 	}
 }
-// Method Definition Index: 92404
+// Method Definition Index: 92408
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mBAD9D643499F3F507048F2EEAB2A830FB1924871 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t70A099335D1CEA0137AF8A675E44AB7C9493D710* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2619,7 +2619,7 @@ IL2CPP_EXTERN_C void MonoScriptData_t8E609680A92D24848563EC151FA9F2AFBFA5DCAC_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92405
+// Method Definition Index: 92409
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BrokerSettings__ctor_m3CBCF3F7D24515E7E68389AA735AFC00E8DE32C5 (BrokerSettings_t5A831E6E89EAC1BA7C6571ABEEAD2FD5D7B28C4F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2659,7 +2659,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BrokerSettings__ctor_m3CBCF3F7D24515E7E6
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92406
+// Method Definition Index: 92410
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityClient_add_ConnectionSucceeded_mB96840063CA10FBC21A3D0F817230F7D4D522A66 (M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2706,7 +2706,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 92407
+// Method Definition Index: 92411
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityClient_remove_ConnectionSucceeded_m57819CABB8A2F7F4991B4170A6085E9037CDB24F (M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2753,7 +2753,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 92408
+// Method Definition Index: 92412
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityClient_add_ConnectionFailed_mEF5B15C46D921A2C0E849F86FDD3E85D41914D14 (M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2800,7 +2800,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 92409
+// Method Definition Index: 92413
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityClient_remove_ConnectionFailed_mED8813C61B502D97EF440E7B96EF9F1DBD84E044 (M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2847,7 +2847,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 92410
+// Method Definition Index: 92414
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityClient_Connect_mE09932435C785C7C75A3C0D52E7C9C042DB82C04 (M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2921,7 +2921,7 @@ IL_002d:
 		return;
 	}
 }
-// Method Definition Index: 92411
+// Method Definition Index: 92415
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityClient_Disconnect_m0D8DC6D5A95F0317521A1858EBD64A62A8F66910 (M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2971,7 +2971,7 @@ IL_001d:
 		return;
 	}
 }
-// Method Definition Index: 92412
+// Method Definition Index: 92416
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityClient_OnConnecting_m0C6687E9AD804DD43DA85D362BE26B9F794FF812 (M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3016,7 +3016,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityClient_OnConnecting_m0C6687E9
 		return;
 	}
 }
-// Method Definition Index: 92413
+// Method Definition Index: 92417
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityClient_OnConnected_mE055D2F12A32CCFC68CA7F2B6E2F262E37518DD2 (M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3092,7 +3092,7 @@ IL_004b:
 		return;
 	}
 }
-// Method Definition Index: 92414
+// Method Definition Index: 92418
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityClient_OnConnectionFailed_m5A18B2E272928B295196362EC54B57C8E9510910 (M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF* __this, String_t* ___0_errorMessage, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3148,7 +3148,7 @@ IL_0027:
 		return;
 	}
 }
-// Method Definition Index: 92415
+// Method Definition Index: 92419
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityClient_SubscribeTopics_m85ED3458FECA980F2636D857A982A93DCB37320F (M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3169,7 +3169,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityClient_SubscribeTopics_m85ED3
 		return;
 	}
 }
-// Method Definition Index: 92416
+// Method Definition Index: 92420
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityClient_UnsubscribeTopics_mE78CD454E46D24E121B09794FF721EF50D36B980 (M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3190,7 +3190,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityClient_UnsubscribeTopics_mE78
 		return;
 	}
 }
-// Method Definition Index: 92417
+// Method Definition Index: 92421
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityClient_OnApplicationQuit_m587BAD29708C1602F62486804DAA55A8784802F3 (M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3216,7 +3216,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityClient_OnApplicationQuit_m587
 		return;
 	}
 }
-// Method Definition Index: 92418
+// Method Definition Index: 92422
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityClient_Awake_m674B85DE8283DB8860138D96F880217571CFCAB3 (M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3247,7 +3247,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityClient_Awake_m674B85DE8283DB8
 		return;
 	}
 }
-// Method Definition Index: 92419
+// Method Definition Index: 92423
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityClient_Start_m19A4E6B4F62013F398FDFC70B43831B4A949E145 (M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3292,7 +3292,7 @@ IL_0014:
 		return;
 	}
 }
-// Method Definition Index: 92420
+// Method Definition Index: 92424
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityClient_DecodeMessage_m5D36C9886A566A7848DEFDAC8F1F19C71868F351 (M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF* __this, String_t* ___0_topic, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_message, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3329,7 +3329,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityClient_DecodeMessage_m5D36C98
 		return;
 	}
 }
-// Method Definition Index: 92421
+// Method Definition Index: 92425
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityClient_OnDisconnected_m0F127FFFBFC98ED285199654D983FDCFD227B958 (M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3358,7 +3358,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityClient_OnDisconnected_m0F127F
 		return;
 	}
 }
-// Method Definition Index: 92422
+// Method Definition Index: 92426
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityClient_OnConnectionLost_m85FE9FF26611637B5F29A224720566D0A93C176E (M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3387,7 +3387,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityClient_OnConnectionLost_m85FE
 		return;
 	}
 }
-// Method Definition Index: 92423
+// Method Definition Index: 92427
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityClient_Update_m17168B19A6C8320C35677010C7C25AF133A47BB7 (M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3413,7 +3413,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityClient_Update_m17168B19A6C832
 		return;
 	}
 }
-// Method Definition Index: 92424
+// Method Definition Index: 92428
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityClient_ProcessMqttEvents_mDCBF1DE999430EAF503B9E3F4EFD3F14DD1E0EE1 (M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3481,7 +3481,7 @@ IL_0037:
 		return;
 	}
 }
-// Method Definition Index: 92425
+// Method Definition Index: 92429
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityClient_ProcessMqttMessageBackgroundQueue_mA302744945BB5846CB3A08FCB13643C077F5B6DA (M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3608,7 +3608,7 @@ IL_0047:
 		return;
 	}
 }
-// Method Definition Index: 92426
+// Method Definition Index: 92430
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityClient_SwapMqttMessageQueues_m0ACA06C4C3A1A3FB78BC43CE97D6A5215F011CF1 (M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3697,7 +3697,7 @@ IL_0040:
 		return;
 	}
 }
-// Method Definition Index: 92427
+// Method Definition Index: 92431
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityClient_OnMqttMessageReceived_m8561C0EF586AA77953B7516C1D1187843B0B4D70 (M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF* __this, RuntimeObject* ___0_sender, MqttMsgPublishEventArgs_t651C0F7A37CA2CA92453B94C8C12F2777C3D8AC5* ___1_msg, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3728,7 +3728,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityClient_OnMqttMessageReceived_
 		return;
 	}
 }
-// Method Definition Index: 92428
+// Method Definition Index: 92432
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityClient_OnMqttConnectionClosed_mE77A41969E6229E47CB39DCAD54C2BAEF2F39104 (M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF* __this, RuntimeObject* ___0_sender, EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377* ___1_e, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3757,7 +3757,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityClient_OnMqttConnectionClosed
 		return;
 	}
 }
-// Method Definition Index: 92429
+// Method Definition Index: 92433
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* M2MqttUnityClient_DoConnect_mEEFB3A66B0925A8B5733CC45423312BB5476727A (M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3779,7 +3779,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* M2MqttUnityClient_DoConnect_mE
 		return L_1;
 	}
 }
-// Method Definition Index: 92430
+// Method Definition Index: 92434
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* M2MqttUnityClient_DoDisconnect_m6530092A5826B152060B7906F5DE23F41AABB049 (M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3801,7 +3801,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* M2MqttUnityClient_DoDisconnect
 		return L_1;
 	}
 }
-// Method Definition Index: 92431
+// Method Definition Index: 92435
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityClient_CloseConnection_mF043D0C5B26BE11FA15EA27DC5810D933BBD37CF (M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3910,7 +3910,7 @@ IL_0072:
 		return;
 	}
 }
-// Method Definition Index: 92432
+// Method Definition Index: 92436
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityClient__ctor_m9A59013C11922CC133C79AED842F9113A6F539DD (M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4001,7 +4001,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityClient__ctor_m9A59013C11922CC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92433
+// Method Definition Index: 92437
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDoConnectU3Ed__40__ctor_m9AB7D298FE93B5D42299F3888B41003CFCC226E6 (U3CDoConnectU3Ed__40_t6EC11AE149F168A701F81C1F6E08F2E9D406A334* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4019,7 +4019,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDoConnectU3Ed__40__ctor_m9AB7D298FE93
 		return;
 	}
 }
-// Method Definition Index: 92434
+// Method Definition Index: 92438
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDoConnectU3Ed__40_System_IDisposable_Dispose_m6E7432BC6105CAE17A7BFBDCD47C3FEAF3FBD7AA (U3CDoConnectU3Ed__40_t6EC11AE149F168A701F81C1F6E08F2E9D406A334* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4034,7 +4034,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDoConnectU3Ed__40_System_IDisposable_
 		return;
 	}
 }
-// Method Definition Index: 92435
+// Method Definition Index: 92439
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CDoConnectU3Ed__40_MoveNext_mBF1E4BE8EE8CCDE2304A666CC806BAC18521F275 (U3CDoConnectU3Ed__40_t6EC11AE149F168A701F81C1F6E08F2E9D406A334* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4643,7 +4643,7 @@ IL_02fd:
 		return L_84;
 	}
 }
-// Method Definition Index: 92436
+// Method Definition Index: 92440
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDoConnectU3Ed__40_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m4540566566A6A07ABE19350495D9FD723010909A (U3CDoConnectU3Ed__40_t6EC11AE149F168A701F81C1F6E08F2E9D406A334* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4659,7 +4659,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDoConnectU3Ed__40_System_Co
 		return L_0;
 	}
 }
-// Method Definition Index: 92437
+// Method Definition Index: 92441
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDoConnectU3Ed__40_System_Collections_IEnumerator_Reset_mE68927A5C6F2EE30211A2E7662228BF11D5E4E88 (U3CDoConnectU3Ed__40_t6EC11AE149F168A701F81C1F6E08F2E9D406A334* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4676,7 +4676,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDoConnectU3Ed__40_System_Collections_
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CDoConnectU3Ed__40_System_Collections_IEnumerator_Reset_mE68927A5C6F2EE30211A2E7662228BF11D5E4E88_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 92438
+// Method Definition Index: 92442
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDoConnectU3Ed__40_System_Collections_IEnumerator_get_Current_m36E5EB1406991EDAFAAB3FEC77935650662D596E (U3CDoConnectU3Ed__40_t6EC11AE149F168A701F81C1F6E08F2E9D406A334* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4700,7 +4700,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDoConnectU3Ed__40_System_Co
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92439
+// Method Definition Index: 92443
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDoDisconnectU3Ed__41__ctor_mEBD3EC6D060D9630BB579AD6EA9F6659C72B1F87 (U3CDoDisconnectU3Ed__41_tB99EC22D7DF9DA945D6E6BD2E0116E4AAD461E69* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4718,7 +4718,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDoDisconnectU3Ed__41__ctor_mEBD3EC6D0
 		return;
 	}
 }
-// Method Definition Index: 92440
+// Method Definition Index: 92444
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDoDisconnectU3Ed__41_System_IDisposable_Dispose_m0816E280CA820DFD44CDC76184B0F2D1B69CB67C (U3CDoDisconnectU3Ed__41_tB99EC22D7DF9DA945D6E6BD2E0116E4AAD461E69* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4733,7 +4733,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDoDisconnectU3Ed__41_System_IDisposab
 		return;
 	}
 }
-// Method Definition Index: 92441
+// Method Definition Index: 92445
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CDoDisconnectU3Ed__41_MoveNext_mEAAF1C85704A9781BCA936DBCEEBBD32A4A90376 (U3CDoDisconnectU3Ed__41_tB99EC22D7DF9DA945D6E6BD2E0116E4AAD461E69* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4829,7 +4829,7 @@ IL_0034:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 92442
+// Method Definition Index: 92446
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDoDisconnectU3Ed__41_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m528EF2794DB91C03E57F1CD215BF205A3DDEB685 (U3CDoDisconnectU3Ed__41_tB99EC22D7DF9DA945D6E6BD2E0116E4AAD461E69* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4845,7 +4845,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDoDisconnectU3Ed__41_System
 		return L_0;
 	}
 }
-// Method Definition Index: 92443
+// Method Definition Index: 92447
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDoDisconnectU3Ed__41_System_Collections_IEnumerator_Reset_mB2BF0A86022121D7B349EB4A8DC2C3FD35E7E73B (U3CDoDisconnectU3Ed__41_tB99EC22D7DF9DA945D6E6BD2E0116E4AAD461E69* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4862,7 +4862,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDoDisconnectU3Ed__41_System_Collectio
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CDoDisconnectU3Ed__41_System_Collections_IEnumerator_Reset_mB2BF0A86022121D7B349EB4A8DC2C3FD35E7E73B_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 92444
+// Method Definition Index: 92448
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDoDisconnectU3Ed__41_System_Collections_IEnumerator_get_Current_m91216FABE2EEF2202E65FC4494EE66F77A1E7930 (U3CDoDisconnectU3Ed__41_tB99EC22D7DF9DA945D6E6BD2E0116E4AAD461E69* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4886,7 +4886,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDoDisconnectU3Ed__41_System
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92451
+// Method Definition Index: 92455
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_add_MqttMsgPublishReceived_m2109A869AFA6D0A9F33FC8BE4FC7EAD1728CE45F (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, MqttMsgPublishEventHandler_t22CCB4999A3C3465646942A3318ABDD31C409B14* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4933,7 +4933,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 92452
+// Method Definition Index: 92456
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_remove_MqttMsgPublishReceived_mE9A082A4E532F4291A1B1A144A5D81C9E93E4704 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, MqttMsgPublishEventHandler_t22CCB4999A3C3465646942A3318ABDD31C409B14* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4980,7 +4980,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 92453
+// Method Definition Index: 92457
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_add_MqttMsgPublished_m26BCECFDD973BD841FFB4043AD59188103B4E018 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, MqttMsgPublishedEventHandler_t9EFB5E5D4476BDBAC29776F90F3E7FF9ABA44D37* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5027,7 +5027,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 92454
+// Method Definition Index: 92458
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_remove_MqttMsgPublished_m9D888F2BC125BEBFD305B54C48CD8A9D4E6831D7 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, MqttMsgPublishedEventHandler_t9EFB5E5D4476BDBAC29776F90F3E7FF9ABA44D37* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5074,7 +5074,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 92455
+// Method Definition Index: 92459
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_add_MqttMsgSubscribed_m8E844BE074C7024F0022F7A2A48F72072290E6B4 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, MqttMsgSubscribedEventHandler_t27242642B0F707EAB6863DD06B5D6743DF8E60B7* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5121,7 +5121,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 92456
+// Method Definition Index: 92460
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_remove_MqttMsgSubscribed_m96DF090474048781C38E6F6C153FA2B937485E97 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, MqttMsgSubscribedEventHandler_t27242642B0F707EAB6863DD06B5D6743DF8E60B7* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5168,7 +5168,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 92457
+// Method Definition Index: 92461
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_add_MqttMsgUnsubscribed_mEC89E3534B7177025F6706F44EEE12AC6CE52574 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, MqttMsgUnsubscribedEventHandler_t3C13B1A5255297F3DF96AB3AF37BBD9EFF44E095* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5215,7 +5215,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 92458
+// Method Definition Index: 92462
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_remove_MqttMsgUnsubscribed_mF376391468889B1F3907333088F6F7E49947F90E (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, MqttMsgUnsubscribedEventHandler_t3C13B1A5255297F3DF96AB3AF37BBD9EFF44E095* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5262,7 +5262,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 92459
+// Method Definition Index: 92463
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_add_ConnectionClosed_m344CD6C799F200956F297E11A8D4588A1D76D90F (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, ConnectionClosedEventHandler_tC910D43455B62A7A4C44F62339A53264C422E820* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5309,7 +5309,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 92460
+// Method Definition Index: 92464
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_remove_ConnectionClosed_m8DBA98F832CF42CB594F64953A73418D311A7875 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, ConnectionClosedEventHandler_tC910D43455B62A7A4C44F62339A53264C422E820* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5356,7 +5356,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 92461
+// Method Definition Index: 92465
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MqttClient_get_IsConnected_mC3A16319C21519DA09798BE95495BCB7BAF9A3E6 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5377,7 +5377,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MqttClient_get_IsConnected_mC3A16319C215
 		return L_0;
 	}
 }
-// Method Definition Index: 92462
+// Method Definition Index: 92466
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_set_IsConnected_mDDBCCC90490F9B4405CD247AD725A8A060FCE46D (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5400,7 +5400,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_set_IsConnected_mDDBCCC90490F
 		return;
 	}
 }
-// Method Definition Index: 92463
+// Method Definition Index: 92467
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MqttClient_get_ClientId_mE5258D5EC1BA93893A59BA4EE9B32F7434C138A8 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5421,7 +5421,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MqttClient_get_ClientId_mE5258D5EC1
 		return L_0;
 	}
 }
-// Method Definition Index: 92464
+// Method Definition Index: 92468
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_set_ClientId_mDEE5E74020634E992F1BF65429099C622753F8F2 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5445,7 +5445,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_set_ClientId_mDEE5E74020634E9
 		return;
 	}
 }
-// Method Definition Index: 92465
+// Method Definition Index: 92469
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MqttClient_get_CleanSession_m65CF8074F484D7C4DD63F16877A1E8702540125D (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5466,7 +5466,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MqttClient_get_CleanSession_m65CF8074F48
 		return L_0;
 	}
 }
-// Method Definition Index: 92466
+// Method Definition Index: 92470
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_set_CleanSession_mA0C1960E5807485676C2A82EF14B8A5D92556BFD (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5489,7 +5489,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_set_CleanSession_mA0C1960E580
 		return;
 	}
 }
-// Method Definition Index: 92467
+// Method Definition Index: 92471
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MqttClient_get_WillFlag_mDED169D0C92FA6CE8B9360912D32C21301C5283F (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5510,7 +5510,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MqttClient_get_WillFlag_mDED169D0C92FA6C
 		return L_0;
 	}
 }
-// Method Definition Index: 92468
+// Method Definition Index: 92472
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_set_WillFlag_m7AED8A64AA42E207768A8B495C9FEE6BF8645EF3 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5533,7 +5533,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_set_WillFlag_m7AED8A64AA42E20
 		return;
 	}
 }
-// Method Definition Index: 92469
+// Method Definition Index: 92473
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t MqttClient_get_WillQosLevel_m8CA3356013A2F3E90B3A223EE164249B028460C7 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5554,7 +5554,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t MqttClient_get_WillQosLevel_m8CA33560
 		return L_0;
 	}
 }
-// Method Definition Index: 92470
+// Method Definition Index: 92474
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_set_WillQosLevel_mE48911580A0D6248B97ECDA113A7C615DB9B85B2 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, uint8_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5577,7 +5577,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_set_WillQosLevel_mE48911580A0
 		return;
 	}
 }
-// Method Definition Index: 92471
+// Method Definition Index: 92475
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MqttClient_get_WillTopic_m7EFFAF0B8364C1B8B45D48A1DF81906F9F73D4D3 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5598,7 +5598,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MqttClient_get_WillTopic_m7EFFAF0B8
 		return L_0;
 	}
 }
-// Method Definition Index: 92472
+// Method Definition Index: 92476
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_set_WillTopic_m690F431446BA47B2E5E83FBB30939297EE3FBCCD (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5622,7 +5622,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_set_WillTopic_m690F431446BA47
 		return;
 	}
 }
-// Method Definition Index: 92473
+// Method Definition Index: 92477
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MqttClient_get_WillMessage_mB70A4069EDCF554FE000B2260CAE2B871624AB5F (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5643,7 +5643,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MqttClient_get_WillMessage_mB70A406
 		return L_0;
 	}
 }
-// Method Definition Index: 92474
+// Method Definition Index: 92478
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_set_WillMessage_m21D87A7AC23ED5EB3E08A49CDDF3C54A1E585F20 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5667,7 +5667,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_set_WillMessage_m21D87A7AC23E
 		return;
 	}
 }
-// Method Definition Index: 92475
+// Method Definition Index: 92479
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MqttClient_get_ProtocolVersion_mFACDE1AB1C66C45426396EA7A1E4B664BFF2A229 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5688,7 +5688,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MqttClient_get_ProtocolVersion_mFACDE
 		return L_0;
 	}
 }
-// Method Definition Index: 92476
+// Method Definition Index: 92480
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_set_ProtocolVersion_m67772A858F7D676972DA921132A03F6E4210DDAE (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5711,7 +5711,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_set_ProtocolVersion_m67772A85
 		return;
 	}
 }
-// Method Definition Index: 92477
+// Method Definition Index: 92481
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MqttSettings_tAC993A89C624206F7EA6DDD2AC29D1678D3ED724* MqttClient_get_Settings_m97D77248036550B93940335953DB49D998F46051 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5744,7 +5744,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92478
+// Method Definition Index: 92482
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient__ctor_m28CC8F6E0E9743E1E12421BCBE035F3CBEEDB748 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* ___0_brokerIpAddress, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5772,7 +5772,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient__ctor_m28CC8F6E0E9743E1E12421
 		return;
 	}
 }
-// Method Definition Index: 92479
+// Method Definition Index: 92483
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient__ctor_m147D17177B1745BA4316152F62D8AC360A4E9FE8 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* ___0_brokerIpAddress, int32_t ___1_brokerPort, bool ___2_secure, X509Certificate_t966CC553AF25AE7991F5B4C2AACBCF6C66C8F9C4* ___3_caCert, X509Certificate_t966CC553AF25AE7991F5B4C2AACBCF6C66C8F9C4* ___4_clientCert, int32_t ___5_sslProtocol, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5818,7 +5818,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient__ctor_m147D17177B1745BA431615
 		return;
 	}
 }
-// Method Definition Index: 92480
+// Method Definition Index: 92484
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient__ctor_m62F4A390D3D35EBE569CED2724B3545F4507CA65 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, String_t* ___0_brokerHostName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5846,7 +5846,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient__ctor_m62F4A390D3D35EBE569CED
 		return;
 	}
 }
-// Method Definition Index: 92481
+// Method Definition Index: 92485
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient__ctor_m45AD8D310F7757EE95AD50A60578A3D96B2F28AB (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, String_t* ___0_brokerHostName, int32_t ___1_brokerPort, bool ___2_secure, X509Certificate_t966CC553AF25AE7991F5B4C2AACBCF6C66C8F9C4* ___3_caCert, X509Certificate_t966CC553AF25AE7991F5B4C2AACBCF6C66C8F9C4* ___4_clientCert, int32_t ___5_sslProtocol, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5887,7 +5887,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient__ctor_m45AD8D310F7757EE95AD50
 		return;
 	}
 }
-// Method Definition Index: 92482
+// Method Definition Index: 92486
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient__ctor_mAC5763528B39BE013AD989314AE950A3043742D2 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, String_t* ___0_brokerHostName, int32_t ___1_brokerPort, bool ___2_secure, X509Certificate_t966CC553AF25AE7991F5B4C2AACBCF6C66C8F9C4* ___3_caCert, X509Certificate_t966CC553AF25AE7991F5B4C2AACBCF6C66C8F9C4* ___4_clientCert, int32_t ___5_sslProtocol, RemoteCertificateValidationCallback_t2F4C5801F96B2C2BF934511796C5BFEAEBF01955* ___6_userCertificateValidationCallback, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5921,7 +5921,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient__ctor_mAC5763528B39BE013AD989
 		return;
 	}
 }
-// Method Definition Index: 92483
+// Method Definition Index: 92487
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient__ctor_m50556461B79937D501027CE526C681671670DFE2 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, String_t* ___0_brokerHostName, int32_t ___1_brokerPort, bool ___2_secure, int32_t ___3_sslProtocol, RemoteCertificateValidationCallback_t2F4C5801F96B2C2BF934511796C5BFEAEBF01955* ___4_userCertificateValidationCallback, LocalCertificateSelectionCallback_t71A03329606A5610ECC62BFBE6327C1EF9195859* ___5_userCertificateSelectionCallback, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5954,7 +5954,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient__ctor_m50556461B79937D501027C
 		return;
 	}
 }
-// Method Definition Index: 92484
+// Method Definition Index: 92488
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient__ctor_m355FA4498A3B52E226EE26EC5F717770698F2D3D (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, String_t* ___0_brokerHostName, int32_t ___1_brokerPort, bool ___2_secure, X509Certificate_t966CC553AF25AE7991F5B4C2AACBCF6C66C8F9C4* ___3_caCert, X509Certificate_t966CC553AF25AE7991F5B4C2AACBCF6C66C8F9C4* ___4_clientCert, int32_t ___5_sslProtocol, RemoteCertificateValidationCallback_t2F4C5801F96B2C2BF934511796C5BFEAEBF01955* ___6_userCertificateValidationCallback, LocalCertificateSelectionCallback_t71A03329606A5610ECC62BFBE6327C1EF9195859* ___7_userCertificateSelectionCallback, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5999,7 +5999,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient__ctor_m355FA4498A3B52E226EE26
 		return;
 	}
 }
-// Method Definition Index: 92485
+// Method Definition Index: 92489
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_Init_m29D1BAC1133FC69BCDC41F45FF0E632726446E66 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, String_t* ___0_brokerHostName, int32_t ___1_brokerPort, bool ___2_secure, X509Certificate_t966CC553AF25AE7991F5B4C2AACBCF6C66C8F9C4* ___3_caCert, X509Certificate_t966CC553AF25AE7991F5B4C2AACBCF6C66C8F9C4* ___4_clientCert, int32_t ___5_sslProtocol, RemoteCertificateValidationCallback_t2F4C5801F96B2C2BF934511796C5BFEAEBF01955* ___6_userCertificateValidationCallback, LocalCertificateSelectionCallback_t71A03329606A5610ECC62BFBE6327C1EF9195859* ___7_userCertificateSelectionCallback, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6185,7 +6185,7 @@ IL_0060:
 		return;
 	}
 }
-// Method Definition Index: 92486
+// Method Definition Index: 92490
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t MqttClient_Connect_mC6396F44CF4B31B3CBE0933BD02595AEA92D5F41 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, String_t* ___0_clientId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6222,7 +6222,7 @@ IL_0015:
 		return L_2;
 	}
 }
-// Method Definition Index: 92487
+// Method Definition Index: 92491
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t MqttClient_Connect_m4F8147F8B89C3B94E436F5622FEC27F5B1CE451C (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, String_t* ___0_clientId, String_t* ___1_username, String_t* ___2_password, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6261,7 +6261,7 @@ IL_0015:
 		return L_4;
 	}
 }
-// Method Definition Index: 92488
+// Method Definition Index: 92492
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t MqttClient_Connect_mF7CA5BFC5A3C953512B592D8929816FE0043A12C (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, String_t* ___0_clientId, String_t* ___1_username, String_t* ___2_password, bool ___3_cleanSession, uint16_t ___4_keepAlivePeriod, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6302,7 +6302,7 @@ IL_0016:
 		return L_6;
 	}
 }
-// Method Definition Index: 92489
+// Method Definition Index: 92493
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t MqttClient_Connect_m014E1EAC33C9BFAEC9FCA182199CD1501AF99414 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, String_t* ___0_clientId, String_t* ___1_username, String_t* ___2_password, bool ___3_willRetain, uint8_t ___4_willQosLevel, bool ___5_willFlag, String_t* ___6_willTopic, String_t* ___7_willMessage, bool ___8_cleanSession, uint16_t ___9_keepAlivePeriod, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6579,7 +6579,7 @@ IL_0126:
 		return L_36;
 	}
 }
-// Method Definition Index: 92490
+// Method Definition Index: 92494
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_Disconnect_m9E16C89E93DB9F663FC9C78C5DA466BC56838C24 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6622,7 +6622,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_Disconnect_m9E16C89E93DB9F663
 		return;
 	}
 }
-// Method Definition Index: 92491
+// Method Definition Index: 92495
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_Close_m1D5E6085597372C0015C6DFAB938B44531216643 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6763,7 +6763,7 @@ IL_005f:
 		return;
 	}
 }
-// Method Definition Index: 92492
+// Method Definition Index: 92496
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MqttMsgPingResp_tEF2769596EF3784178A8188432EC3C8D6FD04D54* MqttClient_Ping_mAA3F38EB44B83ADF72846021678E96B3C6CD051B (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6861,7 +6861,7 @@ IL_003c:
 		return L_7;
 	}
 }
-// Method Definition Index: 92493
+// Method Definition Index: 92497
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t MqttClient_Subscribe_mC7CCCA391896665F2C9EEC590960A24C5AE621D4 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_topics, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_qosLevels, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6931,7 +6931,7 @@ IL_0028:
 		return L_9;
 	}
 }
-// Method Definition Index: 92494
+// Method Definition Index: 92498
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t MqttClient_Unsubscribe_mEBDAF88AB00021262C5F1F8912076B754B2F97E4 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_topics, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7000,7 +7000,7 @@ IL_0027:
 		return L_8;
 	}
 }
-// Method Definition Index: 92495
+// Method Definition Index: 92499
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t MqttClient_Publish_m10888DFE2D15835ED8F1EB7FF23E58665469709F (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, String_t* ___0_topic, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_message, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7038,7 +7038,7 @@ IL_000e:
 		return L_3;
 	}
 }
-// Method Definition Index: 92496
+// Method Definition Index: 92500
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t MqttClient_Publish_mD288565C1612661C38FC577705F819056B287AD1 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, String_t* ___0_topic, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_message, uint8_t ___2_qosLevel, bool ___3_retain, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7136,7 +7136,7 @@ IL_0039:
 		return L_14;
 	}
 }
-// Method Definition Index: 92497
+// Method Definition Index: 92501
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_OnInternalEvent_m5EE02874B5B8822948B4880C17349BC849413A4D (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, InternalEvent_tFDA88F90F35F162068D5CC89C518735A012A1C1B* ___0_internalEvent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7231,7 +7231,7 @@ IL_002f:
 		return;
 	}
 }
-// Method Definition Index: 92498
+// Method Definition Index: 92502
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_OnConnectionClosing_mAB9F2EE14E78CF7CC944FFEC6518100C816ECB89 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7282,7 +7282,7 @@ IL_0023:
 		return;
 	}
 }
-// Method Definition Index: 92499
+// Method Definition Index: 92503
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_OnMqttMsgPublishReceived_m191053D8559FA6A2B75B125393A9A4FBE20E2507 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, MqttMsgPublish_t577D290BDC918BB9E774ED459D6B1CABA07C29F7* ___0_publish, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7366,7 +7366,7 @@ IL_0040:
 		return;
 	}
 }
-// Method Definition Index: 92500
+// Method Definition Index: 92504
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_OnMqttMsgPublished_mC23CC46E475989938614DCAE9595383708C8BD72 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, uint16_t ___0_messageId, bool ___1_isPublished, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7422,7 +7422,7 @@ IL_0024:
 		return;
 	}
 }
-// Method Definition Index: 92501
+// Method Definition Index: 92505
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_OnMqttMsgSubscribed_mD904E7EDFD01171DB238D8AE99E6967213427103 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, MqttMsgSuback_t1CE389985ABDD073F68CF2A393F68459F0540A86* ___0_suback, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7488,7 +7488,7 @@ IL_002e:
 		return;
 	}
 }
-// Method Definition Index: 92502
+// Method Definition Index: 92506
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_OnMqttMsgUnsubscribed_m92B35862AC1D383CBAB194A7E4664CEBF91F2AA5 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, uint16_t ___0_messageId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7543,7 +7543,7 @@ IL_0023:
 		return;
 	}
 }
-// Method Definition Index: 92503
+// Method Definition Index: 92507
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_OnConnectionClosed_m3C29749FC0CF6BF20EA43F33F64838C3737F7493 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7593,7 +7593,7 @@ IL_0022:
 		return;
 	}
 }
-// Method Definition Index: 92504
+// Method Definition Index: 92508
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_Send_m1797588ABE90F74CC03B1720417692B20ECB141F (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_msgBytes, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7686,7 +7686,7 @@ IL_0038:
 		return;
 	}
 }
-// Method Definition Index: 92505
+// Method Definition Index: 92509
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_Send_mEFD213119E460FF5A7189ABB49A76D6DFC756B26 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, MqttMsgBase_t91E03B0493FCC9E137EDD52C5659AE15643395E8* ___0_msg, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7730,7 +7730,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_Send_mEFD213119E460FF5A7189AB
 		return;
 	}
 }
-// Method Definition Index: 92506
+// Method Definition Index: 92510
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MqttMsgBase_t91E03B0493FCC9E137EDD52C5659AE15643395E8* MqttClient_SendReceive_mA6A824C360472897E4CBC6E6AFBF355F51D2A57B (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_msgBytes, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7768,7 +7768,7 @@ IL_0010:
 		return L_2;
 	}
 }
-// Method Definition Index: 92507
+// Method Definition Index: 92511
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MqttMsgBase_t91E03B0493FCC9E137EDD52C5659AE15643395E8* MqttClient_SendReceive_m42BDDA2721FBD75E596B7F90852DBFB5747EC390 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_msgBytes, int32_t ___1_timeout, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7997,7 +7997,7 @@ IL_00b5:
 		return L_29;
 	}
 }
-// Method Definition Index: 92508
+// Method Definition Index: 92512
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MqttMsgBase_t91E03B0493FCC9E137EDD52C5659AE15643395E8* MqttClient_SendReceive_m6EFDCC6FC39FEA95D7D0D0499596244C214C306C (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, MqttMsgBase_t91E03B0493FCC9E137EDD52C5659AE15643395E8* ___0_msg, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8035,7 +8035,7 @@ IL_0010:
 		return L_2;
 	}
 }
-// Method Definition Index: 92509
+// Method Definition Index: 92513
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MqttMsgBase_t91E03B0493FCC9E137EDD52C5659AE15643395E8* MqttClient_SendReceive_m24E6E2205E468A82407C1422C82575235FBA3DFC (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, MqttMsgBase_t91E03B0493FCC9E137EDD52C5659AE15643395E8* ___0_msg, int32_t ___1_timeout, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8090,7 +8090,7 @@ IL_0026:
 		return L_6;
 	}
 }
-// Method Definition Index: 92510
+// Method Definition Index: 92514
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MqttClient_EnqueueInflight_mE82B4D9E37FCA61DDCEA5F573D64EB01121D0255 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, MqttMsgBase_t91E03B0493FCC9E137EDD52C5659AE15643395E8* ___0_msg, int32_t ___1_flow, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8823,7 +8823,7 @@ IL_0244:
 		return L_85;
 	}
 }
-// Method Definition Index: 92511
+// Method Definition Index: 92515
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_EnqueueInternal_mEE1D6DC083978FB4BBD2D3BCBF9C868D47B6196C (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, MqttMsgBase_t91E03B0493FCC9E137EDD52C5659AE15643395E8* ___0_msg, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9384,7 +9384,7 @@ IL_01d3:
 		return;
 	}
 }
-// Method Definition Index: 92512
+// Method Definition Index: 92516
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_ReceiveThread_mF3307D2EC7DCD3EF80C69AA954FBA232BED49451 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10277,7 +10277,7 @@ IL_039e:
 		return;
 	}
 }
-// Method Definition Index: 92513
+// Method Definition Index: 92517
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_KeepAliveThread_m7C20D636EAFE9DB0BADE8865CD99A2FBD1DE855A (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10429,7 +10429,7 @@ IL_006d:
 		return;
 	}
 }
-// Method Definition Index: 92514
+// Method Definition Index: 92518
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_DispatchEventThread_m4E40A36F2599DA151375874511B1669AB6EF5097 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11014,7 +11014,7 @@ IL_01e6:
 		return;
 	}
 }
-// Method Definition Index: 92515
+// Method Definition Index: 92519
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_ProcessInflightThread_m9D363E95045935348437D55A8831F8F66AB677B6 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15001,7 +15001,7 @@ IL_0dc2:
 		return;
 	}
 }
-// Method Definition Index: 92516
+// Method Definition Index: 92520
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClient_RestoreSession_m2B3FDD8CC833EF6F96B5F5B1CB3C0D79A9FF9962 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15515,7 +15515,7 @@ IL_018a:
 		return;
 	}
 }
-// Method Definition Index: 92517
+// Method Definition Index: 92521
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t MqttClient_GetMessageId_mC4FBA714E2F7C400B423C0A65D5E625B06CF9311 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15628,7 +15628,7 @@ void MqttMsgPublishEventHandler_Invoke_m6A04F1B19B566A46597E2C4D4564DD1B666777A9
 	NullCheck(___0_sender);
 	GenericInterfaceActionInvoker1< MqttMsgPublishEventArgs_t651C0F7A37CA2CA92453B94C8C12F2777C3D8AC5* >::Invoke(method, ___0_sender, ___1_e);
 }
-// Method Definition Index: 92518
+// Method Definition Index: 92522
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPublishEventHandler__ctor_m9FB37EF0E93B41467FDD75DEFD2838B44BDFF198 (MqttMsgPublishEventHandler_t22CCB4999A3C3465646942A3318ABDD31C409B14* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -15681,13 +15681,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPublishEventHandler__ctor_m9FB37E
 	}
 	__this->___extra_arg = (intptr_t)&MqttMsgPublishEventHandler_Invoke_m6A04F1B19B566A46597E2C4D4564DD1B666777A9_Multicast;
 }
-// Method Definition Index: 92519
+// Method Definition Index: 92523
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPublishEventHandler_Invoke_m6A04F1B19B566A46597E2C4D4564DD1B666777A9 (MqttMsgPublishEventHandler_t22CCB4999A3C3465646942A3318ABDD31C409B14* __this, RuntimeObject* ___0_sender, MqttMsgPublishEventArgs_t651C0F7A37CA2CA92453B94C8C12F2777C3D8AC5* ___1_e, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, MqttMsgPublishEventArgs_t651C0F7A37CA2CA92453B94C8C12F2777C3D8AC5*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_sender, ___1_e, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 92520
+// Method Definition Index: 92524
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MqttMsgPublishEventHandler_BeginInvoke_m7961916F20803F83AF6AA490F6476299E4D4905D (MqttMsgPublishEventHandler_t22CCB4999A3C3465646942A3318ABDD31C409B14* __this, RuntimeObject* ___0_sender, MqttMsgPublishEventArgs_t651C0F7A37CA2CA92453B94C8C12F2777C3D8AC5* ___1_e, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -15695,7 +15695,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MqttMsgPublishEventHandler_Beg
 	__d_args[1] = ___1_e;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 92521
+// Method Definition Index: 92525
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPublishEventHandler_EndInvoke_mFD3003895D96A13D2EFC92B4D80D453B78C91B13 (MqttMsgPublishEventHandler_t22CCB4999A3C3465646942A3318ABDD31C409B14* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -15750,7 +15750,7 @@ void MqttMsgPublishedEventHandler_Invoke_m01ADFD86E44CA5DDD1DE0E312B3B1928C31716
 	NullCheck(___0_sender);
 	GenericInterfaceActionInvoker1< MqttMsgPublishedEventArgs_t60B18DE06F2F19E0EDE8847CA79B6E795F1D97DD* >::Invoke(method, ___0_sender, ___1_e);
 }
-// Method Definition Index: 92522
+// Method Definition Index: 92526
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPublishedEventHandler__ctor_m535E2BCF4EED754BCAE684050E0FB4752CDC7341 (MqttMsgPublishedEventHandler_t9EFB5E5D4476BDBAC29776F90F3E7FF9ABA44D37* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -15803,13 +15803,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPublishedEventHandler__ctor_m535E
 	}
 	__this->___extra_arg = (intptr_t)&MqttMsgPublishedEventHandler_Invoke_m01ADFD86E44CA5DDD1DE0E312B3B1928C317167B_Multicast;
 }
-// Method Definition Index: 92523
+// Method Definition Index: 92527
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPublishedEventHandler_Invoke_m01ADFD86E44CA5DDD1DE0E312B3B1928C317167B (MqttMsgPublishedEventHandler_t9EFB5E5D4476BDBAC29776F90F3E7FF9ABA44D37* __this, RuntimeObject* ___0_sender, MqttMsgPublishedEventArgs_t60B18DE06F2F19E0EDE8847CA79B6E795F1D97DD* ___1_e, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, MqttMsgPublishedEventArgs_t60B18DE06F2F19E0EDE8847CA79B6E795F1D97DD*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_sender, ___1_e, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 92524
+// Method Definition Index: 92528
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MqttMsgPublishedEventHandler_BeginInvoke_mF31C4E880350EAD9D243CB1B310C5EF7D3D79CB5 (MqttMsgPublishedEventHandler_t9EFB5E5D4476BDBAC29776F90F3E7FF9ABA44D37* __this, RuntimeObject* ___0_sender, MqttMsgPublishedEventArgs_t60B18DE06F2F19E0EDE8847CA79B6E795F1D97DD* ___1_e, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -15817,7 +15817,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MqttMsgPublishedEventHandler_B
 	__d_args[1] = ___1_e;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 92525
+// Method Definition Index: 92529
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPublishedEventHandler_EndInvoke_mC8D6C0466B7030D9CAAFB56D1F79EC1FF85C895A (MqttMsgPublishedEventHandler_t9EFB5E5D4476BDBAC29776F90F3E7FF9ABA44D37* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -15872,7 +15872,7 @@ void MqttMsgSubscribedEventHandler_Invoke_m8CC1F2C56E2E53A9EF73EBE6CCC4DD4454B55
 	NullCheck(___0_sender);
 	GenericInterfaceActionInvoker1< MqttMsgSubscribedEventArgs_t588391671CE6A0D3EA0637E8A3EAEA733C0BBD63* >::Invoke(method, ___0_sender, ___1_e);
 }
-// Method Definition Index: 92526
+// Method Definition Index: 92530
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgSubscribedEventHandler__ctor_m0E2A749F071E34F87ECE1276645AE70AAEB700C8 (MqttMsgSubscribedEventHandler_t27242642B0F707EAB6863DD06B5D6743DF8E60B7* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -15925,13 +15925,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgSubscribedEventHandler__ctor_m0E2
 	}
 	__this->___extra_arg = (intptr_t)&MqttMsgSubscribedEventHandler_Invoke_m8CC1F2C56E2E53A9EF73EBE6CCC4DD4454B55DEE_Multicast;
 }
-// Method Definition Index: 92527
+// Method Definition Index: 92531
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgSubscribedEventHandler_Invoke_m8CC1F2C56E2E53A9EF73EBE6CCC4DD4454B55DEE (MqttMsgSubscribedEventHandler_t27242642B0F707EAB6863DD06B5D6743DF8E60B7* __this, RuntimeObject* ___0_sender, MqttMsgSubscribedEventArgs_t588391671CE6A0D3EA0637E8A3EAEA733C0BBD63* ___1_e, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, MqttMsgSubscribedEventArgs_t588391671CE6A0D3EA0637E8A3EAEA733C0BBD63*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_sender, ___1_e, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 92528
+// Method Definition Index: 92532
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MqttMsgSubscribedEventHandler_BeginInvoke_m4C04E62FA18BF99FDA743240962F1F60C9FE41E0 (MqttMsgSubscribedEventHandler_t27242642B0F707EAB6863DD06B5D6743DF8E60B7* __this, RuntimeObject* ___0_sender, MqttMsgSubscribedEventArgs_t588391671CE6A0D3EA0637E8A3EAEA733C0BBD63* ___1_e, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -15939,7 +15939,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MqttMsgSubscribedEventHandler_
 	__d_args[1] = ___1_e;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 92529
+// Method Definition Index: 92533
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgSubscribedEventHandler_EndInvoke_m0F7F118E3D7F0025C13DD06EDCC693DCF18C62EF (MqttMsgSubscribedEventHandler_t27242642B0F707EAB6863DD06B5D6743DF8E60B7* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -15994,7 +15994,7 @@ void MqttMsgUnsubscribedEventHandler_Invoke_m1314CEF7743FE46A86012CACCE3DD7B9F14
 	NullCheck(___0_sender);
 	GenericInterfaceActionInvoker1< MqttMsgUnsubscribedEventArgs_t60C6CCCC9BFAA84F7BA048C110DDC45DB4F5A4E4* >::Invoke(method, ___0_sender, ___1_e);
 }
-// Method Definition Index: 92530
+// Method Definition Index: 92534
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgUnsubscribedEventHandler__ctor_m28356D65285A2BCE22ACAEBEB4F8B0282C6F425B (MqttMsgUnsubscribedEventHandler_t3C13B1A5255297F3DF96AB3AF37BBD9EFF44E095* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -16047,13 +16047,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgUnsubscribedEventHandler__ctor_m2
 	}
 	__this->___extra_arg = (intptr_t)&MqttMsgUnsubscribedEventHandler_Invoke_m1314CEF7743FE46A86012CACCE3DD7B9F145499D_Multicast;
 }
-// Method Definition Index: 92531
+// Method Definition Index: 92535
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgUnsubscribedEventHandler_Invoke_m1314CEF7743FE46A86012CACCE3DD7B9F145499D (MqttMsgUnsubscribedEventHandler_t3C13B1A5255297F3DF96AB3AF37BBD9EFF44E095* __this, RuntimeObject* ___0_sender, MqttMsgUnsubscribedEventArgs_t60C6CCCC9BFAA84F7BA048C110DDC45DB4F5A4E4* ___1_e, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, MqttMsgUnsubscribedEventArgs_t60C6CCCC9BFAA84F7BA048C110DDC45DB4F5A4E4*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_sender, ___1_e, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 92532
+// Method Definition Index: 92536
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MqttMsgUnsubscribedEventHandler_BeginInvoke_m4AC873A6A7AE49814C33AEDD6545E6AE23E6EB0A (MqttMsgUnsubscribedEventHandler_t3C13B1A5255297F3DF96AB3AF37BBD9EFF44E095* __this, RuntimeObject* ___0_sender, MqttMsgUnsubscribedEventArgs_t60C6CCCC9BFAA84F7BA048C110DDC45DB4F5A4E4* ___1_e, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -16061,7 +16061,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MqttMsgUnsubscribedEventHandle
 	__d_args[1] = ___1_e;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 92533
+// Method Definition Index: 92537
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgUnsubscribedEventHandler_EndInvoke_m02F049B7B3C9678D2A5BB42172FB1D445D428EA9 (MqttMsgUnsubscribedEventHandler_t3C13B1A5255297F3DF96AB3AF37BBD9EFF44E095* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -16116,7 +16116,7 @@ void ConnectionClosedEventHandler_Invoke_mFAD1DC6AC20945186A64B90ABACDD5287F0CD2
 	NullCheck(___0_sender);
 	GenericInterfaceActionInvoker1< EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377* >::Invoke(method, ___0_sender, ___1_e);
 }
-// Method Definition Index: 92534
+// Method Definition Index: 92538
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionClosedEventHandler__ctor_mB0947F45A4C23E0BCB99684761E631FFD3AD9578 (ConnectionClosedEventHandler_tC910D43455B62A7A4C44F62339A53264C422E820* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -16169,13 +16169,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionClosedEventHandler__ctor_mB094
 	}
 	__this->___extra_arg = (intptr_t)&ConnectionClosedEventHandler_Invoke_mFAD1DC6AC20945186A64B90ABACDD5287F0CD284_Multicast;
 }
-// Method Definition Index: 92535
+// Method Definition Index: 92539
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionClosedEventHandler_Invoke_mFAD1DC6AC20945186A64B90ABACDD5287F0CD284 (ConnectionClosedEventHandler_tC910D43455B62A7A4C44F62339A53264C422E820* __this, RuntimeObject* ___0_sender, EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377* ___1_e, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_sender, ___1_e, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 92536
+// Method Definition Index: 92540
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ConnectionClosedEventHandler_BeginInvoke_m0C91954024347F9D6E137A85DC9C2723A14C9572 (ConnectionClosedEventHandler_tC910D43455B62A7A4C44F62339A53264C422E820* __this, RuntimeObject* ___0_sender, EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377* ___1_e, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -16183,7 +16183,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ConnectionClosedEventHandler_B
 	__d_args[1] = ___1_e;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 92537
+// Method Definition Index: 92541
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionClosedEventHandler_EndInvoke_mE6306DA0661C5F80D8AFECD8D35B9EABADA74F73 (ConnectionClosedEventHandler_tC910D43455B62A7A4C44F62339A53264C422E820* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -16196,7 +16196,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionClosedEventHandler_EndInvoke_m
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92538
+// Method Definition Index: 92542
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t MqttMsgContextFinder_get_MessageId_m57F49621C513A73D40707CB7B6338C6E14CD8033 (MqttMsgContextFinder_t2FD64E275F21B54741ADBC6D5E4B12E1E6DB7FB6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16217,7 +16217,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t MqttMsgContextFinder_get_MessageId_m
 		return L_0;
 	}
 }
-// Method Definition Index: 92539
+// Method Definition Index: 92543
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgContextFinder_set_MessageId_m3EC896FC0DAC0C288176ACE710796E2AFCDFD7DF (MqttMsgContextFinder_t2FD64E275F21B54741ADBC6D5E4B12E1E6DB7FB6* __this, uint16_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16240,7 +16240,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgContextFinder_set_MessageId_m3EC8
 		return;
 	}
 }
-// Method Definition Index: 92540
+// Method Definition Index: 92544
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MqttMsgContextFinder_get_Flow_m5F47122B41B7A0D4EDC1742D33F54BDACE7CB04C (MqttMsgContextFinder_t2FD64E275F21B54741ADBC6D5E4B12E1E6DB7FB6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16261,7 +16261,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MqttMsgContextFinder_get_Flow_m5F4712
 		return L_0;
 	}
 }
-// Method Definition Index: 92541
+// Method Definition Index: 92545
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgContextFinder_set_Flow_m0E30EA2356F75E3F789F03227948F32FD2792D4D (MqttMsgContextFinder_t2FD64E275F21B54741ADBC6D5E4B12E1E6DB7FB6* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16284,7 +16284,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgContextFinder_set_Flow_m0E30EA235
 		return;
 	}
 }
-// Method Definition Index: 92542
+// Method Definition Index: 92546
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgContextFinder__ctor_m1F6C6300CD10B3FA84E247B35691C386F8F25C55 (MqttMsgContextFinder_t2FD64E275F21B54741ADBC6D5E4B12E1E6DB7FB6* __this, uint16_t ___0_messageId, int32_t ___1_flow, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16323,7 +16323,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgContextFinder__ctor_m1F6C6300CD10
 		return;
 	}
 }
-// Method Definition Index: 92543
+// Method Definition Index: 92547
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MqttMsgContextFinder_Find_m64ED88356936DCB6FC2476AF706705FD4050E779 (MqttMsgContextFinder_t2FD64E275F21B54741ADBC6D5E4B12E1E6DB7FB6* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16449,7 +16449,7 @@ IL_003d:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92544
+// Method Definition Index: 92548
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MqttSettings_get_Port_m5E995D09CA30D29958BE01169753995876FF5756 (MqttSettings_tAC993A89C624206F7EA6DDD2AC29D1678D3ED724* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16470,7 +16470,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MqttSettings_get_Port_m5E995D09CA30D2
 		return L_0;
 	}
 }
-// Method Definition Index: 92545
+// Method Definition Index: 92549
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttSettings_set_Port_mB6F486BC858AF6B3F966033909472B14E92683E0 (MqttSettings_tAC993A89C624206F7EA6DDD2AC29D1678D3ED724* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16493,7 +16493,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttSettings_set_Port_mB6F486BC858AF6B3F
 		return;
 	}
 }
-// Method Definition Index: 92546
+// Method Definition Index: 92550
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MqttSettings_get_SslPort_m2D2AB7245B5ED35D68A0752364907E5C25EE940D (MqttSettings_tAC993A89C624206F7EA6DDD2AC29D1678D3ED724* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16514,7 +16514,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MqttSettings_get_SslPort_m2D2AB7245B5
 		return L_0;
 	}
 }
-// Method Definition Index: 92547
+// Method Definition Index: 92551
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttSettings_set_SslPort_m81933FECF05E81883FD8916806BC7919A2C00A04 (MqttSettings_tAC993A89C624206F7EA6DDD2AC29D1678D3ED724* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16537,7 +16537,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttSettings_set_SslPort_m81933FECF05E81
 		return;
 	}
 }
-// Method Definition Index: 92548
+// Method Definition Index: 92552
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MqttSettings_get_TimeoutOnConnection_m868C4C8FDF91947EBD2836EE00066EDED4FD713D (MqttSettings_tAC993A89C624206F7EA6DDD2AC29D1678D3ED724* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16558,7 +16558,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MqttSettings_get_TimeoutOnConnection_
 		return L_0;
 	}
 }
-// Method Definition Index: 92549
+// Method Definition Index: 92553
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttSettings_set_TimeoutOnConnection_mE6B0EE4A9ED9995EEE0C7BC85520992931A5200B (MqttSettings_tAC993A89C624206F7EA6DDD2AC29D1678D3ED724* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16581,7 +16581,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttSettings_set_TimeoutOnConnection_mE6
 		return;
 	}
 }
-// Method Definition Index: 92550
+// Method Definition Index: 92554
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MqttSettings_get_TimeoutOnReceiving_m7E5FD693D162B385F1EC8806E9A2FFBDCC048FA4 (MqttSettings_tAC993A89C624206F7EA6DDD2AC29D1678D3ED724* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16602,7 +16602,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MqttSettings_get_TimeoutOnReceiving_m
 		return L_0;
 	}
 }
-// Method Definition Index: 92551
+// Method Definition Index: 92555
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttSettings_set_TimeoutOnReceiving_m174C1547D286466D665B0CCDBD2A9BAB7BBD4CDE (MqttSettings_tAC993A89C624206F7EA6DDD2AC29D1678D3ED724* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16625,7 +16625,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttSettings_set_TimeoutOnReceiving_m174
 		return;
 	}
 }
-// Method Definition Index: 92552
+// Method Definition Index: 92556
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MqttSettings_get_AttemptsOnRetry_m6B95BB26195F30E0E455A7670A766D0A30F57B0E (MqttSettings_tAC993A89C624206F7EA6DDD2AC29D1678D3ED724* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16646,7 +16646,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MqttSettings_get_AttemptsOnRetry_m6B9
 		return L_0;
 	}
 }
-// Method Definition Index: 92553
+// Method Definition Index: 92557
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttSettings_set_AttemptsOnRetry_m5ECF139EEA6FB46203DE817E38C5BA44D5E95C10 (MqttSettings_tAC993A89C624206F7EA6DDD2AC29D1678D3ED724* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16669,7 +16669,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttSettings_set_AttemptsOnRetry_m5ECF13
 		return;
 	}
 }
-// Method Definition Index: 92554
+// Method Definition Index: 92558
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MqttSettings_get_DelayOnRetry_mA5613703E48856920CEFD5F6A699F4C3A0F150AB (MqttSettings_tAC993A89C624206F7EA6DDD2AC29D1678D3ED724* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16690,7 +16690,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MqttSettings_get_DelayOnRetry_mA56137
 		return L_0;
 	}
 }
-// Method Definition Index: 92555
+// Method Definition Index: 92559
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttSettings_set_DelayOnRetry_m4D635AE55F5F5B89BD4BF5412FEB3B2161177916 (MqttSettings_tAC993A89C624206F7EA6DDD2AC29D1678D3ED724* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16713,7 +16713,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttSettings_set_DelayOnRetry_m4D635AE55
 		return;
 	}
 }
-// Method Definition Index: 92556
+// Method Definition Index: 92560
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MqttSettings_get_InflightQueueSize_mB7632070BDF2CD0EF6CA9D8C0E6275D4FF8B0268 (MqttSettings_tAC993A89C624206F7EA6DDD2AC29D1678D3ED724* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16734,7 +16734,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MqttSettings_get_InflightQueueSize_mB
 		return L_0;
 	}
 }
-// Method Definition Index: 92557
+// Method Definition Index: 92561
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttSettings_set_InflightQueueSize_mAD5154743EE0C540DCFD0F256A74E7F679A335D0 (MqttSettings_tAC993A89C624206F7EA6DDD2AC29D1678D3ED724* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16757,7 +16757,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttSettings_set_InflightQueueSize_mAD51
 		return;
 	}
 }
-// Method Definition Index: 92558
+// Method Definition Index: 92562
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MqttSettings_tAC993A89C624206F7EA6DDD2AC29D1678D3ED724* MqttSettings_get_Instance_m408881D521DBDE695D8DE3C1D2DB2634C262649A (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16814,7 +16814,7 @@ IL_001f:
 		return L_4;
 	}
 }
-// Method Definition Index: 92559
+// Method Definition Index: 92563
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttSettings__ctor_m3ABCE1DCE3C1A5E6F066DD3CA430583C4B8382B9 (MqttSettings_tAC993A89C624206F7EA6DDD2AC29D1678D3ED724* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16883,7 +16883,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttSettings__ctor_m3ABCE1DCE3C1A5E6F066
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92560
+// Method Definition Index: 92564
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Fx_StartThread_m3901B1201CFD6C9936D80594FD9E25005DBF8385 (ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2* ___0_threadStart, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16915,7 +16915,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Fx_StartThread_m3901B1201CFD6C9936D80594
 		return;
 	}
 }
-// Method Definition Index: 92561
+// Method Definition Index: 92565
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Fx_SleepThread_m565E31A697C20BB8787F9F8598B038C42C9D4E3B (int32_t ___0_millisecondsTimeout, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16941,7 +16941,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Fx_SleepThread_m565E31A697C20BB8787F9F85
 		return;
 	}
 }
-// Method Definition Index: 92562
+// Method Definition Index: 92566
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Fx__ctor_m074DB3E01FCECB73598929726AC1667D00C57BB6 (Fx_t71B192DD8A79DE993D8D24CBC9DADA68254BFD3F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16965,7 +16965,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Fx__ctor_m074DB3E01FCECB73598929726AC166
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92563
+// Method Definition Index: 92567
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MqttNetworkChannel_get_RemoteHostName_m83C25FAED8451E49A1550FBEA15D87B8385BCFF4 (MqttNetworkChannel_t05F5B187CC256793C06CEC82432ACE33D9B1C319* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16997,7 +16997,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92564
+// Method Definition Index: 92568
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* MqttNetworkChannel_get_RemoteIpAddress_m85C636C273F2DE34B5E38D78BF56A91443522E46 (MqttNetworkChannel_t05F5B187CC256793C06CEC82432ACE33D9B1C319* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17030,7 +17030,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92565
+// Method Definition Index: 92569
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MqttNetworkChannel_get_RemotePort_m5DF88A39391326BA171C0C5FE2C433451745DE3C (MqttNetworkChannel_t05F5B187CC256793C06CEC82432ACE33D9B1C319* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17062,7 +17062,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92566
+// Method Definition Index: 92570
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MqttNetworkChannel_get_DataAvailable_mABC1E0868384A547A75E243A8E5A0961AC6663C0 (MqttNetworkChannel_t05F5B187CC256793C06CEC82432ACE33D9B1C319* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17099,7 +17099,7 @@ IL_0012:
 		return L_2;
 	}
 }
-// Method Definition Index: 92567
+// Method Definition Index: 92571
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttNetworkChannel__ctor_mFC027BA09FC15081081C751EF0761D7C434C1F0E (MqttNetworkChannel_t05F5B187CC256793C06CEC82432ACE33D9B1C319* __this, Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* ___0_socket, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17127,7 +17127,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttNetworkChannel__ctor_mFC027BA09FC150
 		return;
 	}
 }
-// Method Definition Index: 92568
+// Method Definition Index: 92572
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttNetworkChannel__ctor_mF1D92FDB194320B567E7250A3542515C6EB745B9 (MqttNetworkChannel_t05F5B187CC256793C06CEC82432ACE33D9B1C319* __this, Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* ___0_socket, bool ___1_secure, X509Certificate_t966CC553AF25AE7991F5B4C2AACBCF6C66C8F9C4* ___2_serverCert, int32_t ___3_sslProtocol, RemoteCertificateValidationCallback_t2F4C5801F96B2C2BF934511796C5BFEAEBF01955* ___4_userCertificateValidationCallback, LocalCertificateSelectionCallback_t71A03329606A5610ECC62BFBE6327C1EF9195859* ___5_userCertificateSelectionCallback, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17184,7 +17184,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttNetworkChannel__ctor_mF1D92FDB194320
 		return;
 	}
 }
-// Method Definition Index: 92569
+// Method Definition Index: 92573
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttNetworkChannel__ctor_m06B06DADA9D7303C972F8DF21AC43A0637DF2A91 (MqttNetworkChannel_t05F5B187CC256793C06CEC82432ACE33D9B1C319* __this, String_t* ___0_remoteHostName, int32_t ___1_remotePort, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17213,7 +17213,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttNetworkChannel__ctor_m06B06DADA9D730
 		return;
 	}
 }
-// Method Definition Index: 92570
+// Method Definition Index: 92574
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttNetworkChannel__ctor_m192B361C6A94E0FA43330A0EABA68248C5C97D19 (MqttNetworkChannel_t05F5B187CC256793C06CEC82432ACE33D9B1C319* __this, String_t* ___0_remoteHostName, int32_t ___1_remotePort, bool ___2_secure, X509Certificate_t966CC553AF25AE7991F5B4C2AACBCF6C66C8F9C4* ___3_caCert, X509Certificate_t966CC553AF25AE7991F5B4C2AACBCF6C66C8F9C4* ___4_clientCert, int32_t ___5_sslProtocol, RemoteCertificateValidationCallback_t2F4C5801F96B2C2BF934511796C5BFEAEBF01955* ___6_userCertificateValidationCallback, LocalCertificateSelectionCallback_t71A03329606A5610ECC62BFBE6327C1EF9195859* ___7_userCertificateSelectionCallback, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17473,7 +17473,7 @@ IL_0076:
 		return;
 	}
 }
-// Method Definition Index: 92571
+// Method Definition Index: 92575
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttNetworkChannel_Connect_m3F4167689BB3275AA0BD94B947C3ADA420D04EF6 (MqttNetworkChannel_t05F5B187CC256793C06CEC82432ACE33D9B1C319* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17522,7 +17522,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttNetworkChannel_Connect_m3F4167689BB3
 		return;
 	}
 }
-// Method Definition Index: 92572
+// Method Definition Index: 92576
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MqttNetworkChannel_Send_mF3084A0FB471072B076E84F380E38E43624D32C0 (MqttNetworkChannel_t05F5B187CC256793C06CEC82432ACE33D9B1C319* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_buffer, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17563,7 +17563,7 @@ IL_0015:
 		return L_4;
 	}
 }
-// Method Definition Index: 92573
+// Method Definition Index: 92577
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MqttNetworkChannel_Receive_mF1B5F9E29DB032C003931B9C29EE0BA1D577F16C (MqttNetworkChannel_t05F5B187CC256793C06CEC82432ACE33D9B1C319* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_buffer, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17673,7 +17673,7 @@ IL_003f:
 		return L_14;
 	}
 }
-// Method Definition Index: 92574
+// Method Definition Index: 92578
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MqttNetworkChannel_Receive_m1B058511CE1306BC800B903A8BE93B1DD93510AE (MqttNetworkChannel_t05F5B187CC256793C06CEC82432ACE33D9B1C319* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_buffer, int32_t ___1_timeout, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17739,7 +17739,7 @@ IL_0028:
 		return L_6;
 	}
 }
-// Method Definition Index: 92575
+// Method Definition Index: 92579
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttNetworkChannel_Close_mF8D0F3CAC487438973F9870F038ED8952038CD14 (MqttNetworkChannel_t05F5B187CC256793C06CEC82432ACE33D9B1C319* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17767,7 +17767,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttNetworkChannel_Close_mF8D0F3CAC48743
 		return;
 	}
 }
-// Method Definition Index: 92576
+// Method Definition Index: 92580
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttNetworkChannel_Accept_m817F00B0D07E27C6AB67A188E785472C063575C5 (MqttNetworkChannel_t05F5B187CC256793C06CEC82432ACE33D9B1C319* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17803,7 +17803,7 @@ IL_0003:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92577
+// Method Definition Index: 92581
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IPAddressUtility_GetAddressFamily_mB2768DBDAC63DF3547114A528825D3F51DE7E456 (IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* ___0_ipAddress, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17848,7 +17848,7 @@ IL_000a:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92578
+// Method Definition Index: 92582
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MqttSslUtility_ToSslPlatformEnum_mA52005516BEBEB2CC55BCB69FD4E4E63B3127487 (int32_t ___0_mqttSslProtocol, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17948,7 +17948,7 @@ IL_0038:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92579
+// Method Definition Index: 92583
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* QueueExtension_Get_m2488894C3A0078CE5A242708CDE413602FC4D88E (Queue_t82FD2BE12D138AF4D22C801CB5044DAEC2BA66BC* ___0_queue, QueuePredicate_t180005078A01BCE123C84F40D5DFE758983FFBFB* ___1_predicate, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18159,7 +18159,7 @@ bool QueuePredicate_Invoke_mA1ACFBDFF753EF3F05769154C4F2136A38D97755_OpenGeneric
 	NullCheck(___0_item);
 	return GenericInterfaceFuncInvoker0< bool >::Invoke(method, ___0_item);
 }
-// Method Definition Index: 92580
+// Method Definition Index: 92584
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QueuePredicate__ctor_mE8483CF7A4E9FF7FB1C0ABFB3E85BAD6ED1398B9 (QueuePredicate_t180005078A01BCE123C84F40D5DFE758983FFBFB* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -18212,20 +18212,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QueuePredicate__ctor_mE8483CF7A4E9FF7FB1
 	}
 	__this->___extra_arg = (intptr_t)&QueuePredicate_Invoke_mA1ACFBDFF753EF3F05769154C4F2136A38D97755_Multicast;
 }
-// Method Definition Index: 92581
+// Method Definition Index: 92585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool QueuePredicate_Invoke_mA1ACFBDFF753EF3F05769154C4F2136A38D97755 (QueuePredicate_t180005078A01BCE123C84F40D5DFE758983FFBFB* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_item, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 92582
+// Method Definition Index: 92586
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* QueuePredicate_BeginInvoke_mA2E3450AD4AE2FA898924ABB22A7434731BE0D75 (QueuePredicate_t180005078A01BCE123C84F40D5DFE758983FFBFB* __this, RuntimeObject* ___0_item, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = ___0_item;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
-// Method Definition Index: 92583
+// Method Definition Index: 92587
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool QueuePredicate_EndInvoke_m40B02D38F06A9F2FC6F80C290002ED4E529B623B (QueuePredicate_t180005078A01BCE123C84F40D5DFE758983FFBFB* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -18269,7 +18269,7 @@ void WriteTrace_Invoke_m0493E57474757607178524F9D0984B61B77E50F2_OpenStatic(Writ
 	typedef void (*FunctionPointerType) (String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___method_ptr)(___0_format, ___1_args, method);
 }
-// Method Definition Index: 92584
+// Method Definition Index: 92588
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteTrace__ctor_m0EC36C41CA66F5EC45CC8FF64CB6FFAE43F0687F (WriteTrace_tC035FAB4C559D02197672CF9A01799D307FAF7C6* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -18306,13 +18306,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteTrace__ctor_m0EC36C41CA66F5EC45CC8F
 	}
 	__this->___extra_arg = (intptr_t)&WriteTrace_Invoke_m0493E57474757607178524F9D0984B61B77E50F2_Multicast;
 }
-// Method Definition Index: 92585
+// Method Definition Index: 92589
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteTrace_Invoke_m0493E57474757607178524F9D0984B61B77E50F2 (WriteTrace_tC035FAB4C559D02197672CF9A01799D307FAF7C6* __this, String_t* ___0_format, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_format, ___1_args, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 92586
+// Method Definition Index: 92590
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* WriteTrace_BeginInvoke_m08AD3528658791BE5DD25557CAB294F2A60AE9A3 (WriteTrace_tC035FAB4C559D02197672CF9A01799D307FAF7C6* __this, String_t* ___0_format, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
@@ -18320,7 +18320,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* WriteTrace_BeginInvoke_m08AD35
 	__d_args[1] = ___1_args;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 92587
+// Method Definition Index: 92591
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteTrace_EndInvoke_m7168FD6CB3E4BC4E76790A876CC4FB0A54D3CFF7 (WriteTrace_tC035FAB4C559D02197672CF9A01799D307FAF7C6* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -18333,7 +18333,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteTrace_EndInvoke_m7168FD6CB3E4BC4E76
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92588
+// Method Definition Index: 92592
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trace_Debug_m0445BDC9DBBF55B171A6C782E8F6E2410833C913 (String_t* ___0_format, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18382,7 +18382,7 @@ IL_001c:
 		return;
 	}
 }
-// Method Definition Index: 92589
+// Method Definition Index: 92593
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trace_WriteLine_m60687A52D6FE19CD4E248A2C3B212C371A66C084 (int32_t ___0_level, String_t* ___1_format, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18455,7 +18455,7 @@ IL_002c:
 		return;
 	}
 }
-// Method Definition Index: 92590
+// Method Definition Index: 92594
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trace_WriteLine_mDD36E68C14CBD8A6AC117C40300D4A455EA9FB03 (int32_t ___0_level, String_t* ___1_format, RuntimeObject* ___2_arg1, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18530,7 +18530,7 @@ IL_0031:
 		return;
 	}
 }
-// Method Definition Index: 92591
+// Method Definition Index: 92595
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trace_WriteLine_m0E9C760114C18CC827CE7E8596A5D456258E872E (int32_t ___0_level, String_t* ___1_format, RuntimeObject* ___2_arg1, RuntimeObject* ___3_arg2, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18610,7 +18610,7 @@ IL_0035:
 		return;
 	}
 }
-// Method Definition Index: 92592
+// Method Definition Index: 92596
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trace_WriteLine_m24E95D6D4F6DC8EF9E625A07EA4B5A3304FE5935 (int32_t ___0_level, String_t* ___1_format, RuntimeObject* ___2_arg1, RuntimeObject* ___3_arg2, RuntimeObject* ___4_arg3, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18703,7 +18703,7 @@ IL_003a:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92593
+// Method Definition Index: 92597
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClientSession__ctor_m8E394F4C55E47E2252A12F1419BAF40231625783 (MqttClientSession_t542BB5FB553CF9F94065D5AF72765D1EC15AE85A* __this, String_t* ___0_clientId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18739,7 +18739,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClientSession__ctor_m8E394F4C55E47E2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92594
+// Method Definition Index: 92598
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MqttSession_get_ClientId_mB9F15FED9AEAB750303D2D52D87446305604B986 (MqttSession_t4FDC00B926607AB126DDE8734951DE5E2627336D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18760,7 +18760,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MqttSession_get_ClientId_mB9F15FED9
 		return L_0;
 	}
 }
-// Method Definition Index: 92595
+// Method Definition Index: 92599
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttSession_set_ClientId_mD2EB9CD11454C975EABA237BC0A470CB4B96A6F5 (MqttSession_t4FDC00B926607AB126DDE8734951DE5E2627336D* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18784,7 +18784,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttSession_set_ClientId_mD2EB9CD11454C9
 		return;
 	}
 }
-// Method Definition Index: 92596
+// Method Definition Index: 92600
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* MqttSession_get_InflightMessages_m533D4378769BD6A313E17810A1F10874C63828F3 (MqttSession_t4FDC00B926607AB126DDE8734951DE5E2627336D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18805,7 +18805,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8
 		return L_0;
 	}
 }
-// Method Definition Index: 92597
+// Method Definition Index: 92601
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttSession_set_InflightMessages_m08D3235A8F983F30817DE7D5EF4299B8D7A30396 (MqttSession_t4FDC00B926607AB126DDE8734951DE5E2627336D* __this, Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18829,7 +18829,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttSession_set_InflightMessages_m08D323
 		return;
 	}
 }
-// Method Definition Index: 92598
+// Method Definition Index: 92602
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttSession__ctor_m22C3706B631EED346FA3C56945617BC1C73E04E9 (MqttSession_t4FDC00B926607AB126DDE8734951DE5E2627336D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18855,7 +18855,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttSession__ctor_m22C3706B631EED346FA3C
 		return;
 	}
 }
-// Method Definition Index: 92599
+// Method Definition Index: 92603
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttSession__ctor_m73F117E8A7215D61F59FB8460919F9398CE19656 (MqttSession_t4FDC00B926607AB126DDE8734951DE5E2627336D* __this, String_t* ___0_clientId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18898,7 +18898,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttSession__ctor_m73F117E8A7215D61F59FB
 		return;
 	}
 }
-// Method Definition Index: 92600
+// Method Definition Index: 92604
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttSession_Clear_m8B23965F61574753185399B165249F1555A41056 (MqttSession_t4FDC00B926607AB126DDE8734951DE5E2627336D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18942,7 +18942,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttSession_Clear_m8B23965F6157475318539
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92601
+// Method Definition Index: 92605
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t MqttMsgBase_get_Type_mF7920FA550A16DB7CD650B605BB185D2C91B7C6E (MqttMsgBase_t91E03B0493FCC9E137EDD52C5659AE15643395E8* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18974,7 +18974,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92602
+// Method Definition Index: 92606
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgBase_set_Type_mA7657631C2CACDEDFC036D26D9A9A7B920716414 (MqttMsgBase_t91E03B0493FCC9E137EDD52C5659AE15643395E8* __this, uint8_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19000,7 +19000,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgBase_set_Type_mA7657631C2CACDEDFC
 		return;
 	}
 }
-// Method Definition Index: 92603
+// Method Definition Index: 92607
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MqttMsgBase_get_DupFlag_m33CA73A4D663E7F7F6D6EE734F03ED09C2D56BAC (MqttMsgBase_t91E03B0493FCC9E137EDD52C5659AE15643395E8* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19032,7 +19032,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92604
+// Method Definition Index: 92608
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgBase_set_DupFlag_mEBB1483486635B330EE013EECEE3FC75C92962DE (MqttMsgBase_t91E03B0493FCC9E137EDD52C5659AE15643395E8* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19058,7 +19058,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgBase_set_DupFlag_mEBB1483486635B3
 		return;
 	}
 }
-// Method Definition Index: 92605
+// Method Definition Index: 92609
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t MqttMsgBase_get_QosLevel_mF379FB456BA247F05795E3A37A93ECE1CB8EE9A6 (MqttMsgBase_t91E03B0493FCC9E137EDD52C5659AE15643395E8* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19090,7 +19090,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92606
+// Method Definition Index: 92610
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgBase_set_QosLevel_mD874D20E090D70AB1A12F1917A7F784EE3382B49 (MqttMsgBase_t91E03B0493FCC9E137EDD52C5659AE15643395E8* __this, uint8_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19116,7 +19116,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgBase_set_QosLevel_mD874D20E090D70
 		return;
 	}
 }
-// Method Definition Index: 92607
+// Method Definition Index: 92611
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MqttMsgBase_get_Retain_m8B989B50E3D6D4EBE48B7CD7E9F4C725A3D64552 (MqttMsgBase_t91E03B0493FCC9E137EDD52C5659AE15643395E8* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19148,7 +19148,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92608
+// Method Definition Index: 92612
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgBase_set_Retain_m388FCD741FB2E4A40553C2BA66541C29CB2FC927 (MqttMsgBase_t91E03B0493FCC9E137EDD52C5659AE15643395E8* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19174,7 +19174,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgBase_set_Retain_m388FCD741FB2E4A4
 		return;
 	}
 }
-// Method Definition Index: 92609
+// Method Definition Index: 92613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t MqttMsgBase_get_MessageId_m0003C0D71A7320C5AAFD92342FFC9AB0A1BCC794 (MqttMsgBase_t91E03B0493FCC9E137EDD52C5659AE15643395E8* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19206,7 +19206,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92610
+// Method Definition Index: 92614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgBase_set_MessageId_mF80153EE8C10AB0ECE64871DB8C50F4566821AF8 (MqttMsgBase_t91E03B0493FCC9E137EDD52C5659AE15643395E8* __this, uint16_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19232,7 +19232,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgBase_set_MessageId_mF80153EE8C10A
 		return;
 	}
 }
-// Method Definition Index: 92612
+// Method Definition Index: 92616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MqttMsgBase_encodeRemainingLength_mE12C106865F5D7FB7D60C227489C9A34133508E8 (MqttMsgBase_t91E03B0493FCC9E137EDD52C5659AE15643395E8* __this, int32_t ___0_remainingLength, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_buffer, int32_t ___2_index, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19327,7 +19327,7 @@ IL_003c:
 		return L_12;
 	}
 }
-// Method Definition Index: 92613
+// Method Definition Index: 92617
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MqttMsgBase_decodeRemainingLength_m3F1B620D9280F5360CE6B6BA33838F548A0D0654 (RuntimeObject* ___0_channel, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19424,7 +19424,7 @@ IL_0042:
 		return L_14;
 	}
 }
-// Method Definition Index: 92614
+// Method Definition Index: 92618
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MqttMsgBase_GetTraceString_m0859B24338FCB09AC18606F91DE92CC88FBE6863 (MqttMsgBase_t91E03B0493FCC9E137EDD52C5659AE15643395E8* __this, String_t* ___0_name, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_fieldNames, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___2_fieldValues, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19670,7 +19670,7 @@ IL_00a4:
 		return L_41;
 	}
 }
-// Method Definition Index: 92615
+// Method Definition Index: 92619
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MqttMsgBase_GetStringObject_m46DA1230298221E3948D500A04CDCEB490932EC3 (MqttMsgBase_t91E03B0493FCC9E137EDD52C5659AE15643395E8* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19961,7 +19961,7 @@ IL_00e9:
 		return L_52;
 	}
 }
-// Method Definition Index: 92616
+// Method Definition Index: 92620
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgBase__ctor_mD1BBA229449C553E7C0941CBA5E8146410CCB568 (MqttMsgBase_t91E03B0493FCC9E137EDD52C5659AE15643395E8* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19985,7 +19985,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgBase__ctor_mD1BBA229449C553E7C094
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92617
+// Method Definition Index: 92621
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MqttMsgConnack_get_SessionPresent_m02F85A4AB1F37D82CB4A138B3CF1220D59BD892F (MqttMsgConnack_t09A7061533130173844BE729C49167A1A0DBFF6B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20017,7 +20017,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92618
+// Method Definition Index: 92622
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgConnack_set_SessionPresent_mE73FDFD6D195670D2F0227F2CF2C66B80ABC63F5 (MqttMsgConnack_t09A7061533130173844BE729C49167A1A0DBFF6B* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20043,7 +20043,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgConnack_set_SessionPresent_mE73FD
 		return;
 	}
 }
-// Method Definition Index: 92619
+// Method Definition Index: 92623
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t MqttMsgConnack_get_ReturnCode_m466D98C5C97B3F84C5E9586C9AE675490097FD0A (MqttMsgConnack_t09A7061533130173844BE729C49167A1A0DBFF6B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20075,7 +20075,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92620
+// Method Definition Index: 92624
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgConnack_set_ReturnCode_mF9541D24242B3D41A279426B83126FA712EA0C4B (MqttMsgConnack_t09A7061533130173844BE729C49167A1A0DBFF6B* __this, uint8_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20101,7 +20101,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgConnack_set_ReturnCode_mF9541D242
 		return;
 	}
 }
-// Method Definition Index: 92621
+// Method Definition Index: 92625
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgConnack__ctor_m85520B0B378A857B6845251E6F7EAF5E8F69D858 (MqttMsgConnack_t09A7061533130173844BE729C49167A1A0DBFF6B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20130,7 +20130,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgConnack__ctor_m85520B0B378A857B68
 		return;
 	}
 }
-// Method Definition Index: 92622
+// Method Definition Index: 92626
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MqttMsgConnack_t09A7061533130173844BE729C49167A1A0DBFF6B* MqttMsgConnack_Parse_mE0006A89A14C33870D5E54064F582F5FC51E25D0 (uint8_t ___0_fixedHeaderFirstByte, uint8_t ___1_protocolVersion, RuntimeObject* ___2_channel, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20279,7 +20279,7 @@ IL_0064:
 		return L_24;
 	}
 }
-// Method Definition Index: 92623
+// Method Definition Index: 92627
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* MqttMsgConnack_GetBytes_mE92F7A49A644327F50A14682E03B47D4D56EDA47 (MqttMsgConnack_t09A7061533130173844BE729C49167A1A0DBFF6B* __this, uint8_t ___0_ProtocolVersion, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20545,7 +20545,7 @@ IL_00c6:
 		return L_42;
 	}
 }
-// Method Definition Index: 92624
+// Method Definition Index: 92628
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MqttMsgConnack_ToString_m1D9F55CC4DE26F023FAB3080B7908B261DEFFE4F (MqttMsgConnack_t09A7061533130173844BE729C49167A1A0DBFF6B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20607,7 +20607,7 @@ IL_0031:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92625
+// Method Definition Index: 92629
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MqttMsgConnect_get_ProtocolName_m58D716DA90C60A0A266996286019DC287082DFAC (MqttMsgConnect_t52499F7BE8FC5326D0C743DAE98B6014605488F1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20639,7 +20639,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92626
+// Method Definition Index: 92630
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgConnect_set_ProtocolName_mBD86061453ABC816427DC251A5201C63215DE482 (MqttMsgConnect_t52499F7BE8FC5326D0C743DAE98B6014605488F1* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20666,7 +20666,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgConnect_set_ProtocolName_mBD86061
 		return;
 	}
 }
-// Method Definition Index: 92627
+// Method Definition Index: 92631
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t MqttMsgConnect_get_ProtocolVersion_m09BE2CBF06EF8469794E2A90C4217A1A2FA683CD (MqttMsgConnect_t52499F7BE8FC5326D0C743DAE98B6014605488F1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20698,7 +20698,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92628
+// Method Definition Index: 92632
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgConnect_set_ProtocolVersion_mF1D3D219EE8B21D4D9A28C0169387CA4BBF9AC55 (MqttMsgConnect_t52499F7BE8FC5326D0C743DAE98B6014605488F1* __this, uint8_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20724,7 +20724,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgConnect_set_ProtocolVersion_mF1D3
 		return;
 	}
 }
-// Method Definition Index: 92629
+// Method Definition Index: 92633
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MqttMsgConnect_get_ClientId_mD2BA1C7647D99DEA9BCAE40715B33B99432C4B82 (MqttMsgConnect_t52499F7BE8FC5326D0C743DAE98B6014605488F1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20756,7 +20756,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92630
+// Method Definition Index: 92634
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgConnect_set_ClientId_m39D95200781C53FDF67BA2D78A89C5FBD4649AFF (MqttMsgConnect_t52499F7BE8FC5326D0C743DAE98B6014605488F1* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20783,7 +20783,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgConnect_set_ClientId_m39D95200781
 		return;
 	}
 }
-// Method Definition Index: 92631
+// Method Definition Index: 92635
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MqttMsgConnect_get_WillRetain_m0D96251DA7886E9FC8D63168ABC747AC950FD550 (MqttMsgConnect_t52499F7BE8FC5326D0C743DAE98B6014605488F1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20815,7 +20815,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92632
+// Method Definition Index: 92636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgConnect_set_WillRetain_mD1F8A247D03351DDC4EA159A157F29E1B2399669 (MqttMsgConnect_t52499F7BE8FC5326D0C743DAE98B6014605488F1* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20841,7 +20841,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgConnect_set_WillRetain_mD1F8A247D
 		return;
 	}
 }
-// Method Definition Index: 92633
+// Method Definition Index: 92637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t MqttMsgConnect_get_WillQosLevel_m7E2BA01EC4F3755CE5D0AC09DD24B7D1B2E7DF20 (MqttMsgConnect_t52499F7BE8FC5326D0C743DAE98B6014605488F1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20873,7 +20873,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92634
+// Method Definition Index: 92638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgConnect_set_WillQosLevel_m4CEE361A1727EBF9879EDF60A86F17B53775E8E1 (MqttMsgConnect_t52499F7BE8FC5326D0C743DAE98B6014605488F1* __this, uint8_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20899,7 +20899,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgConnect_set_WillQosLevel_m4CEE361
 		return;
 	}
 }
-// Method Definition Index: 92635
+// Method Definition Index: 92639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MqttMsgConnect_get_WillFlag_mA287687CCDC7CED92E04D54258CFC3A2EF276AD5 (MqttMsgConnect_t52499F7BE8FC5326D0C743DAE98B6014605488F1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20931,7 +20931,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92636
+// Method Definition Index: 92640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgConnect_set_WillFlag_mD6FFCB0B272194348B3C648ABCB34715145DF8F2 (MqttMsgConnect_t52499F7BE8FC5326D0C743DAE98B6014605488F1* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20957,7 +20957,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgConnect_set_WillFlag_mD6FFCB0B272
 		return;
 	}
 }
-// Method Definition Index: 92637
+// Method Definition Index: 92641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MqttMsgConnect_get_WillTopic_m196F7DB835B7445428401C7B09401487204A8224 (MqttMsgConnect_t52499F7BE8FC5326D0C743DAE98B6014605488F1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20989,7 +20989,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92638
+// Method Definition Index: 92642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgConnect_set_WillTopic_mDB6DE5921CDEBD27AD6D2920326600B4D7F0B9C1 (MqttMsgConnect_t52499F7BE8FC5326D0C743DAE98B6014605488F1* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21016,7 +21016,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgConnect_set_WillTopic_mDB6DE5921C
 		return;
 	}
 }
-// Method Definition Index: 92639
+// Method Definition Index: 92643
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MqttMsgConnect_get_WillMessage_mFF93716AD6A943330339071849732E4ECAA1162A (MqttMsgConnect_t52499F7BE8FC5326D0C743DAE98B6014605488F1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21048,7 +21048,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92640
+// Method Definition Index: 92644
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgConnect_set_WillMessage_m788AF2728E6BF4E8811BFC43C711D8305599C70B (MqttMsgConnect_t52499F7BE8FC5326D0C743DAE98B6014605488F1* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21075,7 +21075,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgConnect_set_WillMessage_m788AF272
 		return;
 	}
 }
-// Method Definition Index: 92641
+// Method Definition Index: 92645
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MqttMsgConnect_get_Username_m141B145F5827B839D3AF8A9F35A8F902E6C1C413 (MqttMsgConnect_t52499F7BE8FC5326D0C743DAE98B6014605488F1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21107,7 +21107,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92642
+// Method Definition Index: 92646
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgConnect_set_Username_m3471C2FB5DAB4C2DC9C5E553BAA1ADCC6716BA85 (MqttMsgConnect_t52499F7BE8FC5326D0C743DAE98B6014605488F1* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21134,7 +21134,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgConnect_set_Username_m3471C2FB5DA
 		return;
 	}
 }
-// Method Definition Index: 92643
+// Method Definition Index: 92647
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MqttMsgConnect_get_Password_m1AAF0807DCC23A9B40E3477C8D5DA12C5154FE40 (MqttMsgConnect_t52499F7BE8FC5326D0C743DAE98B6014605488F1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21166,7 +21166,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92644
+// Method Definition Index: 92648
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgConnect_set_Password_m7A100F18E6B9DCAE9685CE4F1C238F2D06E5F9E0 (MqttMsgConnect_t52499F7BE8FC5326D0C743DAE98B6014605488F1* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21193,7 +21193,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgConnect_set_Password_m7A100F18E6B
 		return;
 	}
 }
-// Method Definition Index: 92645
+// Method Definition Index: 92649
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MqttMsgConnect_get_CleanSession_m9AC1E57EE8D5C1E7FA63E1EDB6FA0C0483FB8223 (MqttMsgConnect_t52499F7BE8FC5326D0C743DAE98B6014605488F1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21225,7 +21225,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92646
+// Method Definition Index: 92650
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgConnect_set_CleanSession_m9EEED9B7FCC7660CBA68BFC03FBC07984071AD4C (MqttMsgConnect_t52499F7BE8FC5326D0C743DAE98B6014605488F1* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21251,7 +21251,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgConnect_set_CleanSession_m9EEED9B
 		return;
 	}
 }
-// Method Definition Index: 92647
+// Method Definition Index: 92651
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t MqttMsgConnect_get_KeepAlivePeriod_mB01797AA1FCE6F7322F3CF456E6F1C1D0B5E6A43 (MqttMsgConnect_t52499F7BE8FC5326D0C743DAE98B6014605488F1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21283,7 +21283,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92648
+// Method Definition Index: 92652
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgConnect_set_KeepAlivePeriod_m234D39633287FC0575DDC18E49A5D12CF30369E1 (MqttMsgConnect_t52499F7BE8FC5326D0C743DAE98B6014605488F1* __this, uint16_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21309,7 +21309,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgConnect_set_KeepAlivePeriod_m234D
 		return;
 	}
 }
-// Method Definition Index: 92649
+// Method Definition Index: 92653
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgConnect__ctor_mC8A3C494A66EAA7EE8FA06193CF6E1D817F511DE (MqttMsgConnect_t52499F7BE8FC5326D0C743DAE98B6014605488F1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21338,7 +21338,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgConnect__ctor_mC8A3C494A66EAA7EE8
 		return;
 	}
 }
-// Method Definition Index: 92650
+// Method Definition Index: 92654
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgConnect__ctor_m01A6E266ED4C77237ED457D5AFE5B9FABEBC7358 (MqttMsgConnect_t52499F7BE8FC5326D0C743DAE98B6014605488F1* __this, String_t* ___0_clientId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21366,7 +21366,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgConnect__ctor_m01A6E266ED4C77237E
 		return;
 	}
 }
-// Method Definition Index: 92651
+// Method Definition Index: 92655
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgConnect__ctor_m56721C0383AC5C4AC415B8390E06D218EB900104 (MqttMsgConnect_t52499F7BE8FC5326D0C743DAE98B6014605488F1* __this, String_t* ___0_clientId, String_t* ___1_username, String_t* ___2_password, bool ___3_willRetain, uint8_t ___4_willQosLevel, bool ___5_willFlag, String_t* ___6_willTopic, String_t* ___7_willMessage, bool ___8_cleanSession, uint16_t ___9_keepAlivePeriod, uint8_t ___10_protocolVersion, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21489,7 +21489,7 @@ IL_007a:
 		return;
 	}
 }
-// Method Definition Index: 92652
+// Method Definition Index: 92656
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MqttMsgConnect_t52499F7BE8FC5326D0C743DAE98B6014605488F1* MqttMsgConnect_Parse_m06118E0F114BF74E6E2E2DAAE066C8614045C594 (uint8_t ___0_fixedHeaderFirstByte, uint8_t ___1_protocolVersion, RuntimeObject* ___2_channel, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22259,7 +22259,7 @@ IL_033f:
 		return L_232;
 	}
 }
-// Method Definition Index: 92653
+// Method Definition Index: 92657
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* MqttMsgConnect_GetBytes_m6CAEBC315F13F5CCFF15F5A5C8181D3541917337 (MqttMsgConnect_t52499F7BE8FC5326D0C743DAE98B6014605488F1* __this, uint8_t ___0_protocolVersion, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23680,7 +23680,7 @@ IL_053c:
 		return L_228;
 	}
 }
-// Method Definition Index: 92654
+// Method Definition Index: 92658
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MqttMsgConnect_ToString_m66B7E12584F208E086C30E3020EAA939107600C0 (MqttMsgConnect_t52499F7BE8FC5326D0C743DAE98B6014605488F1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23862,7 +23862,7 @@ IL_010d:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92655
+// Method Definition Index: 92659
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MqttMsgConnect_t52499F7BE8FC5326D0C743DAE98B6014605488F1* MqttMsgConnectEventArgs_get_Message_m212E8E38FC9F35F40B1B9C0E12E953F443AD2C9E (MqttMsgConnectEventArgs_t25B04E80D71A271F28CD6A49FC9267ED34194166* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23883,7 +23883,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MqttMsgConnect_t52499F7BE8FC5326D0C743DAE98B6
 		return L_0;
 	}
 }
-// Method Definition Index: 92656
+// Method Definition Index: 92660
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgConnectEventArgs_set_Message_m80D801CAF3BD4462F4BCDA4E422B2089B1A032D6 (MqttMsgConnectEventArgs_t25B04E80D71A271F28CD6A49FC9267ED34194166* __this, MqttMsgConnect_t52499F7BE8FC5326D0C743DAE98B6014605488F1* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23907,7 +23907,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgConnectEventArgs_set_Message_m80D
 		return;
 	}
 }
-// Method Definition Index: 92657
+// Method Definition Index: 92661
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgConnectEventArgs__ctor_m7CAD45EACBBD289B74F7832A41F4DCC0B4E785A2 (MqttMsgConnectEventArgs_t25B04E80D71A271F28CD6A49FC9267ED34194166* __this, MqttMsgConnect_t52499F7BE8FC5326D0C743DAE98B6014605488F1* ___0_connect, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23950,7 +23950,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgConnectEventArgs__ctor_m7CAD45EAC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92658
+// Method Definition Index: 92662
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MqttMsgBase_t91E03B0493FCC9E137EDD52C5659AE15643395E8* MqttMsgContext_get_Message_m4C387F904209F61A86E267AEA32E59A0B87C1F98 (MqttMsgContext_t614D09D2C3F7F2500CDE71FC10DD4D32CC8C3073* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23971,7 +23971,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MqttMsgBase_t91E03B0493FCC9E137EDD52C5659AE15
 		return L_0;
 	}
 }
-// Method Definition Index: 92659
+// Method Definition Index: 92663
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgContext_set_Message_m4356D483F66C3F589EDE9A9343F16B1FCEC86D51 (MqttMsgContext_t614D09D2C3F7F2500CDE71FC10DD4D32CC8C3073* __this, MqttMsgBase_t91E03B0493FCC9E137EDD52C5659AE15643395E8* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23995,7 +23995,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgContext_set_Message_m4356D483F66C
 		return;
 	}
 }
-// Method Definition Index: 92660
+// Method Definition Index: 92664
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MqttMsgContext_get_State_mCEDC03C6AABE7B4E933AF99FF9A18FA5D98D6405 (MqttMsgContext_t614D09D2C3F7F2500CDE71FC10DD4D32CC8C3073* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24016,7 +24016,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MqttMsgContext_get_State_mCEDC03C6AAB
 		return L_0;
 	}
 }
-// Method Definition Index: 92661
+// Method Definition Index: 92665
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgContext_set_State_mB4F28FE19275037771F62E95F5439C7475D5C0BB (MqttMsgContext_t614D09D2C3F7F2500CDE71FC10DD4D32CC8C3073* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24039,7 +24039,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgContext_set_State_mB4F28FE1927503
 		return;
 	}
 }
-// Method Definition Index: 92662
+// Method Definition Index: 92666
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MqttMsgContext_get_Flow_m944A9328209B75DAB764619D062EC03C6831F5D2 (MqttMsgContext_t614D09D2C3F7F2500CDE71FC10DD4D32CC8C3073* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24060,7 +24060,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MqttMsgContext_get_Flow_m944A9328209B
 		return L_0;
 	}
 }
-// Method Definition Index: 92663
+// Method Definition Index: 92667
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgContext_set_Flow_mA8CE78E3BE81C54D0EC8BB7B6725A463F4FF2F72 (MqttMsgContext_t614D09D2C3F7F2500CDE71FC10DD4D32CC8C3073* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24083,7 +24083,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgContext_set_Flow_mA8CE78E3BE81C54
 		return;
 	}
 }
-// Method Definition Index: 92664
+// Method Definition Index: 92668
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MqttMsgContext_get_Timestamp_mBE0EDBF576110AE5EF488B12E4CB522B5B866342 (MqttMsgContext_t614D09D2C3F7F2500CDE71FC10DD4D32CC8C3073* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24104,7 +24104,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MqttMsgContext_get_Timestamp_mBE0EDBF
 		return L_0;
 	}
 }
-// Method Definition Index: 92665
+// Method Definition Index: 92669
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgContext_set_Timestamp_m7DCF9E17B338E8F7E10F720F2733C0648302AF43 (MqttMsgContext_t614D09D2C3F7F2500CDE71FC10DD4D32CC8C3073* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24127,7 +24127,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgContext_set_Timestamp_m7DCF9E17B3
 		return;
 	}
 }
-// Method Definition Index: 92666
+// Method Definition Index: 92670
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MqttMsgContext_get_Attempt_mB56B7D1A5450A14FA77115E219E2AC43E848A132 (MqttMsgContext_t614D09D2C3F7F2500CDE71FC10DD4D32CC8C3073* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24148,7 +24148,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MqttMsgContext_get_Attempt_mB56B7D1A5
 		return L_0;
 	}
 }
-// Method Definition Index: 92667
+// Method Definition Index: 92671
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgContext_set_Attempt_m7F65576B12F2E0AEF0E38281320820026F89A57A (MqttMsgContext_t614D09D2C3F7F2500CDE71FC10DD4D32CC8C3073* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24171,7 +24171,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgContext_set_Attempt_m7F65576B12F2
 		return;
 	}
 }
-// Method Definition Index: 92668
+// Method Definition Index: 92672
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MqttMsgContext_get_Key_m0C60ABAC4C112AFE25986176E9CC19CB4C22B8E4 (MqttMsgContext_t614D09D2C3F7F2500CDE71FC10DD4D32CC8C3073* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24235,7 +24235,7 @@ IL_0035:
 		return L_7;
 	}
 }
-// Method Definition Index: 92669
+// Method Definition Index: 92673
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgContext__ctor_m8CF61398524A94F0F550A0668931AF40DBB320F3 (MqttMsgContext_t614D09D2C3F7F2500CDE71FC10DD4D32CC8C3073* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24275,7 +24275,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgContext__ctor_m8CF61398524A94F0F5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92670
+// Method Definition Index: 92674
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgDisconnect__ctor_mA71BBA32E472546417F9BA5A871838C75A51563D (MqttMsgDisconnect_t117A8A68EE30E0711C47D7679CF3B11A5B0866A1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24304,7 +24304,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgDisconnect__ctor_mA71BBA32E472546
 		return;
 	}
 }
-// Method Definition Index: 92671
+// Method Definition Index: 92675
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MqttMsgDisconnect_t117A8A68EE30E0711C47D7679CF3B11A5B0866A1* MqttMsgDisconnect_Parse_m4D2FA45F24189C74813186483FCE3A54946C14D3 (uint8_t ___0_fixedHeaderFirstByte, uint8_t ___1_protocolVersion, RuntimeObject* ___2_channel, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24398,7 +24398,7 @@ IL_0030:
 		return L_9;
 	}
 }
-// Method Definition Index: 92672
+// Method Definition Index: 92676
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* MqttMsgDisconnect_GetBytes_m6ED3DBC3F8669B146618D43FB5C17B60D2048E2D (MqttMsgDisconnect_t117A8A68EE30E0711C47D7679CF3B11A5B0866A1* __this, uint8_t ___0_protocolVersion, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24490,7 +24490,7 @@ IL_0038:
 		return L_13;
 	}
 }
-// Method Definition Index: 92673
+// Method Definition Index: 92677
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MqttMsgDisconnect_ToString_m45EB3F72DC0B50C47FC51CEA1576DFB046BD85C7 (MqttMsgDisconnect_t117A8A68EE30E0711C47D7679CF3B11A5B0866A1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24537,7 +24537,7 @@ IL_0011:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92674
+// Method Definition Index: 92678
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPingReq__ctor_mFE3179D1BAB0249011146D39FC0F76A1D2727F26 (MqttMsgPingReq_t70CC9DF26B8ACF707EEC74AA8446524AD36D0518* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24566,7 +24566,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPingReq__ctor_mFE3179D1BAB0249011
 		return;
 	}
 }
-// Method Definition Index: 92675
+// Method Definition Index: 92679
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* MqttMsgPingReq_GetBytes_m2D39FCFA6E4D9CB7ACEBE728AAED1A3300E1E37B (MqttMsgPingReq_t70CC9DF26B8ACF707EEC74AA8446524AD36D0518* __this, uint8_t ___0_protocolVersion, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24658,7 +24658,7 @@ IL_0038:
 		return L_13;
 	}
 }
-// Method Definition Index: 92676
+// Method Definition Index: 92680
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MqttMsgPingReq_t70CC9DF26B8ACF707EEC74AA8446524AD36D0518* MqttMsgPingReq_Parse_m6FC2287E114152CCF3142CBF33FB7557BB0AC2F6 (uint8_t ___0_fixedHeaderFirstByte, uint8_t ___1_protocolVersion, RuntimeObject* ___2_channel, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24752,7 +24752,7 @@ IL_0030:
 		return L_9;
 	}
 }
-// Method Definition Index: 92677
+// Method Definition Index: 92681
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MqttMsgPingReq_ToString_mBB065432EA4135D039EF6881C6F7848E71016D0B (MqttMsgPingReq_t70CC9DF26B8ACF707EEC74AA8446524AD36D0518* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24799,7 +24799,7 @@ IL_0011:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92678
+// Method Definition Index: 92682
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPingResp__ctor_m4A7BD66083163049321D98DBFFFBCB188A0693E6 (MqttMsgPingResp_tEF2769596EF3784178A8188432EC3C8D6FD04D54* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24828,7 +24828,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPingResp__ctor_m4A7BD660831630493
 		return;
 	}
 }
-// Method Definition Index: 92679
+// Method Definition Index: 92683
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MqttMsgPingResp_tEF2769596EF3784178A8188432EC3C8D6FD04D54* MqttMsgPingResp_Parse_m759DCB7B8459B2F04EA3D84F2F2A00FE4C47A347 (uint8_t ___0_fixedHeaderFirstByte, uint8_t ___1_protocolVersion, RuntimeObject* ___2_channel, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24922,7 +24922,7 @@ IL_0030:
 		return L_9;
 	}
 }
-// Method Definition Index: 92680
+// Method Definition Index: 92684
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* MqttMsgPingResp_GetBytes_m78705E122DB83BE4DB6F0F660B9DFABEF40906AD (MqttMsgPingResp_tEF2769596EF3784178A8188432EC3C8D6FD04D54* __this, uint8_t ___0_protocolVersion, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25014,7 +25014,7 @@ IL_0038:
 		return L_13;
 	}
 }
-// Method Definition Index: 92681
+// Method Definition Index: 92685
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MqttMsgPingResp_ToString_m21F684DDD2BE781EF788984495EB8CB4190861A3 (MqttMsgPingResp_tEF2769596EF3784178A8188432EC3C8D6FD04D54* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25061,7 +25061,7 @@ IL_0011:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92682
+// Method Definition Index: 92686
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPuback__ctor_m49173460D1B94B5B71BF5EE7407E9B5CD1B47C1D (MqttMsgPuback_tC6E976914B51205EBC1E86F282FC3B430BD6B836* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25090,7 +25090,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPuback__ctor_m49173460D1B94B5B71B
 		return;
 	}
 }
-// Method Definition Index: 92683
+// Method Definition Index: 92687
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* MqttMsgPuback_GetBytes_m150A002B5CF58A9AAE04DF6A84119CF0A068DB52 (MqttMsgPuback_tC6E976914B51205EBC1E86F282FC3B430BD6B836* __this, uint8_t ___0_protocolVersion, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25266,7 +25266,7 @@ IL_00a9:
 		return L_34;
 	}
 }
-// Method Definition Index: 92684
+// Method Definition Index: 92688
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MqttMsgPuback_tC6E976914B51205EBC1E86F282FC3B430BD6B836* MqttMsgPuback_Parse_mBA6158E7C1464FE7635F49CBC58D1A38677CE780 (uint8_t ___0_fixedHeaderFirstByte, uint8_t ___1_protocolVersion, RuntimeObject* ___2_channel, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25409,7 +25409,7 @@ IL_0070:
 		return L_28;
 	}
 }
-// Method Definition Index: 92685
+// Method Definition Index: 92689
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MqttMsgPuback_ToString_m67FDF7F80F00E3A4103380B04208B6295EBC71A5 (MqttMsgPuback_tC6E976914B51205EBC1E86F282FC3B430BD6B836* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25471,7 +25471,7 @@ IL_0031:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92686
+// Method Definition Index: 92690
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPubcomp__ctor_m23FBBA313CDD6F48D35F05CD4F16822F4FAEEB72 (MqttMsgPubcomp_t57F7EEB744312FE8657B7D3FF29713CBD4D6E503* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25500,7 +25500,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPubcomp__ctor_m23FBBA313CDD6F48D3
 		return;
 	}
 }
-// Method Definition Index: 92687
+// Method Definition Index: 92691
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* MqttMsgPubcomp_GetBytes_m274273AB4B648A9F17DE4D47EB8A30ED6D7B7A1D (MqttMsgPubcomp_t57F7EEB744312FE8657B7D3FF29713CBD4D6E503* __this, uint8_t ___0_protocolVersion, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25676,7 +25676,7 @@ IL_00a9:
 		return L_34;
 	}
 }
-// Method Definition Index: 92688
+// Method Definition Index: 92692
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MqttMsgPubcomp_t57F7EEB744312FE8657B7D3FF29713CBD4D6E503* MqttMsgPubcomp_Parse_m142A20DE8E0297E201416FB4BF2CEACA3C5D01F9 (uint8_t ___0_fixedHeaderFirstByte, uint8_t ___1_protocolVersion, RuntimeObject* ___2_channel, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25819,7 +25819,7 @@ IL_0070:
 		return L_28;
 	}
 }
-// Method Definition Index: 92689
+// Method Definition Index: 92693
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MqttMsgPubcomp_ToString_m50E2D5DAEC0A8D5D21B2C26B79281D0586805994 (MqttMsgPubcomp_t57F7EEB744312FE8657B7D3FF29713CBD4D6E503* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25881,7 +25881,7 @@ IL_0031:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92690
+// Method Definition Index: 92694
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MqttMsgPublish_get_Topic_mC473E552F4C203FC6A7A762F3B3FA9B294CB93CA (MqttMsgPublish_t577D290BDC918BB9E774ED459D6B1CABA07C29F7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25913,7 +25913,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92691
+// Method Definition Index: 92695
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPublish_set_Topic_mC3C143CC9D120E90F16395D53C29F971E89B933B (MqttMsgPublish_t577D290BDC918BB9E774ED459D6B1CABA07C29F7* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25940,7 +25940,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPublish_set_Topic_mC3C143CC9D120E
 		return;
 	}
 }
-// Method Definition Index: 92692
+// Method Definition Index: 92696
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* MqttMsgPublish_get_Message_m0ED74812367D18E454EF4913231F90CBA287E1D5 (MqttMsgPublish_t577D290BDC918BB9E774ED459D6B1CABA07C29F7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25973,7 +25973,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92693
+// Method Definition Index: 92697
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPublish_set_Message_mDEBB75DA1E6D10E7747885BBD08FD48FC3C86A6C (MqttMsgPublish_t577D290BDC918BB9E774ED459D6B1CABA07C29F7* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26000,7 +26000,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPublish_set_Message_mDEBB75DA1E6D
 		return;
 	}
 }
-// Method Definition Index: 92694
+// Method Definition Index: 92698
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPublish__ctor_mCEBD2A437E6443C85F29862CB3D2EB2779928D02 (MqttMsgPublish_t577D290BDC918BB9E774ED459D6B1CABA07C29F7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26029,7 +26029,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPublish__ctor_mCEBD2A437E6443C85F
 		return;
 	}
 }
-// Method Definition Index: 92695
+// Method Definition Index: 92699
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPublish__ctor_m6193D3F04DFED56AAE57F44BBF1ACCBB46D97AB0 (MqttMsgPublish_t577D290BDC918BB9E774ED459D6B1CABA07C29F7* __this, String_t* ___0_topic, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_message, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26058,7 +26058,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPublish__ctor_m6193D3F04DFED56AAE
 		return;
 	}
 }
-// Method Definition Index: 92696
+// Method Definition Index: 92700
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPublish__ctor_m314142C7AFE0D0EAF625C58A3E99FA5C8CD108FF (MqttMsgPublish_t577D290BDC918BB9E774ED459D6B1CABA07C29F7* __this, String_t* ___0_topic, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_message, bool ___2_dupFlag, uint8_t ___3_qosLevel, bool ___4_retain, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26113,7 +26113,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPublish__ctor_m314142C7AFE0D0EAF6
 		return;
 	}
 }
-// Method Definition Index: 92697
+// Method Definition Index: 92701
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* MqttMsgPublish_GetBytes_m4CC9E6387234D5335BB14BF99FF493A7CC074B15 (MqttMsgPublish_t577D290BDC918BB9E774ED459D6B1CABA07C29F7* __this, uint8_t ___0_protocolVersion, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26690,7 +26690,7 @@ IL_024c:
 		return L_95;
 	}
 }
-// Method Definition Index: 92698
+// Method Definition Index: 92702
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MqttMsgPublish_t577D290BDC918BB9E774ED459D6B1CABA07C29F7* MqttMsgPublish_Parse_m57CDA8279130664804B5B9F3E3913B135249CE24 (uint8_t ___0_fixedHeaderFirstByte, uint8_t ___1_protocolVersion, RuntimeObject* ___2_channel, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27045,7 +27045,7 @@ IL_0177:
 		return L_95;
 	}
 }
-// Method Definition Index: 92699
+// Method Definition Index: 92703
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MqttMsgPublish_ToString_m0F60BB6505C1B314C2E7381F5E0A9AA4A9ED6F1C (MqttMsgPublish_t577D290BDC918BB9E774ED459D6B1CABA07C29F7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27127,7 +27127,7 @@ IL_0053:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92700
+// Method Definition Index: 92704
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t MqttMsgPublishedEventArgs_get_MessageId_m51F5D3064802D235CDA65F9FDC4E221548C3BC35 (MqttMsgPublishedEventArgs_t60B18DE06F2F19E0EDE8847CA79B6E795F1D97DD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27159,7 +27159,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92701
+// Method Definition Index: 92705
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPublishedEventArgs_set_MessageId_m41B57E930CB10FC2B4DAA552CE9F7393F8899718 (MqttMsgPublishedEventArgs_t60B18DE06F2F19E0EDE8847CA79B6E795F1D97DD* __this, uint16_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27185,7 +27185,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPublishedEventArgs_set_MessageId_
 		return;
 	}
 }
-// Method Definition Index: 92702
+// Method Definition Index: 92706
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MqttMsgPublishedEventArgs_get_IsPublished_m5E83D42536EEAC4855BA1B2D0F4DEBCA494DCB4D (MqttMsgPublishedEventArgs_t60B18DE06F2F19E0EDE8847CA79B6E795F1D97DD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27217,7 +27217,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92703
+// Method Definition Index: 92707
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPublishedEventArgs_set_IsPublished_mFD1799978A596DE57128F65FA00C7BE7CB7E6077 (MqttMsgPublishedEventArgs_t60B18DE06F2F19E0EDE8847CA79B6E795F1D97DD* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27243,7 +27243,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPublishedEventArgs_set_IsPublishe
 		return;
 	}
 }
-// Method Definition Index: 92704
+// Method Definition Index: 92708
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPublishedEventArgs__ctor_mF4A497D112C641404CFEC78D2A9E4E03C1B68824 (MqttMsgPublishedEventArgs_t60B18DE06F2F19E0EDE8847CA79B6E795F1D97DD* __this, uint16_t ___0_messageId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27271,7 +27271,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPublishedEventArgs__ctor_mF4A497D
 		return;
 	}
 }
-// Method Definition Index: 92705
+// Method Definition Index: 92709
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPublishedEventArgs__ctor_m0F275520E1CC22CC0E9CCA9062B6A7F61A76F0D0 (MqttMsgPublishedEventArgs_t60B18DE06F2F19E0EDE8847CA79B6E795F1D97DD* __this, uint16_t ___0_messageId, bool ___1_isPublished, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27316,7 +27316,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPublishedEventArgs__ctor_m0F27552
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92706
+// Method Definition Index: 92710
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MqttMsgPublishEventArgs_get_Topic_m4DB8E7C99A1479B729E84122E52136B8093FFE3F (MqttMsgPublishEventArgs_t651C0F7A37CA2CA92453B94C8C12F2777C3D8AC5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27348,7 +27348,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92707
+// Method Definition Index: 92711
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPublishEventArgs_set_Topic_m005F733557D44C8B21FB7472707039302A26CA84 (MqttMsgPublishEventArgs_t651C0F7A37CA2CA92453B94C8C12F2777C3D8AC5* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27375,7 +27375,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPublishEventArgs_set_Topic_m005F7
 		return;
 	}
 }
-// Method Definition Index: 92708
+// Method Definition Index: 92712
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* MqttMsgPublishEventArgs_get_Message_mD21D0EBD6AED5D8CE7B88913F76DB0F4AF38BEA2 (MqttMsgPublishEventArgs_t651C0F7A37CA2CA92453B94C8C12F2777C3D8AC5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27408,7 +27408,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92709
+// Method Definition Index: 92713
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPublishEventArgs_set_Message_mE200DCF156C91D6927FB44B025C1DDFBB69330E7 (MqttMsgPublishEventArgs_t651C0F7A37CA2CA92453B94C8C12F2777C3D8AC5* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27435,7 +27435,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPublishEventArgs_set_Message_mE20
 		return;
 	}
 }
-// Method Definition Index: 92710
+// Method Definition Index: 92714
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MqttMsgPublishEventArgs_get_DupFlag_m97D5001D7B1F62DD1D061428885C949C1698D518 (MqttMsgPublishEventArgs_t651C0F7A37CA2CA92453B94C8C12F2777C3D8AC5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27467,7 +27467,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92711
+// Method Definition Index: 92715
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPublishEventArgs_set_DupFlag_m49567608C380999D9E012444B6E85485CF0EE71D (MqttMsgPublishEventArgs_t651C0F7A37CA2CA92453B94C8C12F2777C3D8AC5* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27493,7 +27493,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPublishEventArgs_set_DupFlag_m495
 		return;
 	}
 }
-// Method Definition Index: 92712
+// Method Definition Index: 92716
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t MqttMsgPublishEventArgs_get_QosLevel_m0D281B28093698D04859CA9C18ED7574972DF144 (MqttMsgPublishEventArgs_t651C0F7A37CA2CA92453B94C8C12F2777C3D8AC5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27525,7 +27525,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92713
+// Method Definition Index: 92717
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPublishEventArgs_set_QosLevel_m45EF67183B3131629AB30037DB704073657F6812 (MqttMsgPublishEventArgs_t651C0F7A37CA2CA92453B94C8C12F2777C3D8AC5* __this, uint8_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27551,7 +27551,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPublishEventArgs_set_QosLevel_m45
 		return;
 	}
 }
-// Method Definition Index: 92714
+// Method Definition Index: 92718
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MqttMsgPublishEventArgs_get_Retain_m696576E2381B57E1F3CA91B4833AF69DDB2CA3D2 (MqttMsgPublishEventArgs_t651C0F7A37CA2CA92453B94C8C12F2777C3D8AC5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27583,7 +27583,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92715
+// Method Definition Index: 92719
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPublishEventArgs_set_Retain_mF4AF8B75F69B45D46EBB2712C74DAADF28776E1E (MqttMsgPublishEventArgs_t651C0F7A37CA2CA92453B94C8C12F2777C3D8AC5* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27609,7 +27609,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPublishEventArgs_set_Retain_mF4AF
 		return;
 	}
 }
-// Method Definition Index: 92716
+// Method Definition Index: 92720
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPublishEventArgs__ctor_m820FD19B4432C9F631523F00DB04C16BCF961A98 (MqttMsgPublishEventArgs_t651C0F7A37CA2CA92453B94C8C12F2777C3D8AC5* __this, String_t* ___0_topic, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_message, bool ___2_dupFlag, uint8_t ___3_qosLevel, bool ___4_retain, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27672,7 +27672,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPublishEventArgs__ctor_m820FD19B4
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92717
+// Method Definition Index: 92721
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPubrec__ctor_mD04CD75360653E1472F3DBE489BF8456C5DB1EAE (MqttMsgPubrec_tD360E48C86837D2D440349417C6B5B3FE33006FE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27701,7 +27701,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPubrec__ctor_mD04CD75360653E1472F
 		return;
 	}
 }
-// Method Definition Index: 92718
+// Method Definition Index: 92722
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* MqttMsgPubrec_GetBytes_m60A31B61C7C88AE86F640DF757E1D29F04114403 (MqttMsgPubrec_tD360E48C86837D2D440349417C6B5B3FE33006FE* __this, uint8_t ___0_protocolVersion, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27877,7 +27877,7 @@ IL_00a9:
 		return L_34;
 	}
 }
-// Method Definition Index: 92719
+// Method Definition Index: 92723
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MqttMsgPubrec_tD360E48C86837D2D440349417C6B5B3FE33006FE* MqttMsgPubrec_Parse_m0492978AF110DAA7676E8B22D04674D2B3214582 (uint8_t ___0_fixedHeaderFirstByte, uint8_t ___1_protocolVersion, RuntimeObject* ___2_channel, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28020,7 +28020,7 @@ IL_0070:
 		return L_28;
 	}
 }
-// Method Definition Index: 92720
+// Method Definition Index: 92724
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MqttMsgPubrec_ToString_m569A39E9A4CB990B2403400BF41FA3B52EFB94EA (MqttMsgPubrec_tD360E48C86837D2D440349417C6B5B3FE33006FE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28082,7 +28082,7 @@ IL_0031:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92721
+// Method Definition Index: 92725
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPubrel__ctor_m9670B53CB3B19C6ABC61CFDB8EBC509BF0CAFE1A (MqttMsgPubrel_t7F59ED6F771171D5EECED24742CC593BAC6FA5E2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28114,7 +28114,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgPubrel__ctor_m9670B53CB3B19C6ABC6
 		return;
 	}
 }
-// Method Definition Index: 92722
+// Method Definition Index: 92726
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* MqttMsgPubrel_GetBytes_mCD46232D3A87D9C7620C962561DA557EF53FD19B (MqttMsgPubrel_t7F59ED6F771171D5EECED24742CC593BAC6FA5E2* __this, uint8_t ___0_protocolVersion, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28337,7 +28337,7 @@ IL_00d0:
 		return L_40;
 	}
 }
-// Method Definition Index: 92723
+// Method Definition Index: 92727
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MqttMsgPubrel_t7F59ED6F771171D5EECED24742CC593BAC6FA5E2* MqttMsgPubrel_Parse_mB6E8C029DFF93D1F70C619B07EDF4FEB665D0A11 (uint8_t ___0_fixedHeaderFirstByte, uint8_t ___1_protocolVersion, RuntimeObject* ___2_channel, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28511,7 +28511,7 @@ IL_0099:
 		return L_34;
 	}
 }
-// Method Definition Index: 92724
+// Method Definition Index: 92728
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MqttMsgPubrel_ToString_mE3877145C6DA559D8B266C3F615ED634190DF926 (MqttMsgPubrel_t7F59ED6F771171D5EECED24742CC593BAC6FA5E2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28573,7 +28573,7 @@ IL_0031:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92725
+// Method Definition Index: 92729
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* MqttMsgSuback_get_GrantedQoSLevels_mA86AB2EADDF3ACEEAE8D886D248F7FBB78614EF4 (MqttMsgSuback_t1CE389985ABDD073F68CF2A393F68459F0540A86* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28606,7 +28606,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92726
+// Method Definition Index: 92730
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgSuback_set_GrantedQoSLevels_mE17CD5DDAF2EE9D4927061382CDE083A84394C5F (MqttMsgSuback_t1CE389985ABDD073F68CF2A393F68459F0540A86* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28633,7 +28633,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgSuback_set_GrantedQoSLevels_mE17C
 		return;
 	}
 }
-// Method Definition Index: 92727
+// Method Definition Index: 92731
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgSuback__ctor_m6C7819B6AAFC882291EE2CFC1B96E0E9A45B9334 (MqttMsgSuback_t1CE389985ABDD073F68CF2A393F68459F0540A86* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28662,7 +28662,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgSuback__ctor_m6C7819B6AAFC882291E
 		return;
 	}
 }
-// Method Definition Index: 92728
+// Method Definition Index: 92732
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MqttMsgSuback_t1CE389985ABDD073F68CF2A393F68459F0540A86* MqttMsgSuback_Parse_m2F643A00D0ECEB6F966ED7945587DDC3E747B189 (uint8_t ___0_fixedHeaderFirstByte, uint8_t ___1_protocolVersion, RuntimeObject* ___2_channel, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28854,7 +28854,7 @@ IL_00a2:
 		return L_43;
 	}
 }
-// Method Definition Index: 92729
+// Method Definition Index: 92733
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* MqttMsgSuback_GetBytes_m40FB4853F2534DE2490BCE131A906C2392518BF3 (MqttMsgSuback_t1CE389985ABDD073F68CF2A393F68459F0540A86* __this, uint8_t ___0_protocolVersion, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29119,7 +29119,7 @@ IL_0107:
 		return L_50;
 	}
 }
-// Method Definition Index: 92730
+// Method Definition Index: 92734
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MqttMsgSuback_ToString_m2112502E97833E67D2F7B7730760C9E35DE628C8 (MqttMsgSuback_t1CE389985ABDD073F68CF2A393F68459F0540A86* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29191,7 +29191,7 @@ IL_0042:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92731
+// Method Definition Index: 92735
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* MqttMsgSubscribe_get_Topics_m0AB648F7E1DA19FA26F09F1E6E5B588ED3171B34 (MqttMsgSubscribe_tC91C04107975E395EF22358ED0E55599401D386C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29224,7 +29224,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92732
+// Method Definition Index: 92736
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgSubscribe_set_Topics_mB9FFB11F2CA03037405F1D404BF2064F0C9AB5BB (MqttMsgSubscribe_tC91C04107975E395EF22358ED0E55599401D386C* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29251,7 +29251,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgSubscribe_set_Topics_mB9FFB11F2CA
 		return;
 	}
 }
-// Method Definition Index: 92733
+// Method Definition Index: 92737
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* MqttMsgSubscribe_get_QoSLevels_m4FC6DF1C1348B121B2E351B5192944EB121CB8E1 (MqttMsgSubscribe_tC91C04107975E395EF22358ED0E55599401D386C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29284,7 +29284,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92734
+// Method Definition Index: 92738
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgSubscribe_set_QoSLevels_m9405798EEE8CC3A51B1253FFB2AF4C78B2E13213 (MqttMsgSubscribe_tC91C04107975E395EF22358ED0E55599401D386C* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29311,7 +29311,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgSubscribe_set_QoSLevels_m9405798E
 		return;
 	}
 }
-// Method Definition Index: 92735
+// Method Definition Index: 92739
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgSubscribe__ctor_mA7D1EFFDC8470039CF0FD83CB59FCE323F2F5AC0 (MqttMsgSubscribe_tC91C04107975E395EF22358ED0E55599401D386C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29340,7 +29340,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgSubscribe__ctor_mA7D1EFFDC8470039
 		return;
 	}
 }
-// Method Definition Index: 92736
+// Method Definition Index: 92740
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgSubscribe__ctor_m214CE53B73601BE71BB328289EF44EB1CADBDA8C (MqttMsgSubscribe_tC91C04107975E395EF22358ED0E55599401D386C* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_topics, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_qosLevels, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29383,7 +29383,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgSubscribe__ctor_m214CE53B73601BE7
 		return;
 	}
 }
-// Method Definition Index: 92737
+// Method Definition Index: 92741
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MqttMsgSubscribe_tC91C04107975E395EF22358ED0E55599401D386C* MqttMsgSubscribe_Parse_m8E8807D9B742E699466CB4CA8ADFC4D572A09818 (uint8_t ___0_fixedHeaderFirstByte, uint8_t ___1_protocolVersion, RuntimeObject* ___2_channel, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29784,7 +29784,7 @@ IL_0187:
 		return L_95;
 	}
 }
-// Method Definition Index: 92738
+// Method Definition Index: 92742
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* MqttMsgSubscribe_GetBytes_m5EFF505F88E8D790F943EBFDADE10DA9194C2AF0 (MqttMsgSubscribe_tC91C04107975E395EF22358ED0E55599401D386C* __this, uint8_t ___0_protocolVersion, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30405,7 +30405,7 @@ IL_0278:
 		return L_128;
 	}
 }
-// Method Definition Index: 92739
+// Method Definition Index: 92743
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MqttMsgSubscribe_ToString_mDBC9BCEAC4DE8F8829036DAFEAF79DB12C22356F (MqttMsgSubscribe_tC91C04107975E395EF22358ED0E55599401D386C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30487,7 +30487,7 @@ IL_0053:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92740
+// Method Definition Index: 92744
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t MqttMsgSubscribedEventArgs_get_MessageId_mC34DD334662A8A828A8B5232252AFD53864504B2 (MqttMsgSubscribedEventArgs_t588391671CE6A0D3EA0637E8A3EAEA733C0BBD63* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30519,7 +30519,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92741
+// Method Definition Index: 92745
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgSubscribedEventArgs_set_MessageId_m437B1D5B48BF311BA62B9A31E7943FE9B0958395 (MqttMsgSubscribedEventArgs_t588391671CE6A0D3EA0637E8A3EAEA733C0BBD63* __this, uint16_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30545,7 +30545,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgSubscribedEventArgs_set_MessageId
 		return;
 	}
 }
-// Method Definition Index: 92742
+// Method Definition Index: 92746
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* MqttMsgSubscribedEventArgs_get_GrantedQoSLevels_m3745B5A6D2BD90B0D9B9F494CB558D189C171D93 (MqttMsgSubscribedEventArgs_t588391671CE6A0D3EA0637E8A3EAEA733C0BBD63* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30578,7 +30578,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92743
+// Method Definition Index: 92747
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgSubscribedEventArgs_set_GrantedQoSLevels_mF83C6D01A09DA9596A0ED3DBF4250F28E860B93C (MqttMsgSubscribedEventArgs_t588391671CE6A0D3EA0637E8A3EAEA733C0BBD63* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30605,7 +30605,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgSubscribedEventArgs_set_GrantedQo
 		return;
 	}
 }
-// Method Definition Index: 92744
+// Method Definition Index: 92748
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgSubscribedEventArgs__ctor_mA06D256F365BC680A0B551CD9E6BC8C2F99E6A4E (MqttMsgSubscribedEventArgs_t588391671CE6A0D3EA0637E8A3EAEA733C0BBD63* __this, uint16_t ___0_messageId, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_grantedQosLevels, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30651,7 +30651,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgSubscribedEventArgs__ctor_mA06D25
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92745
+// Method Definition Index: 92749
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t MqttMsgSubscribeEventArgs_get_MessageId_mEDF35E68A81A5573B3A5CB612E96E1FA6D4B6FC2 (MqttMsgSubscribeEventArgs_t4361F0F5DFDCEE4505EFF5966C998C086C31074F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30683,7 +30683,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92746
+// Method Definition Index: 92750
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgSubscribeEventArgs_set_MessageId_m4335581F48F38A8F4FE001DAA50CA7B345B3DADE (MqttMsgSubscribeEventArgs_t4361F0F5DFDCEE4505EFF5966C998C086C31074F* __this, uint16_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30709,7 +30709,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgSubscribeEventArgs_set_MessageId_
 		return;
 	}
 }
-// Method Definition Index: 92747
+// Method Definition Index: 92751
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* MqttMsgSubscribeEventArgs_get_Topics_mB64530AED3AAA74F6B639DCA5F47AE04CF974AB7 (MqttMsgSubscribeEventArgs_t4361F0F5DFDCEE4505EFF5966C998C086C31074F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30742,7 +30742,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92748
+// Method Definition Index: 92752
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgSubscribeEventArgs_set_Topics_mD15213A06A13BBAD09715509745618680E3D438E (MqttMsgSubscribeEventArgs_t4361F0F5DFDCEE4505EFF5966C998C086C31074F* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30769,7 +30769,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgSubscribeEventArgs_set_Topics_mD1
 		return;
 	}
 }
-// Method Definition Index: 92749
+// Method Definition Index: 92753
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* MqttMsgSubscribeEventArgs_get_QoSLevels_mD8B45D5895978394FF1A71E9E6AFFEF056D29B26 (MqttMsgSubscribeEventArgs_t4361F0F5DFDCEE4505EFF5966C998C086C31074F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30802,7 +30802,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92750
+// Method Definition Index: 92754
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgSubscribeEventArgs_set_QoSLevels_m86AB918C8A3966479AE97D2A116C9121EF58DD57 (MqttMsgSubscribeEventArgs_t4361F0F5DFDCEE4505EFF5966C998C086C31074F* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30829,7 +30829,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgSubscribeEventArgs_set_QoSLevels_
 		return;
 	}
 }
-// Method Definition Index: 92751
+// Method Definition Index: 92755
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgSubscribeEventArgs__ctor_m7EC72AD22D550B1EE4869F5D7ED0E417754C3E31 (MqttMsgSubscribeEventArgs_t4361F0F5DFDCEE4505EFF5966C998C086C31074F* __this, uint16_t ___0_messageId, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___1_topics, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___2_qosLevels, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30880,7 +30880,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgSubscribeEventArgs__ctor_m7EC72AD
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92752
+// Method Definition Index: 92756
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgUnsuback__ctor_m0FA00D60D6CF48646EE81FA20848E11985ACE736 (MqttMsgUnsuback_t497C63C84343EC8805CAE1170F54C16BCCDF5774* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30909,7 +30909,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgUnsuback__ctor_m0FA00D60D6CF48646
 		return;
 	}
 }
-// Method Definition Index: 92753
+// Method Definition Index: 92757
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MqttMsgUnsuback_t497C63C84343EC8805CAE1170F54C16BCCDF5774* MqttMsgUnsuback_Parse_m42C7121B0C4C10DDCDA2B154063CAFA40634BAFA (uint8_t ___0_fixedHeaderFirstByte, uint8_t ___1_protocolVersion, RuntimeObject* ___2_channel, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -31052,7 +31052,7 @@ IL_0070:
 		return L_28;
 	}
 }
-// Method Definition Index: 92754
+// Method Definition Index: 92758
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* MqttMsgUnsuback_GetBytes_m76BDF63C900FF9A57844978967FF8CE74390401A (MqttMsgUnsuback_t497C63C84343EC8805CAE1170F54C16BCCDF5774* __this, uint8_t ___0_protocolVersion, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -31228,7 +31228,7 @@ IL_00af:
 		return L_34;
 	}
 }
-// Method Definition Index: 92755
+// Method Definition Index: 92759
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MqttMsgUnsuback_ToString_m8C3E982834941B042D5E10B95B4BCACB2EA9DD1C (MqttMsgUnsuback_t497C63C84343EC8805CAE1170F54C16BCCDF5774* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -31290,7 +31290,7 @@ IL_0031:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92756
+// Method Definition Index: 92760
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* MqttMsgUnsubscribe_get_Topics_mE61D49AE48BFAB6D0995C91677109C913EF0694C (MqttMsgUnsubscribe_tA5638E0E7E6F59B345D09DA198430BD7E370CE48* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -31323,7 +31323,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92757
+// Method Definition Index: 92761
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgUnsubscribe_set_Topics_m254880AC0F77E17FA000130ED817A2414DA881B0 (MqttMsgUnsubscribe_tA5638E0E7E6F59B345D09DA198430BD7E370CE48* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -31350,7 +31350,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgUnsubscribe_set_Topics_m254880AC0
 		return;
 	}
 }
-// Method Definition Index: 92758
+// Method Definition Index: 92762
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgUnsubscribe__ctor_mB2E7BD697F6529CB0004ED055D65C621D8198BC8 (MqttMsgUnsubscribe_tA5638E0E7E6F59B345D09DA198430BD7E370CE48* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -31379,7 +31379,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgUnsubscribe__ctor_mB2E7BD697F6529
 		return;
 	}
 }
-// Method Definition Index: 92759
+// Method Definition Index: 92763
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgUnsubscribe__ctor_m17B020C017F71813DCFCDB253DABA73702055931 (MqttMsgUnsubscribe_tA5638E0E7E6F59B345D09DA198430BD7E370CE48* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_topics, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -31417,7 +31417,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgUnsubscribe__ctor_m17B020C017F718
 		return;
 	}
 }
-// Method Definition Index: 92760
+// Method Definition Index: 92764
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MqttMsgUnsubscribe_tA5638E0E7E6F59B345D09DA198430BD7E370CE48* MqttMsgUnsubscribe_Parse_m1608EE23942E4A470923419B32F1B14CCA318C25 (uint8_t ___0_fixedHeaderFirstByte, uint8_t ___1_protocolVersion, RuntimeObject* ___2_channel, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -31762,7 +31762,7 @@ IL_014a:
 		return L_78;
 	}
 }
-// Method Definition Index: 92761
+// Method Definition Index: 92765
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* MqttMsgUnsubscribe_GetBytes_m74F4378F7570C35F3DB015E6486FA4CEB466B293 (MqttMsgUnsubscribe_tA5638E0E7E6F59B345D09DA198430BD7E370CE48* __this, uint8_t ___0_protocolVersion, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32288,7 +32288,7 @@ IL_0213:
 		return L_112;
 	}
 }
-// Method Definition Index: 92762
+// Method Definition Index: 92766
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MqttMsgUnsubscribe_ToString_m857331DEE1BBD8DDD6A872B7DF0ADA7023C66999 (MqttMsgUnsubscribe_tA5638E0E7E6F59B345D09DA198430BD7E370CE48* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32360,7 +32360,7 @@ IL_0042:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92763
+// Method Definition Index: 92767
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t MqttMsgUnsubscribedEventArgs_get_MessageId_mECE4B3F967C7B01913DE56FA90FDCB7F46D2864F (MqttMsgUnsubscribedEventArgs_t60C6CCCC9BFAA84F7BA048C110DDC45DB4F5A4E4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32392,7 +32392,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92764
+// Method Definition Index: 92768
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgUnsubscribedEventArgs_set_MessageId_m7A3558430BDB75D03C6D65380B500A40B05C51CD (MqttMsgUnsubscribedEventArgs_t60C6CCCC9BFAA84F7BA048C110DDC45DB4F5A4E4* __this, uint16_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32418,7 +32418,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgUnsubscribedEventArgs_set_Message
 		return;
 	}
 }
-// Method Definition Index: 92765
+// Method Definition Index: 92769
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgUnsubscribedEventArgs__ctor_mEF06EA6653DA7C00CA72D8D55437A10381E7024B (MqttMsgUnsubscribedEventArgs_t60C6CCCC9BFAA84F7BA048C110DDC45DB4F5A4E4* __this, uint16_t ___0_messageId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32459,7 +32459,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgUnsubscribedEventArgs__ctor_mEF06
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92766
+// Method Definition Index: 92770
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t MqttMsgUnsubscribeEventArgs_get_MessageId_m466FF9D54D74B43E3CA2B2F1D3956F7967D46018 (MqttMsgUnsubscribeEventArgs_t32697A0390CF0305B457B877430443AA7D6A2204* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32491,7 +32491,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92767
+// Method Definition Index: 92771
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgUnsubscribeEventArgs_set_MessageId_mC83EF7B962C9B32CBBEA396988A57965626B60A1 (MqttMsgUnsubscribeEventArgs_t32697A0390CF0305B457B877430443AA7D6A2204* __this, uint16_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32517,7 +32517,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgUnsubscribeEventArgs_set_MessageI
 		return;
 	}
 }
-// Method Definition Index: 92768
+// Method Definition Index: 92772
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* MqttMsgUnsubscribeEventArgs_get_Topics_mF42B3BEBCF5843B2358538EB8D4C3600FBCC0540 (MqttMsgUnsubscribeEventArgs_t32697A0390CF0305B457B877430443AA7D6A2204* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32550,7 +32550,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92769
+// Method Definition Index: 92773
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgUnsubscribeEventArgs_set_Topics_mF145D7A5264A0121464A1532CBE07EBBF1B2C09A (MqttMsgUnsubscribeEventArgs_t32697A0390CF0305B457B877430443AA7D6A2204* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32577,7 +32577,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgUnsubscribeEventArgs_set_Topics_m
 		return;
 	}
 }
-// Method Definition Index: 92770
+// Method Definition Index: 92774
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgUnsubscribeEventArgs__ctor_m29E5D1BCF2DB0CA2E867F3086D4D327976EB6078 (MqttMsgUnsubscribeEventArgs_t32697A0390CF0305B457B877430443AA7D6A2204* __this, uint16_t ___0_messageId, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___1_topics, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32623,7 +32623,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttMsgUnsubscribeEventArgs__ctor_m29E5D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92771
+// Method Definition Index: 92775
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEvent__ctor_mABDFF080A8A3A411CAFF3021B4BF17FF5C1C5317 (InternalEvent_tFDA88F90F35F162068D5CC89C518735A012A1C1B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32647,7 +32647,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEvent__ctor_mABDFF080A8A3A411CAF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92772
+// Method Definition Index: 92776
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MqttMsgBase_t91E03B0493FCC9E137EDD52C5659AE15643395E8* MsgInternalEvent_get_Message_m42781B81844C428D0674B5442C99327CD9F3BD97 (MsgInternalEvent_t576F647253C8D3A0CE401167445083D478831895* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32680,7 +32680,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92773
+// Method Definition Index: 92777
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MsgInternalEvent_set_Message_m33E9CAAA5C405F1B8BCFF52FEC4CB6CD1EA387F9 (MsgInternalEvent_t576F647253C8D3A0CE401167445083D478831895* __this, MqttMsgBase_t91E03B0493FCC9E137EDD52C5659AE15643395E8* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32707,7 +32707,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MsgInternalEvent_set_Message_m33E9CAAA5C
 		return;
 	}
 }
-// Method Definition Index: 92774
+// Method Definition Index: 92778
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MsgInternalEvent__ctor_m1BF91448C08ADB05FC5093E263C5AE4BC452E8F8 (MsgInternalEvent_t576F647253C8D3A0CE401167445083D478831895* __this, MqttMsgBase_t91E03B0493FCC9E137EDD52C5659AE15643395E8* ___0_msg, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32747,7 +32747,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MsgInternalEvent__ctor_m1BF91448C08ADB05
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92775
+// Method Definition Index: 92779
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MsgPublishedInternalEvent_get_IsPublished_mD44A3593064BDC2F51A3F2D80D028E6C0D616DE6 (MsgPublishedInternalEvent_tA1DE198820547FDB79199D341E556E71B1B3E33E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32779,7 +32779,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92776
+// Method Definition Index: 92780
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MsgPublishedInternalEvent_set_IsPublished_m528DF57096E77C1A0A1E121DD4CEC07324F618C2 (MsgPublishedInternalEvent_tA1DE198820547FDB79199D341E556E71B1B3E33E* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32805,7 +32805,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MsgPublishedInternalEvent_set_IsPublishe
 		return;
 	}
 }
-// Method Definition Index: 92777
+// Method Definition Index: 92781
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MsgPublishedInternalEvent__ctor_mF30D0B9511511243505EE8D6AC92E83502B2E405 (MsgPublishedInternalEvent_tA1DE198820547FDB79199D341E556E71B1B3E33E* __this, MqttMsgBase_t91E03B0493FCC9E137EDD52C5659AE15643395E8* ___0_msg, bool ___1_isPublished, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32845,7 +32845,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MsgPublishedInternalEvent__ctor_mF30D0B9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92778
+// Method Definition Index: 92782
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClientException__ctor_m79CC2D86B764361BDED6D0A6C2AC5A852CF98299 (MqttClientException_tC39FDA05430DCB2DB4F5AF2DF29E263EC25344BE* __this, int32_t ___0_errorCode, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32878,7 +32878,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClientException__ctor_m79CC2D86B7643
 		return;
 	}
 }
-// Method Definition Index: 92779
+// Method Definition Index: 92783
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MqttClientException_get_ErrorCode_m6777D8D2D5EA42148AB38423F64E86E2D6F692B2 (MqttClientException_tC39FDA05430DCB2DB4F5AF2DF29E263EC25344BE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32911,7 +32911,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 92780
+// Method Definition Index: 92784
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClientException_set_ErrorCode_mC2FC320A9543E2E379567CA1D25A2A448E7CC3F1 (MqttClientException_tC39FDA05430DCB2DB4F5AF2DF29E263EC25344BE* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32953,7 +32953,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClientException_set_ErrorCode_mC2FC3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92781
+// Method Definition Index: 92785
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttCommunicationException__ctor_mA7854E6A1C7CC56244EA1CE9F8156BFE823C92ED (MqttCommunicationException_t15E6761F548D6875BC75D6F4B4FF1A23D9B7A866* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -32981,7 +32981,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttCommunicationException__ctor_mA7854E
 		return;
 	}
 }
-// Method Definition Index: 92782
+// Method Definition Index: 92786
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttCommunicationException__ctor_mB427AC5C5C58922D9C4471A450109E004FF88AFA (MqttCommunicationException_t15E6761F548D6875BC75D6F4B4FF1A23D9B7A866* __this, Exception_t* ___0_e, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33020,7 +33020,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttCommunicationException__ctor_mB427AC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92783
+// Method Definition Index: 92787
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttConnectionException__ctor_m01B038A0238753FF7425EB8100DB9747AA79C11F (MqttConnectionException_t57F66C1EE685F082861A8D80D396C72189A4D056* __this, String_t* ___0_message, Exception_t* ___1_innerException, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33059,7 +33059,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttConnectionException__ctor_m01B038A02
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92784
+// Method Definition Index: 92788
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttTimeoutException__ctor_mB161852376A49A2956047B55FA7D9A6ECBF4DF68 (MqttTimeoutException_t85DCE51A7EF8621E8582482A395ABE6CAA358D49* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33104,7 +33104,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttTimeoutException__ctor_mB161852376A4
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 92461
+// Method Definition Index: 92465
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool MqttClient_get_IsConnected_mC3A16319C21519DA09798BE95495BCB7BAF9A3E6_inline (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33131,7 +33131,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72
 	typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 92549
+// Method Definition Index: 92553
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttSettings_set_TimeoutOnConnection_mE6B0EE4A9ED9995EEE0C7BC85520992931A5200B_inline (MqttSettings_tAC993A89C624206F7EA6DDD2AC29D1678D3ED724* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33154,7 +33154,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttSettings_set_TimeoutOnCo
 		return;
 	}
 }
-// Method Definition Index: 92476
+// Method Definition Index: 92480
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttClient_set_ProtocolVersion_m67772A858F7D676972DA921132A03F6E4210DDAE_inline (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33177,7 +33177,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttClient_set_ProtocolVersi
 		return;
 	}
 }
-// Method Definition Index: 92545
+// Method Definition Index: 92549
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttSettings_set_Port_mB6F486BC858AF6B3F966033909472B14E92683E0_inline (MqttSettings_tAC993A89C624206F7EA6DDD2AC29D1678D3ED724* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33200,7 +33200,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttSettings_set_Port_mB6F48
 		return;
 	}
 }
-// Method Definition Index: 92547
+// Method Definition Index: 92551
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttSettings_set_SslPort_m81933FECF05E81883FD8916806BC7919A2C00A04_inline (MqttSettings_tAC993A89C624206F7EA6DDD2AC29D1678D3ED724* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33223,7 +33223,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttSettings_set_SslPort_m81
 		return;
 	}
 }
-// Method Definition Index: 92475
+// Method Definition Index: 92479
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MqttClient_get_ProtocolVersion_mFACDE1AB1C66C45426396EA7A1E4B664BFF2A229_inline (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33244,7 +33244,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MqttClient_get_ProtocolVe
 		return L_0;
 	}
 }
-// Method Definition Index: 92464
+// Method Definition Index: 92468
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttClient_set_ClientId_mDEE5E74020634E992F1BF65429099C622753F8F2_inline (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33268,7 +33268,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttClient_set_ClientId_mDEE
 		return;
 	}
 }
-// Method Definition Index: 92466
+// Method Definition Index: 92470
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttClient_set_CleanSession_mA0C1960E5807485676C2A82EF14B8A5D92556BFD_inline (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33291,7 +33291,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttClient_set_CleanSession_
 		return;
 	}
 }
-// Method Definition Index: 92468
+// Method Definition Index: 92472
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttClient_set_WillFlag_m7AED8A64AA42E207768A8B495C9FEE6BF8645EF3_inline (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33314,7 +33314,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttClient_set_WillFlag_m7AE
 		return;
 	}
 }
-// Method Definition Index: 92472
+// Method Definition Index: 92476
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttClient_set_WillTopic_m690F431446BA47B2E5E83FBB30939297EE3FBCCD_inline (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33338,7 +33338,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttClient_set_WillTopic_m69
 		return;
 	}
 }
-// Method Definition Index: 92474
+// Method Definition Index: 92478
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttClient_set_WillMessage_m21D87A7AC23ED5EB3E08A49CDDF3C54A1E585F20_inline (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33362,7 +33362,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttClient_set_WillMessage_m
 		return;
 	}
 }
-// Method Definition Index: 92470
+// Method Definition Index: 92474
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttClient_set_WillQosLevel_mE48911580A0D6248B97ECDA113A7C615DB9B85B2_inline (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, uint8_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33385,7 +33385,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttClient_set_WillQosLevel_
 		return;
 	}
 }
-// Method Definition Index: 92462
+// Method Definition Index: 92466
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttClient_set_IsConnected_mDDBCCC90490F9B4405CD247AD725A8A060FCE46D_inline (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33408,37 +33408,37 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttClient_set_IsConnected_m
 		return;
 	}
 }
-// Method Definition Index: 92519
+// Method Definition Index: 92523
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttMsgPublishEventHandler_Invoke_m6A04F1B19B566A46597E2C4D4564DD1B666777A9_inline (MqttMsgPublishEventHandler_t22CCB4999A3C3465646942A3318ABDD31C409B14* __this, RuntimeObject* ___0_sender, MqttMsgPublishEventArgs_t651C0F7A37CA2CA92453B94C8C12F2777C3D8AC5* ___1_e, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, MqttMsgPublishEventArgs_t651C0F7A37CA2CA92453B94C8C12F2777C3D8AC5*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_sender, ___1_e, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 92523
+// Method Definition Index: 92527
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttMsgPublishedEventHandler_Invoke_m01ADFD86E44CA5DDD1DE0E312B3B1928C317167B_inline (MqttMsgPublishedEventHandler_t9EFB5E5D4476BDBAC29776F90F3E7FF9ABA44D37* __this, RuntimeObject* ___0_sender, MqttMsgPublishedEventArgs_t60B18DE06F2F19E0EDE8847CA79B6E795F1D97DD* ___1_e, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, MqttMsgPublishedEventArgs_t60B18DE06F2F19E0EDE8847CA79B6E795F1D97DD*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_sender, ___1_e, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 92527
+// Method Definition Index: 92531
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttMsgSubscribedEventHandler_Invoke_m8CC1F2C56E2E53A9EF73EBE6CCC4DD4454B55DEE_inline (MqttMsgSubscribedEventHandler_t27242642B0F707EAB6863DD06B5D6743DF8E60B7* __this, RuntimeObject* ___0_sender, MqttMsgSubscribedEventArgs_t588391671CE6A0D3EA0637E8A3EAEA733C0BBD63* ___1_e, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, MqttMsgSubscribedEventArgs_t588391671CE6A0D3EA0637E8A3EAEA733C0BBD63*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_sender, ___1_e, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 92531
+// Method Definition Index: 92535
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttMsgUnsubscribedEventHandler_Invoke_m1314CEF7743FE46A86012CACCE3DD7B9F145499D_inline (MqttMsgUnsubscribedEventHandler_t3C13B1A5255297F3DF96AB3AF37BBD9EFF44E095* __this, RuntimeObject* ___0_sender, MqttMsgUnsubscribedEventArgs_t60C6CCCC9BFAA84F7BA048C110DDC45DB4F5A4E4* ___1_e, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, MqttMsgUnsubscribedEventArgs_t60C6CCCC9BFAA84F7BA048C110DDC45DB4F5A4E4*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_sender, ___1_e, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 92535
+// Method Definition Index: 92539
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ConnectionClosedEventHandler_Invoke_mFAD1DC6AC20945186A64B90ABACDD5287F0CD284_inline (ConnectionClosedEventHandler_tC910D43455B62A7A4C44F62339A53264C422E820* __this, RuntimeObject* ___0_sender, EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377* ___1_e, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_sender, ___1_e, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 92661
+// Method Definition Index: 92665
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttMsgContext_set_State_mB4F28FE19275037771F62E95F5439C7475D5C0BB_inline (MqttMsgContext_t614D09D2C3F7F2500CDE71FC10DD4D32CC8C3073* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33461,7 +33461,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttMsgContext_set_State_mB4
 		return;
 	}
 }
-// Method Definition Index: 92663
+// Method Definition Index: 92667
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttMsgContext_set_Flow_mA8CE78E3BE81C54D0EC8BB7B6725A463F4FF2F72_inline (MqttMsgContext_t614D09D2C3F7F2500CDE71FC10DD4D32CC8C3073* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33484,7 +33484,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttMsgContext_set_Flow_mA8C
 		return;
 	}
 }
-// Method Definition Index: 92659
+// Method Definition Index: 92663
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttMsgContext_set_Message_m4356D483F66C3F589EDE9A9343F16B1FCEC86D51_inline (MqttMsgContext_t614D09D2C3F7F2500CDE71FC10DD4D32CC8C3073* __this, MqttMsgBase_t91E03B0493FCC9E137EDD52C5659AE15643395E8* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33508,7 +33508,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttMsgContext_set_Message_m
 		return;
 	}
 }
-// Method Definition Index: 92667
+// Method Definition Index: 92671
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttMsgContext_set_Attempt_m7F65576B12F2E0AEF0E38281320820026F89A57A_inline (MqttMsgContext_t614D09D2C3F7F2500CDE71FC10DD4D32CC8C3073* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33531,7 +33531,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttMsgContext_set_Attempt_m
 		return;
 	}
 }
-// Method Definition Index: 92556
+// Method Definition Index: 92560
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MqttSettings_get_InflightQueueSize_mB7632070BDF2CD0EF6CA9D8C0E6275D4FF8B0268_inline (MqttSettings_tAC993A89C624206F7EA6DDD2AC29D1678D3ED724* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33552,7 +33552,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MqttSettings_get_Inflight
 		return L_0;
 	}
 }
-// Method Definition Index: 92662
+// Method Definition Index: 92666
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MqttMsgContext_get_Flow_m944A9328209B75DAB764619D062EC03C6831F5D2_inline (MqttMsgContext_t614D09D2C3F7F2500CDE71FC10DD4D32CC8C3073* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33573,7 +33573,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MqttMsgContext_get_Flow_m
 		return L_0;
 	}
 }
-// Method Definition Index: 92596
+// Method Definition Index: 92600
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* MqttSession_get_InflightMessages_m533D4378769BD6A313E17810A1F10874C63828F3_inline (MqttSession_t4FDC00B926607AB126DDE8734951DE5E2627336D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33610,7 +33610,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Exception_t* Exception_get_InnerE
 		return L_0;
 	}
 }
-// Method Definition Index: 92658
+// Method Definition Index: 92662
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR MqttMsgBase_t91E03B0493FCC9E137EDD52C5659AE15643395E8* MqttMsgContext_get_Message_m4C387F904209F61A86E267AEA32E59A0B87C1F98_inline (MqttMsgContext_t614D09D2C3F7F2500CDE71FC10DD4D32CC8C3073* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33631,7 +33631,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR MqttMsgBase_t91E03B0493FCC9E137ED
 		return L_0;
 	}
 }
-// Method Definition Index: 92660
+// Method Definition Index: 92664
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MqttMsgContext_get_State_mCEDC03C6AABE7B4E933AF99FF9A18FA5D98D6405_inline (MqttMsgContext_t614D09D2C3F7F2500CDE71FC10DD4D32CC8C3073* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33652,7 +33652,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MqttMsgContext_get_State_
 		return L_0;
 	}
 }
-// Method Definition Index: 92665
+// Method Definition Index: 92669
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttMsgContext_set_Timestamp_m7DCF9E17B338E8F7E10F720F2733C0648302AF43_inline (MqttMsgContext_t614D09D2C3F7F2500CDE71FC10DD4D32CC8C3073* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33675,7 +33675,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttMsgContext_set_Timestamp
 		return;
 	}
 }
-// Method Definition Index: 92666
+// Method Definition Index: 92670
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MqttMsgContext_get_Attempt_mB56B7D1A5450A14FA77115E219E2AC43E848A132_inline (MqttMsgContext_t614D09D2C3F7F2500CDE71FC10DD4D32CC8C3073* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33696,7 +33696,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MqttMsgContext_get_Attemp
 		return L_0;
 	}
 }
-// Method Definition Index: 92554
+// Method Definition Index: 92558
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MqttSettings_get_DelayOnRetry_mA5613703E48856920CEFD5F6A699F4C3A0F150AB_inline (MqttSettings_tAC993A89C624206F7EA6DDD2AC29D1678D3ED724* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33717,7 +33717,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MqttSettings_get_DelayOnR
 		return L_0;
 	}
 }
-// Method Definition Index: 92664
+// Method Definition Index: 92668
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MqttMsgContext_get_Timestamp_mBE0EDBF576110AE5EF488B12E4CB522B5B866342_inline (MqttMsgContext_t614D09D2C3F7F2500CDE71FC10DD4D32CC8C3073* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33738,7 +33738,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MqttMsgContext_get_Timest
 		return L_0;
 	}
 }
-// Method Definition Index: 92552
+// Method Definition Index: 92556
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MqttSettings_get_AttemptsOnRetry_m6B95BB26195F30E0E455A7670A766D0A30F57B0E_inline (MqttSettings_tAC993A89C624206F7EA6DDD2AC29D1678D3ED724* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33759,7 +33759,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MqttSettings_get_Attempts
 		return L_0;
 	}
 }
-// Method Definition Index: 92465
+// Method Definition Index: 92469
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool MqttClient_get_CleanSession_m65CF8074F484D7C4DD63F16877A1E8702540125D_inline (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33780,7 +33780,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool MqttClient_get_CleanSession_
 		return L_0;
 	}
 }
-// Method Definition Index: 92463
+// Method Definition Index: 92467
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* MqttClient_get_ClientId_mE5258D5EC1BA93893A59BA4EE9B32F7434C138A8_inline (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33801,7 +33801,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* MqttClient_get_ClientId
 		return L_0;
 	}
 }
-// Method Definition Index: 92539
+// Method Definition Index: 92543
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttMsgContextFinder_set_MessageId_m3EC896FC0DAC0C288176ACE710796E2AFCDFD7DF_inline (MqttMsgContextFinder_t2FD64E275F21B54741ADBC6D5E4B12E1E6DB7FB6* __this, uint16_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33824,7 +33824,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttMsgContextFinder_set_Mes
 		return;
 	}
 }
-// Method Definition Index: 92541
+// Method Definition Index: 92545
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttMsgContextFinder_set_Flow_m0E30EA2356F75E3F789F03227948F32FD2792D4D_inline (MqttMsgContextFinder_t2FD64E275F21B54741ADBC6D5E4B12E1E6DB7FB6* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33847,7 +33847,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttMsgContextFinder_set_Flo
 		return;
 	}
 }
-// Method Definition Index: 92538
+// Method Definition Index: 92542
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint16_t MqttMsgContextFinder_get_MessageId_m57F49621C513A73D40707CB7B6338C6E14CD8033_inline (MqttMsgContextFinder_t2FD64E275F21B54741ADBC6D5E4B12E1E6DB7FB6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33868,7 +33868,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint16_t MqttMsgContextFinder_get
 		return L_0;
 	}
 }
-// Method Definition Index: 92540
+// Method Definition Index: 92544
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MqttMsgContextFinder_get_Flow_m5F47122B41B7A0D4EDC1742D33F54BDACE7CB04C_inline (MqttMsgContextFinder_t2FD64E275F21B54741ADBC6D5E4B12E1E6DB7FB6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33889,7 +33889,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MqttMsgContextFinder_get_
 		return L_0;
 	}
 }
-// Method Definition Index: 92551
+// Method Definition Index: 92555
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttSettings_set_TimeoutOnReceiving_m174C1547D286466D665B0CCDBD2A9BAB7BBD4CDE_inline (MqttSettings_tAC993A89C624206F7EA6DDD2AC29D1678D3ED724* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33912,7 +33912,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttSettings_set_TimeoutOnRe
 		return;
 	}
 }
-// Method Definition Index: 92553
+// Method Definition Index: 92557
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttSettings_set_AttemptsOnRetry_m5ECF139EEA6FB46203DE817E38C5BA44D5E95C10_inline (MqttSettings_tAC993A89C624206F7EA6DDD2AC29D1678D3ED724* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33935,7 +33935,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttSettings_set_AttemptsOnR
 		return;
 	}
 }
-// Method Definition Index: 92555
+// Method Definition Index: 92559
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttSettings_set_DelayOnRetry_m4D635AE55F5F5B89BD4BF5412FEB3B2161177916_inline (MqttSettings_tAC993A89C624206F7EA6DDD2AC29D1678D3ED724* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33958,7 +33958,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttSettings_set_DelayOnRetr
 		return;
 	}
 }
-// Method Definition Index: 92557
+// Method Definition Index: 92561
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttSettings_set_InflightQueueSize_mAD5154743EE0C540DCFD0F256A74E7F679A335D0_inline (MqttSettings_tAC993A89C624206F7EA6DDD2AC29D1678D3ED724* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -33997,19 +33997,19 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR IPAddressU5BU5D_t3AEDF3B94746C902
 		return L_0;
 	}
 }
-// Method Definition Index: 92581
+// Method Definition Index: 92585
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool QueuePredicate_Invoke_mA1ACFBDFF753EF3F05769154C4F2136A38D97755_inline (QueuePredicate_t180005078A01BCE123C84F40D5DFE758983FFBFB* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_item, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 92585
+// Method Definition Index: 92589
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WriteTrace_Invoke_m0493E57474757607178524F9D0984B61B77E50F2_inline (WriteTrace_tC035FAB4C559D02197672CF9A01799D307FAF7C6* __this, String_t* ___0_format, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_format, ___1_args, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 92595
+// Method Definition Index: 92599
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttSession_set_ClientId_mD2EB9CD11454C975EABA237BC0A470CB4B96A6F5_inline (MqttSession_t4FDC00B926607AB126DDE8734951DE5E2627336D* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -34033,7 +34033,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttSession_set_ClientId_mD2
 		return;
 	}
 }
-// Method Definition Index: 92597
+// Method Definition Index: 92601
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttSession_set_InflightMessages_m08D3235A8F983F30817DE7D5EF4299B8D7A30396_inline (MqttSession_t4FDC00B926607AB126DDE8734951DE5E2627336D* __this, Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -34073,7 +34073,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D
 		return L_0;
 	}
 }
-// Method Definition Index: 92656
+// Method Definition Index: 92660
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MqttMsgConnectEventArgs_set_Message_m80D801CAF3BD4462F4BCDA4E422B2089B1A032D6_inline (MqttMsgConnectEventArgs_t25B04E80D71A271F28CD6A49FC9267ED34194166* __this, MqttMsgConnect_t52499F7BE8FC5326D0C743DAE98B6014605488F1* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

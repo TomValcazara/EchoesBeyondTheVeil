@@ -51,6 +51,12 @@ public class GameManager : MonoBehaviour
 
     private string[] story;
     
+    [Header("Hell Gate")]
+    public GameObject hellGatePrefab;
+    public Transform player;
+    public float minGateDistanceFromPlayer = 40f;
+    public float walkableRadius = 100f;
+
     public string GetStoryText(int index)
     {
         if (index >= 0 && index < story.Length)
@@ -218,8 +224,48 @@ public class GameManager : MonoBehaviour
     public void OnNoiseBushCompleted(BushInteractable bush)
     {
         currentNoiseIndex++;
-        ActivateNextNoiseBush();
-        //Debug.Log("Activating new Noise");
+
+        if (currentNoiseIndex >= noiseBushes.Count)
+        {
+            SpawnHellGate();
+        }
+        else
+        {
+            ActivateNextNoiseBush();
+        }
     }
+
+    void SpawnHellGate()
+    {
+        Vector3 center = Vector3.zero; // use your real center if different
+        Vector3 spawnPos = Vector3.zero;
+
+        bool validPosition = false;
+        int safety = 0;
+
+        while (!validPosition && safety < 50)
+        {
+            Vector2 randomCircle = Random.insideUnitCircle * walkableRadius;
+            Vector3 candidate = new Vector3(randomCircle.x, 0f, randomCircle.y);
+
+            float distanceToPlayer = Vector3.Distance(candidate, player.position);
+
+            if (distanceToPlayer >= minGateDistanceFromPlayer)
+            {
+                spawnPos = candidate;
+                validPosition = true;
+            }
+
+            safety++;
+        }
+
+        // Snap to terrain height
+        float y = terrain.SampleHeight(spawnPos) + terrain.transform.position.y;
+        spawnPos.y = y;
+
+        Instantiate(hellGatePrefab, spawnPos, Quaternion.identity);
+    }
+
+
 
 }
