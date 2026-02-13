@@ -59,7 +59,7 @@ public class BushInteractable : MonoBehaviour
         isActiveNoiseBush = true;
 
         // DEBUG: lift active bush for visibility
-        //transform.position += Vector3.up * debugLiftHeight;
+        transform.position += Vector3.up * debugLiftHeight;
 
         if (bushRenderer != null)
         {
