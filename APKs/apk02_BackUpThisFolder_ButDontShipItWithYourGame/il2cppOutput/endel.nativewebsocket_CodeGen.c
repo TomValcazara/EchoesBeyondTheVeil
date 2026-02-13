@@ -221,12 +221,12 @@ static Il2CppMethodPointer s_methodPointers[109] =
 };
 static const int32_t s_InvokerIndices[109] = 
 {
-	35136,
-	33364,
-	35136,
-	33364,
-	35248,
-	33364,
+	35137,
+	33365,
+	35137,
+	33365,
+	35249,
+	33365,
 	20263,
 	20263,
 	20263,
@@ -247,7 +247,7 @@ static const int32_t s_InvokerIndices[109] =
 	20024,
 	20263,
 	20024,
-	35353,
+	35354,
 	20263,
 	7578,
 	20263,
@@ -274,7 +274,7 @@ static const int32_t s_InvokerIndices[109] =
 	-1,
 	-1,
 	-1,
-	32716,
+	32717,
 	28430,
 	20263,
 	15121,
@@ -290,7 +290,7 @@ static const int32_t s_InvokerIndices[109] =
 	7588,
 	20376,
 	20263,
-	35248,
+	35249,
 	20263,
 	20263,
 	15121,
@@ -329,7 +329,7 @@ static const int32_t s_InvokerIndices[109] =
 	20263,
 	20263,
 	15121,
-	32920,
+	32921,
 };
 extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationendel_nativewebsocket;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_endel_nativewebsocket_CodeGenModule;

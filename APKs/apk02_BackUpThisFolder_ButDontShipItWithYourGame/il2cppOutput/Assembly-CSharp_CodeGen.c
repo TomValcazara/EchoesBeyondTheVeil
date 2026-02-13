@@ -34,11 +34,24 @@ extern void GameManager_SpawnBushes_mB8EDE6B9625D74C7193279ECF6A31B36CEA6B9BC (v
 extern void GameManager_SelectNoiseBushes_mA3EE074167C3386D9EB6221FF595C8CFA9759FE2 (void);
 extern void GameManager_ActivateNextNoiseBush_m884B713A9B610CC893EA2F664DA3E6DAF90348A2 (void);
 extern void GameManager_OnNoiseBushCompleted_mC147D4B4F3C09DA93F24A5ADBAD96821C0151056 (void);
+extern void GameManager_SpawnHellGate_mF3FE58ED9757F5D42B1F82BEEC3B4D95616B5AE0 (void);
 extern void GameManager__ctor_mF453CED520617BFB65C52405A964E06CF17DB368 (void);
 extern void HandBrushFX_Awake_m6045E2FC9B9D6980623E0E0EF8112842480D5432 (void);
 extern void HandBrushFX_OnTriggerEnter_m7587A4C5F5984C9B61756E297CF38DB7F0684D2D (void);
 extern void HandBrushFX_OnTriggerExit_m026167351EEB0F373D8CD9D41C5860ED9F8D95A1 (void);
 extern void HandBrushFX__ctor_m9D381FDE5E57E5727E6728ADCEAB055AAC6EBCDC (void);
+extern void HellGateController_OnEnable_mE3B0386E683BFD5B73388491BF038A47E1890FDF (void);
+extern void HellGateController_Update_m8A5672B7912A7913D52CE7828501047447CFB1ED (void);
+extern void HellGateController_SwitchToWhispers_m9C609F25E54AABC290FAA813796BEB7D077E5D84 (void);
+extern void HellGateController_TransitionAudioAndLight_mD98AFF332DE27B1DE1E021FB85C1409A894AF7E8 (void);
+extern void HellGateController_RestartScene_m5DD10D06767DF9F3E4F093DEE0EA62E06AFC5779 (void);
+extern void HellGateController__ctor_m36965A709FFF62A6BDF15249D3F4E3CE49CF2C53 (void);
+extern void U3CTransitionAudioAndLightU3Ed__9__ctor_m76C4E5718536493E361133EC2566B6347615826F (void);
+extern void U3CTransitionAudioAndLightU3Ed__9_System_IDisposable_Dispose_mB6E022D3717C5D4477A874641463313A672085B9 (void);
+extern void U3CTransitionAudioAndLightU3Ed__9_MoveNext_m023914EB85FEBDC3574165338B1F6C8303F0FE21 (void);
+extern void U3CTransitionAudioAndLightU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mFDEE1897A0A9258A764D39D33BD3CE842C2C3E1D (void);
+extern void U3CTransitionAudioAndLightU3Ed__9_System_Collections_IEnumerator_Reset_mB06F7B8116616E85AC32EA10F035AC36A9FBE8B2 (void);
+extern void U3CTransitionAudioAndLightU3Ed__9_System_Collections_IEnumerator_get_Current_m4A69865933E15E03A53472655D16459C61395A34 (void);
 extern void LorePanel_SetText_m15F89B987FD7AB9328B69FFCF7F330EB070B8195 (void);
 extern void LorePanel__ctor_mBDD3993504846505576516B31ADF589877402280 (void);
 extern void FlipperXR_Awake_m817B1AEDA6DFDE61E92FE39C2616EDDC102ED046 (void);
@@ -447,7 +460,7 @@ extern void M2MqttUnityTest_Update_m5DD4B1B054009C953BA710A38261A1ABEA80ACBB (vo
 extern void M2MqttUnityTest_OnDestroy_mA9169A75E9D16B3FB3BA29E649F099BDAD7B7AB1 (void);
 extern void M2MqttUnityTest_OnValidate_m1E2378D4ECCC596FD83E268BB6192E678375A7E2 (void);
 extern void M2MqttUnityTest__ctor_m35CCDCF052189BCE501EE6A7BA36321F9DC20599 (void);
-static Il2CppMethodPointer s_methodPointers[446] = 
+static Il2CppMethodPointer s_methodPointers[459] = 
 {
 	BushInteractable_get_AlreadyTriggered_m6075466EB40D20F4CA9F7C63702B066C1E7D4666,
 	BushInteractable_SetLoreIndex_mC1D6F75E5826C5DC3A926FFF5E523CCF46AB4574,
@@ -476,11 +489,24 @@ static Il2CppMethodPointer s_methodPointers[446] =
 	GameManager_SelectNoiseBushes_mA3EE074167C3386D9EB6221FF595C8CFA9759FE2,
 	GameManager_ActivateNextNoiseBush_m884B713A9B610CC893EA2F664DA3E6DAF90348A2,
 	GameManager_OnNoiseBushCompleted_mC147D4B4F3C09DA93F24A5ADBAD96821C0151056,
+	GameManager_SpawnHellGate_mF3FE58ED9757F5D42B1F82BEEC3B4D95616B5AE0,
 	GameManager__ctor_mF453CED520617BFB65C52405A964E06CF17DB368,
 	HandBrushFX_Awake_m6045E2FC9B9D6980623E0E0EF8112842480D5432,
 	HandBrushFX_OnTriggerEnter_m7587A4C5F5984C9B61756E297CF38DB7F0684D2D,
 	HandBrushFX_OnTriggerExit_m026167351EEB0F373D8CD9D41C5860ED9F8D95A1,
 	HandBrushFX__ctor_m9D381FDE5E57E5727E6728ADCEAB055AAC6EBCDC,
+	HellGateController_OnEnable_mE3B0386E683BFD5B73388491BF038A47E1890FDF,
+	HellGateController_Update_m8A5672B7912A7913D52CE7828501047447CFB1ED,
+	HellGateController_SwitchToWhispers_m9C609F25E54AABC290FAA813796BEB7D077E5D84,
+	HellGateController_TransitionAudioAndLight_mD98AFF332DE27B1DE1E021FB85C1409A894AF7E8,
+	HellGateController_RestartScene_m5DD10D06767DF9F3E4F093DEE0EA62E06AFC5779,
+	HellGateController__ctor_m36965A709FFF62A6BDF15249D3F4E3CE49CF2C53,
+	U3CTransitionAudioAndLightU3Ed__9__ctor_m76C4E5718536493E361133EC2566B6347615826F,
+	U3CTransitionAudioAndLightU3Ed__9_System_IDisposable_Dispose_mB6E022D3717C5D4477A874641463313A672085B9,
+	U3CTransitionAudioAndLightU3Ed__9_MoveNext_m023914EB85FEBDC3574165338B1F6C8303F0FE21,
+	U3CTransitionAudioAndLightU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mFDEE1897A0A9258A764D39D33BD3CE842C2C3E1D,
+	U3CTransitionAudioAndLightU3Ed__9_System_Collections_IEnumerator_Reset_mB06F7B8116616E85AC32EA10F035AC36A9FBE8B2,
+	U3CTransitionAudioAndLightU3Ed__9_System_Collections_IEnumerator_get_Current_m4A69865933E15E03A53472655D16459C61395A34,
 	LorePanel_SetText_m15F89B987FD7AB9328B69FFCF7F330EB070B8195,
 	LorePanel__ctor_mBDD3993504846505576516B31ADF589877402280,
 	FlipperXR_Awake_m817B1AEDA6DFDE61E92FE39C2616EDDC102ED046,
@@ -904,14 +930,14 @@ extern void TrackedRotation_SetBaseFromVector_m0CAD68507FD5C7AA3C7CAE09720645F03
 extern void TrackedRotation_SetTargetFromVector_m42F1586C38A41E0FB628220D326B1572BB8F80D7_AdjustorThunk (void);
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[6] = 
 {
-	{ 0x06000048, AudioAdjustmentSettings__ctor_m455070B48EAF95DFD8BE8FE652DC7E3895EDB19B_AdjustorThunk },
-	{ 0x06000070, LevelInfo_LoadLevel_m57D53AE44069DFAB1F1DBE8180B99B614B339143_AdjustorThunk },
-	{ 0x0600015B, TrackedRotation_get_totalOffset_mC129829FFE6CDD96C8885030BDAEF40D569F06C8_AdjustorThunk },
-	{ 0x0600015C, TrackedRotation_Reset_m54545DE2D01827833956AEC4324C136A0CB72425_AdjustorThunk },
-	{ 0x0600015D, TrackedRotation_SetBaseFromVector_m0CAD68507FD5C7AA3C7CAE09720645F033F1D26E_AdjustorThunk },
-	{ 0x0600015E, TrackedRotation_SetTargetFromVector_m42F1586C38A41E0FB628220D326B1572BB8F80D7_AdjustorThunk },
+	{ 0x06000055, AudioAdjustmentSettings__ctor_m455070B48EAF95DFD8BE8FE652DC7E3895EDB19B_AdjustorThunk },
+	{ 0x0600007D, LevelInfo_LoadLevel_m57D53AE44069DFAB1F1DBE8180B99B614B339143_AdjustorThunk },
+	{ 0x06000168, TrackedRotation_get_totalOffset_mC129829FFE6CDD96C8885030BDAEF40D569F06C8_AdjustorThunk },
+	{ 0x06000169, TrackedRotation_Reset_m54545DE2D01827833956AEC4324C136A0CB72425_AdjustorThunk },
+	{ 0x0600016A, TrackedRotation_SetBaseFromVector_m0CAD68507FD5C7AA3C7CAE09720645F033F1D26E_AdjustorThunk },
+	{ 0x0600016B, TrackedRotation_SetTargetFromVector_m42F1586C38A41E0FB628220D326B1572BB8F80D7_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[446] = 
+static const int32_t s_InvokerIndices[459] = 
 {
 	19796,
 	15040,
@@ -942,9 +968,22 @@ static const int32_t s_InvokerIndices[446] =
 	15121,
 	20263,
 	20263,
+	20263,
 	15121,
 	15121,
 	20263,
+	20263,
+	20263,
+	20263,
+	2973,
+	20263,
+	20263,
+	15040,
+	20263,
+	19796,
+	20024,
+	20263,
+	20024,
 	15121,
 	20263,
 	20263,
@@ -990,10 +1029,10 @@ static const int32_t s_InvokerIndices[446] =
 	20263,
 	15121,
 	20263,
-	35248,
+	35249,
 	20263,
 	20263,
-	35248,
+	35249,
 	20263,
 	20263,
 	20263,
@@ -1112,7 +1151,7 @@ static const int32_t s_InvokerIndices[446] =
 	20263,
 	20263,
 	15121,
-	35248,
+	35249,
 	20263,
 	15040,
 	20263,
@@ -1139,7 +1178,7 @@ static const int32_t s_InvokerIndices[446] =
 	20263,
 	20263,
 	15121,
-	35311,
+	35312,
 	20263,
 	20263,
 	20263,
@@ -1194,7 +1233,7 @@ static const int32_t s_InvokerIndices[446] =
 	20263,
 	20263,
 	20263,
-	32491,
+	32492,
 	20263,
 	20263,
 	15121,
@@ -1365,7 +1404,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	446,
+	459,
 	s_methodPointers,
 	6,
 	s_adjustorThunks,

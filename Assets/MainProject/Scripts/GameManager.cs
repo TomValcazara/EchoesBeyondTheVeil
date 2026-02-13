@@ -50,12 +50,15 @@ public class GameManager : MonoBehaviour
     public float walkableHalfSize = 100f; // 200x200 area
 
     private string[] story;
-    
+
     [Header("Hell Gate")]
     public GameObject hellGatePrefab;
-    public Transform player;
-    public float minGateDistanceFromPlayer = 40f;
-    public float walkableRadius = 100f;
+
+    // [Header("Hell Gate")]
+    // public GameObject hellGatePrefab;
+    // public Transform player;
+    // public float minGateDistanceFromPlayer = 40f;
+    // public float walkableRadius = 100f;
 
     public string GetStoryText(int index)
     {
@@ -81,6 +84,7 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("Toms game started!");
 
+        story = new string[6];
         story[0] = "The forest whispered tonight - a new arrival had drifted in, soft as doubt, pale as confession.\nThe sleeping ones stirred, their sighs weaving beneath the roots.";
         story[1] = "He took two slices, one murmured, their voice damp with envy.\nTwo! When one was enough for salvation.";
         story[2] = "Another sighed. It’s always the gentle ones who wander too far - loving too much, laughing too loud, wanting too freely.\nTheir pity dripped like prayer wax.";
@@ -110,6 +114,7 @@ public class GameManager : MonoBehaviour
         ActivateNextNoiseBush();
 
     }
+
 
     // -------------------------
     // SPAWNING LOGIC
@@ -237,33 +242,34 @@ public class GameManager : MonoBehaviour
 
     void SpawnHellGate()
     {
-        Vector3 center = Vector3.zero; // use your real center if different
-        Vector3 spawnPos = Vector3.zero;
+        // Vector3 center = Vector3.zero; // use your real center if different
+        // Vector3 spawnPos = Vector3.zero;
 
-        bool validPosition = false;
-        int safety = 0;
+        // bool validPosition = false;
+        // int safety = 0;
 
-        while (!validPosition && safety < 50)
-        {
-            Vector2 randomCircle = Random.insideUnitCircle * walkableRadius;
-            Vector3 candidate = new Vector3(randomCircle.x, 0f, randomCircle.y);
+        // while (!validPosition && safety < 50)
+        // {
+        //     Vector2 randomCircle = Random.insideUnitCircle * walkableRadius;
+        //     Vector3 candidate = new Vector3(randomCircle.x, 0f, randomCircle.y);
 
-            float distanceToPlayer = Vector3.Distance(candidate, player.position);
+        //     float distanceToPlayer = Vector3.Distance(candidate, player.position);
 
-            if (distanceToPlayer >= minGateDistanceFromPlayer)
-            {
-                spawnPos = candidate;
-                validPosition = true;
-            }
+        //     if (distanceToPlayer >= minGateDistanceFromPlayer)
+        //     {
+        //         spawnPos = candidate;
+        //         validPosition = true;
+        //     }
 
-            safety++;
-        }
+        //     safety++;
+        // }
 
-        // Snap to terrain height
-        float y = terrain.SampleHeight(spawnPos) + terrain.transform.position.y;
-        spawnPos.y = y;
+        // // Snap to terrain height
+        // float y = terrain.SampleHeight(spawnPos) + terrain.transform.position.y;
+        // spawnPos.y = y;
 
-        Instantiate(hellGatePrefab, spawnPos, Quaternion.identity);
+        // Instantiate(hellGatePrefab, spawnPos, Quaternion.identity);
+        hellGatePrefab.SetActive(true);
     }
 
 
