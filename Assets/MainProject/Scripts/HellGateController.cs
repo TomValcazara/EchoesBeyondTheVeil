@@ -97,6 +97,7 @@ public class HellGateController : MonoBehaviour
 
     public void RestartScene()
     {
+        Debug.Log("Restarting teh Scene");
         Scene currentScene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(currentScene.name);
     }
