@@ -119,6 +119,55 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &11572516
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 11572518}
+  - component: {fileID: 11572517}
+  m_Layer: 0
+  m_Name: WebSocketClient
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &11572517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11572516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ee1741b8bc7e4d2e9f19b05af2114a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WebSocketClientExample
+  serverIP: 10.204.0.43
+  serverPort: 8081
+  flipper: {fileID: 0}
+  SceneReload: {fileID: 0}
+  ledIntensity: 0
+--- !u!4 &11572518
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11572516}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -20.23845, y: -1.02748, z: -10.85062}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &43778220
 GameObject:
   m_ObjectHideFlags: 0
@@ -16165,7 +16214,7 @@ MonoBehaviour:
   yOffset: 0
   numberOfNoiseBushes: 1
   walkableHalfSize: 100
-  hellGatePrefab: {fileID: 0}
+  hellGatePrefab: {fileID: 1492265328}
 --- !u!4 &1326775970
 Transform:
   m_ObjectHideFlags: 0
@@ -16978,6 +17027,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1474463116}
   m_Mesh: {fileID: -4189514412694937182, guid: 147ae308eec018b40a7b312ae58f44c7, type: 3}
+--- !u!1 &1492265328 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3684360103457252412, guid: 050bfaf2aa3f2954f86389e503a7f768, type: 3}
+  m_PrefabInstance: {fileID: 1141632949}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1510730579
 GameObject:
   m_ObjectHideFlags: 0
@@ -19160,3 +19214,4 @@ SceneRoots:
   - {fileID: 881308623}
   - {fileID: 411344449}
   - {fileID: 1141632949}
+  - {fileID: 11572518}
