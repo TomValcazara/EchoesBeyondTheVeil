@@ -16238,7 +16238,7 @@ MonoBehaviour:
   - {fileID: 5753002480272816136, guid: d4f2a518c750f78429acd1f1cd33ee55, type: 3}
   numberOfBushes: 100
   yOffset: 0
-  numberOfNoiseBushes: 2
+  numberOfNoiseBushes: 6
   walkableHalfSize: 100
   hellGatePrefab: {fileID: 1492265328}
   webSocketClient: {fileID: 11572517}

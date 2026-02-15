@@ -1,0 +1,10 @@
+# ninja log v5
+1	1902	7928836008551940	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	c461794c119a04a9
+42	1916	7928836008635285	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	bd90df775c1197db
+25	1919	7928836008684510	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	55cfdbc27963fb5c
+51	1942	7928836009009510	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	fffad7899205bebf
+18	1952	7928836009095186	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	be25c346b1322aa6
+32	2101	7928836010608493	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	391495d945cc8121
+9	2150	7928836011122532	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	495b9738abda32b9
+61	2181	7928836011379586	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	8c71db875111e6d5
+2181	2380	7928836013478210	C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/Debug/69c6y122/obj/arm64-v8a/libgame.so	3e845659cab69688

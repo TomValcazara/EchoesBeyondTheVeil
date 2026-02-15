@@ -1,0 +1,2957 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+struct VirtualActionInvoker0
+{
+	typedef void (*Action)(void*, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename R, typename T1>
+struct VirtualFuncInvoker1
+{
+	typedef R (*Func)(void*, T1, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+
+struct Dictionary_2_t87EDE08B2E48F793A22DE50D6B3CC2E7EBB2DB54;
+struct List_1_t2CDCA768E7F493F5EDEBC75AEB200FD621354E35;
+struct List_1_tC1BA658C81EA039474C928F4173F0242BA48DA00;
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D;
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD;
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct SelectableU5BU5D_t4160E135F02A40F75A63F787D36F31FEC6FE91A9;
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+struct UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F;
+struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07;
+struct AnimationTriggers_tA0DC06F89C5280C6DD972F6F4C8A56D7F4F79074;
+struct AutoResetEvent_t7F792F3F7AD11BEF7B411E771D98E5266A8CE7C0;
+struct Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098;
+struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
+struct CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860;
+struct CodePageDataItem_t52460FA30AE37F4F26ACB81055E58002262F19F2;
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B;
+struct DecoderFallback_t7324102215E4ED41EC065C02EB501CB0BC23CD90;
+struct EncoderFallback_tD2C40CE114AA9D8E1F7196608B2D088548015293;
+struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095;
+struct Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB;
+struct Exception_t;
+struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931;
+struct IMqttNetworkChannel_t5BE579563B7FFFAAB157E100977B94C5CF3B1A73;
+struct InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140;
+struct M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF;
+struct M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC;
+struct Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4;
+struct MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201;
+struct MqttClientExampleSendRGB_tF24931984724BDE97EDD54B0200F32CB4C12ADC9;
+struct MqttClientSession_t542BB5FB553CF9F94065D5AF72765D1EC15AE85A;
+struct MqttMsgBase_t91E03B0493FCC9E137EDD52C5659AE15643395E8;
+struct MqttSettings_tAC993A89C624206F7EA6DDD2AC29D1678D3ED724;
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
+struct Queue_t82FD2BE12D138AF4D22C801CB5044DAEC2BA66BC;
+struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5;
+struct Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712;
+struct Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99;
+struct String_t;
+struct Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62;
+struct TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC;
+struct Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F;
+struct ToggleGroup_tF2E6FE7D4B17BDBF82462715CFB57C4FDE0A2A2C;
+struct TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01;
+struct ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C;
+struct EndEditEvent_t946A962BA13CF60BB0BE7AD091DA041FD788E655;
+struct OnChangeEvent_tE4829F88300B0E0E0D1B78B453AF25FC1AA55E2F;
+struct OnValidateInput_t48916A4E9C9FD6204401FF0808C2B7A93D73418B;
+struct SubmitEvent_t1E0F5A2AB28D0DB55AE18E8DA99147D86492DD5D;
+struct ConnectionClosedEventHandler_tC910D43455B62A7A4C44F62339A53264C422E820;
+struct MqttMsgPublishEventHandler_t22CCB4999A3C3465646942A3318ABDD31C409B14;
+struct MqttMsgPublishedEventHandler_t9EFB5E5D4476BDBAC29776F90F3E7FF9ABA44D37;
+struct MqttMsgSubscribedEventHandler_t27242642B0F707EAB6863DD06B5D6743DF8E60B7;
+struct MqttMsgUnsubscribedEventHandler_t3C13B1A5255297F3DF96AB3AF37BBD9EFF44E095;
+struct ToggleEvent_t88B31268F9D6D1882E4F921B14704FB9F7047F02;
+
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsAssemblyU2DCSharp[];
+IL2CPP_EXTERN_C Il2CppSequencePoint g_sequencePointsExtralityLab_Unity[];
+IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral00B28FF06B788B9B67C6B259800F404F9F3761FD;
+IL2CPP_EXTERN_C String_t* _stringLiteral0F1D24B7F3F5243399203107245E85B724E02195;
+IL2CPP_EXTERN_C String_t* _stringLiteral1ED2F98D0EE94B74322C9715D2C91F53860DCFC5;
+IL2CPP_EXTERN_C String_t* _stringLiteral2DC86AE4F562BC883B2142B32862E9A9A1CF5EE7;
+IL2CPP_EXTERN_C String_t* _stringLiteral401F3CFD68125B7597FF7AB22654E53E659E1257;
+IL2CPP_EXTERN_C String_t* _stringLiteral4B467D329C5789A043694EF9B10829E139BBCD78;
+IL2CPP_EXTERN_C String_t* _stringLiteral4BF62D2057D431DEF4F711C5C10A488C7DB7EB89;
+IL2CPP_EXTERN_C String_t* _stringLiteral4C0C67F93A022737F8867FC526C7BFFA71AC79F5;
+IL2CPP_EXTERN_C String_t* _stringLiteral4D6B7A531E68CB587690D5E0871C27D7C653D5E7;
+IL2CPP_EXTERN_C String_t* _stringLiteral6E1DB8790159FBEA656B1AF309F984D908ED7498;
+IL2CPP_EXTERN_C String_t* _stringLiteral82FF2E4A5CEA89085A6360163E86CB104CFC8CE8;
+IL2CPP_EXTERN_C String_t* _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D;
+IL2CPP_EXTERN_C String_t* _stringLiteralA26960802C2497B265CE884F7B53BBA59C0505DF;
+IL2CPP_EXTERN_C String_t* _stringLiteralB659A4902B5C500B1043A485693758BF00D3A2A7;
+IL2CPP_EXTERN_C String_t* _stringLiteralBD925163F1BCB6ABF40559854212897F1318D9FD;
+IL2CPP_EXTERN_C String_t* _stringLiteralC3D84DF97CF8698AE8DE0A4D1B55B6CFCC868DAD;
+IL2CPP_EXTERN_C String_t* _stringLiteralC883489C69EE9494C88DBECF6CA2D20AA5F8FB2D;
+IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+IL2CPP_EXTERN_C String_t* _stringLiteralF21FA6C3A1A5756D74B11C65B7D38F7EB9F458B5;
+IL2CPP_EXTERN_C String_t* _stringLiteralFBB5A85A4E1436C003797C911CCD9AB50D346450;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_m592BCCE7B7933454DED2130C810F059F8D85B1D7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_mDB47EEC4531D33B9C33FD2E70BA15E1535A0F3ED_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_m143541DD8FBCD313E7554EA738FA813B8F4DB11A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Clear_mC6C7AEBB0F980A717A87C0D12377984A464F0934_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_GetEnumerator_m7692B5F182858B7D5C72C920D09AD48738D1E70D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* M2MqttUnityTest_AddUiMessage_mB73DDAE6DC9F0D1B7956FBDC947465581C3D6336_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* M2MqttUnityTest_DecodeMessage_mEBF6B2FF6142F3E7533A54A055C001017D543D05_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* M2MqttUnityTest_OnConnected_m4E08EFB47DDAEC316312EC74200AA2382D1F2E37_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* M2MqttUnityTest_OnConnecting_m57AEAA25F6756706323D58E30E49873F41C4F8C6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* M2MqttUnityTest_OnConnectionFailed_m881C7BCEA9CDE0F2E08B3DDA81C9C4E103462A93_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* M2MqttUnityTest_OnConnectionLost_m72484011F82E667559D20D97A0DE531CB408EFEA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* M2MqttUnityTest_OnDestroy_mA9169A75E9D16B3FB3BA29E649F099BDAD7B7AB1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* M2MqttUnityTest_OnDisconnected_mCB056C169FB70EC6FBC5772677BE9EB70747B5DC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* M2MqttUnityTest_OnValidate_m1E2378D4ECCC596FD83E268BB6192E678375A7E2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* M2MqttUnityTest_ProcessMessage_m058227E6650E76EBF56C1F7C8019BDDE7AC430F1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* M2MqttUnityTest_SetBrokerAddress_m907E14F37E0B75AD7F2600D9920C9AB1461DECA1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* M2MqttUnityTest_SetBrokerPort_mD2EAF2C05362A4974672D98A9316EC5A56ABBDD4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* M2MqttUnityTest_SetEncrypted_m78B1F2CBC44CD1B3F31C01BBF81C762CE1E890F4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* M2MqttUnityTest_SetUiMessage_m0DDBF8C68A83C5C050EFF937B3E8D32531ED9EC3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* M2MqttUnityTest_Start_m764493A946BF5A66F43ECF5C2A61F42FFC53242C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* M2MqttUnityTest_StoreMessage_mB6DD8CE424A598B72541FA82D666B7E4840F9593_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* M2MqttUnityTest_SubscribeTopics_m01B25C91226442D987199216212FDCE27904D5E2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* M2MqttUnityTest_TestPublish_m8F0E3057EE8135B6D52887B25CBC39E3CE083215_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* M2MqttUnityTest_UnsubscribeTopics_m8B79F5AB8F64EE5047F4D8C039EFD923BE6FBA71_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* M2MqttUnityTest_UpdateUI_mE061E0EB128C462E8E9E52494596FFDE98E4E126_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* M2MqttUnityTest_Update_m5DD4B1B054009C953BA710A38261A1ABEA80ACBB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* M2MqttUnityTest__ctor_m35CCDCF052189BCE501EE6A7BA36321F9DC20599_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MqttClientExampleSendRGB_OnConnected_mA9E67290AD0B2B99FFB9A858862B3EDB7BC05E54_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MqttClientExampleSendRGB_OnConnecting_m1C1012EFA5E805AC737F7C35D5FA9187A728A3E9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MqttClientExampleSendRGB_OnDestroy_mCF534642F46C329F5D615FAC89777E2C149819B9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MqttClientExampleSendRGB_PublishTopicValue_m4EF3850B70A251916BDC24E4C6ECE22A4ADED8F6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MqttClientExampleSendRGB_SetValueBlue_m1704DF4CAAF566E5F67526386634C3A0579D12D6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MqttClientExampleSendRGB_SetValueGreen_mF72654E42F642A6DD3000F0FCBE4408FDADAD66A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MqttClientExampleSendRGB_SetValueRed_mCCE67BF56F86809133EA4638CE583A40F45572D5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MqttClientExampleSendRGB_Start_m5C5B88AC00CA6512CE3D8307C696E18F2DBA9477_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MqttClientExampleSendRGB_Update_mC58CE90E5693858338ABA9F7D238BF0E2EF61402_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MqttClientExampleSendRGB__ctor_m2E0C8243EE3F00AE63349E101976C68C1FCC11C0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* MqttClient_get_IsConnected_mC3A16319C21519DA09798BE95495BCB7BAF9A3E6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* Enumerator_tA7A4B718FE1ED1D87565680D8C8195EC8AEAB3D1_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* MqttClientExampleSendRGB_tF24931984724BDE97EDD54B0200F32CB4C12ADC9_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201_0_0_0_var;
+
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D  : public RuntimeObject
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD  : public RuntimeObject
+{
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA  : public RuntimeObject
+{
+};
+struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095  : public RuntimeObject
+{
+	int32_t ___m_codePage;
+	CodePageDataItem_t52460FA30AE37F4F26ACB81055E58002262F19F2* ___dataItem;
+	bool ___m_deserializedFromEverett;
+	bool ___m_isReadOnly;
+	EncoderFallback_tD2C40CE114AA9D8E1F7196608B2D088548015293* ___encoderFallback;
+	DecoderFallback_t7324102215E4ED41EC065C02EB501CB0BC23CD90* ___decoderFallback;
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A 
+{
+	List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* ____list;
+	int32_t ____index;
+	int32_t ____version;
+	RuntimeObject* ____current;
+};
+struct Enumerator_tA7A4B718FE1ED1D87565680D8C8195EC8AEAB3D1 
+{
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ____list;
+	int32_t ____index;
+	int32_t ____version;
+	String_t* ____current;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
+{
+	uint8_t ___m_value;
+};
+struct Color_tD001788D726C3A7F1379BEED0260B9591F440C1F 
+{
+	float ___r;
+	float ___g;
+	float ___b;
+	float ___a;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct SpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD 
+{
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_HighlightedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_PressedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_SelectedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_DisabledSprite;
+};
+struct SpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD_marshaled_pinvoke
+{
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_HighlightedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_PressedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_SelectedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_DisabledSprite;
+};
+struct SpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD_marshaled_com
+{
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_HighlightedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_PressedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_SelectedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_DisabledSprite;
+};
+struct UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455 
+{
+	uint16_t ___m_value;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D1687_tBB0C9F7F9C0A00E95A8573E152B3C40D690F6050 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D1687_tBB0C9F7F9C0A00E95A8573E152B3C40D690F6050__padding[1687];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D4564_t7FB49168CD463A01E26330DA41767387A43CB739 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D4564_t7FB49168CD463A01E26330DA41767387A43CB739__padding[4564];
+	};
+};
+#pragma pack(pop, tp)
+struct ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11 
+{
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_NormalColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_HighlightedColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_PressedColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_SelectedColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_DisabledColor;
+	float ___m_ColorMultiplier;
+	float ___m_FadeDuration;
+};
+struct MqttProtocolVersion_tF46B50C5C32F0DC12F1C43A736C91ECC93822825 
+{
+	int32_t ___value__;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr;
+};
+struct TouchScreenKeyboardType_t3F5A06315B263282460BE67DE01393B6FB3780C1 
+{
+	int32_t ___value__;
+};
+struct CharacterValidation_t5DAA94F9780B40CCF419821363E89B30E2EF7380 
+{
+	int32_t ___value__;
+};
+struct ContentType_t7E546E516F92E955324D479BB71667931F1A7956 
+{
+	int32_t ___value__;
+};
+struct InputType_t036D7DF2772E6C8C7DB969C7501F6513339572D4 
+{
+	int32_t ___value__;
+};
+struct LineType_tC4DBAA8629361B209A2BA0625320B24FC4566B6B 
+{
+	int32_t ___value__;
+};
+struct Mode_t2D49D0E10E2FDA0026278C2400C16033888D0542 
+{
+	int32_t ___value__;
+};
+struct Transition_tF856A77C9FAC6D26EA3CA158CF68B739D35397B3 
+{
+	int32_t ___value__;
+};
+struct ToggleTransition_tCE3F3757423A29F22112989C6B4D087850A13ED7 
+{
+	int32_t ___value__;
+};
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201  : public RuntimeObject
+{
+	String_t* ___brokerHostName;
+	int32_t ___brokerPort;
+	bool ___isRunning;
+	AutoResetEvent_t7F792F3F7AD11BEF7B411E771D98E5266A8CE7C0* ___receiveEventWaitHandle;
+	AutoResetEvent_t7F792F3F7AD11BEF7B411E771D98E5266A8CE7C0* ___inflightWaitHandle;
+	AutoResetEvent_t7F792F3F7AD11BEF7B411E771D98E5266A8CE7C0* ___syncEndReceiving;
+	MqttMsgBase_t91E03B0493FCC9E137EDD52C5659AE15643395E8* ___msgReceived;
+	Exception_t* ___exReceiving;
+	int32_t ___keepAlivePeriod;
+	AutoResetEvent_t7F792F3F7AD11BEF7B411E771D98E5266A8CE7C0* ___keepAliveEvent;
+	AutoResetEvent_t7F792F3F7AD11BEF7B411E771D98E5266A8CE7C0* ___keepAliveEventEnd;
+	int32_t ___lastCommTime;
+	MqttMsgPublishEventHandler_t22CCB4999A3C3465646942A3318ABDD31C409B14* ___MqttMsgPublishReceived;
+	MqttMsgPublishedEventHandler_t9EFB5E5D4476BDBAC29776F90F3E7FF9ABA44D37* ___MqttMsgPublished;
+	MqttMsgSubscribedEventHandler_t27242642B0F707EAB6863DD06B5D6743DF8E60B7* ___MqttMsgSubscribed;
+	MqttMsgUnsubscribedEventHandler_t3C13B1A5255297F3DF96AB3AF37BBD9EFF44E095* ___MqttMsgUnsubscribed;
+	ConnectionClosedEventHandler_tC910D43455B62A7A4C44F62339A53264C422E820* ___ConnectionClosed;
+	RuntimeObject* ___channel;
+	Queue_t82FD2BE12D138AF4D22C801CB5044DAEC2BA66BC* ___inflightQueue;
+	Queue_t82FD2BE12D138AF4D22C801CB5044DAEC2BA66BC* ___internalQueue;
+	Queue_t82FD2BE12D138AF4D22C801CB5044DAEC2BA66BC* ___eventQueue;
+	MqttClientSession_t542BB5FB553CF9F94065D5AF72765D1EC15AE85A* ___session;
+	MqttSettings_tAC993A89C624206F7EA6DDD2AC29D1678D3ED724* ___settings;
+	uint16_t ___messageIdCounter;
+	bool ___isConnectionClosing;
+	bool ___U3CIsConnectedU3Ek__BackingField;
+	String_t* ___U3CClientIdU3Ek__BackingField;
+	bool ___U3CCleanSessionU3Ek__BackingField;
+	bool ___U3CWillFlagU3Ek__BackingField;
+	uint8_t ___U3CWillQosLevelU3Ek__BackingField;
+	String_t* ___U3CWillTopicU3Ek__BackingField;
+	String_t* ___U3CWillMessageU3Ek__BackingField;
+	int32_t ___U3CProtocolVersionU3Ek__BackingField;
+};
+struct Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C 
+{
+	int32_t ___m_Mode;
+	bool ___m_WrapAround;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnUp;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnDown;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnLeft;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnRight;
+};
+struct Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C_marshaled_pinvoke
+{
+	int32_t ___m_Mode;
+	int32_t ___m_WrapAround;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnUp;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnDown;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnLeft;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnRight;
+};
+struct Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C_marshaled_com
+{
+	int32_t ___m_Mode;
+	int32_t ___m_WrapAround;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnUp;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnDown;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnLeft;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnRight;
+};
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
+};
+struct M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	String_t* ___brokerAddress;
+	int32_t ___brokerPort;
+	bool ___isEncrypted;
+	int32_t ___connectionDelay;
+	int32_t ___timeoutOnConnection;
+	bool ___autoConnect;
+	String_t* ___mqttUserName;
+	String_t* ___mqttPassword;
+	MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* ___client;
+	List_1_tC1BA658C81EA039474C928F4173F0242BA48DA00* ___messageQueue1;
+	List_1_tC1BA658C81EA039474C928F4173F0242BA48DA00* ___messageQueue2;
+	List_1_tC1BA658C81EA039474C928F4173F0242BA48DA00* ___frontMessageQueue;
+	List_1_tC1BA658C81EA039474C928F4173F0242BA48DA00* ___backMessageQueue;
+	bool ___mqttClientConnectionClosed;
+	bool ___mqttClientConnected;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___ConnectionSucceeded;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___ConnectionFailed;
+};
+struct UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+};
+struct M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC  : public M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF
+{
+	bool ___autoTest;
+	InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* ___consoleInputField;
+	Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* ___encryptedToggle;
+	InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* ___addressInputField;
+	InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* ___portInputField;
+	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___connectButton;
+	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___disconnectButton;
+	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___testPublishButton;
+	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___clearButton;
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___eventMessages;
+	bool ___updateUI;
+};
+struct MqttClientExampleSendRGB_tF24931984724BDE97EDD54B0200F32CB4C12ADC9  : public M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF
+{
+	String_t* ___publishTopicName;
+	int32_t ___valueRed;
+	int32_t ___valueGreen;
+	int32_t ___valueBlue;
+	String_t* ___message;
+};
+struct Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712  : public UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D
+{
+	bool ___m_EnableCalled;
+	Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C ___m_Navigation;
+	int32_t ___m_Transition;
+	ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11 ___m_Colors;
+	SpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD ___m_SpriteState;
+	AnimationTriggers_tA0DC06F89C5280C6DD972F6F4C8A56D7F4F79074* ___m_AnimationTriggers;
+	bool ___m_Interactable;
+	Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* ___m_TargetGraphic;
+	bool ___m_GroupsAllowInteraction;
+	int32_t ___m_CurrentIndex;
+	bool ___U3CisPointerInsideU3Ek__BackingField;
+	bool ___U3CisPointerDownU3Ek__BackingField;
+	bool ___U3ChasSelectionU3Ek__BackingField;
+	List_1_t2CDCA768E7F493F5EDEBC75AEB200FD621354E35* ___m_CanvasGroupCache;
+};
+struct Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098  : public Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712
+{
+	ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* ___m_OnClick;
+};
+struct InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140  : public Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712
+{
+	TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A* ___m_Keyboard;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___m_TextComponent;
+	Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* ___m_Placeholder;
+	int32_t ___m_ContentType;
+	int32_t ___m_InputType;
+	Il2CppChar ___m_AsteriskChar;
+	int32_t ___m_KeyboardType;
+	int32_t ___m_LineType;
+	bool ___m_HideMobileInput;
+	int32_t ___m_CharacterValidation;
+	int32_t ___m_CharacterLimit;
+	SubmitEvent_t1E0F5A2AB28D0DB55AE18E8DA99147D86492DD5D* ___m_OnSubmit;
+	EndEditEvent_t946A962BA13CF60BB0BE7AD091DA041FD788E655* ___m_OnDidEndEdit;
+	OnChangeEvent_tE4829F88300B0E0E0D1B78B453AF25FC1AA55E2F* ___m_OnValueChanged;
+	OnValidateInput_t48916A4E9C9FD6204401FF0808C2B7A93D73418B* ___m_OnValidateInput;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_CaretColor;
+	bool ___m_CustomCaretColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_SelectionColor;
+	String_t* ___m_Text;
+	float ___m_CaretBlinkRate;
+	int32_t ___m_CaretWidth;
+	bool ___m_ReadOnly;
+	bool ___m_ShouldActivateOnSelect;
+	int32_t ___m_CaretPosition;
+	int32_t ___m_CaretSelectPosition;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___caretRectTrans;
+	UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F* ___m_CursorVerts;
+	TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* ___m_InputTextCache;
+	CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* ___m_CachedInputRenderer;
+	bool ___m_PreventFontCallback;
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___m_Mesh;
+	bool ___m_AllowInput;
+	bool ___m_ShouldActivateNextUpdate;
+	bool ___m_UpdateDrag;
+	bool ___m_DragPositionOutOfBounds;
+	bool ___m_CaretVisible;
+	Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___m_BlinkCoroutine;
+	float ___m_BlinkStartTime;
+	int32_t ___m_DrawStart;
+	int32_t ___m_DrawEnd;
+	Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___m_DragCoroutine;
+	String_t* ___m_OriginalText;
+	bool ___m_WasCanceled;
+	bool ___m_HasDoneFocusTransition;
+	WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01* ___m_WaitForSecondsRealtime;
+	bool ___m_TouchKeyboardAllowsInPlaceEditing;
+	bool ___m_IsCompositionActive;
+	Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB* ___m_ProcessingEvent;
+};
+struct Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F  : public Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712
+{
+	int32_t ___toggleTransition;
+	Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* ___graphic;
+	ToggleGroup_tF2E6FE7D4B17BDBF82462715CFB57C4FDE0A2A2C* ___m_Group;
+	ToggleEvent_t88B31268F9D6D1882E4F921B14704FB9F7047F02* ___onValueChanged;
+	bool ___m_IsOn;
+};
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray;
+};
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_StaticFields
+{
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___s_emptyArray;
+};
+struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA_StaticFields
+{
+	__StaticArrayInitTypeSizeU3D4564_t7FB49168CD463A01E26330DA41767387A43CB739 ___131D23D893B9BFF54659699AAF69EA9F01378079A5FC29ED497EFE7E8A4B3273;
+	__StaticArrayInitTypeSizeU3D1687_tBB0C9F7F9C0A00E95A8573E152B3C40D690F6050 ___83BCF662BBE13F02E87BD921B4DA867E9EC3C7831C528EEDD22B856F13112DBD;
+};
+struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095_StaticFields
+{
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___defaultEncoding;
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___unicodeEncoding;
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___bigEndianUnicode;
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___utf7Encoding;
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___utf8Encoding;
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___utf32Encoding;
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___asciiEncoding;
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___latin1Encoding;
+	Dictionary_2_t87EDE08B2E48F793A22DE50D6B3CC2E7EBB2DB54* ___encodings;
+	RuntimeObject* ___s_InternalSyncObject;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
+};
+struct Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712_StaticFields
+{
+	SelectableU5BU5D_t4160E135F02A40F75A63F787D36F31FEC6FE91A9* ___s_Selectables;
+	int32_t ___s_SelectableCount;
+};
+struct InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_StaticFields
+{
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___kSeparators;
+	bool ___s_IsQuestDeviceEvaluated;
+	bool ___s_IsQuestDevice;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248  : public RuntimeArray
+{
+	ALIGN_FIELD (8) String_t* m_Items[1];
+
+	inline String_t* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, String_t* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline String_t* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, String_t* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArray
+{
+	ALIGN_FIELD (8) uint8_t m_Items[1];
+
+	inline uint8_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918  : public RuntimeArray
+{
+	ALIGN_FIELD (8) RuntimeObject* m_Items[1];
+
+	inline RuntimeObject* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline RuntimeObject* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+
+
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A List_1_GetEnumerator_mD8294A7FA2BEB1929487127D476F8EC1CDC23BFC_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_mD9DC3E3C3697830A4823047AB29A77DBBB5ED419_gshared (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_gshared (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityClient_Start_m19A4E6B4F62013F398FDFC70B43831B4A949E145 (M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityClient_Update_m17168B19A6C8320C35677010C7C25AF133A47BB7 (M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityClient_OnConnecting_m0C6687E9AD804DD43DA85D362BE26B9F794FF812 (M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5 (int32_t* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_values, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityClient_OnConnected_mE055D2F12A32CCFC68CA7F2B6E2F262E37518DD2 (M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClientExampleSendRGB_PublishTopicValue_m4EF3850B70A251916BDC24E4C6ECE22A4ADED8F6 (MqttClientExampleSendRGB_tF24931984724BDE97EDD54B0200F32CB4C12ADC9* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C (String_t* ___0_format, RuntimeObject* ___1_arg0, RuntimeObject* ___2_arg1, RuntimeObject* ___3_arg2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* Encoding_get_UTF8_m9FA98A53CE96FD6D02982625C5246DD36C1235C9 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t MqttClient_Publish_mD288565C1612661C38FC577705F819056B287AD1 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, String_t* ___0_topic, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_message, uint8_t ___2_qosLevel, bool ___3_retain, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityClient__ctor_m9A59013C11922CC133C79AED842F9113A6F539DD (M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityTest_AddUiMessage_mB73DDAE6DC9F0D1B7956FBDC947465581C3D6336 (M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC* __this, String_t* ___0_msg, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_exists, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Int32_TryParse_mC928DE2FEC1C35ED5298BDDCA9868076E94B8A21 (String_t* ___0_s, int32_t* ___1_result, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_text_m28B1C806BBCAC44F3ACCDC3B550509CA0C7D257F (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, String_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* InputField_get_text_m6E0796350FF559505E4DF17311803962699D6704 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityTest_SetUiMessage_m0DDBF8C68A83C5C050EFF937B3E8D32531ED9EC3 (M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC* __this, String_t* ___0_msg, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityTest_TestPublish_m8F0E3057EE8135B6D52887B25CBC39E3CE083215 (M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t MqttClient_Subscribe_mC7CCCA391896665F2C9EEC590960A24C5AE621D4 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_topics, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_qosLevels, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t MqttClient_Unsubscribe_mEBDAF88AB00021262C5F1F8912076B754B2F97E4 (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_topics, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492 (Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool MqttClient_get_IsConnected_mC3A16319C21519DA09798BE95495BCB7BAF9A3E6_inline (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Selectable_get_interactable_m17DD0484DC62DCB4467109488D7A599BC85EC112 (Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Toggle_set_isOn_m61D6AB073668E87530A9F49D990A3B3631D2061F (Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityTest_StoreMessage_mB6DD8CE424A598B72541FA82D666B7E4840F9593 (M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC* __this, String_t* ___0_eventMsg, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1 (String_t* ___0_a, String_t* ___1_b, const RuntimeMethod* method) ;
+inline void List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, String_t* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, String_t*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___0_item, method);
+}
+inline int32_t List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_inline (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, const RuntimeMethod*))List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline)(__this, method);
+}
+inline Enumerator_tA7A4B718FE1ED1D87565680D8C8195EC8AEAB3D1 List_1_GetEnumerator_m7692B5F182858B7D5C72C920D09AD48738D1E70D (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, const RuntimeMethod* method)
+{
+	return ((  Enumerator_tA7A4B718FE1ED1D87565680D8C8195EC8AEAB3D1 (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, const RuntimeMethod*))List_1_GetEnumerator_mD8294A7FA2BEB1929487127D476F8EC1CDC23BFC_gshared)(__this, method);
+}
+inline void Enumerator_Dispose_m592BCCE7B7933454DED2130C810F059F8D85B1D7 (Enumerator_tA7A4B718FE1ED1D87565680D8C8195EC8AEAB3D1* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Enumerator_tA7A4B718FE1ED1D87565680D8C8195EC8AEAB3D1*, const RuntimeMethod*))Enumerator_Dispose_mD9DC3E3C3697830A4823047AB29A77DBBB5ED419_gshared)(__this, method);
+}
+inline String_t* Enumerator_get_Current_m143541DD8FBCD313E7554EA738FA813B8F4DB11A_inline (Enumerator_tA7A4B718FE1ED1D87565680D8C8195EC8AEAB3D1* __this, const RuntimeMethod* method)
+{
+	return ((  String_t* (*) (Enumerator_tA7A4B718FE1ED1D87565680D8C8195EC8AEAB3D1*, const RuntimeMethod*))Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityTest_ProcessMessage_m058227E6650E76EBF56C1F7C8019BDDE7AC430F1 (M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC* __this, String_t* ___0_msg, const RuntimeMethod* method) ;
+inline bool Enumerator_MoveNext_mDB47EEC4531D33B9C33FD2E70BA15E1535A0F3ED (Enumerator_tA7A4B718FE1ED1D87565680D8C8195EC8AEAB3D1* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Enumerator_tA7A4B718FE1ED1D87565680D8C8195EC8AEAB3D1*, const RuntimeMethod*))Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_gshared)(__this, method);
+}
+inline void List_1_Clear_mC6C7AEBB0F980A717A87C0D12377984A464F0934_inline (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, const RuntimeMethod*))List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityTest_UpdateUI_mE061E0EB128C462E8E9E52494596FFDE98E4E126 (M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC* __this, const RuntimeMethod* method) ;
+inline void List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
+}
+inline void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4 (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*, RuntimeObject*, const RuntimeMethod*))List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared)(__this, ___0_item, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB (RuntimeArray* ___0_array, int32_t ___1_index, int32_t ___2_length, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 90691
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClientExampleSendRGB_Start_m5C5B88AC00CA6512CE3D8307C696E18F2DBA9477 (MqttClientExampleSendRGB_tF24931984724BDE97EDD54B0200F32CB4C12ADC9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MqttClientExampleSendRGB_Start_m5C5B88AC00CA6512CE3D8307C696E18F2DBA9477_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MqttClientExampleSendRGB_tF24931984724BDE97EDD54B0200F32CB4C12ADC9_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MqttClientExampleSendRGB_Start_m5C5B88AC00CA6512CE3D8307C696E18F2DBA9477_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4605));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4606));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4607));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/Scripts/MqttClientExampleSendRGB.cs:22>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4608));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4609));
+		M2MqttUnityClient_Start_m19A4E6B4F62013F398FDFC70B43831B4A949E145(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4609));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/Scripts/MqttClientExampleSendRGB.cs:26>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4610));
+		return;
+	}
+}
+// Method Definition Index: 90692
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClientExampleSendRGB_Update_mC58CE90E5693858338ABA9F7D238BF0E2EF61402 (MqttClientExampleSendRGB_tF24931984724BDE97EDD54B0200F32CB4C12ADC9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MqttClientExampleSendRGB_Update_mC58CE90E5693858338ABA9F7D238BF0E2EF61402_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MqttClientExampleSendRGB_tF24931984724BDE97EDD54B0200F32CB4C12ADC9_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MqttClientExampleSendRGB_Update_mC58CE90E5693858338ABA9F7D238BF0E2EF61402_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4611));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4612));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4613));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/Scripts/MqttClientExampleSendRGB.cs:30>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4614));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4615));
+		M2MqttUnityClient_Update_m17168B19A6C8320C35677010C7C25AF133A47BB7(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4615));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/Scripts/MqttClientExampleSendRGB.cs:34>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4616));
+		return;
+	}
+}
+// Method Definition Index: 90693
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClientExampleSendRGB_OnConnecting_m1C1012EFA5E805AC737F7C35D5FA9187A728A3E9 (MqttClientExampleSendRGB_tF24931984724BDE97EDD54B0200F32CB4C12ADC9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MqttClientExampleSendRGB_OnConnecting_m1C1012EFA5E805AC737F7C35D5FA9187A728A3E9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MqttClientExampleSendRGB_tF24931984724BDE97EDD54B0200F32CB4C12ADC9_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2DC86AE4F562BC883B2142B32862E9A9A1CF5EE7);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4B467D329C5789A043694EF9B10829E139BBCD78);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4D6B7A531E68CB587690D5E0871C27D7C653D5E7);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MqttClientExampleSendRGB_OnConnecting_m1C1012EFA5E805AC737F7C35D5FA9187A728A3E9_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4617));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4618));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4619));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/Scripts/MqttClientExampleSendRGB.cs:38>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4620));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4621));
+		M2MqttUnityClient_OnConnecting_m0C6687E9AD804DD43DA85D362BE26B9F794FF812(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4621));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/Scripts/MqttClientExampleSendRGB.cs:39>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4622));
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)7);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = L_0;
+		NullCheck(L_1);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral4B467D329C5789A043694EF9B10829E139BBCD78);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = L_1;
+		String_t* L_3 = __this->___publishTopicName;
+		NullCheck(L_2);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_3);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4 = L_2;
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral2DC86AE4F562BC883B2142B32862E9A9A1CF5EE7);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_5 = L_4;
+		String_t* L_6 = ((M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF*)__this)->___brokerAddress;
+		NullCheck(L_5);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_6);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7 = L_5;
+		NullCheck(L_7);
+		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_8 = L_7;
+		int32_t* L_9 = (int32_t*)(&((M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF*)__this)->___brokerPort);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4623));
+		String_t* L_10;
+		L_10 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_9, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4623));
+		NullCheck(L_8);
+		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(5), (String_t*)L_10);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_11 = L_8;
+		NullCheck(L_11);
+		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(6), (String_t*)_stringLiteral4D6B7A531E68CB587690D5E0871C27D7C653D5E7);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4624));
+		String_t* L_12;
+		L_12 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_11, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4624));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4625));
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_12, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4625));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/Scripts/MqttClientExampleSendRGB.cs:40>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4626));
+		return;
+	}
+}
+// Method Definition Index: 90694
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClientExampleSendRGB_OnConnected_mA9E67290AD0B2B99FFB9A858862B3EDB7BC05E54 (MqttClientExampleSendRGB_tF24931984724BDE97EDD54B0200F32CB4C12ADC9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MqttClientExampleSendRGB_OnConnected_mA9E67290AD0B2B99FFB9A858862B3EDB7BC05E54_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MqttClientExampleSendRGB_tF24931984724BDE97EDD54B0200F32CB4C12ADC9_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4B467D329C5789A043694EF9B10829E139BBCD78);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFBB5A85A4E1436C003797C911CCD9AB50D346450);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MqttClientExampleSendRGB_OnConnected_mA9E67290AD0B2B99FFB9A858862B3EDB7BC05E54_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4627));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4628));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4629));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/Scripts/MqttClientExampleSendRGB.cs:44>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4630));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4631));
+		M2MqttUnityClient_OnConnected_mE055D2F12A32CCFC68CA7F2B6E2F262E37518DD2(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4631));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/Scripts/MqttClientExampleSendRGB.cs:45>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4632));
+		String_t* L_0 = __this->___publishTopicName;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4633));
+		String_t* L_1;
+		L_1 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral4B467D329C5789A043694EF9B10829E139BBCD78, L_0, _stringLiteralFBB5A85A4E1436C003797C911CCD9AB50D346450, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4633));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4634));
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4634));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/Scripts/MqttClientExampleSendRGB.cs:46>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4635));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4636));
+		MqttClientExampleSendRGB_PublishTopicValue_m4EF3850B70A251916BDC24E4C6ECE22A4ADED8F6(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4636));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/Scripts/MqttClientExampleSendRGB.cs:47>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4637));
+		return;
+	}
+}
+// Method Definition Index: 90695
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClientExampleSendRGB_OnDestroy_mCF534642F46C329F5D615FAC89777E2C149819B9 (MqttClientExampleSendRGB_tF24931984724BDE97EDD54B0200F32CB4C12ADC9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MqttClientExampleSendRGB_OnDestroy_mCF534642F46C329F5D615FAC89777E2C149819B9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MqttClientExampleSendRGB_tF24931984724BDE97EDD54B0200F32CB4C12ADC9_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MqttClientExampleSendRGB_OnDestroy_mCF534642F46C329F5D615FAC89777E2C149819B9_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4638));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4639));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4640));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/Scripts/MqttClientExampleSendRGB.cs:51>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4641));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4642));
+		VirtualActionInvoker0::Invoke(5, __this);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4642));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/Scripts/MqttClientExampleSendRGB.cs:52>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4643));
+		return;
+	}
+}
+// Method Definition Index: 90696
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClientExampleSendRGB_SetValueRed_mCCE67BF56F86809133EA4638CE583A40F45572D5 (MqttClientExampleSendRGB_tF24931984724BDE97EDD54B0200F32CB4C12ADC9* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MqttClientExampleSendRGB_SetValueRed_mCCE67BF56F86809133EA4638CE583A40F45572D5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MqttClientExampleSendRGB_tF24931984724BDE97EDD54B0200F32CB4C12ADC9_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MqttClientExampleSendRGB_SetValueRed_mCCE67BF56F86809133EA4638CE583A40F45572D5_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4644));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4645));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4646));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/Scripts/MqttClientExampleSendRGB.cs:58>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4647));
+		float L_0 = ___0_value;
+		__this->___valueRed = il2cpp_codegen_cast_double_to_int<int32_t>(L_0);
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/Scripts/MqttClientExampleSendRGB.cs:59>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4648));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4649));
+		MqttClientExampleSendRGB_PublishTopicValue_m4EF3850B70A251916BDC24E4C6ECE22A4ADED8F6(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4649));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/Scripts/MqttClientExampleSendRGB.cs:60>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4650));
+		return;
+	}
+}
+// Method Definition Index: 90697
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClientExampleSendRGB_SetValueGreen_mF72654E42F642A6DD3000F0FCBE4408FDADAD66A (MqttClientExampleSendRGB_tF24931984724BDE97EDD54B0200F32CB4C12ADC9* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MqttClientExampleSendRGB_SetValueGreen_mF72654E42F642A6DD3000F0FCBE4408FDADAD66A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MqttClientExampleSendRGB_tF24931984724BDE97EDD54B0200F32CB4C12ADC9_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MqttClientExampleSendRGB_SetValueGreen_mF72654E42F642A6DD3000F0FCBE4408FDADAD66A_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4651));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4652));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4653));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/Scripts/MqttClientExampleSendRGB.cs:64>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4654));
+		float L_0 = ___0_value;
+		__this->___valueGreen = il2cpp_codegen_cast_double_to_int<int32_t>(L_0);
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/Scripts/MqttClientExampleSendRGB.cs:65>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4655));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4656));
+		MqttClientExampleSendRGB_PublishTopicValue_m4EF3850B70A251916BDC24E4C6ECE22A4ADED8F6(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4656));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/Scripts/MqttClientExampleSendRGB.cs:66>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4657));
+		return;
+	}
+}
+// Method Definition Index: 90698
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClientExampleSendRGB_SetValueBlue_m1704DF4CAAF566E5F67526386634C3A0579D12D6 (MqttClientExampleSendRGB_tF24931984724BDE97EDD54B0200F32CB4C12ADC9* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MqttClientExampleSendRGB_SetValueBlue_m1704DF4CAAF566E5F67526386634C3A0579D12D6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MqttClientExampleSendRGB_tF24931984724BDE97EDD54B0200F32CB4C12ADC9_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_value));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MqttClientExampleSendRGB_SetValueBlue_m1704DF4CAAF566E5F67526386634C3A0579D12D6_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4658));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4659));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4660));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/Scripts/MqttClientExampleSendRGB.cs:70>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4661));
+		float L_0 = ___0_value;
+		__this->___valueBlue = il2cpp_codegen_cast_double_to_int<int32_t>(L_0);
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/Scripts/MqttClientExampleSendRGB.cs:71>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4662));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4663));
+		MqttClientExampleSendRGB_PublishTopicValue_m4EF3850B70A251916BDC24E4C6ECE22A4ADED8F6(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4663));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/Scripts/MqttClientExampleSendRGB.cs:72>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4664));
+		return;
+	}
+}
+// Method Definition Index: 90699
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClientExampleSendRGB_PublishTopicValue_m4EF3850B70A251916BDC24E4C6ECE22A4ADED8F6 (MqttClientExampleSendRGB_tF24931984724BDE97EDD54B0200F32CB4C12ADC9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MqttClientExampleSendRGB_PublishTopicValue_m4EF3850B70A251916BDC24E4C6ECE22A4ADED8F6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MqttClientExampleSendRGB_tF24931984724BDE97EDD54B0200F32CB4C12ADC9_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral82FF2E4A5CEA89085A6360163E86CB104CFC8CE8);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MqttClientExampleSendRGB_PublishTopicValue_m4EF3850B70A251916BDC24E4C6ECE22A4ADED8F6_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4665));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4666));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4667));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/Scripts/MqttClientExampleSendRGB.cs:76>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4668));
+		int32_t L_0 = __this->___valueRed;
+		int32_t L_1 = L_0;
+		RuntimeObject* L_2 = Box(il2cpp_defaults.int32_class, &L_1);
+		int32_t L_3 = __this->___valueGreen;
+		int32_t L_4 = L_3;
+		RuntimeObject* L_5 = Box(il2cpp_defaults.int32_class, &L_4);
+		int32_t L_6 = __this->___valueBlue;
+		int32_t L_7 = L_6;
+		RuntimeObject* L_8 = Box(il2cpp_defaults.int32_class, &L_7);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4669));
+		String_t* L_9;
+		L_9 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteral82FF2E4A5CEA89085A6360163E86CB104CFC8CE8, L_2, L_5, L_8, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4669));
+		__this->___message = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___message), (void*)L_9);
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/Scripts/MqttClientExampleSendRGB.cs:78>
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/Scripts/MqttClientExampleSendRGB.cs:79>
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/Scripts/MqttClientExampleSendRGB.cs:80>
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/Scripts/MqttClientExampleSendRGB.cs:81>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4670));
+		MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* L_10 = ((M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF*)__this)->___client;
+		String_t* L_11 = __this->___publishTopicName;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4671));
+		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_12;
+		L_12 = Encoding_get_UTF8_m9FA98A53CE96FD6D02982625C5246DD36C1235C9(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4671));
+		String_t* L_13 = __this->___message;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4672));
+		NullCheck(L_12);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_14;
+		L_14 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(16, L_12, L_13);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4672));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4673));
+		NullCheck(L_10);
+		uint16_t L_15;
+		L_15 = MqttClient_Publish_mD288565C1612661C38FC577705F819056B287AD1(L_10, L_11, L_14, (uint8_t)2, (bool)0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4673));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/Scripts/MqttClientExampleSendRGB.cs:82>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4674));
+		return;
+	}
+}
+// Method Definition Index: 90700
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MqttClientExampleSendRGB__ctor_m2E0C8243EE3F00AE63349E101976C68C1FCC11C0 (MqttClientExampleSendRGB_tF24931984724BDE97EDD54B0200F32CB4C12ADC9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MqttClientExampleSendRGB__ctor_m2E0C8243EE3F00AE63349E101976C68C1FCC11C0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MqttClientExampleSendRGB_tF24931984724BDE97EDD54B0200F32CB4C12ADC9_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6E1DB8790159FBEA656B1AF309F984D908ED7498);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MqttClientExampleSendRGB__ctor_m2E0C8243EE3F00AE63349E101976C68C1FCC11C0_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4675));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4676));
+	{
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/Scripts/MqttClientExampleSendRGB.cs:11>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4677));
+		__this->___publishTopicName = _stringLiteral6E1DB8790159FBEA656B1AF309F984D908ED7498;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___publishTopicName), (void*)_stringLiteral6E1DB8790159FBEA656B1AF309F984D908ED7498);
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/Scripts/MqttClientExampleSendRGB.cs:13>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4678));
+		__this->___valueRed = 0;
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/Scripts/MqttClientExampleSendRGB.cs:14>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4679));
+		__this->___valueGreen = 0;
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/Scripts/MqttClientExampleSendRGB.cs:15>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4680));
+		__this->___valueBlue = 0;
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/Scripts/MqttClientExampleSendRGB.cs:18>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4681));
+		__this->___message = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___message), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4682));
+		M2MqttUnityClient__ctor_m9A59013C11922CC133C79AED842F9113A6F539DD(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4682));
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 90701
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityTest_TestPublish_m8F0E3057EE8135B6D52887B25CBC39E3CE083215 (M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_TestPublish_m8F0E3057EE8135B6D52887B25CBC39E3CE083215_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0F1D24B7F3F5243399203107245E85B724E02195);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1ED2F98D0EE94B74322C9715D2C91F53860DCFC5);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB659A4902B5C500B1043A485693758BF00D3A2A7);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF21FA6C3A1A5756D74B11C65B7D38F7EB9F458B5);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, M2MqttUnityTest_TestPublish_m8F0E3057EE8135B6D52887B25CBC39E3CE083215_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4683));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4684));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4685));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:61>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4686));
+		MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* L_0 = ((M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF*)__this)->___client;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4687));
+		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_1;
+		L_1 = Encoding_get_UTF8_m9FA98A53CE96FD6D02982625C5246DD36C1235C9(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4687));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4688));
+		NullCheck(L_1);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2;
+		L_2 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(16, L_1, _stringLiteralF21FA6C3A1A5756D74B11C65B7D38F7EB9F458B5);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4688));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4689));
+		NullCheck(L_0);
+		uint16_t L_3;
+		L_3 = MqttClient_Publish_mD288565C1612661C38FC577705F819056B287AD1(L_0, _stringLiteralB659A4902B5C500B1043A485693758BF00D3A2A7, L_2, (uint8_t)2, (bool)0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4689));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:62>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4690));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4691));
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral0F1D24B7F3F5243399203107245E85B724E02195, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4691));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:63>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4692));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4693));
+		M2MqttUnityTest_AddUiMessage_mB73DDAE6DC9F0D1B7956FBDC947465581C3D6336(__this, _stringLiteral1ED2F98D0EE94B74322C9715D2C91F53860DCFC5, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4693));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:64>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4694));
+		return;
+	}
+}
+// Method Definition Index: 90702
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityTest_SetBrokerAddress_m907E14F37E0B75AD7F2600D9920C9AB1461DECA1 (M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC* __this, String_t* ___0_brokerAddress, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_SetBrokerAddress_m907E14F37E0B75AD7F2600D9920C9AB1461DECA1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_brokerAddress));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, M2MqttUnityTest_SetBrokerAddress_m907E14F37E0B75AD7F2600D9920C9AB1461DECA1_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4695));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4696));
+	int32_t G_B3_0 = 0;
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4697));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:68>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4698));
+		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_0 = __this->___addressInputField;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4699));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4699));
+		if (!L_1)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		bool L_2 = __this->___updateUI;
+		G_B3_0 = ((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
+		goto IL_001a;
+	}
+
+IL_0019:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_001a:
+	{
+		V_0 = (bool)G_B3_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4700));
+		bool L_3 = V_0;
+		if (!L_3)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4701));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:70>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4702));
+		String_t* L_4 = ___0_brokerAddress;
+		((M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF*)__this)->___brokerAddress = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF*)__this)->___brokerAddress), (void*)L_4);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4703));
+	}
+
+IL_0027:
+	{
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:72>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4704));
+		return;
+	}
+}
+// Method Definition Index: 90703
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityTest_SetBrokerPort_mD2EAF2C05362A4974672D98A9316EC5A56ABBDD4 (M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC* __this, String_t* ___0_brokerPort, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_SetBrokerPort_mD2EAF2C05362A4974672D98A9316EC5A56ABBDD4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_brokerPort));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, M2MqttUnityTest_SetBrokerPort_mD2EAF2C05362A4974672D98A9316EC5A56ABBDD4_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4705));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4706));
+	int32_t G_B3_0 = 0;
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4707));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:76>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4708));
+		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_0 = __this->___portInputField;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4709));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4709));
+		if (!L_1)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		bool L_2 = __this->___updateUI;
+		G_B3_0 = ((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
+		goto IL_001a;
+	}
+
+IL_0019:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_001a:
+	{
+		V_0 = (bool)G_B3_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4710));
+		bool L_3 = V_0;
+		if (!L_3)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4711));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:78>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4712));
+		String_t* L_4 = ___0_brokerPort;
+		int32_t* L_5 = (int32_t*)(&((M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF*)__this)->___brokerPort);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4713));
+		bool L_6;
+		L_6 = Int32_TryParse_mC928DE2FEC1C35ED5298BDDCA9868076E94B8A21(L_4, L_5, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4713));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4714));
+	}
+
+IL_002d:
+	{
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:80>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4715));
+		return;
+	}
+}
+// Method Definition Index: 90704
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityTest_SetEncrypted_m78B1F2CBC44CD1B3F31C01BBF81C762CE1E890F4 (M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC* __this, bool ___0_isEncrypted, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_SetEncrypted_m78B1F2CBC44CD1B3F31C01BBF81C762CE1E890F4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_isEncrypted));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, M2MqttUnityTest_SetEncrypted_m78B1F2CBC44CD1B3F31C01BBF81C762CE1E890F4_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4716));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4717));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4718));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:84>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4719));
+		bool L_0 = ___0_isEncrypted;
+		((M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF*)__this)->___isEncrypted = L_0;
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:85>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4720));
+		return;
+	}
+}
+// Method Definition Index: 90705
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityTest_SetUiMessage_m0DDBF8C68A83C5C050EFF937B3E8D32531ED9EC3 (M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC* __this, String_t* ___0_msg, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_SetUiMessage_m0DDBF8C68A83C5C050EFF937B3E8D32531ED9EC3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_msg));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, M2MqttUnityTest_SetUiMessage_m0DDBF8C68A83C5C050EFF937B3E8D32531ED9EC3_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4721));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4722));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4723));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:90>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4724));
+		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_0 = __this->___consoleInputField;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4725));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4725));
+		V_0 = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4726));
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4727));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:92>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4728));
+		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_3 = __this->___consoleInputField;
+		String_t* L_4 = ___0_msg;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4729));
+		NullCheck(L_3);
+		InputField_set_text_m28B1C806BBCAC44F3ACCDC3B550509CA0C7D257F(L_3, L_4, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4729));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:93>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4730));
+		__this->___updateUI = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4731));
+	}
+
+IL_0027:
+	{
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:95>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4732));
+		return;
+	}
+}
+// Method Definition Index: 90706
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityTest_AddUiMessage_mB73DDAE6DC9F0D1B7956FBDC947465581C3D6336 (M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC* __this, String_t* ___0_msg, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_AddUiMessage_mB73DDAE6DC9F0D1B7956FBDC947465581C3D6336_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral00B28FF06B788B9B67C6B259800F404F9F3761FD);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_msg));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, M2MqttUnityTest_AddUiMessage_mB73DDAE6DC9F0D1B7956FBDC947465581C3D6336_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4733));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4734));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4735));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:99>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4736));
+		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_0 = __this->___consoleInputField;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4737));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4737));
+		V_0 = L_1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4738));
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4739));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:101>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4740));
+		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_3 = __this->___consoleInputField;
+		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_4 = L_3;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4741));
+		NullCheck(L_4);
+		String_t* L_5;
+		L_5 = InputField_get_text_m6E0796350FF559505E4DF17311803962699D6704(L_4, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4741));
+		String_t* L_6 = ___0_msg;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4742));
+		String_t* L_7;
+		L_7 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_5, L_6, _stringLiteral00B28FF06B788B9B67C6B259800F404F9F3761FD, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4742));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4743));
+		NullCheck(L_4);
+		InputField_set_text_m28B1C806BBCAC44F3ACCDC3B550509CA0C7D257F(L_4, L_7, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4743));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:102>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4744));
+		__this->___updateUI = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4745));
+	}
+
+IL_0037:
+	{
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:104>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4746));
+		return;
+	}
+}
+// Method Definition Index: 90707
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityTest_OnConnecting_m57AEAA25F6756706323D58E30E49873F41C4F8C6 (M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_OnConnecting_m57AEAA25F6756706323D58E30E49873F41C4F8C6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4D6B7A531E68CB587690D5E0871C27D7C653D5E7);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBD925163F1BCB6ABF40559854212897F1318D9FD);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, M2MqttUnityTest_OnConnecting_m57AEAA25F6756706323D58E30E49873F41C4F8C6_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4747));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4748));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4749));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:108>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4750));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4751));
+		M2MqttUnityClient_OnConnecting_m0C6687E9AD804DD43DA85D362BE26B9F794FF812(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4751));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:109>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4752));
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = L_0;
+		NullCheck(L_1);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteralBD925163F1BCB6ABF40559854212897F1318D9FD);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = L_1;
+		String_t* L_3 = ((M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF*)__this)->___brokerAddress;
+		NullCheck(L_2);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_3);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4 = L_2;
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_5 = L_4;
+		int32_t* L_6 = (int32_t*)(&((M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF*)__this)->___brokerPort);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4753));
+		String_t* L_7;
+		L_7 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_6, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4753));
+		NullCheck(L_5);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_7);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_8 = L_5;
+		NullCheck(L_8);
+		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral4D6B7A531E68CB587690D5E0871C27D7C653D5E7);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4754));
+		String_t* L_9;
+		L_9 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_8, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4754));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4755));
+		M2MqttUnityTest_SetUiMessage_m0DDBF8C68A83C5C050EFF937B3E8D32531ED9EC3(__this, L_9, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4755));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:110>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4756));
+		return;
+	}
+}
+// Method Definition Index: 90708
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityTest_OnConnected_m4E08EFB47DDAEC316312EC74200AA2382D1F2E37 (M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_OnConnected_m4E08EFB47DDAEC316312EC74200AA2382D1F2E37_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral00B28FF06B788B9B67C6B259800F404F9F3761FD);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA26960802C2497B265CE884F7B53BBA59C0505DF);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, M2MqttUnityTest_OnConnected_m4E08EFB47DDAEC316312EC74200AA2382D1F2E37_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4757));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4758));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4759));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:114>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4760));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4761));
+		M2MqttUnityClient_OnConnected_mE055D2F12A32CCFC68CA7F2B6E2F262E37518DD2(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4761));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:115>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4762));
+		String_t* L_0 = ((M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF*)__this)->___brokerAddress;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4763));
+		String_t* L_1;
+		L_1 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteralA26960802C2497B265CE884F7B53BBA59C0505DF, L_0, _stringLiteral00B28FF06B788B9B67C6B259800F404F9F3761FD, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4763));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4764));
+		M2MqttUnityTest_SetUiMessage_m0DDBF8C68A83C5C050EFF937B3E8D32531ED9EC3(__this, L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4764));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:117>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4765));
+		bool L_2 = __this->___autoTest;
+		V_0 = L_2;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4766));
+		bool L_3 = V_0;
+		if (!L_3)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4767));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:119>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4768));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4769));
+		M2MqttUnityTest_TestPublish_m8F0E3057EE8135B6D52887B25CBC39E3CE083215(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4769));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4770));
+	}
+
+IL_0037:
+	{
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:121>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4771));
+		return;
+	}
+}
+// Method Definition Index: 90709
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityTest_SubscribeTopics_m01B25C91226442D987199216212FDCE27904D5E2 (M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_SubscribeTopics_m01B25C91226442D987199216212FDCE27904D5E2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB659A4902B5C500B1043A485693758BF00D3A2A7);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, M2MqttUnityTest_SubscribeTopics_m01B25C91226442D987199216212FDCE27904D5E2_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4772));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4773));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4774));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:125>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4775));
+		MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* L_0 = ((M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF*)__this)->___client;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)1);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = L_1;
+		NullCheck(L_2);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteralB659A4902B5C500B1043A485693758BF00D3A2A7);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)1);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (uint8_t)2);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4776));
+		NullCheck(L_0);
+		uint16_t L_5;
+		L_5 = MqttClient_Subscribe_mC7CCCA391896665F2C9EEC590960A24C5AE621D4(L_0, L_2, L_4, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4776));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:126>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4777));
+		return;
+	}
+}
+// Method Definition Index: 90710
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityTest_UnsubscribeTopics_m8B79F5AB8F64EE5047F4D8C039EFD923BE6FBA71 (M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_UnsubscribeTopics_m8B79F5AB8F64EE5047F4D8C039EFD923BE6FBA71_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB659A4902B5C500B1043A485693758BF00D3A2A7);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, M2MqttUnityTest_UnsubscribeTopics_m8B79F5AB8F64EE5047F4D8C039EFD923BE6FBA71_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4778));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4779));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4780));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:130>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4781));
+		MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* L_0 = ((M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF*)__this)->___client;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)1);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = L_1;
+		NullCheck(L_2);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteralB659A4902B5C500B1043A485693758BF00D3A2A7);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4782));
+		NullCheck(L_0);
+		uint16_t L_3;
+		L_3 = MqttClient_Unsubscribe_mEBDAF88AB00021262C5F1F8912076B754B2F97E4(L_0, L_2, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4782));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:131>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4783));
+		return;
+	}
+}
+// Method Definition Index: 90711
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityTest_OnConnectionFailed_m881C7BCEA9CDE0F2E08B3DDA81C9C4E103462A93 (M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC* __this, String_t* ___0_errorMessage, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_OnConnectionFailed_m881C7BCEA9CDE0F2E08B3DDA81C9C4E103462A93_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4C0C67F93A022737F8867FC526C7BFFA71AC79F5);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_errorMessage));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, M2MqttUnityTest_OnConnectionFailed_m881C7BCEA9CDE0F2E08B3DDA81C9C4E103462A93_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4784));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4785));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4786));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:135>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4787));
+		String_t* L_0 = ___0_errorMessage;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4788));
+		String_t* L_1;
+		L_1 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral4C0C67F93A022737F8867FC526C7BFFA71AC79F5, L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4788));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4789));
+		M2MqttUnityTest_AddUiMessage_mB73DDAE6DC9F0D1B7956FBDC947465581C3D6336(__this, L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4789));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:136>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4790));
+		return;
+	}
+}
+// Method Definition Index: 90712
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityTest_OnDisconnected_mCB056C169FB70EC6FBC5772677BE9EB70747B5DC (M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_OnDisconnected_mCB056C169FB70EC6FBC5772677BE9EB70747B5DC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC3D84DF97CF8698AE8DE0A4D1B55B6CFCC868DAD);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, M2MqttUnityTest_OnDisconnected_mCB056C169FB70EC6FBC5772677BE9EB70747B5DC_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4791));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4792));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4793));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:140>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4794));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4795));
+		M2MqttUnityTest_AddUiMessage_mB73DDAE6DC9F0D1B7956FBDC947465581C3D6336(__this, _stringLiteralC3D84DF97CF8698AE8DE0A4D1B55B6CFCC868DAD, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4795));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:141>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4796));
+		return;
+	}
+}
+// Method Definition Index: 90713
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityTest_OnConnectionLost_m72484011F82E667559D20D97A0DE531CB408EFEA (M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_OnConnectionLost_m72484011F82E667559D20D97A0DE531CB408EFEA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC883489C69EE9494C88DBECF6CA2D20AA5F8FB2D);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, M2MqttUnityTest_OnConnectionLost_m72484011F82E667559D20D97A0DE531CB408EFEA_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4797));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4798));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4799));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:145>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4800));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4801));
+		M2MqttUnityTest_AddUiMessage_mB73DDAE6DC9F0D1B7956FBDC947465581C3D6336(__this, _stringLiteralC883489C69EE9494C88DBECF6CA2D20AA5F8FB2D, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4801));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:146>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4802));
+		return;
+	}
+}
+// Method Definition Index: 90714
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityTest_UpdateUI_mE061E0EB128C462E8E9E52494596FFDE98E4E126 (M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_UpdateUI_mE061E0EB128C462E8E9E52494596FFDE98E4E126_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	bool V_2 = false;
+	bool V_3 = false;
+	bool V_4 = false;
+	bool V_5 = false;
+	bool V_6 = false;
+	bool V_7 = false;
+	bool V_8 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, M2MqttUnityTest_UpdateUI_mE061E0EB128C462E8E9E52494596FFDE98E4E126_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4803));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4804));
+	int32_t G_B14_0 = 0;
+	int32_t G_B19_0 = 0;
+	int32_t G_B24_0 = 0;
+	int32_t G_B29_0 = 0;
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4805));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:150>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4806));
+		MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* L_0 = ((M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF*)__this)->___client;
+		V_0 = (bool)((((RuntimeObject*)(MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4807));
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_004e;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4808));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:152>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4809));
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_2 = __this->___connectButton;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4810));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4810));
+		V_1 = L_3;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4811));
+		bool L_4 = V_1;
+		if (!L_4)
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4812));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:154>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4813));
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_5 = __this->___connectButton;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4814));
+		NullCheck(L_5);
+		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_5, (bool)1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4814));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:155>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4815));
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_6 = __this->___disconnectButton;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4816));
+		NullCheck(L_6);
+		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_6, (bool)0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4816));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:156>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4817));
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_7 = __this->___testPublishButton;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4818));
+		NullCheck(L_7);
+		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_7, (bool)0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4818));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4819));
+	}
+
+IL_0048:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4820));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4821));
+		goto IL_00d0;
+	}
+
+IL_004e:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4822));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:161>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4823));
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_8 = __this->___testPublishButton;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4824));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_9;
+		L_9 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4824));
+		V_2 = L_9;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4825));
+		bool L_10 = V_2;
+		if (!L_10)
+		{
+			goto IL_0078;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4826));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:163>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4827));
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_11 = __this->___testPublishButton;
+		MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* L_12 = ((M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF*)__this)->___client;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4828));
+		NullCheck(L_12);
+		bool L_13;
+		L_13 = MqttClient_get_IsConnected_mC3A16319C21519DA09798BE95495BCB7BAF9A3E6_inline(L_12, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4828));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4829));
+		NullCheck(L_11);
+		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_11, L_13, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4829));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4830));
+	}
+
+IL_0078:
+	{
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:165>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4831));
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_14 = __this->___disconnectButton;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4832));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_15;
+		L_15 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_14, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4832));
+		V_3 = L_15;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4833));
+		bool L_16 = V_3;
+		if (!L_16)
+		{
+			goto IL_00a1;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4834));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:167>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4835));
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_17 = __this->___disconnectButton;
+		MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* L_18 = ((M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF*)__this)->___client;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4836));
+		NullCheck(L_18);
+		bool L_19;
+		L_19 = MqttClient_get_IsConnected_mC3A16319C21519DA09798BE95495BCB7BAF9A3E6_inline(L_18, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4836));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4837));
+		NullCheck(L_17);
+		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_17, L_19, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4837));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4838));
+	}
+
+IL_00a1:
+	{
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:169>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4839));
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_20 = __this->___connectButton;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4840));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_21;
+		L_21 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_20, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4840));
+		V_4 = L_21;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4841));
+		bool L_22 = V_4;
+		if (!L_22)
+		{
+			goto IL_00cf;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4842));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:171>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4843));
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_23 = __this->___connectButton;
+		MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* L_24 = ((M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF*)__this)->___client;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4844));
+		NullCheck(L_24);
+		bool L_25;
+		L_25 = MqttClient_get_IsConnected_mC3A16319C21519DA09798BE95495BCB7BAF9A3E6_inline(L_24, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4844));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4845));
+		NullCheck(L_23);
+		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_23, (bool)((((int32_t)L_25) == ((int32_t)0))? 1 : 0), NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4845));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4846));
+	}
+
+IL_00cf:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4847));
+	}
+
+IL_00d0:
+	{
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:174>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4848));
+		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_26 = __this->___addressInputField;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4849));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_27;
+		L_27 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_26, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4849));
+		if (!L_27)
+		{
+			goto IL_00ec;
+		}
+	}
+	{
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_28 = __this->___connectButton;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4850));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_29;
+		L_29 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_28, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4850));
+		G_B14_0 = ((int32_t)(L_29));
+		goto IL_00ed;
+	}
+
+IL_00ec:
+	{
+		G_B14_0 = 0;
+	}
+
+IL_00ed:
+	{
+		V_5 = (bool)G_B14_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4851));
+		bool L_30 = V_5;
+		if (!L_30)
+		{
+			goto IL_011e;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4852));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:176>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4853));
+		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_31 = __this->___addressInputField;
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_32 = __this->___connectButton;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4854));
+		NullCheck(L_32);
+		bool L_33;
+		L_33 = Selectable_get_interactable_m17DD0484DC62DCB4467109488D7A599BC85EC112(L_32, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4854));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4855));
+		NullCheck(L_31);
+		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_31, L_33, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4855));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:177>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4856));
+		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_34 = __this->___addressInputField;
+		String_t* L_35 = ((M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF*)__this)->___brokerAddress;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4857));
+		NullCheck(L_34);
+		InputField_set_text_m28B1C806BBCAC44F3ACCDC3B550509CA0C7D257F(L_34, L_35, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4857));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4858));
+	}
+
+IL_011e:
+	{
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:179>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4859));
+		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_36 = __this->___portInputField;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4860));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_37;
+		L_37 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_36, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4860));
+		if (!L_37)
+		{
+			goto IL_013a;
+		}
+	}
+	{
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_38 = __this->___connectButton;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4861));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_39;
+		L_39 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_38, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4861));
+		G_B19_0 = ((int32_t)(L_39));
+		goto IL_013b;
+	}
+
+IL_013a:
+	{
+		G_B19_0 = 0;
+	}
+
+IL_013b:
+	{
+		V_6 = (bool)G_B19_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4862));
+		bool L_40 = V_6;
+		if (!L_40)
+		{
+			goto IL_0171;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4863));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:181>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4864));
+		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_41 = __this->___portInputField;
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_42 = __this->___connectButton;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4865));
+		NullCheck(L_42);
+		bool L_43;
+		L_43 = Selectable_get_interactable_m17DD0484DC62DCB4467109488D7A599BC85EC112(L_42, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4865));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4866));
+		NullCheck(L_41);
+		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_41, L_43, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4866));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:182>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4867));
+		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_44 = __this->___portInputField;
+		int32_t* L_45 = (int32_t*)(&((M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF*)__this)->___brokerPort);
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4868));
+		String_t* L_46;
+		L_46 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_45, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4868));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4869));
+		NullCheck(L_44);
+		InputField_set_text_m28B1C806BBCAC44F3ACCDC3B550509CA0C7D257F(L_44, L_46, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4869));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4870));
+	}
+
+IL_0171:
+	{
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:184>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4871));
+		Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_47 = __this->___encryptedToggle;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4872));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_48;
+		L_48 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_47, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4872));
+		if (!L_48)
+		{
+			goto IL_018d;
+		}
+	}
+	{
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_49 = __this->___connectButton;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4873));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_50;
+		L_50 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_49, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4873));
+		G_B24_0 = ((int32_t)(L_50));
+		goto IL_018e;
+	}
+
+IL_018d:
+	{
+		G_B24_0 = 0;
+	}
+
+IL_018e:
+	{
+		V_7 = (bool)G_B24_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4874));
+		bool L_51 = V_7;
+		if (!L_51)
+		{
+			goto IL_01bf;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4875));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:186>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4876));
+		Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_52 = __this->___encryptedToggle;
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_53 = __this->___connectButton;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4877));
+		NullCheck(L_53);
+		bool L_54;
+		L_54 = Selectable_get_interactable_m17DD0484DC62DCB4467109488D7A599BC85EC112(L_53, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4877));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4878));
+		NullCheck(L_52);
+		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_52, L_54, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4878));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:187>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4879));
+		Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_55 = __this->___encryptedToggle;
+		bool L_56 = ((M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF*)__this)->___isEncrypted;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4880));
+		NullCheck(L_55);
+		Toggle_set_isOn_m61D6AB073668E87530A9F49D990A3B3631D2061F(L_55, L_56, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4880));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4881));
+	}
+
+IL_01bf:
+	{
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:189>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4882));
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_57 = __this->___clearButton;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4883));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_58;
+		L_58 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_57, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4883));
+		if (!L_58)
+		{
+			goto IL_01db;
+		}
+	}
+	{
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_59 = __this->___connectButton;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4884));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_60;
+		L_60 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_59, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4884));
+		G_B29_0 = ((int32_t)(L_60));
+		goto IL_01dc;
+	}
+
+IL_01db:
+	{
+		G_B29_0 = 0;
+	}
+
+IL_01dc:
+	{
+		V_8 = (bool)G_B29_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4885));
+		bool L_61 = V_8;
+		if (!L_61)
+		{
+			goto IL_01fb;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4886));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:191>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4887));
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_62 = __this->___clearButton;
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_63 = __this->___connectButton;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4888));
+		NullCheck(L_63);
+		bool L_64;
+		L_64 = Selectable_get_interactable_m17DD0484DC62DCB4467109488D7A599BC85EC112(L_63, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4888));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4889));
+		NullCheck(L_62);
+		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_62, L_64, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4889));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4890));
+	}
+
+IL_01fb:
+	{
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:193>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4891));
+		__this->___updateUI = (bool)0;
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:194>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4892));
+		return;
+	}
+}
+// Method Definition Index: 90715
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityTest_Start_m764493A946BF5A66F43ECF5C2A61F42FFC53242C (M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_Start_m764493A946BF5A66F43ECF5C2A61F42FFC53242C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4BF62D2057D431DEF4F711C5C10A488C7DB7EB89);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, M2MqttUnityTest_Start_m764493A946BF5A66F43ECF5C2A61F42FFC53242C_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4893));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4894));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4895));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:198>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4896));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4897));
+		M2MqttUnityTest_SetUiMessage_m0DDBF8C68A83C5C050EFF937B3E8D32531ED9EC3(__this, _stringLiteral4BF62D2057D431DEF4F711C5C10A488C7DB7EB89, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4897));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:199>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4898));
+		__this->___updateUI = (bool)1;
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:200>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4899));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4900));
+		M2MqttUnityClient_Start_m19A4E6B4F62013F398FDFC70B43831B4A949E145(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4900));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:201>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4901));
+		return;
+	}
+}
+// Method Definition Index: 90716
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityTest_DecodeMessage_mEBF6B2FF6142F3E7533A54A055C001017D543D05 (M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC* __this, String_t* ___0_topic, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_message, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_DecodeMessage_mEBF6B2FF6142F3E7533A54A055C001017D543D05_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral401F3CFD68125B7597FF7AB22654E53E659E1257);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB659A4902B5C500B1043A485693758BF00D3A2A7);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	bool V_1 = false;
+	bool V_2 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_topic), (&___1_message));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_0));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, M2MqttUnityTest_DecodeMessage_mEBF6B2FF6142F3E7533A54A055C001017D543D05_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4902));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4903));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4904));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:205>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4905));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4906));
+		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_0;
+		L_0 = Encoding_get_UTF8_m9FA98A53CE96FD6D02982625C5246DD36C1235C9(NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4906));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___1_message;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4907));
+		NullCheck(L_0);
+		String_t* L_2;
+		L_2 = VirtualFuncInvoker1< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(34, L_0, L_1);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4907));
+		V_0 = L_2;
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:206>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4908));
+		String_t* L_3 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4909));
+		String_t* L_4;
+		L_4 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral401F3CFD68125B7597FF7AB22654E53E659E1257, L_3, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4909));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4910));
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_4, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4910));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:207>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4911));
+		String_t* L_5 = V_0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4912));
+		M2MqttUnityTest_StoreMessage_mB6DD8CE424A598B72541FA82D666B7E4840F9593(__this, L_5, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4912));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:208>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4913));
+		String_t* L_6 = ___0_topic;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4914));
+		bool L_7;
+		L_7 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_6, _stringLiteralB659A4902B5C500B1043A485693758BF00D3A2A7, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4914));
+		V_1 = L_7;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4915));
+		bool L_8 = V_1;
+		if (!L_8)
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4916));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:210>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4917));
+		bool L_9 = __this->___autoTest;
+		V_2 = L_9;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4918));
+		bool L_10 = V_2;
+		if (!L_10)
+		{
+			goto IL_0050;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4919));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:212>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4920));
+		__this->___autoTest = (bool)0;
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:213>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4921));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4922));
+		VirtualActionInvoker0::Invoke(5, __this);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4922));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4923));
+	}
+
+IL_0050:
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4924));
+	}
+
+IL_0051:
+	{
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:216>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4925));
+		return;
+	}
+}
+// Method Definition Index: 90717
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityTest_StoreMessage_mB6DD8CE424A598B72541FA82D666B7E4840F9593 (M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC* __this, String_t* ___0_eventMsg, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_StoreMessage_mB6DD8CE424A598B72541FA82D666B7E4840F9593_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_eventMsg));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, M2MqttUnityTest_StoreMessage_mB6DD8CE424A598B72541FA82D666B7E4840F9593_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4926));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4927));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4928));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:220>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4929));
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = __this->___eventMessages;
+		String_t* L_1 = ___0_eventMsg;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4930));
+		NullCheck(L_0);
+		List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_0, L_1, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4930));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:221>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4931));
+		return;
+	}
+}
+// Method Definition Index: 90718
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityTest_ProcessMessage_m058227E6650E76EBF56C1F7C8019BDDE7AC430F1 (M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC* __this, String_t* ___0_msg, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_ProcessMessage_m058227E6650E76EBF56C1F7C8019BDDE7AC430F1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral401F3CFD68125B7597FF7AB22654E53E659E1257);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_PARAMS(methodExecutionContextParameters, (&___0_msg));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, M2MqttUnityTest_ProcessMessage_m058227E6650E76EBF56C1F7C8019BDDE7AC430F1_RuntimeMethod_var, methodExecutionContextThis, methodExecutionContextParameters, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4932));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4933));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4934));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:225>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4935));
+		String_t* L_0 = ___0_msg;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4936));
+		String_t* L_1;
+		L_1 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral401F3CFD68125B7597FF7AB22654E53E659E1257, L_0, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4936));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4937));
+		M2MqttUnityTest_AddUiMessage_mB73DDAE6DC9F0D1B7956FBDC947465581C3D6336(__this, L_1, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4937));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:226>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4938));
+		return;
+	}
+}
+// Method Definition Index: 90719
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityTest_Update_m5DD4B1B054009C953BA710A38261A1ABEA80ACBB (M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_m592BCCE7B7933454DED2130C810F059F8D85B1D7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_mDB47EEC4531D33B9C33FD2E70BA15E1535A0F3ED_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m143541DD8FBCD313E7554EA738FA813B8F4DB11A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_tA7A4B718FE1ED1D87565680D8C8195EC8AEAB3D1_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_mC6C7AEBB0F980A717A87C0D12377984A464F0934_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_m7692B5F182858B7D5C72C920D09AD48738D1E70D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_Update_m5DD4B1B054009C953BA710A38261A1ABEA80ACBB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	Enumerator_tA7A4B718FE1ED1D87565680D8C8195EC8AEAB3D1 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	String_t* V_2 = NULL;
+	bool V_3 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_LOCALS(methodExecutionContextLocals, (&V_2));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, M2MqttUnityTest_Update_m5DD4B1B054009C953BA710A38261A1ABEA80ACBB_RuntimeMethod_var, methodExecutionContextThis, NULL, methodExecutionContextLocals);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4939));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4940));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4941));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:230>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4942));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4943));
+		M2MqttUnityClient_Update_m17168B19A6C8320C35677010C7C25AF133A47BB7(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4943));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:232>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4944));
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = __this->___eventMessages;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4945));
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_inline(L_0, List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4945));
+		V_0 = (bool)((((int32_t)L_1) > ((int32_t)0))? 1 : 0);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4946));
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0063;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4947));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4948));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:234>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4949));
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_3 = __this->___eventMessages;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4950));
+		NullCheck(L_3);
+		Enumerator_tA7A4B718FE1ED1D87565680D8C8195EC8AEAB3D1 L_4;
+		L_4 = List_1_GetEnumerator_m7692B5F182858B7D5C72C920D09AD48738D1E70D(L_3, List_1_GetEnumerator_m7692B5F182858B7D5C72C920D09AD48738D1E70D_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4950));
+		V_1 = L_4;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0047:
+			{
+				STORE_TRY_ID(methodExecutionContext, -1);
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4960));
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4961));
+				Enumerator_Dispose_m592BCCE7B7933454DED2130C810F059F8D85B1D7((&V_1), Enumerator_Dispose_m592BCCE7B7933454DED2130C810F059F8D85B1D7_RuntimeMethod_var);
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4961));
+				return;
+			}
+		});
+		try
+		{
+			STORE_TRY_ID(methodExecutionContext, 0);
+			{
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4951));
+				goto IL_003c_1;
+			}
+
+IL_002a_1:
+			{
+				//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:234>
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4952));
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4953));
+				String_t* L_5;
+				L_5 = Enumerator_get_Current_m143541DD8FBCD313E7554EA738FA813B8F4DB11A_inline((&V_1), Enumerator_get_Current_m143541DD8FBCD313E7554EA738FA813B8F4DB11A_RuntimeMethod_var);
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4953));
+				V_2 = L_5;
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4954));
+				//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:236>
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4955));
+				String_t* L_6 = V_2;
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4956));
+				M2MqttUnityTest_ProcessMessage_m058227E6650E76EBF56C1F7C8019BDDE7AC430F1(__this, L_6, NULL);
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4956));
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4957));
+			}
+
+IL_003c_1:
+			{
+				//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:234>
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4958));
+				STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4959));
+				bool L_7;
+				L_7 = Enumerator_MoveNext_mDB47EEC4531D33B9C33FD2E70BA15E1535A0F3ED((&V_1), Enumerator_MoveNext_mDB47EEC4531D33B9C33FD2E70BA15E1535A0F3ED_RuntimeMethod_var);
+				CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4959));
+				if (L_7)
+				{
+					goto IL_002a_1;
+				}
+			}
+			{
+				goto IL_0056;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0056:
+	{
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:238>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4962));
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_8 = __this->___eventMessages;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4963));
+		NullCheck(L_8);
+		List_1_Clear_mC6C7AEBB0F980A717A87C0D12377984A464F0934_inline(L_8, List_1_Clear_mC6C7AEBB0F980A717A87C0D12377984A464F0934_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4963));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4964));
+	}
+
+IL_0063:
+	{
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:240>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4965));
+		bool L_9 = __this->___updateUI;
+		V_3 = L_9;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4966));
+		bool L_10 = V_3;
+		if (!L_10)
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4967));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:242>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4968));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4969));
+		M2MqttUnityTest_UpdateUI_mE061E0EB128C462E8E9E52494596FFDE98E4E126(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4969));
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4970));
+	}
+
+IL_0076:
+	{
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:244>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4971));
+		return;
+	}
+}
+// Method Definition Index: 90720
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityTest_OnDestroy_mA9169A75E9D16B3FB3BA29E649F099BDAD7B7AB1 (M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_OnDestroy_mA9169A75E9D16B3FB3BA29E649F099BDAD7B7AB1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, M2MqttUnityTest_OnDestroy_mA9169A75E9D16B3FB3BA29E649F099BDAD7B7AB1_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4972));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4973));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4974));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:248>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4975));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4976));
+		VirtualActionInvoker0::Invoke(5, __this);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4976));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:249>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4977));
+		return;
+	}
+}
+// Method Definition Index: 90721
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityTest_OnValidate_m1E2378D4ECCC596FD83E268BB6192E678375A7E2 (M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_OnValidate_m1E2378D4ECCC596FD83E268BB6192E678375A7E2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, M2MqttUnityTest_OnValidate_m1E2378D4ECCC596FD83E268BB6192E678375A7E2_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4978));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4979));
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4980));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:253>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4981));
+		bool L_0 = __this->___autoTest;
+		V_0 = L_0;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4982));
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4983));
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:255>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4984));
+		((M2MqttUnityClient_t715857405879E1A13D8BAD5711C6C5C434F5F3AF*)__this)->___autoConnect = (bool)1;
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4985));
+	}
+
+IL_0014:
+	{
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:257>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4986));
+		return;
+	}
+}
+// Method Definition Index: 90722
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void M2MqttUnityTest__ctor_m35CCDCF052189BCE501EE6A7BA36321F9DC20599 (M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest__ctor_m35CCDCF052189BCE501EE6A7BA36321F9DC20599_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&M2MqttUnityTest_t8FCADA3F04C4A9F09F239A28F9E6D68C1735E6BC_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, M2MqttUnityTest__ctor_m35CCDCF052189BCE501EE6A7BA36321F9DC20599_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4987));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4988));
+	{
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:45>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4989));
+		__this->___autoTest = (bool)0;
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:56>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4990));
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4991));
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*)il2cpp_codegen_object_new(List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
+		List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E(L_0, List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4991));
+		__this->___eventMessages = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___eventMessages), (void*)L_0);
+		//<source_info:C:/Users/feda6263/Desktop/PersonalProject/EchoesBeyondTheVeil/Assets/Samples/ExtralityLab@DSV/0.1.6/MQTT-Comm/M2MqttUnityExample/M2MqttUnityTest.cs:57>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4992));
+		__this->___updateUI = (bool)0;
+		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4993));
+		M2MqttUnityClient__ctor_m9A59013C11922CC133C79AED842F9113A6F539DD(__this, NULL);
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsAssemblyU2DCSharp + 4993));
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Method Definition Index: 92504
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool MqttClient_get_IsConnected_mC3A16319C21519DA09798BE95495BCB7BAF9A3E6_inline (MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MqttClient_get_IsConnected_mC3A16319C21519DA09798BE95495BCB7BAF9A3E6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MqttClient_tEFA9D96615224FDAA5264DEEE055AACBE0AFA201_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DECLARE_METHOD_THIS(methodExecutionContextThis, (&__this));
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MqttClient_get_IsConnected_mC3A16319C21519DA09798BE95495BCB7BAF9A3E6_RuntimeMethod_var, methodExecutionContextThis, NULL, NULL);
+	CHECK_METHOD_ENTRY_SEQ_POINT(methodExecutionContext, (g_sequencePointsExtralityLab_Unity + 321));
+	CHECK_METHOD_EXIT_SEQ_POINT(methodExitChecker, methodExecutionContext, (g_sequencePointsExtralityLab_Unity + 322));
+	{
+		//<source_info:./Library/PackageCache/se.su.dsv.extralitylab.unity@41d83ab2b24c/Runtime/MQTT/M2Mqtt/MqttClient.cs:200>
+		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsExtralityLab_Unity + 323));
+		bool L_0 = __this->___U3CIsConnectedU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 10590
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	int32_t V_1 = 0;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = __this->____items;
+		V_0 = L_1;
+		int32_t L_2 = __this->____size;
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = V_0;
+		NullCheck(L_4);
+		if ((!(((uint32_t)L_3) < ((uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_5 = V_1;
+		__this->____size = ((int32_t)il2cpp_codegen_add(L_5, 1));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = V_0;
+		int32_t L_7 = V_1;
+		RuntimeObject* L_8 = ___0_item;
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (RuntimeObject*)L_8);
+		return;
+	}
+
+IL_0034:
+	{
+		RuntimeObject* L_9 = ___0_item;
+		List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 16));
+		return;
+	}
+}
+// Method Definition Index: 10580
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
+{
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		int32_t L_0 = __this->____size;
+		return L_0;
+	}
+}
+// Method Definition Index: 10640
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) 
+{
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		RuntimeObject* L_0 = __this->____current;
+		return L_0;
+	}
+}
+// Method Definition Index: 10598
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
+	CHECK_PAUSE_POINT;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+	}
+	{
+		int32_t L_1 = __this->____size;
+		V_0 = L_1;
+		__this->____size = 0;
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) <= ((int32_t)0)))
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = __this->____items;
+		int32_t L_4 = V_0;
+		Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB((RuntimeArray*)L_3, 0, L_4, NULL);
+		return;
+	}
+
+IL_003c:
+	{
+		return;
+	}
+}
