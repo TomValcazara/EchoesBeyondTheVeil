@@ -36,6 +36,12 @@ public class WebSocketClientExample : MonoBehaviour
             string UUID = SystemInfo.deviceUniqueIdentifier; // Certain devices block MAC address access for privacy reasons so we send a UUID instead
 
             await websocket.SendText("Device (Unity):" + SystemInfo.deviceName + " ... Device's Unique Identifier: " + UUID);
+
+            // Reset LEDs when connection is ready
+            await websocket.SendText("YELLOW_LED:0");
+            await websocket.SendText("GREEN_LED:0");
+            Debug.Log("LEDs reset after connection");
+
         };
 
         //Runs when a message is received from the server

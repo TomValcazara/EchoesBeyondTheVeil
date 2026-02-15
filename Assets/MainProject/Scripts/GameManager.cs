@@ -60,6 +60,9 @@ public class GameManager : MonoBehaviour
     // public float minGateDistanceFromPlayer = 40f;
     // public float walkableRadius = 100f;
 
+    [Header("Websocket Client")]
+    public WebSocketClientExample webSocketClient;
+
     private bool cheatingActive = false;
 
     public string GetStoryText(int index)
@@ -100,6 +103,12 @@ public class GameManager : MonoBehaviour
             Debug.LogError("GameManager: Missing terrain reference or bush prefabs!");
             return;
         }
+
+        // if (webSocketClient != null) //Resets the LEDs to be off
+        // {
+        //     webSocketClient.SendYellowLEDOFF();
+        //     webSocketClient.SendGreenLEDOFF();
+        // }
 
         // Store terrain size (width, height, length)
         // For your case: 200 x 600 x 200
@@ -283,6 +292,10 @@ public class GameManager : MonoBehaviour
 
         // Instantiate(hellGatePrefab, spawnPos, Quaternion.identity);
         hellGatePrefab.SetActive(true);
+
+        if (webSocketClient != null)
+            webSocketClient.SendYellowLEDON();
+
     }
 
 
