@@ -150,9 +150,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::WebSocketClientExample
   serverIP: 10.204.0.43
   serverPort: 8081
-  flipper: {fileID: 0}
-  SceneReload: {fileID: 0}
-  ledIntensity: 0
+  gameManager: {fileID: 1326775969}
 --- !u!4 &11572518
 Transform:
   m_ObjectHideFlags: 0
@@ -15440,6 +15438,10 @@ PrefabInstance:
       propertyPath: playerHead
       value: 
       objectReference: {fileID: 332123428}
+    - target: {fileID: 9050926132107842485, guid: 050bfaf2aa3f2954f86389e503a7f768, type: 3}
+      propertyPath: webSocketClient
+      value: 
+      objectReference: {fileID: 11572517}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16223,6 +16225,7 @@ MonoBehaviour:
   numberOfNoiseBushes: 1
   walkableHalfSize: 100
   hellGatePrefab: {fileID: 1492265328}
+  webSocketClient: {fileID: 11572517}
 --- !u!4 &1326775970
 Transform:
   m_ObjectHideFlags: 0
