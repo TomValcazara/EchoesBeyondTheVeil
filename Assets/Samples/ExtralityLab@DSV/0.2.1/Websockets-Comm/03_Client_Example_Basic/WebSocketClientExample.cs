@@ -110,6 +110,32 @@ public class WebSocketClientExample : MonoBehaviour
         }
     }
 
+    public async void SendYellowLEDOFF()
+    {
+        if (websocket != null && websocket.State == WebSocketState.Open)
+        {
+            await websocket.SendText("YELLOW_LED:0");
+            Debug.Log("Sent: YELLOW_LED:0");
+        }
+        else
+        {
+            Debug.LogWarning("WebSocket not connected");
+        }
+    }
+
+    public async void SendGreenLEDOFF()
+    {
+        if (websocket != null && websocket.State == WebSocketState.Open)
+        {
+            await websocket.SendText("GREEN_LED:0");
+            Debug.Log("Sent: GREEN_LED:0");
+        }
+        else
+        {
+            Debug.LogWarning("WebSocket not connected");
+        }
+    }
+
     public async void SendLedON()
     {
         if (websocket != null && websocket.State == WebSocketState.Open)

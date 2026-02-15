@@ -45,6 +45,14 @@ public class EditorButton : Editor
         {
             myScript.SendGreenLEDON();
         }
+        if (GUILayout.Button("Send \"YELLOW LED OFF\" instruction"))
+        {
+            myScript.SendYellowLEDOFF();
+        }
+        if (GUILayout.Button("Send \"GREEN LED OFF\" instruction"))
+        {
+            myScript.SendGreenLEDOFF();
+        }
         
     }
 }

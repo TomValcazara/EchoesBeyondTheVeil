@@ -20,7 +20,9 @@
 // --------------------------------------------------
 const char *ssid = "dsv-extrality-lab";            // Enter your Wi-Fi name
 const char *password = "expiring-unstuck-slider";  // Enter Wi-Fi password
-const char* serverIP = "192.168.0.22"; //Replace with your Python server's IP (e.g. 192.168.1.111)
+// const char *ssid = "ApartDirect-231-5G";            // Enter your Wi-Fi name
+// const char *password = "apartdirect2012";  // Enter Wi-Fi password
+const char* serverIP = "10.204.0.43"; //Replace with your Python server's IP (e.g. 192.168.1.111)
 const uint16_t serverPort = 8081; //Replace with your desired Port (or keep as is)
 
 // --------------------------------------------------
