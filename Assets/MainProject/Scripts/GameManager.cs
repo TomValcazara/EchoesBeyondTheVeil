@@ -141,11 +141,12 @@ public class GameManager : MonoBehaviour
         SelectNoiseBushes();
         ActivateNextNoiseBush();
 
-        PreWarmAssets();
+        PreWarmLoreAssets();
+        PreWarmHellGate();
         
     }
 
-    void PreWarmAssets()
+    void PreWarmLoreAssets()
     {
         Vector3 hidden = new Vector3(0, -1000, 0);
 
@@ -158,6 +159,37 @@ public class GameManager : MonoBehaviour
         if (prefab == null) return;
 
         GameObject temp = Instantiate(prefab, pos, Quaternion.identity);
+        Destroy(temp);
+    }
+
+    void PreWarmHellGate()
+    {
+        if (hellGatePrefab == null) return;
+
+        Vector3 hidden = new Vector3(0, -1000, 0);
+
+        GameObject temp = Instantiate(hellGatePrefab, hidden, Quaternion.identity);
+
+        // Force light initialization
+        Light light = temp.GetComponentInChildren<Light>();
+        if (light != null)
+            light.enabled = true;
+
+        // Force audio initialization
+        AudioSource[] audios = temp.GetComponentsInChildren<AudioSource>();
+        foreach (var a in audios)
+        {
+            a.Play();
+            a.Stop();
+        }
+
+        // Force canvas initialization
+        CanvasGroup[] canvases = temp.GetComponentsInChildren<CanvasGroup>();
+        foreach (var cg in canvases)
+        {
+            cg.alpha = 1f;
+        }
+
         Destroy(temp);
     }
 
