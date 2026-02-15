@@ -235,7 +235,7 @@ MonoBehaviour:
   crystalOffset: {x: 0, y: 1.2, z: 0}
   loreOffset: {x: 0, y: 1.2, z: -0.5}
   debugLiftHeight: 0
-  requiredBrushTime: 6
+  requiredBrushTime: 3
 --- !u!65 &7206736141054119173
 BoxCollider:
   m_ObjectHideFlags: 0

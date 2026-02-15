@@ -15388,15 +15388,15 @@ PrefabInstance:
       objectReference: {fileID: 332123425}
     - target: {fileID: 2285613610034182262, guid: 050bfaf2aa3f2954f86389e503a7f768, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.10159
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2285613610034182262, guid: 050bfaf2aa3f2954f86389e503a7f768, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.38314
+      value: -1.1
       objectReference: {fileID: 0}
     - target: {fileID: 2285613610034182262, guid: 050bfaf2aa3f2954f86389e503a7f768, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 9.38072
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2285613610034182262, guid: 050bfaf2aa3f2954f86389e503a7f768, type: 3}
       propertyPath: m_LocalRotation.w
@@ -15429,6 +15429,10 @@ PrefabInstance:
     - target: {fileID: 3684360103457252412, guid: 050bfaf2aa3f2954f86389e503a7f768, type: 3}
       propertyPath: m_Name
       value: HellGate_Prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 3684360103457252412, guid: 050bfaf2aa3f2954f86389e503a7f768, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4791847836569177025, guid: 050bfaf2aa3f2954f86389e503a7f768, type: 3}
       propertyPath: m_Camera
@@ -16234,10 +16238,63 @@ MonoBehaviour:
   - {fileID: 5753002480272816136, guid: d4f2a518c750f78429acd1f1cd33ee55, type: 3}
   numberOfBushes: 100
   yOffset: 0
-  numberOfNoiseBushes: 1
+  numberOfNoiseBushes: 2
   walkableHalfSize: 100
   hellGatePrefab: {fileID: 1492265328}
   webSocketClient: {fileID: 11572517}
+  centerExclusionRadius: 30
+  minBushSpacing: 2
+  maxSpawnAttempts: 20
+  environmentPrefabs:
+  - {fileID: 8436761762342294913, guid: 2e3f8071674752949ba786c35091fdd6, type: 3}
+  - {fileID: 6209221766463878980, guid: 1a7aa1d02e55abf42aad50d63f66ace8, type: 3}
+  - {fileID: 532060867368592208, guid: 0c8ba35ec1074f94b98b3a569e233d93, type: 3}
+  - {fileID: 7513516011375841876, guid: b68269aacd55b5b4886a04c8259ff5f8, type: 3}
+  - {fileID: 5555351799957739595, guid: 7a5eec81526286e4eb5f579a54c95b6e, type: 3}
+  - {fileID: 3358716388620412213, guid: 34b54859687707441a976eb291ea83f3, type: 3}
+  - {fileID: 2135281519392107847, guid: 28ceec708a73c6847875301139f6fe18, type: 3}
+  - {fileID: 8854059472011227793, guid: a11d38ceebba87e46a33e24e65b7d5e6, type: 3}
+  - {fileID: 6371341446265431153, guid: 7d2ffd003164aef4b9bdd639636cec87, type: 3}
+  - {fileID: 1783126158509599589, guid: 0f4be31154c085543ae66a751ec2829e, type: 3}
+  - {fileID: 1834335763333977535, guid: 35408381d22f6b8459298ab692e43d58, type: 3}
+  - {fileID: 2504493726390581913, guid: 1245327fb8c11b443a71b410cdd91361, type: 3}
+  - {fileID: 2728485706394317307, guid: 9ad84190614eaa848a8182d1e9dd3e25, type: 3}
+  - {fileID: 4503356140789749793, guid: dc9ba420ee82eac43a729af930685c13, type: 3}
+  - {fileID: 4380790973763730319, guid: b9c062d85e85e804f94813442d711192, type: 3}
+  - {fileID: 5394484689610527326, guid: 1c9a6c619d1afa14f9afe01bd180bae1, type: 3}
+  - {fileID: 8945415853097885941, guid: 20da6bc261857604b87e88383dce51fe, type: 3}
+  - {fileID: 7086486657074722312, guid: 397080cc3a455bb4e9d9b2c132ba0408, type: 3}
+  - {fileID: 52715559447128347, guid: 8e6428dbaf123244786f3151dc06644b, type: 3}
+  - {fileID: 6235008959170583111, guid: f631239ea4f26024dbfedf773ad4226c, type: 3}
+  - {fileID: 5288967318497345559, guid: a3889473192ae09409cc31a30145e765, type: 3}
+  - {fileID: 2355822031419821941, guid: 1f07be34a55be9e49ba52d68032f0912, type: 3}
+  - {fileID: 4224106285572048354, guid: a806fcbaacfb2ce438dd82fa16ad36fc, type: 3}
+  - {fileID: 6245460809907936945, guid: fd3c6a94aafe8ac479f4c1b88b648390, type: 3}
+  - {fileID: 7984231276430847929, guid: 9f735a6054e9b2c4c9c9913d6ccfab1c, type: 3}
+  - {fileID: 3295807530396546733, guid: 7137a4707ce583f4991a292985349931, type: 3}
+  - {fileID: 5609773336753378623, guid: d6f3ad85f2a6e374b969a9ccc3fea772, type: 3}
+  - {fileID: 4874064047030006849, guid: 6d8defe235f301249a47b7d395bcd3ba, type: 3}
+  - {fileID: 5492352319320892594, guid: 446ec2e53efe804489f817b7ad66ee0b, type: 3}
+  - {fileID: 8691277898578008715, guid: e4a852d1ec105c24f8bb985859af4057, type: 3}
+  - {fileID: 2217269330312854587, guid: 7a602fb7cf398bf439b6f637405ef947, type: 3}
+  - {fileID: 8006659526289741109, guid: 03dcb3fb54968f44886c355c3df09e4a, type: 3}
+  - {fileID: 1989912551690498556, guid: 79e5669d3376fe140916dd68c7bc8a9f, type: 3}
+  - {fileID: 5736829272408065000, guid: e9185bb089b6d4847bff839b9b269e50, type: 3}
+  - {fileID: 1421559334335646121, guid: 808701ecc4697524496284a5998227f8, type: 3}
+  - {fileID: 8016757372421207063, guid: bef915b4a6352bf4ea3adcd00b32268d, type: 3}
+  - {fileID: 4146921133157406856, guid: 9beef27466b520647a8cec9d31afa9c8, type: 3}
+  - {fileID: 7586023754439320888, guid: 5ce36882bc3e2954a87980a0ec86a265, type: 3}
+  - {fileID: 3321365034809543072, guid: 41f2ec7353552e84cb182ae76868e27d, type: 3}
+  - {fileID: 2433815382177782438, guid: 49feacfc7fb46594091a96e2dd63ef55, type: 3}
+  - {fileID: 6330368807239634330, guid: 34a617990f076f74b8ec09f48ec7b274, type: 3}
+  - {fileID: 2340835019180743725, guid: 1050c21997189d7418578bcb89ccca03, type: 3}
+  - {fileID: 2628101527084086084, guid: 9820bb0fd2632624486a2b5b057d9521, type: 3}
+  - {fileID: 5872043367577113034, guid: 7b5a031aae3f6da46afc7cf571dc2569, type: 3}
+  - {fileID: 4503250396306166442, guid: db9cf78036bf57e4d85508b2f7c99f26, type: 3}
+  numberOfEnvironmentAssets: 200
+  minEnvironmentSpacing: 2
+  mushroomsPrefab: {fileID: 0}
+  lorePanelPrefab: {fileID: 0}
 --- !u!4 &1326775970
 Transform:
   m_ObjectHideFlags: 0

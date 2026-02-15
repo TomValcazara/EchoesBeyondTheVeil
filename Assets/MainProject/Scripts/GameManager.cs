@@ -66,9 +66,16 @@ public class GameManager : MonoBehaviour
     private bool cheatingActive = false;
 
     [Header("Spawn Restrictions")]
-    public float centerExclusionRadius = 10f;   // No bushes near center
+    public float centerExclusionRadius = 30f;   // No bushes near center
     public float minBushSpacing = 2f;           // Minimum distance between bushes
     public int maxSpawnAttempts = 20;           // Avoid infinite loops
+
+    [Header("Environment Assets")]
+    public GameObject[] environmentPrefabs;
+    public int numberOfEnvironmentAssets = 30;
+    public float minEnvironmentSpacing = 2f;
+
+    private List<Vector3> occupiedPositions = new List<Vector3>();
 
     public string GetStoryText(int index)
     {
@@ -77,6 +84,9 @@ public class GameManager : MonoBehaviour
 
         return "";
     }
+
+    [SerializeField] private GameObject mushroomsPrefab;
+    [SerializeField] private GameObject lorePanelPrefab;
 
     bool IsInsideWalkableArea(Vector3 position)
     {
@@ -126,9 +136,29 @@ public class GameManager : MonoBehaviour
         // Start spawning bushes
         SpawnBushes();
 
+        SpawnEnvironmentAssets();
+
         SelectNoiseBushes();
         ActivateNextNoiseBush();
 
+        PreWarmAssets();
+        
+    }
+
+    void PreWarmAssets()
+    {
+        Vector3 hidden = new Vector3(0, -1000, 0);
+
+        Prewarm(mushroomsPrefab, hidden);
+        Prewarm(lorePanelPrefab, hidden);
+    }
+
+    void Prewarm(GameObject prefab, Vector3 pos)
+    {
+        if (prefab == null) return;
+
+        GameObject temp = Instantiate(prefab, pos, Quaternion.identity);
+        Destroy(temp);
     }
 
     public void SetCheatingState(bool isCheating)
@@ -216,12 +246,70 @@ public class GameManager : MonoBehaviour
                 if (interactable != null)
                 {
                     allBushes.Add(interactable);
+                    occupiedPositions.Add(position);
                 }
 
                 positionFound = true;
             }
         }
 
+    }
+
+    void SpawnEnvironmentAssets()
+    {
+        for (int i = 0; i < numberOfEnvironmentAssets; i++)
+        {
+            bool positionFound = false;
+            int attempts = 0;
+
+            while (!positionFound && attempts < maxSpawnAttempts)
+            {
+                attempts++;
+
+                float radius = walkableHalfSize;
+                Vector2 randomCircle = Random.insideUnitCircle * radius;
+
+                Vector3 position = new Vector3(
+                    randomCircle.x,
+                    0f,
+                    randomCircle.y
+                );
+
+                //Avoid center
+                if (Vector3.Distance(position, Vector3.zero) < centerExclusionRadius)
+                    continue;
+
+                //Avoid overlap with anything already spawned
+                bool tooClose = false;
+                foreach (var occupied in occupiedPositions)
+                {
+                    if (Vector3.Distance(position, occupied) < minEnvironmentSpacing)
+                    {
+                        tooClose = true;
+                        break;
+                    }
+                }
+
+                if (tooClose)
+                    continue;
+
+                //Snap to terrain
+                float y = terrain.SampleHeight(position) + terrainPos.y;
+                position.y = y + yOffset;
+
+                GameObject prefab =
+                    environmentPrefabs[Random.Range(0, environmentPrefabs.Length)];
+
+                Quaternion randomRotation =
+                    Quaternion.Euler(0f, Random.Range(0f, 360f), 0f);
+
+                Instantiate(prefab, position, randomRotation, transform);
+
+                occupiedPositions.Add(position);
+
+                positionFound = true;
+            }
+        }
     }
 
     void SelectNoiseBushes()

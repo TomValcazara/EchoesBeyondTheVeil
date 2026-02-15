@@ -15,9 +15,9 @@ public class BushInteractable : MonoBehaviour
     private GameManager gameManager;
 
     [Header("Reveal Prefabs")]
-    public GameObject explodeFX;
+    //public GameObject explodeFX;
     public GameObject mushroomsPrefab;
-    public GameObject crystalPrefab;
+    //public GameObject crystalPrefab;
     public GameObject lorePanelPrefab;
 
     [Header("Reveal Offsets")]
@@ -136,14 +136,16 @@ public class BushInteractable : MonoBehaviour
         Vector3 pos = transform.position;
 
         // 1. Explosion FX
-        if (explodeFX != null)
-        {
-            Instantiate(explodeFX, pos, Quaternion.identity);
-        }
+        // if (explodeFX != null)
+        // {
+        //     Instantiate(explodeFX, pos, Quaternion.identity);
+        // }
 
-        //Stops teh Audio
+        //Stops the Audio
+        // if (audioSource != null)
+        //     audioSource.Stop();
         if (audioSource != null)
-            audioSource.Stop();
+            StartCoroutine(FadeOutAudio(audioSource, 1.5f));
 
         // Disable collider so hands stop triggering it
         Collider col = GetComponent<Collider>();
@@ -157,9 +159,10 @@ public class BushInteractable : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
 
         // 3. Spawn mushrooms
+        GameObject mushrooms = null;
         if (mushroomsPrefab != null)
         {
-            Instantiate(
+            mushrooms = Instantiate(
                 mushroomsPrefab,
                 pos + mushroomsOffset,
                 Quaternion.identity
@@ -169,26 +172,21 @@ public class BushInteractable : MonoBehaviour
         yield return new WaitForSeconds(0.3f);
 
         // 4. Spawn crystal
-        GameObject crystal = null;
-        if (crystalPrefab != null)
-        {
-            crystal = Instantiate(
-                crystalPrefab,
-                pos + crystalOffset,
-                Quaternion.identity
-            );
-        }
+        // GameObject crystal = null;
+        // if (crystalPrefab != null)
+        // {
+        //     crystal = Instantiate(
+        //         crystalPrefab,
+        //         pos + crystalOffset,
+        //         Quaternion.identity
+        //     );
+        // }
 
         // 5. Spawn lore panel
+        GameObject panel = null;
         if (lorePanelPrefab != null)
         {
-            // Instantiate(
-            //     lorePanelPrefab,
-            //     pos + loreOffset,
-            //     Quaternion.identity
-            // );
-
-            GameObject panel = Instantiate(
+            panel = Instantiate(
                 lorePanelPrefab,
                 pos + loreOffset,
                 Quaternion.identity
@@ -199,14 +197,82 @@ public class BushInteractable : MonoBehaviour
             {
                 lorePanel.SetText(gameManager.GetStoryText(loreIndex));
             }
-
         }
 
         yield return new WaitForSeconds(0.5f);
 
         // 6. Notify GameManager AFTER reveal finishes
         gameManager.OnNoiseBushCompleted(this);
-        Debug.Log("Done Destroyng");
+        //Debug.Log("Done Destroyng");
+
+        // Start despawn timer
+        StartCoroutine(FadeAndDestroyAfterDelay(mushrooms, panel, 10f));
+
+    }
+
+    IEnumerator FadeAndDestroyAfterDelay(GameObject mushrooms, GameObject panel, float delay)
+    {
+        yield return new WaitForSeconds(delay);
+
+        float duration = 2f;
+        float time = 0f;
+
+        CanvasGroup panelGroup = null;
+        if (panel != null)
+            panelGroup = panel.GetComponent<CanvasGroup>();
+
+        Renderer[] mushroomRenderers = null;
+        if (mushrooms != null)
+            mushroomRenderers = mushrooms.GetComponentsInChildren<Renderer>();
+
+        while (time < duration)
+        {
+            time += Time.deltaTime;
+            float t = time / duration;
+            float alpha = Mathf.Lerp(1f, 0f, t);
+
+            // Fade panel (UI)
+            if (panelGroup != null)
+                panelGroup.alpha = alpha;
+
+            // Fade mushrooms (3D object)
+            if (mushroomRenderers != null)
+            {
+                foreach (var r in mushroomRenderers)
+                {
+                    if (r.material.HasProperty("_Color"))
+                    {
+                        Color c = r.material.color;
+                        c.a = alpha;
+                        r.material.color = c;
+                    }
+                }
+            }
+
+            yield return null;
+        }
+
+        if (mushrooms != null) Destroy(mushrooms);
+        if (panel != null) Destroy(panel);
+    }
+
+    IEnumerator FadeOutAudio(AudioSource source, float duration)
+    {
+        float startVolume = source.volume;
+        float time = 0f;
+
+        while (time < duration)
+        {
+            time += Time.deltaTime;
+            float t = time / duration;
+
+            source.volume = Mathf.Lerp(startVolume, 0f, t);
+
+            yield return null;
+        }
+
+        source.Stop();
+        source.volume = startVolume; // reset for next activation
     }
 
     private void OnTriggerStay(Collider other)
