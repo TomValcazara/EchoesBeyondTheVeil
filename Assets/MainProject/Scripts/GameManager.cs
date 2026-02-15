@@ -65,6 +65,11 @@ public class GameManager : MonoBehaviour
 
     private bool cheatingActive = false;
 
+    [Header("Spawn Restrictions")]
+    public float centerExclusionRadius = 10f;   // No bushes near center
+    public float minBushSpacing = 2f;           // Minimum distance between bushes
+    public int maxSpawnAttempts = 20;           // Avoid infinite loops
+
     public string GetStoryText(int index)
     {
         if (index >= 0 && index < story.Length)
@@ -163,30 +168,60 @@ public class GameManager : MonoBehaviour
 
         for (int i = 0; i < numberOfBushes; i++)
         {
-            // Random position around terrain CENTER
-            float radius = 100f; // same as movement boundary
-            Vector2 randomCircle = Random.insideUnitCircle * radius;
-            float x = centerX + randomCircle.x;
-            float z = centerZ + randomCircle.y;
+            bool positionFound = false;
+            int attempts = 0;
 
-            Vector3 position = new Vector3(x, 0f, z);
-
-            // Snap to terrain height
-            float y = terrain.SampleHeight(position) + terrainPos.y;
-            position.y = y + yOffset;
-            
-            GameObject prefab =
-                bushPrefabs[Random.Range(0, bushPrefabs.Length)];
-
-            //Instantiate(prefab, position, Quaternion.identity, transform);
-            GameObject bush = Instantiate(prefab, position, Quaternion.identity, transform);
-            BushInteractable interactable = bush.GetComponent<BushInteractable>();
-            if (interactable != null)
+            while (!positionFound && attempts < maxSpawnAttempts)
             {
-                allBushes.Add(interactable);
-            }
+                attempts++;
 
+                float radius = walkableHalfSize;
+                Vector2 randomCircle = Random.insideUnitCircle * radius;
+
+                Vector3 position = new Vector3(
+                    randomCircle.x,
+                    0f,
+                    randomCircle.y
+                );
+
+                //1. Avoid center area (hellgate zone)
+                if (Vector3.Distance(position, Vector3.zero) < centerExclusionRadius)
+                    continue;
+
+                //2. Avoid overlap with other bushes
+                bool tooClose = false;
+                foreach (var bush in allBushes)
+                {
+                    if (Vector3.Distance(position, bush.transform.position) < minBushSpacing)
+                    {
+                        tooClose = true;
+                        break;
+                    }
+                }
+
+                if (tooClose)
+                    continue;
+
+                //Snap to terrain
+                float y = terrain.SampleHeight(position) + terrainPos.y;
+                position.y = y + yOffset;
+
+                GameObject prefab = bushPrefabs[Random.Range(0, bushPrefabs.Length)];
+
+                Quaternion randomRotation = Quaternion.Euler(0f, Random.Range(0f, 360f), 0f); // Random Rotation
+
+                GameObject _bush = Instantiate(prefab, position, randomRotation, transform);
+
+                BushInteractable interactable = _bush.GetComponent<BushInteractable>();
+                if (interactable != null)
+                {
+                    allBushes.Add(interactable);
+                }
+
+                positionFound = true;
+            }
         }
+
     }
 
     void SelectNoiseBushes()
