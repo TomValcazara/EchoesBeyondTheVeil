@@ -36,15 +36,17 @@
 // Global variables
 // --------------------------------------------------
 WebSocketsClient webSocket;
-bool lastButtonState = HIGH;
-int lastPotValue = -1;
+//bool lastButtonState = HIGH;
+//int lastPotValue = -1;
 unsigned long lastSendTime = 0;
 const unsigned long SEND_INTERVAL_MS = 50;
 
 
-bool lastResetState = HIGH;
-int lastPowerPotValue = -1;
-const int POT_THRESHOLD = 100; // noise filter
+bool cheatToggle = false;
+bool lastCheatState = HIGH;  // IMPORTANT: since you're using INPUT_PULLUP
+
+//int lastPowerPotValue = -1;
+//const int POT_THRESHOLD = 100; // noise filter
 
 
 // --------------------------------------------------

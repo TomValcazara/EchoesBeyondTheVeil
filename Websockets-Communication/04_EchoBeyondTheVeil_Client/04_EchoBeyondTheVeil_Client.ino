@@ -28,10 +28,10 @@ const uint16_t serverPort = 8081; //Replace with your desired Port (or keep as i
 // --------------------------------------------------
 // Hardware pins
 // --------------------------------------------------
-#define BUILTIN_BUTTON_PIN 0
-#define BTN_RESETGAME 10
-#define PIN_WIN_LED 11
-#define PIN_POWER 12
+//#define BUILTIN_BUTTON_PIN 0
+#define BTN_CHEAT 8
+//#define PIN_WIN_LED 11
+//#define PIN_POWER 12
 
 
 #define PIN_YELLOW_LED 6
@@ -74,20 +74,20 @@ void handleMessage(const String& message) { // This function is set up to receiv
   String type = message.substring(0, sep);
   int value = message.substring(sep + 1).toInt();
 
-  if (type.equalsIgnoreCase("LED_INTENSITY")) { //If this ESP receives a Websocket message of type "LED_INTENSITY", then set the built in LED to the corresponding value
-    value = constrain(value, 0, 255);
-    ledSet(value);
-    Serial.printf("LED intensity → %d\n", value);
-  }
+  // if (type.equalsIgnoreCase("LED_INTENSITY")) { //If this ESP receives a Websocket message of type "LED_INTENSITY", then set the built in LED to the corresponding value
+  //   value = constrain(value, 0, 255);
+  //   ledSet(value);
+  //   Serial.printf("LED intensity → %d\n", value);
+  // }
 
-  if (type.equalsIgnoreCase("WIN_LED")) {
-    if (value == 0) {
-      digitalWrite(PIN_WIN_LED, LOW);
-    }
-    if (value == 1) {
-      digitalWrite(PIN_WIN_LED, HIGH);
-    }
-  }
+  // if (type.equalsIgnoreCase("WIN_LED")) {
+  //   if (value == 0) {
+  //     digitalWrite(PIN_WIN_LED, LOW);
+  //   }
+  //   if (value == 1) {
+  //     digitalWrite(PIN_WIN_LED, HIGH);
+  //   }
+  // }
 
   if (type.equalsIgnoreCase("YELLOW_LED")) {
     if (value == 0) {
@@ -130,14 +130,14 @@ void setup() {
   Serial.println(BOARD_NAME);
   Serial.println("=================================");
 
-  pinMode(BUILTIN_BUTTON_PIN, INPUT_PULLUP);
+  // pinMode(BUILTIN_BUTTON_PIN, INPUT_PULLUP);
 
-  pinMode(BTN_RESETGAME, INPUT_PULLUP);
+  // pinMode(BTN_RESETGAME, INPUT_PULLUP);
 
-  pinMode(PIN_WIN_LED, OUTPUT);
-  digitalWrite(PIN_WIN_LED, LOW); // start OFF
+  // pinMode(PIN_WIN_LED, OUTPUT);
+  // digitalWrite(PIN_WIN_LED, LOW); // start OFF
 
-
+  pinMode(BTN_CHEAT, INPUT_PULLUP);
 
 
   pinMode(PIN_GREEN_LED, OUTPUT);
@@ -181,43 +181,48 @@ void setup() {
 void loop() {
   webSocket.loop();
 
-  bool currentButtonState = digitalRead(BUILTIN_BUTTON_PIN);
+  //bool currentButtonState = digitalRead(BUILTIN_BUTTON_PIN);
 
-  if (lastButtonState == HIGH && currentButtonState == LOW) { //Sends Websocket Message when you push down the built in button
-    webSocket.sendTXT("button:1");
-    Serial.println("Button Down");
+  // if (lastButtonState == HIGH && currentButtonState == LOW) { //Sends Websocket Message when you push down the built in button
+  //   webSocket.sendTXT("button:1");
+  //   Serial.println("Button Down");
+  // }
+
+  // if (lastButtonState == LOW && currentButtonState == HIGH) { //Sends Websocket Message when you stop pushing the built in button
+  //   webSocket.sendTXT("button:0");
+  //   Serial.println("Button Up");
+  // }
+  // lastButtonState = currentButtonState;
+
+
+
+  //Cheat Button Logic
+  bool currentCheatState = digitalRead(BTN_CHEAT);
+
+  // Detect ONLY press (HIGH → LOW)
+  if (lastCheatState == HIGH && currentCheatState == LOW) {
+
+    cheatToggle = !cheatToggle;  // flip true/false
+
+    int sendValue = cheatToggle ? 1 : 0;
+
+    webSocket.sendTXT("cheat:" + String(sendValue));
+
+    Serial.print("Cheat toggled → ");
+    Serial.println(sendValue);
+    
   }
 
-  if (lastButtonState == LOW && currentButtonState == HIGH) { //Sends Websocket Message when you stop pushing the built in button
-    webSocket.sendTXT("button:0");
-    Serial.println("Button Up");
-  }
-  lastButtonState = currentButtonState;
-
-
-
-  //Reset Button Logic
-  bool currentResetState = digitalRead(BTN_RESETGAME);
-
-  if (lastResetState == HIGH && currentResetState == LOW) { //Sends Websocket Message when you push down the built in button
-    webSocket.sendTXT("reset:1");
-    Serial.println("Reset Down");
-  }
-
-  if (lastResetState == LOW && currentResetState == HIGH) { //Sends Websocket Message when you stop pushing the built in button
-    webSocket.sendTXT("reset:0");
-    Serial.println("Reset Up");
-  }
-  lastResetState = currentResetState;
+  lastCheatState = currentCheatState;
 
 
   //Setting power using a potentiometer
-  int potValue = analogRead(PIN_POWER); // ESP32: 0–4095
-  if (abs(potValue - lastPowerPotValue) > POT_THRESHOLD) {
-    lastPowerPotValue = potValue;
+  // int potValue = analogRead(PIN_POWER); // ESP32: 0–4095
+  // if (abs(potValue - lastPowerPotValue) > POT_THRESHOLD) {
+  //   lastPowerPotValue = potValue;
 
-    webSocket.sendTXT("FLIPPERPOWER:" + String(potValue));
-  }
+  //   webSocket.sendTXT("FLIPPERPOWER:" + String(potValue));
+  // }
 
 }
 
