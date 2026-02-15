@@ -1,6 +1,10 @@
 using UnityEngine;
 using System.Collections;
-using System.Collections.Generic; // optional, but safe
+using System.Collections.Generic;
+//using UnityEngine.InputSystem;
+//using UnityEngine.InputSystem.XR;
+using UnityEngine.XR;
+
 
 public class BushInteractable : MonoBehaviour
 {
@@ -208,22 +212,39 @@ public class BushInteractable : MonoBehaviour
     private void OnTriggerStay(Collider other)
     {
 
-        if (!isActiveNoiseBush) return;   // 👈 Only active bush reacts
+        if (!isActiveNoiseBush) return;   //Only active bush reacts
 
         if (alreadyTriggered) return;
 
         // You can tag your hand "Hand" for safety
         if (other.CompareTag("Hand"))
         {
-            //isBrushing = true;
             brushTimer += Time.deltaTime;
 
-            // if (!leafParticles.isPlaying)
-            //     leafParticles.Play();
+            SendHapticToHand(other, 0.2f, 0.05f);
 
             if (brushTimer >= requiredBrushTime)
             {
-                TriggerBush();
+                TriggerBush(other);
+            }
+        }
+    }
+
+    private void SendHapticToHand(Collider handCollider, float amplitude, float duration)
+    {
+        XRNode node = XRNode.LeftHand;
+
+        if (handCollider.name.ToLower().Contains("right"))
+            node = XRNode.RightHand;
+
+        var devices = new List<InputDevice>();
+        InputDevices.GetDevicesAtXRNode(node, devices);
+
+        foreach (var device in devices)
+        {
+            if (device.isValid)
+            {
+                device.SendHapticImpulse(0u, amplitude, duration);
             }
         }
     }
@@ -239,13 +260,13 @@ public class BushInteractable : MonoBehaviour
         }
     }
 
-    private void TriggerBush()
+    private void TriggerBush(Collider other)
     {
         if (alreadyTriggered) return;
 
         alreadyTriggered = true;
 
-        //leafParticles.Stop();
+        SendHapticToHand(other, 0.8f, 0.2f);
 
         Interact();
     }

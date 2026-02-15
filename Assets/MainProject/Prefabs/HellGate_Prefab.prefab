@@ -425,6 +425,7 @@ GameObject:
   - component: {fileID: 3570765985576542652}
   - component: {fileID: 42124620022782926}
   - component: {fileID: 4203907874557893255}
+  - component: {fileID: 7595487523185220834}
   m_Layer: 0
   m_Name: CanvasSideA
   m_TagString: Untagged
@@ -536,6 +537,18 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RaycastTriggerInteraction: 1
+--- !u!225 &7595487523185220834
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883735593054677906}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1239166723930259781
 GameObject:
   m_ObjectHideFlags: 0
@@ -806,6 +819,8 @@ MonoBehaviour:
   whisperAudio: {fileID: 8940693061771237364}
   gateLight: {fileID: 7978767855375578583}
   triggerDistance: 16
+  gateCanvases: []
+  webSocketClient: {fileID: 0}
 --- !u!82 &325754156183012216
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1173,6 +1188,7 @@ GameObject:
   - component: {fileID: 7040843194208455524}
   - component: {fileID: 2222151441408409933}
   - component: {fileID: 4030315570315029914}
+  - component: {fileID: 211276137533844660}
   m_Layer: 0
   m_Name: CanvasSideB
   m_TagString: Untagged
@@ -1284,6 +1300,18 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RaycastTriggerInteraction: 1
+--- !u!225 &211276137533844660
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6627704056545671962}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &7384286469394116703
 GameObject:
   m_ObjectHideFlags: 0

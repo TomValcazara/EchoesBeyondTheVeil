@@ -235,7 +235,7 @@ MonoBehaviour:
   crystalOffset: {x: 0, y: 1.2, z: 0}
   loreOffset: {x: 0, y: 1.2, z: -0.5}
   debugLiftHeight: 0
-  requiredBrushTime: 2
+  requiredBrushTime: 6
 --- !u!65 &4317057218214344470
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -255,8 +255,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.90000004, y: 1, z: 0.9}
-  m_Center: {x: -0.020382106, y: 0.5, z: 0.04926932}
+  m_Size: {x: 1.1283578, y: 1.1276108, z: 1.1686344}
+  m_Center: {x: -0.020382106, y: 0.5638054, z: 0.039194793}
 --- !u!54 &746922396015057838
 Rigidbody:
   m_ObjectHideFlags: 0

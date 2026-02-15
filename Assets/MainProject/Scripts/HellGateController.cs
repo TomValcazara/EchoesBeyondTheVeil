@@ -15,6 +15,8 @@ public class HellGateController : MonoBehaviour
 
     private bool switched = false;
 
+    public CanvasGroup[] gateCanvases;
+
     [Header("Websocket Client")]
     public WebSocketClientExample webSocketClient;
     // void Start()
@@ -25,7 +27,7 @@ public class HellGateController : MonoBehaviour
     // }
     void OnEnable()
     {
-        Debug.Log("HellGate is True");
+        //Debug.Log("HellGate is True");
         switched = false;
 
         angelAudio.volume = 1f;
@@ -35,6 +37,15 @@ public class HellGateController : MonoBehaviour
         whisperAudio.Stop();
 
         gateLight.enabled = true;
+
+        //Hide Canvas
+        foreach (var canvas in gateCanvases)
+        {
+            canvas.alpha = 0f;
+            canvas.interactable = false;
+            canvas.blocksRaycasts = false;
+        }
+
     }
     void Update()
     {
@@ -48,7 +59,7 @@ public class HellGateController : MonoBehaviour
 
         float distance = Vector3.Distance(playerFlat, gateFlat);
         
-        Debug.Log("Distance to Gate: " + distance);
+        //Debug.Log("Distance to Gate: " + distance);
 
         if (distance <= triggerDistance)
         {
@@ -64,7 +75,7 @@ public class HellGateController : MonoBehaviour
 
         //angelAudio.Stop();
         //whisperAudio.Play();
-        StartCoroutine(TransitionAudioAndLight(angelAudio, whisperAudio, 2.0f));
+        StartCoroutine(TransitionFinalHellGate(angelAudio, whisperAudio, 2.0f));
 
         //gateLight.enabled = false;
         //gateLight.intensity = Mathf.Lerp(gateLight.intensity, 0, Time.deltaTime * 3f);
@@ -74,7 +85,7 @@ public class HellGateController : MonoBehaviour
 
     }
 
-    IEnumerator TransitionAudioAndLight(AudioSource from, AudioSource to, float duration)
+    IEnumerator TransitionFinalHellGate(AudioSource from, AudioSource to, float duration)
     {
         float time = 0;
 
@@ -87,17 +98,35 @@ public class HellGateController : MonoBehaviour
         while (time < duration)
         {
             time += Time.deltaTime;
-            float t = time / duration;
+            //float t = time / duration;
+            //float t = Mathf.Clamp01(time / duration);
+            float t = Mathf.SmoothStep(0f, 1f, time / duration);
 
+            //Music
             from.volume = Mathf.Lerp(startVolume, 0, t);
             to.volume = Mathf.Lerp(0, 1, t);
 
+            //Light
             gateLight.intensity = Mathf.Lerp(startIntensity, 0, t);
+
+            //Canvas
+            foreach (var canvas in gateCanvases)
+            {
+                canvas.alpha = Mathf.Lerp(0f, 1f, t);
+            }
 
             yield return null;
         }
 
         from.Stop();
+
+        foreach (var canvas in gateCanvases)
+        {
+            canvas.alpha = 1f;
+            canvas.interactable = true;
+            canvas.blocksRaycasts = true;
+        }
+
     }
 
     public void RestartScene()
