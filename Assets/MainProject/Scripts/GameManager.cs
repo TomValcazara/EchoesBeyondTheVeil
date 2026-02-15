@@ -60,6 +60,8 @@ public class GameManager : MonoBehaviour
     // public float minGateDistanceFromPlayer = 40f;
     // public float walkableRadius = 100f;
 
+    private bool cheatingActive = false;
+
     public string GetStoryText(int index)
     {
         if (index >= 0 && index < story.Length)
@@ -115,6 +117,21 @@ public class GameManager : MonoBehaviour
 
     }
 
+    public void SetCheatingState(bool isCheating)
+    {
+        cheatingActive = isCheating;
+
+        UpdateCurrentBushVisual();
+    }
+
+    void UpdateCurrentBushVisual()
+    {
+        if (currentNoiseIndex < noiseBushes.Count)
+        {
+            var bush = noiseBushes[currentNoiseIndex];
+            bush.SetCheatingVisual(cheatingActive);
+        }
+    }
 
     // -------------------------
     // SPAWNING LOGIC
@@ -210,21 +227,17 @@ public class GameManager : MonoBehaviour
 
     void ActivateNextNoiseBush()
     {
-        //Debug.Log("Inside the Trying to Activate a noise bush");
-
         if (currentNoiseIndex >= noiseBushes.Count)
-        {
-            //Debug.Log("All noise bushes completed!");
             return;
-        }
 
-        //Debug.Log("currentNoiseIndex:"+currentNoiseIndex);
-        //noiseBushes[currentNoiseIndex].ActivateNoise();
         var bush = noiseBushes[currentNoiseIndex];
         bush.SetLoreIndex(currentNoiseIndex);
         bush.ActivateNoise();
 
+        // Apply cheating color if active
+        bush.SetCheatingVisual(cheatingActive);
     }
+
 
     public void OnNoiseBushCompleted(BushInteractable bush)
     {

@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ee1741b8bc7e4d2e9f19b05af2114a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WebSocketClientExample
-  serverIP: 192.168.0.22
+  serverIP: 10.204.0.43
   serverPort: 8081
   flipper: {fileID: 0}
   SceneReload: {fileID: 0}
@@ -15384,6 +15384,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1844279439474561890, guid: 050bfaf2aa3f2954f86389e503a7f768, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 332123425}
     - target: {fileID: 2285613610034182262, guid: 050bfaf2aa3f2954f86389e503a7f768, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.10159
@@ -15428,6 +15432,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HellGate_Prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 4791847836569177025, guid: 050bfaf2aa3f2954f86389e503a7f768, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 332123425}
     - target: {fileID: 9050926132107842485, guid: 050bfaf2aa3f2954f86389e503a7f768, type: 3}
       propertyPath: playerHead
       value: 
