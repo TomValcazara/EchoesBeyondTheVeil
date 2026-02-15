@@ -22,6 +22,6 @@ public class SceneCompletion : MonoBehaviour
     public void ReloadLevel ()
     {
         screenFader.FadeOut(() => SceneManager.LoadSceneAsync (gameObject.scene.buildIndex));
-        WebSocketClient.SendLEDWinOFF();
+        //WebSocketClient.SendLEDWinOFF();
     }
 }

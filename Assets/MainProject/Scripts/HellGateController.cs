@@ -15,6 +15,8 @@ public class HellGateController : MonoBehaviour
 
     private bool switched = false;
 
+    [Header("Websocket Client")]
+    public WebSocketClientExample webSocketClient;
     // void Start()
     // {
     //     angelAudio.Play();
@@ -67,6 +69,9 @@ public class HellGateController : MonoBehaviour
         //gateLight.enabled = false;
         //gateLight.intensity = Mathf.Lerp(gateLight.intensity, 0, Time.deltaTime * 3f);
 
+        if (webSocketClient != null)
+            webSocketClient.SendGreenLEDON();
+
     }
 
     IEnumerator TransitionAudioAndLight(AudioSource from, AudioSource to, float duration)
@@ -98,6 +103,13 @@ public class HellGateController : MonoBehaviour
     public void RestartScene()
     {
         Debug.Log("Restarting teh Scene");
+
+        if (webSocketClient != null) //Resets the LEDs to be off
+        {
+            webSocketClient.SendYellowLEDOFF();
+            webSocketClient.SendGreenLEDOFF();
+        }
+
         Scene currentScene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(currentScene.name);
     }

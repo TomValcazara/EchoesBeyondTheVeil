@@ -36,6 +36,9 @@ public class BushInteractable : MonoBehaviour
     public bool AlreadyTriggered => alreadyTriggered;
     private int loreIndex = -1;
 
+    private Vector3 originalPosition;
+    private bool cheatingVisualActive = false;
+
     public void SetLoreIndex(int index)
     {
         loreIndex = index;
@@ -52,6 +55,9 @@ public class BushInteractable : MonoBehaviour
             originalColor = bushRenderer.material.color;
         }
 
+        //Saves original bush height, in case the player uses the cheat button
+        originalPosition = transform.position;
+
     }
 
     public void ActivateNoise()
@@ -59,14 +65,36 @@ public class BushInteractable : MonoBehaviour
         isActiveNoiseBush = true;
 
         // DEBUG: lift active bush for visibility
-        transform.position += Vector3.up * debugLiftHeight;
+        //transform.position += Vector3.up * debugLiftHeight;
 
-        if (bushRenderer != null)
-        {
-            bushRenderer.material.color = Color.magenta;
-        }
+        // if (bushRenderer != null)
+        // {
+        //     bushRenderer.material.color = Color.magenta;
+        // }
 
         audioSource.Play();
+    }
+
+    public void SetCheatingVisual(bool isCheating)
+    {
+        if (bushRenderer == null) return;
+
+        cheatingVisualActive = isCheating;
+
+        if (isCheating)
+        {
+            bushRenderer.material.color = Color.magenta;
+
+            // Lift bush
+            transform.position = originalPosition + Vector3.up * 1.5f;
+        }
+        else
+        {
+            bushRenderer.material.color = originalColor;
+
+            // Reset position
+            transform.position = originalPosition;
+        }
     }
 
     public void DeactivateNoise()

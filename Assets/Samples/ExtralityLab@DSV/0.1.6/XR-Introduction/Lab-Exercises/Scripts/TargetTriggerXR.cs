@@ -27,7 +27,7 @@ public class TargetTriggerXR : MonoBehaviour
             timingRecording.GoalReached (uiDelay);
 //            targetGroupWeightControl.ApplySpecificFocus (marble.attachedRigidbody);
             m_AudioSource.PlayOneShot (m_AudioSource.clip);
-            WebSocketClient.SendLEDWinON();
+            //WebSocketClient.SendLEDWinON();
             
         }
     }

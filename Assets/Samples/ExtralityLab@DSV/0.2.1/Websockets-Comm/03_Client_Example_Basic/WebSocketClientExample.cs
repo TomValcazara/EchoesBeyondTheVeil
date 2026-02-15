@@ -16,12 +16,14 @@ public class WebSocketClientExample : MonoBehaviour
     public string serverIP = "XXX.XXX.XXX.XXX"; // Replace with your server's IP address
     public int serverPort = 8081; // Replace with your server's port number (8081 is the default)
 
-    public FlipperXR flipper;
+    public GameManager gameManager;
 
-    public SceneCompletion SceneReload;
+    // public FlipperXR flipper;
+
+    // public SceneCompletion SceneReload;
     
-    [Range(0, 255)]
-    public int ledIntensity = 0;
+    // [Range(0, 255)]
+    // public int ledIntensity = 0;
 
     async void Start()
     {
@@ -34,6 +36,12 @@ public class WebSocketClientExample : MonoBehaviour
             string UUID = SystemInfo.deviceUniqueIdentifier; // Certain devices block MAC address access for privacy reasons so we send a UUID instead
 
             await websocket.SendText("Device (Unity):" + SystemInfo.deviceName + " ... Device's Unique Identifier: " + UUID);
+
+            // Reset LEDs when connection is ready
+            await websocket.SendText("YELLOW_LED:0");
+            await websocket.SendText("GREEN_LED:0");
+            Debug.Log("LEDs reset after connection");
+
         };
 
         //Runs when a message is received from the server
@@ -88,8 +96,8 @@ public class WebSocketClientExample : MonoBehaviour
     {
         if (websocket != null && websocket.State == WebSocketState.Open)
         {
-            await websocket.SendText("YELLOW_LED:255");
-            Debug.Log("Sent: YELLOW_LED:255");
+            await websocket.SendText("YELLOW_LED:1");
+            Debug.Log("Sent: YELLOW_LED:1");
         }
         else
         {
@@ -101,8 +109,8 @@ public class WebSocketClientExample : MonoBehaviour
     {
         if (websocket != null && websocket.State == WebSocketState.Open)
         {
-            await websocket.SendText("GREEN_LED:255");
-            Debug.Log("Sent: GREEN_LED:255");
+            await websocket.SendText("GREEN_LED:1");
+            Debug.Log("Sent: GREEN_LED:1");
         }
         else
         {
@@ -136,125 +144,115 @@ public class WebSocketClientExample : MonoBehaviour
         }
     }
 
-    public async void SendLedON()
-    {
-        if (websocket != null && websocket.State == WebSocketState.Open)
-        {
-            await websocket.SendText("LED_INTENSITY:255");
-            Debug.Log("Sent: LED_INTENSITY:255");
-        }
-        else
-        {
-            Debug.LogWarning("WebSocket not connected");
-        }
-    }
+    // public async void SendLedON()
+    // {
+    //     if (websocket != null && websocket.State == WebSocketState.Open)
+    //     {
+    //         await websocket.SendText("LED_INTENSITY:255");
+    //         Debug.Log("Sent: LED_INTENSITY:255");
+    //     }
+    //     else
+    //     {
+    //         Debug.LogWarning("WebSocket not connected");
+    //     }
+    // }
 
-    public async void SendLedOFF()
-    {
-        if (websocket != null && websocket.State == WebSocketState.Open)
-        {
-            await websocket.SendText("LED_INTENSITY:0");
-            Debug.Log("Sent: LED_INTENSITY:0");
-        }
-        else
-        {
-            Debug.LogWarning("WebSocket not connected");
-        }
-    }
+    // public async void SendLedOFF()
+    // {
+    //     if (websocket != null && websocket.State == WebSocketState.Open)
+    //     {
+    //         await websocket.SendText("LED_INTENSITY:0");
+    //         Debug.Log("Sent: LED_INTENSITY:0");
+    //     }
+    //     else
+    //     {
+    //         Debug.LogWarning("WebSocket not connected");
+    //     }
+    // }
 
-    public async void SendLedIntensity()
-    {
-        if (websocket != null && websocket.State == WebSocketState.Open)
-        {
-            await websocket.SendText("LED_INTENSITY:" + ledIntensity);
-            Debug.Log("Sent: LED_INTENSITY:" + ledIntensity);
-        }
-        else
-        {
-            Debug.LogWarning("WebSocket not connected");
-        }
-    }
+    // public async void SendLedIntensity()
+    // {
+    //     if (websocket != null && websocket.State == WebSocketState.Open)
+    //     {
+    //         await websocket.SendText("LED_INTENSITY:" + ledIntensity);
+    //         Debug.Log("Sent: LED_INTENSITY:" + ledIntensity);
+    //     }
+    //     else
+    //     {
+    //         Debug.LogWarning("WebSocket not connected");
+    //     }
+    // }
 
-    public async void SendLEDWinON()
-    {
-        if (websocket != null && websocket.State == WebSocketState.Open)
-        {
-            await websocket.SendText("WIN_LED:1");
-            Debug.Log("Sent: WIN_LED:1");
-        }
-        else
-        {
-            Debug.LogWarning("WebSocket not connected");
-        }
-    }
+    // public async void SendLEDWinON()
+    // {
+    //     if (websocket != null && websocket.State == WebSocketState.Open)
+    //     {
+    //         await websocket.SendText("WIN_LED:1");
+    //         Debug.Log("Sent: WIN_LED:1");
+    //     }
+    //     else
+    //     {
+    //         Debug.LogWarning("WebSocket not connected");
+    //     }
+    // }
 
-    public async void SendLEDWinOFF()
-    {
-        if (websocket != null && websocket.State == WebSocketState.Open)
-        {
-            await websocket.SendText("WIN_LED:0");
-            Debug.Log("Sent: WIN_LED:0");
-        }
-        else
-        {
-            Debug.LogWarning("WebSocket not connected");
-        }
-    }
+    // public async void SendLEDWinOFF()
+    // {
+    //     if (websocket != null && websocket.State == WebSocketState.Open)
+    //     {
+    //         await websocket.SendText("WIN_LED:0");
+    //         Debug.Log("Sent: WIN_LED:0");
+    //     }
+    //     else
+    //     {
+    //         Debug.LogWarning("WebSocket not connected");
+    //     }
+    // }
 
     public void IncomingMessageParser(String msg)
     {
 
         string valueParsed = msg.Substring(msg.IndexOf(":") + 1);
 
-        if (msg.Contains("button"))
-        { //If the first part of the websocket message contains "button"
-
+        if (msg.Contains("cheat"))
+        {
             if (valueParsed == "1")
-
             {
+                Debug.Log("Start Cheating");
 
-                flipper.esp32Controlled = true;
-
-                flipper.puzzleAudioSource.PlayOneShot(flipper.activateSound); //Triggers activation sound
-
-                Debug.Log("Flipper Activated via WebSocket");
-
+                if (gameManager != null)
+                    gameManager.SetCheatingState(true);
             }
 
             if (valueParsed == "0")
-
             {
+                Debug.Log("Stop Cheating");
 
-                flipper.esp32Controlled = false;
-
-                flipper.puzzleAudioSource.PlayOneShot(flipper.deactivateSound); //Triggers deactivation sound
-
-                Debug.Log("Flipper Deactivated via WebSocket");
-
+                if (gameManager != null)
+                    gameManager.SetCheatingState(false);
             }
-
         }
 
 
-        if (msg.Contains("reset"))
-        { 
-            if (valueParsed == "1")
+        // if (msg.Contains("reset"))
+        // { 
+        //     if (valueParsed == "1")
 
-            {
+        //     {
 
-                SceneReload.ReloadLevel();
-                Debug.Log("Scene reseted via WebSocket");
+        //         SceneReload.ReloadLevel();
+        //         Debug.Log("Scene reseted via WebSocket");
 
-            }
+        //     }
 
-        }
+        // }
 
-        if (msg.Contains("FLIPPERPOWER"))
-        {
-            float newPower = float.Parse(valueParsed);
-            flipper.SetPower(newPower);
-            Debug.Log("Flipper Power changed via WebSocket");
-        }
+        // if (msg.Contains("FLIPPERPOWER"))
+        // {
+        //     float newPower = float.Parse(valueParsed);
+        //     flipper.SetPower(newPower);
+        //     Debug.Log("Flipper Power changed via WebSocket");
+        // }
 
     }
 
